@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="slave">
+		<CBX_INST_ENTRY INSTANCE_NAME="|slave|slave_ET_Core:et_core|slave_ET_Core_nios2_oci:the_slave_ET_Core_nios2_oci|slave_ET_Core_nios2_ocimem:the_slave_ET_Core_nios2_ocimem|slave_ET_Core_ociram_sp_ram_module:slave_ET_Core_ociram_sp_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_vg81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|slave|slave_ET_Core:et_core|slave_ET_Core_register_bank_b_module:slave_ET_Core_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_dag1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|slave|slave_TT_Core:tt_core|slave_TT_Core_nios2_oci:the_slave_TT_Core_nios2_oci|slave_TT_Core_nios2_ocimem:the_slave_TT_Core_nios2_ocimem|slave_TT_Core_ociram_sp_ram_module:slave_TT_Core_ociram_sp_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_eh81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|slave|slave_TT_Core:tt_core|slave_TT_Core_register_bank_b_module:slave_TT_Core_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_sag1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|slave|slave_ET_Core_Memory:et_core_memory|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_boc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|slave|slave_TT_core_memory:tt_core_memory|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_qoc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|slave|slave_jtag_uart_0:jtag_uart_0|slave_jtag_uart_0_scfifo_r:the_slave_jtag_uart_0_scfifo_r|scfifo:rfifo" CBX_FILE_NAME="scfifo_aq21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|slave|slave_msg_buf_ram:msg_buf_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_t8c1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|slave|slave_ET_Core:et_core|slave_ET_Core_register_bank_a_module:slave_ET_Core_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_cag1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|slave|slave_TT_Core:tt_core|slave_TT_Core_register_bank_a_module:slave_TT_Core_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_rag1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|slave|slave_jtag_uart_0:jtag_uart_0|slave_jtag_uart_0_scfifo_w:the_slave_jtag_uart_0_scfifo_w|scfifo:wfifo" CBX_FILE_NAME="scfifo_aq21.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

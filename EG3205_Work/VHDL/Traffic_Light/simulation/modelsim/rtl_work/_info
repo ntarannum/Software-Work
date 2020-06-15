@@ -1,0 +1,118 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\a\Documents\EG3205_Work\VHDL\Traffic_Light\simulation\modelsim
+Eclock_divider
+Z1 w1552684882
+Z2 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dC:\Users\a\Documents\EG3205_Work\VHDL\Traffic_Light\simulation\modelsim
+Z7 8C:/Users/a/Documents/EG3205_Work/VHDL/Traffic_Light/Clock_Divider_neg_reset.vhd
+Z8 FC:/Users/a/Documents/EG3205_Work/VHDL/Traffic_Light/Clock_Divider_neg_reset.vhd
+l0
+L13
+VM=YafAL2BDlfB9[8Zkn8]2
+Z9 OV;C;10.1d;51
+31
+Z10 !s108 1552831836.691000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/a/Documents/EG3205_Work/VHDL/Traffic_Light/Clock_Divider_neg_reset.vhd|
+Z12 !s107 C:/Users/a/Documents/EG3205_Work/VHDL/Traffic_Light/Clock_Divider_neg_reset.vhd|
+Z13 o-93 -work work -O0
+Z14 tExplicit 1
+!s100 II=f6T>V1NQR@S3JZ_>SZ2
+!i10b 1
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 13 clock_divider 0 22 M=YafAL2BDlfB9[8Zkn8]2
+l24
+L22
+VM;bOnG==e3>C]jUlS]8?]3
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!s100 EAz3=O0CTb<<3MUm3<<_b3
+!i10b 1
+Etraffic_light
+Z15 w1552831806
+R2
+R3
+R4
+R5
+R6
+Z16 8C:/Users/a/Documents/EG3205_Work/VHDL/Traffic_Light/Traffic_Light.vhd
+Z17 FC:/Users/a/Documents/EG3205_Work/VHDL/Traffic_Light/Traffic_Light.vhd
+l0
+L5
+V4IRkYE@b]KjzlQPFPVJNi3
+R9
+31
+Z18 !s108 1552831836.955000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/a/Documents/EG3205_Work/VHDL/Traffic_Light/Traffic_Light.vhd|
+Z20 !s107 C:/Users/a/Documents/EG3205_Work/VHDL/Traffic_Light/Traffic_Light.vhd|
+R13
+R14
+!s100 dNa2I>NoA5`g=2heEjM]O3
+!i10b 1
+Abehavioural
+R2
+R3
+R4
+R5
+DEx4 work 13 traffic_light 0 22 4IRkYE@b]KjzlQPFPVJNi3
+l30
+L14
+V0O8cFRlo3he_H1A7dc6:m1
+R9
+31
+R18
+R19
+R20
+R13
+R14
+!s100 :[TD2:PlN>h>I[;BF@c`H3
+!i10b 1
+Etraffic_light_tb
+Z21 w1552831600
+R4
+R5
+R6
+Z22 8C:/Users/a/Documents/EG3205_Work/VHDL/Traffic_Light/Traffic_Light_TB.vhd
+Z23 FC:/Users/a/Documents/EG3205_Work/VHDL/Traffic_Light/Traffic_Light_TB.vhd
+l0
+L5
+VzKfFe3?iTLXUD`K=hB`Ue0
+!s100 :z;>SX4Mef6MFJJ`iWFbg2
+R9
+31
+!i10b 1
+Z24 !s108 1552831837.260000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/a/Documents/EG3205_Work/VHDL/Traffic_Light/Traffic_Light_TB.vhd|
+Z26 !s107 C:/Users/a/Documents/EG3205_Work/VHDL/Traffic_Light/Traffic_Light_TB.vhd|
+R13
+R14
+Atb
+R4
+R5
+DEx4 work 16 traffic_light_tb 0 22 zKfFe3?iTLXUD`K=hB`Ue0
+l44
+L9
+VK1JOGJzd]YR0f@gVz^ROg3
+!s100 i=BRTJB7W=I==:UW91Yd92
+R9
+31
+!i10b 1
+R24
+R25
+R26
+R13
+R14

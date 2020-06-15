@@ -1,0 +1,3610 @@
+
+ET_slave_app.elf:     file format elf32-littlenios2
+ET_slave_app.elf
+architecture: nios2, flags 0x00000112:
+EXEC_P, HAS_SYMS, D_PAGED
+start address 0x000001b8
+
+Program Header:
+    LOAD off    0x00001000 vaddr 0x00000000 paddr 0x00000000 align 2**12
+         filesz 0x00000020 memsz 0x00000020 flags r-x
+    LOAD off    0x00001020 vaddr 0x00000020 paddr 0x00000020 align 2**12
+         filesz 0x00001bc8 memsz 0x00001bc8 flags r-x
+    LOAD off    0x00002be8 vaddr 0x00001be8 paddr 0x00001bf8 align 2**12
+         filesz 0x00000010 memsz 0x00000010 flags rw-
+    LOAD off    0x00002c08 vaddr 0x00001c08 paddr 0x00001c08 align 2**12
+         filesz 0x00000000 memsz 0x000001dc flags rw-
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .entry        00000020  00000000  00000000  00001000  2**5
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .exceptions   00000198  00000020  00000020  00001020  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .text         00001a1c  000001b8  000001b8  000011b8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .rodata       00000014  00001bd4  00001bd4  00002bd4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  4 .rwdata       00000010  00001be8  00001bf8  00002be8  2**2
+                  CONTENTS, ALLOC, LOAD, DATA, SMALL_DATA
+  5 .bss          000001dc  00001c08  00001c08  00002c08  2**2
+                  ALLOC, SMALL_DATA
+  6 .comment      00000023  00000000  00000000  00002bf8  2**0
+                  CONTENTS, READONLY
+  7 .debug_aranges 00000338  00000000  00000000  00002c20  2**3
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_info   0000247d  00000000  00000000  00002f58  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_abbrev 00001039  00000000  00000000  000053d5  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_line   000013b4  00000000  00000000  0000640e  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_frame  000006ac  00000000  00000000  000077c4  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 12 .debug_str    00000dad  00000000  00000000  00007e70  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 13 .debug_loc    000009c1  00000000  00000000  00008c1d  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 14 .debug_alt_sim_info 00000010  00000000  00000000  000095e0  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 15 .debug_ranges 000000b8  00000000  00000000  000095f0  2**3
+                  CONTENTS, READONLY, DEBUGGING
+ 16 .thread_model 00000003  00000000  00000000  0000ad60  2**0
+                  CONTENTS, READONLY
+ 17 .cpu          00000007  00000000  00000000  0000ad63  2**0
+                  CONTENTS, READONLY
+ 18 .qsys         00000001  00000000  00000000  0000ad6a  2**0
+                  CONTENTS, READONLY
+ 19 .simulation_enabled 00000001  00000000  00000000  0000ad6b  2**0
+                  CONTENTS, READONLY
+ 20 .stderr_dev   0000000b  00000000  00000000  0000ad6c  2**0
+                  CONTENTS, READONLY
+ 21 .stdin_dev    0000000b  00000000  00000000  0000ad77  2**0
+                  CONTENTS, READONLY
+ 22 .stdout_dev   0000000b  00000000  00000000  0000ad82  2**0
+                  CONTENTS, READONLY
+ 23 .sopc_system_name 00000005  00000000  00000000  0000ad8d  2**0
+                  CONTENTS, READONLY
+ 24 .quartus_project_dir 00000048  00000000  00000000  0000ad92  2**0
+                  CONTENTS, READONLY
+ 25 .sopcinfo     0009284f  00000000  00000000  0000adda  2**0
+                  CONTENTS, READONLY
+SYMBOL TABLE:
+00000000 l    d  .entry	00000000 .entry
+00000020 l    d  .exceptions	00000000 .exceptions
+000001b8 l    d  .text	00000000 .text
+00001bd4 l    d  .rodata	00000000 .rodata
+00001be8 l    d  .rwdata	00000000 .rwdata
+00001c08 l    d  .bss	00000000 .bss
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_alt_sim_info	00000000 .debug_alt_sim_info
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    df *ABS*	00000000 ../ET_slave_app_bsp//obj/HAL/src/crt0.o
+000001f0 l       .text	00000000 alt_after_alt_main
+00000000 l    df *ABS*	00000000 alt_exception_entry.o
+00000094 l       .exceptions	00000000 alt_exception_unknown
+00000000 l    df *ABS*	00000000 alt_irq_handler.c
+00000000 l    df *ABS*	00000000 spi_mcp2515.c
+00000000 l    df *ABS*	00000000 2_50_XXg.c
+00000940 l     F .text	0000018c SCH_Update
+00000000 l    df *ABS*	00000000 Main.c
+00000000 l    df *ABS*	00000000 Sch51.c
+00000f04 l     F .text	0000001c SCH_Go_To_Sleep
+00000000 l    df *ABS*	00000000 HEARTBEAT.c
+00000000 l    df *ABS*	00000000 LED_ONOFF.c
+00000000 l    df *ABS*	00000000 PushButton.c
+00001c1c l     O .bss	00000001 pb0_input
+00001c20 l     O .bss	00000004 Duration.1456
+00000000 l    df *ABS*	00000000 SharedMem_Mutex.c
+00000000 l    df *ABS*	00000000 alt_iic.c
+00000000 l    df *ABS*	00000000 alt_iic_isr_register.c
+00000000 l    df *ABS*	00000000 alt_irq_vars.c
+00000000 l    df *ABS*	00000000 alt_load.c
+0000143c l     F .text	0000006c alt_load_section
+00000000 l    df *ABS*	00000000 altera_avalon_mutex.c
+00001528 l     F .text	00000050 alt_get_errno
+00001578 l     F .text	0000007c alt_mutex_trylock
+00000000 l    df *ABS*	00000000 altera_avalon_spi.c
+00000000 l    df *ABS*	00000000 alt_dcache_flush_all.c
+00000000 l    df *ABS*	00000000 alt_errno.c
+00000000 l    df *ABS*	00000000 alt_find_dev.c
+00000000 l    df *ABS*	00000000 alt_icache_flush_all.c
+00000000 l    df *ABS*	00000000 int_errno.c
+00000000 l    df *ABS*	00000000 memcmp.c
+00000000 l    df *ABS*	00000000 strlen.c
+00000000 l    df *ABS*	00000000 
+00000ba0 g     F .text	00000080 alt_main
+00001ce4 g     O .bss	00000100 alt_irq
+00001bf8 g       *ABS*	00000000 __flash_rwdata_start
+00000000 g       *ABS*	00000000 __alt_mem_ET_Core_Memory
+00000b4c g     F .text	00000054 SCC_A_SLAVE_Send_Ack_Message_To_Master
+000007fc g     F .text	00000088 SCH_Init_T0
+000016a8 g     F .text	00000040 altera_avalon_mutex_trylock
+00001c14 g     O .bss	00000001 Error_code_G
+00001c0c g     O .bss	00000004 Tick_message_data_G
+00000000  w      *UND*	00000000 __errno
+00000ffc g     F .text	00000088 PushButton_Update
+00000000 g     F .entry	0000000c __reset
+00001c10 g     O .bss	00000004 edge_capture
+00001738 g     F .text	00000074 altera_avalon_mutex_is_mine
+00000020 g       *ABS*	00000000 __flash_exceptions_start
+00001c3c g     O .bss	00000004 errno
+00001ca4 g     O .bss	00000040 SCH_tasks_G
+00009be8 g       *ABS*	00000000 _gp
+00000f88 g     F .text	00000058 LED_ONOFF_Update
+00001084 g     F .text	00000040 SharedMem_Init
+00001a20 g     F .text	00000090 alt_find_dev
+00000514 g     F .text	00000080 MCP2515_SetMode
+00000884 g     F .text	000000bc SCH_Start
+00001c18 g     O .bss	00000004 Sw_pressed_G
+000017ac g     F .text	00000050 altera_avalon_mutex_first_lock
+000010c4 g     F .text	000000b0 SharedMem_Update
+00001de4 g       *ABS*	00000000 __bss_end
+0000134c g     F .text	000000f0 alt_iic_isr_register
+00001c28 g     O .bss	00000004 cpu_id
+00001c2c g     O .bss	00000004 message
+00001300 g     F .text	0000004c alt_ic_irq_enabled
+00000f20 g     F .text	0000001c HEARTBEAT_Init
+00001c38 g     O .bss	00000004 alt_irq_active
+00001c30 g     O .bss	00000004 id
+000000ec g     F .exceptions	000000cc alt_irq_handler
+000015f4 g     F .text	00000050 altera_avalon_mutex_open
+00001a04 g     F .text	0000001c alt_dcache_flush_all
+00001bf8 g       *ABS*	00000000 __ram_rwdata_end
+000001f4 g     F .text	0000022c MCP2515_Init
+00001bec g     O .rwdata	00000008 alt_mutex_list
+00001be8 g       *ABS*	00000000 __ram_rodata_end
+00000ee8 g     F .text	0000001c SCH_Report_Status
+00000794 g     F .text	00000068 MCP2515_RTS_TXB_Instruction_CMD
+00001c34 g     O .bss	00000004 mutex
+00001de4 g       *ABS*	00000000 end
+0000048c g     F .text	00000088 MCP2515_changeBits
+00003fdc g       *ABS*	00000000 __alt_stack_pointer
+00000704 g     F .text	00000090 MCP2515_Write_Register
+00001c40 g     O .bss	00000032 write_data
+000001b8 g     F .text	0000003c _start
+000017fc g     F .text	00000208 alt_avalon_spi_command
+00001c08 g     O .bss	00000004 context
+000016e8 g     F .text	00000050 altera_avalon_mutex_unlock
+00001be8 g       *ABS*	00000000 __ram_rwdata_start
+00001bd4 g       *ABS*	00000000 __ram_rodata_start
+00001c72 g     O .bss	00000032 read_data
+00001acc g     F .text	0000007c memcmp
+00001de4 g       *ABS*	00000000 __alt_stack_base
+00000c20 g     F .text	000000f0 SCH_Dispatch_Tasks
+00001c08 g       *ABS*	00000000 __bss_start
+00000000         *UND*	00000000 main
+00001668 g     F .text	00000040 altera_avalon_mutex_lock
+00001bf4 g     O .rwdata	00000004 alt_errno
+00001bd4 g       *ABS*	00000000 __flash_rodata_start
+00000f3c g     F .text	00000030 HEARTBEAT_Update
+000005f4 g     F .text	00000090 MCP2515_Read_Register
+00000f6c g     F .text	0000001c LED_ONOFF_Init
+00000020 g       .exceptions	00000000 alt_irq_entry
+00000020 g       *ABS*	00000000 __ram_exceptions_start
+00001174 g     F .text	00000050 alt_ic_isr_register
+00001bf8 g       *ABS*	00000000 _edata
+00000e20 g     F .text	000000c8 SCH_Delete_Task
+00001de4 g       *ABS*	00000000 _end
+000001b8 g       *ABS*	00000000 __ram_exceptions_end
+00000594 g     F .text	00000060 MCP2515_Reset
+00000684 g     F .text	00000080 MCP2515_Read_Rx_Buffer_Register
+00001260 g     F .text	000000a0 alt_ic_irq_disable
+00000d10 g     F .text	00000110 SCH_Add_Task
+00003fdc g       *ABS*	00000000 __alt_data_end
+00000020 g     F .exceptions	00000000 alt_exception
+00000fe0 g     F .text	0000001c PushButton_Init
+00001b48 g     F .text	0000008c strlen
+00001ab0 g     F .text	0000001c alt_icache_flush_all
+00001be8 g     O .rwdata	00000004 alt_priority_mask
+000011c4 g     F .text	0000009c alt_ic_irq_enable
+00001644 g     F .text	00000024 altera_avalon_mutex_close
+00001c24 g     O .bss	00000001 Ack_message_data_G
+00009000 g       *ABS*	00000000 __alt_mem_msg_buf_ram
+00000420 g     F .text	0000006c MCP2515_SetBitTiming
+00000acc g     F .text	00000080 SCC_A_SLAVE_Process_Tick_Message
+000014a8 g     F .text	00000080 alt_load
+
+
+
+Disassembly of section .entry:
+
+00000000 <__reset>:
+ * Jump to the _start entry point in the .text section if reset code
+ * is allowed or if optimizing for RTL simulation.
+ */
+#if defined(ALT_ALLOW_CODE_AT_RESET) || defined(ALT_SIM_OPTIMIZE)
+    /* Jump to the _start entry point in the .text section. */
+    movhi r1, %hi(_start)
+   0:	00400034 	movhi	at,0
+    ori r1, r1, %lo(_start)
+   4:	08406e14 	ori	at,at,440
+    jmp r1
+   8:	0800683a 	jmp	at
+	...
+
+Disassembly of section .exceptions:
+
+00000020 <alt_exception>:
+
+#else /* ALT_EXCEPTION_STACK disabled */
+        /* 
+         * Reserve space on normal stack for registers about to be pushed.
+         */
+        addi  sp, sp, -76
+  20:	deffed04 	addi	sp,sp,-76
+         * documentation for details).
+         *
+         * Leave a gap in the stack frame at 4(sp) for the muldiv handler to
+         * store zero into.
+         */
+        stw   ra,  0(sp)
+  24:	dfc00015 	stw	ra,0(sp)
+        stw   r1,   8(sp)
+  28:	d8400215 	stw	at,8(sp)
+        stw   r2,  12(sp)
+  2c:	d8800315 	stw	r2,12(sp)
+        stw   r3,  16(sp)
+  30:	d8c00415 	stw	r3,16(sp)
+        stw   r4,  20(sp)
+  34:	d9000515 	stw	r4,20(sp)
+        stw   r5,  24(sp)
+  38:	d9400615 	stw	r5,24(sp)
+        stw   r6,  28(sp)
+  3c:	d9800715 	stw	r6,28(sp)
+        stw   r7,  32(sp)
+  40:	d9c00815 	stw	r7,32(sp)
+        rdctl r5, estatus   /* Read early to avoid usage stall */
+  44:	000b307a 	rdctl	r5,estatus
+        stw   r8,  36(sp)
+  48:	da000915 	stw	r8,36(sp)
+        stw   r9,  40(sp)
+  4c:	da400a15 	stw	r9,40(sp)
+        stw   r10, 44(sp)
+  50:	da800b15 	stw	r10,44(sp)
+        stw   r11, 48(sp)
+  54:	dac00c15 	stw	r11,48(sp)
+        stw   r12, 52(sp)
+  58:	db000d15 	stw	r12,52(sp)
+        stw   r13, 56(sp)
+  5c:	db400e15 	stw	r13,56(sp)
+        stw   r14, 60(sp)
+  60:	db800f15 	stw	r14,60(sp)
+        stw   r15, 64(sp)
+  64:	dbc01015 	stw	r15,64(sp)
+        /*
+         * ea-4 contains the address of the instruction being executed
+         * when the exception occured. For interrupt exceptions, we will
+         * will be re-issue the isntruction. Store it in 72(sp)
+         */
+        stw   r5,  68(sp)  /* estatus */
+  68:	d9401115 	stw	r5,68(sp)
+        addi  r15, ea, -4  /* instruction that caused exception */
+  6c:	ebffff04 	addi	r15,ea,-4
+        stw   r15,  72(sp)
+  70:	dbc01215 	stw	r15,72(sp)
+#else
+        /*
+         * Test to see if the exception was a software exception or caused 
+         * by an external interrupt, and vector accordingly.
+         */
+        rdctl r4, ipending
+  74:	0009313a 	rdctl	r4,ipending
+        andi  r2, r5, 1
+  78:	2880004c 	andi	r2,r5,1
+        beq   r2, zero, .Lnot_irq
+  7c:	10000326 	beq	r2,zero,8c <alt_exception+0x6c>
+        beq   r4, zero, .Lnot_irq
+  80:	20000226 	beq	r4,zero,8c <alt_exception+0x6c>
+        /*
+         * Now that all necessary registers have been preserved, call 
+         * alt_irq_handler() to process the interrupts.
+         */
+
+        call alt_irq_handler
+  84:	00000ec0 	call	ec <alt_irq_handler>
+
+        .section .exceptions.irqreturn, "xa"
+
+        br    .Lexception_exit
+  88:	00000306 	br	98 <alt_exception_unknown+0x4>
+         * upon completion, so we write ea (address of instruction *after*
+         * the one where the exception occured) into 72(sp). The actual
+         * instruction that caused the exception is written in r2, which these
+         * handlers will utilize.
+         */
+        stw   ea,  72(sp)  /* Don't re-issue */
+  8c:	df401215 	stw	ea,72(sp)
+        ldw   r2, -4(ea)   /* Instruction that caused exception */
+  90:	e8bfff17 	ldw	r2,-4(ea)
+
+00000094 <alt_exception_unknown>:
+#ifdef NIOS2_HAS_DEBUG_STUB
+       /*
+        *  Either tell the user now (if there is a debugger attached) or go into
+        *  the debug monitor which will loop until a debugger is attached.
+        */
+        break
+  94:	003da03a 	break	0
+        /* 
+         * Restore the saved registers, so that all general purpose registers 
+         * have been restored to their state at the time the interrupt occured.
+         */
+
+        ldw   r5,  68(sp)
+  98:	d9401117 	ldw	r5,68(sp)
+        ldw   ea,  72(sp)  /* This becomes the PC once eret is executed */
+  9c:	df401217 	ldw	ea,72(sp)
+        ldw   ra,   0(sp)
+  a0:	dfc00017 	ldw	ra,0(sp)
+
+        wrctl estatus, r5
+  a4:	2801707a 	wrctl	estatus,r5
+
+        ldw   r1,   8(sp)
+  a8:	d8400217 	ldw	at,8(sp)
+        ldw   r2,  12(sp)
+  ac:	d8800317 	ldw	r2,12(sp)
+        ldw   r3,  16(sp)
+  b0:	d8c00417 	ldw	r3,16(sp)
+        ldw   r4,  20(sp)
+  b4:	d9000517 	ldw	r4,20(sp)
+        ldw   r5,  24(sp)
+  b8:	d9400617 	ldw	r5,24(sp)
+        ldw   r6,  28(sp)
+  bc:	d9800717 	ldw	r6,28(sp)
+        ldw   r7,  32(sp)
+  c0:	d9c00817 	ldw	r7,32(sp)
+
+#if defined(ALT_EXCEPTION_STACK) && defined(ALT_STACK_CHECK)
+        ldw   et, %gprel(alt_exception_old_stack_limit)(gp)
+#endif
+
+        ldw   r8,  36(sp)
+  c4:	da000917 	ldw	r8,36(sp)
+        ldw   r9,  40(sp)
+  c8:	da400a17 	ldw	r9,40(sp)
+        ldw   r10, 44(sp)
+  cc:	da800b17 	ldw	r10,44(sp)
+        ldw   r11, 48(sp)
+  d0:	dac00c17 	ldw	r11,48(sp)
+        ldw   r12, 52(sp)
+  d4:	db000d17 	ldw	r12,52(sp)
+        ldw   r13, 56(sp)
+  d8:	db400e17 	ldw	r13,56(sp)
+        ldw   r14, 60(sp)
+  dc:	db800f17 	ldw	r14,60(sp)
+        ldw   r15, 64(sp)
+  e0:	dbc01017 	ldw	r15,64(sp)
+        stw   et, %gprel(alt_stack_limit_value)(gp)
+        stw   zero, %gprel(alt_exception_old_stack_limit)(gp)
+#endif /* ALT_STACK_CHECK */
+        ldw   sp,  76(sp)
+#else /* ALT_EXCEPTION_STACK disabled */
+        addi  sp, sp, 76
+  e4:	dec01304 	addi	sp,sp,76
+
+        /*
+         * Return to the interrupted instruction.
+         */
+
+        eret
+  e8:	ef80083a 	eret
+
+000000ec <alt_irq_handler>:
+ * instruction is present if the macro ALT_CI_INTERRUPT_VECTOR defined.
+ */
+
+void alt_irq_handler (void) __attribute__ ((section (".exceptions")));
+void alt_irq_handler (void)
+{
+  ec:	defff904 	addi	sp,sp,-28
+  f0:	dfc00615 	stw	ra,24(sp)
+  f4:	df000515 	stw	fp,20(sp)
+  f8:	df000504 	addi	fp,sp,20
+  
+  /*
+   * Notify the operating system that we are at interrupt level.
+   */ 
+  
+  ALT_OS_INT_ENTER();
+  fc:	0001883a 	nop
+#ifndef NIOS2_EIC_PRESENT
+static ALT_INLINE alt_u32 ALT_ALWAYS_INLINE alt_irq_pending (void)
+{
+  alt_u32 active;
+
+  NIOS2_READ_IPENDING (active);
+ 100:	0005313a 	rdctl	r2,ipending
+ 104:	e0bffe15 	stw	r2,-8(fp)
+
+  return active;
+ 108:	e0bffe17 	ldw	r2,-8(fp)
+   * Consider the case where the high priority interupt is asserted during
+   * the interrupt entry sequence for a lower priority interrupt to see why
+   * this is the case.
+   */
+
+  active = alt_irq_pending ();
+ 10c:	e0bffb15 	stw	r2,-20(fp)
+
+  do
+  {
+    i = 0;
+ 110:	e03ffd15 	stw	zero,-12(fp)
+    mask = 1;
+ 114:	00800044 	movi	r2,1
+ 118:	e0bffc15 	stw	r2,-16(fp)
+     * called to clear the interrupt condition.
+     */
+
+    do
+    {
+      if (active & mask)
+ 11c:	e0fffb17 	ldw	r3,-20(fp)
+ 120:	e0bffc17 	ldw	r2,-16(fp)
+ 124:	1884703a 	and	r2,r3,r2
+ 128:	10001726 	beq	r2,zero,188 <alt_irq_handler+0x9c>
+      { 
+#ifdef ALT_ENHANCED_INTERRUPT_API_PRESENT
+        alt_irq[i].handler(alt_irq[i].context); 
+ 12c:	00c00034 	movhi	r3,0
+ 130:	18c73904 	addi	r3,r3,7396
+ 134:	e0bffd17 	ldw	r2,-12(fp)
+ 138:	100490fa 	slli	r2,r2,3
+ 13c:	1885883a 	add	r2,r3,r2
+ 140:	10c00017 	ldw	r3,0(r2)
+ 144:	01000034 	movhi	r4,0
+ 148:	21073904 	addi	r4,r4,7396
+ 14c:	e0bffd17 	ldw	r2,-12(fp)
+ 150:	100490fa 	slli	r2,r2,3
+ 154:	2085883a 	add	r2,r4,r2
+ 158:	10800104 	addi	r2,r2,4
+ 15c:	10800017 	ldw	r2,0(r2)
+ 160:	1009883a 	mov	r4,r2
+ 164:	183ee83a 	callr	r3
+#else
+        alt_irq[i].handler(alt_irq[i].context, i); 
+#endif
+        break;
+ 168:	0001883a 	nop
+#ifndef NIOS2_EIC_PRESENT
+static ALT_INLINE alt_u32 ALT_ALWAYS_INLINE alt_irq_pending (void)
+{
+  alt_u32 active;
+
+  NIOS2_READ_IPENDING (active);
+ 16c:	0005313a 	rdctl	r2,ipending
+ 170:	e0bfff15 	stw	r2,-4(fp)
+
+  return active;
+ 174:	e0bfff17 	ldw	r2,-4(fp)
+      mask <<= 1;
+      i++;
+
+    } while (1);
+
+    active = alt_irq_pending ();
+ 178:	e0bffb15 	stw	r2,-20(fp)
+    
+  } while (active);
+ 17c:	e0bffb17 	ldw	r2,-20(fp)
+ 180:	103fe31e 	bne	r2,zero,110 <alt_irq_handler+0x24>
+
+  /*
+   * Notify the operating system that interrupt processing is complete.
+   */ 
+
+  ALT_OS_INT_EXIT();
+ 184:	00000706 	br	1a4 <alt_irq_handler+0xb8>
+#else
+        alt_irq[i].handler(alt_irq[i].context, i); 
+#endif
+        break;
+      }
+      mask <<= 1;
+ 188:	e0bffc17 	ldw	r2,-16(fp)
+ 18c:	1085883a 	add	r2,r2,r2
+ 190:	e0bffc15 	stw	r2,-16(fp)
+      i++;
+ 194:	e0bffd17 	ldw	r2,-12(fp)
+ 198:	10800044 	addi	r2,r2,1
+ 19c:	e0bffd15 	stw	r2,-12(fp)
+
+    } while (1);
+ 1a0:	003fde06 	br	11c <alt_irq_handler+0x30>
+  /*
+   * Notify the operating system that interrupt processing is complete.
+   */ 
+
+  ALT_OS_INT_EXIT();
+}
+ 1a4:	e037883a 	mov	sp,fp
+ 1a8:	dfc00117 	ldw	ra,4(sp)
+ 1ac:	df000017 	ldw	fp,0(sp)
+ 1b0:	dec00204 	addi	sp,sp,8
+ 1b4:	f800283a 	ret
+
+Disassembly of section .text:
+
+000001b8 <_start>:
+
+    /*
+     * Now that the caches are initialized, set up the stack pointer and global pointer.
+     * The values provided by the linker are assumed to be correctly aligned.
+     */
+    movhi sp, %hi(__alt_stack_pointer)
+     1b8:	06c00034 	movhi	sp,0
+    ori sp, sp, %lo(__alt_stack_pointer)
+     1bc:	decff714 	ori	sp,sp,16348
+    movhi gp, %hi(_gp)
+     1c0:	06800034 	movhi	gp,0
+    ori gp, gp, %lo(_gp)
+     1c4:	d6a6fa14 	ori	gp,gp,39912
+ */
+#ifndef ALT_SIM_OPTIMIZE
+    /* Log that the BSS is about to be cleared. */
+    ALT_LOG_PUTS(alt_log_msg_bss)
+
+    movhi r2, %hi(__bss_start)
+     1c8:	00800034 	movhi	r2,0
+    ori r2, r2, %lo(__bss_start)
+     1cc:	10870214 	ori	r2,r2,7176
+
+    movhi r3, %hi(__bss_end)
+     1d0:	00c00034 	movhi	r3,0
+    ori r3, r3, %lo(__bss_end)
+     1d4:	18c77914 	ori	r3,r3,7652
+
+    beq r2, r3, 1f
+     1d8:	10c00326 	beq	r2,r3,1e8 <_start+0x30>
+
+0:
+    stw zero, (r2)
+     1dc:	10000015 	stw	zero,0(r2)
+    addi r2, r2, 4
+     1e0:	10800104 	addi	r2,r2,4
+    bltu r2, r3, 0b
+     1e4:	10fffd36 	bltu	r2,r3,1dc <_start+0x24>
+     * section aren't defined until alt_load() has been called).
+     */
+    mov   et, zero
+#endif
+
+    call alt_load
+     1e8:	00014a80 	call	14a8 <alt_load>
+
+    /* Log that alt_main is about to be called. */
+    ALT_LOG_PUTS(alt_log_msg_alt_main)
+
+    /* Call the C entry point. It should never return. */
+    call alt_main
+     1ec:	0000ba00 	call	ba0 <alt_main>
+
+000001f0 <alt_after_alt_main>:
+
+    /* Wait in infinite loop in case alt_main does return. */
+alt_after_alt_main:
+    br alt_after_alt_main
+     1f0:	003fff06 	br	1f0 <alt_after_alt_main>
+
+000001f4 <MCP2515_Init>:
+/*-------------MCP2515_Init---------------------------
+ * This function performs reset, setup receive buffer mask and
+ * configure the filters for MCP2515.
+ * --------------------------------------------------------*/
+void MCP2515_Init(void)
+{
+     1f4:	defffe04 	addi	sp,sp,-8
+     1f8:	dfc00115 	stw	ra,4(sp)
+     1fc:	df000015 	stw	fp,0(sp)
+     200:	d839883a 	mov	fp,sp
+
+	/* Snd reset instruction */
+	MCP2515_Reset();
+     204:	00005940 	call	594 <MCP2515_Reset>
+
+	 //Set Configuration Mode
+	MCP2515_SetMode(_CANSPI_MODE_CONFIG);
+     208:	01002004 	movi	r4,128
+     20c:	00005140 	call	514 <MCP2515_SetMode>
+
+	 //set bit timing, masks, and rollover mode
+	MCP2515_SetBitTiming(0x01,0xB5,0x01);
+     210:	01000044 	movi	r4,1
+     214:	01402d44 	movi	r5,181
+     218:	01800044 	movi	r6,1
+     21c:	00004200 	call	420 <MCP2515_SetBitTiming>
+	// We *don't* use Buffer 0 here.
+	// We therefore set it to receive CAN messages, as follows:
+	// - with Standard IDs.
+	// - matching the filter settings.
+	// [As all our messages have Extended IDs, this won't happen...]
+	MCP2515_Write_Register(RXB0CTRL, 0x20);  //0x02);
+     220:	01001804 	movi	r4,96
+     224:	01400804 	movi	r5,32
+     228:	00007040 	call	704 <MCP2515_Write_Register>
+
+	// --- Now set up masks and filters (BEGIN) ---
+	// Buffer 0 mask
+	// (all 1s - so filter must match every bit)
+	// [Standard IDs]
+	MCP2515_Write_Register(RXM0SIDH, 0xFF);
+     22c:	01000804 	movi	r4,32
+     230:	01403fc4 	movi	r5,255
+     234:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(RXM0SIDL, 0xE0);
+     238:	01000844 	movi	r4,33
+     23c:	01403804 	movi	r5,224
+     240:	00007040 	call	704 <MCP2515_Write_Register>
+
+	// Buffer 0 filters
+	// (all 1s, and Standard messages only)
+	MCP2515_Write_Register(RXF0SIDH, 0xFF);
+     244:	0009883a 	mov	r4,zero
+     248:	01403fc4 	movi	r5,255
+     24c:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(RXF0SIDL, 0xE0);
+     250:	01000044 	movi	r4,1
+     254:	01403804 	movi	r5,224
+     258:	00007040 	call	704 <MCP2515_Write_Register>
+
+	MCP2515_Write_Register(RXF1SIDH, 0xFF);
+     25c:	01000104 	movi	r4,4
+     260:	01403fc4 	movi	r5,255
+     264:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(RXF1SIDL, 0xE0);
+     268:	01000144 	movi	r4,5
+     26c:	01403804 	movi	r5,224
+     270:	00007040 	call	704 <MCP2515_Write_Register>
+
+	// We set up MCP2510 Buffer 1 to receive Tick messages, as follows:
+	// - with Extended IDs.
+	// - matching the filter settings (see below)
+	MCP2515_Write_Register(RXB1CTRL, 0x40);  //0x04);
+     274:	01001c04 	movi	r4,112
+     278:	01401004 	movi	r5,64
+     27c:	00007040 	call	704 <MCP2515_Write_Register>
+
+	// Buffer 1 mask
+	// (all 1s - so filter must match every bit)
+	// [Extended IDs]
+	MCP2515_Write_Register(RXM1SIDH, 0xFF);
+     280:	01000904 	movi	r4,36
+     284:	01403fc4 	movi	r5,255
+     288:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(RXM1SIDL, 0xE3);
+     28c:	01000944 	movi	r4,37
+     290:	014038c4 	movi	r5,227
+     294:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(RXM1EID8, 0xFF);
+     298:	01000984 	movi	r4,38
+     29c:	01403fc4 	movi	r5,255
+     2a0:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(RXM1EID0, 0xFF);
+     2a4:	010009c4 	movi	r4,39
+     2a8:	01403fc4 	movi	r5,255
+     2ac:	00007040 	call	704 <MCP2515_Write_Register>
+
+	// Buffer 1 filters
+	// (only accept messages with Extended ID 0x00000000)
+	// We set *ALL* relevant filters (2 - 5) to match this message
+	MCP2515_Write_Register(RXF2SIDH, 0x00);
+     2b0:	01000204 	movi	r4,8
+     2b4:	000b883a 	mov	r5,zero
+     2b8:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(RXF2SIDL, 0x08);  // EXIDE bit
+     2bc:	01000244 	movi	r4,9
+     2c0:	01400204 	movi	r5,8
+     2c4:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(RXF2EID8, 0x00);
+     2c8:	01000284 	movi	r4,10
+     2cc:	000b883a 	mov	r5,zero
+     2d0:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(RXF2EID0, 0x00);
+     2d4:	010002c4 	movi	r4,11
+     2d8:	000b883a 	mov	r5,zero
+     2dc:	00007040 	call	704 <MCP2515_Write_Register>
+
+	MCP2515_Write_Register(RXF3SIDH, 0x00);
+     2e0:	01000404 	movi	r4,16
+     2e4:	000b883a 	mov	r5,zero
+     2e8:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(RXF3SIDL, 0x08);  // EXIDE bit
+     2ec:	01000444 	movi	r4,17
+     2f0:	01400204 	movi	r5,8
+     2f4:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(RXF3EID8, 0x00);
+     2f8:	01000484 	movi	r4,18
+     2fc:	000b883a 	mov	r5,zero
+     300:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(RXF3EID0, 0x00);
+     304:	010004c4 	movi	r4,19
+     308:	000b883a 	mov	r5,zero
+     30c:	00007040 	call	704 <MCP2515_Write_Register>
+
+	MCP2515_Write_Register(RXF4SIDH, 0x00);
+     310:	01000504 	movi	r4,20
+     314:	000b883a 	mov	r5,zero
+     318:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(RXF4SIDL, 0x08);  // EXIDE bit
+     31c:	01000544 	movi	r4,21
+     320:	01400204 	movi	r5,8
+     324:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(RXF4EID8, 0x00);
+     328:	01000584 	movi	r4,22
+     32c:	000b883a 	mov	r5,zero
+     330:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(RXF4EID0, 0x00);
+     334:	010005c4 	movi	r4,23
+     338:	000b883a 	mov	r5,zero
+     33c:	00007040 	call	704 <MCP2515_Write_Register>
+
+	MCP2515_Write_Register(RXF5SIDH, 0x00);
+     340:	01000604 	movi	r4,24
+     344:	000b883a 	mov	r5,zero
+     348:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(RXF5SIDL, 0x08);  // EXIDE bit
+     34c:	01000644 	movi	r4,25
+     350:	01400204 	movi	r5,8
+     354:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(RXF5EID8, 0x00);
+     358:	01000684 	movi	r4,26
+     35c:	000b883a 	mov	r5,zero
+     360:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(RXF5EID0, 0x00);
+     364:	010006c4 	movi	r4,27
+     368:	000b883a 	mov	r5,zero
+     36c:	00007040 	call	704 <MCP2515_Write_Register>
+
+
+
+	// Interrupts are required if data are in Buffer 1.
+	// Clear *all* interrupt flags before enabling interrupt
+	MCP2515_Write_Register(CANINTF, 0x00);
+     370:	01000b04 	movi	r4,44
+     374:	000b883a 	mov	r5,zero
+     378:	00007040 	call	704 <MCP2515_Write_Register>
+
+	// Enable MCP2510 interrupt generation
+	// (*Rx only here - no errors, etc *)
+	// Interrupts from Buffer 1 only
+	MCP2515_Write_Register(CANINTE, 0x02);
+     37c:	01000ac4 	movi	r4,43
+     380:	01400084 	movi	r5,2
+     384:	00007040 	call	704 <MCP2515_Write_Register>
+
+	// Prepare 'Ack' message...
+	// EXTENDED IDs used here
+	// (ID 0x000000FF used for Ack messages - matches PTTES)
+	MCP2515_Write_Register(TXB0SIDH, 0x00);
+     388:	01000c44 	movi	r4,49
+     38c:	000b883a 	mov	r5,zero
+     390:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(TXB0SIDL, 0x08); // EXIDE bit
+     394:	01000c84 	movi	r4,50
+     398:	01400204 	movi	r5,8
+     39c:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(TXB0EID8, 0x00);
+     3a0:	01000cc4 	movi	r4,51
+     3a4:	000b883a 	mov	r5,zero
+     3a8:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(TXB0EID0, 0xFF);
+     3ac:	01000d04 	movi	r4,52
+     3b0:	01403fc4 	movi	r5,255
+     3b4:	00007040 	call	704 <MCP2515_Write_Register>
+
+	// Set Normal Mode
+	MCP2515_Write_Register(CANCTRL, _CANSPI_MODE_NORMAL);
+     3b8:	010003c4 	movi	r4,15
+     3bc:	000b883a 	mov	r5,zero
+     3c0:	00007040 	call	704 <MCP2515_Write_Register>
+	// Number of data bytes
+	// NOTE: First byte is the slave ID
+	MCP2515_Write_Register(TXB0DLC, 0x02);
+     3c4:	01000d44 	movi	r4,53
+     3c8:	01400084 	movi	r5,2
+     3cc:	00007040 	call	704 <MCP2515_Write_Register>
+
+	// Initial values of the data bytes
+	// [Generally only need to change data values and send message]
+	MCP2515_Write_Register(TXBnDm(0,0), SLAVE_ID);  // Slave ID
+     3d0:	01000d84 	movi	r4,54
+     3d4:	01400084 	movi	r5,2
+     3d8:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(TXBnDm(0,1), 0x00);  // Data byte 1, etc...
+     3dc:	01000dc4 	movi	r4,55
+     3e0:	000b883a 	mov	r5,zero
+     3e4:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(TXBnDm(0,2), 0x03);  // Data byte 2, etc...
+     3e8:	01000e04 	movi	r4,56
+     3ec:	014000c4 	movi	r5,3
+     3f0:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(TXBnDm(0,3), 0x04);  // Data byte 3, etc...
+     3f4:	01000e44 	movi	r4,57
+     3f8:	01400104 	movi	r5,4
+     3fc:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(TXBnDm(0,4), 0x05);  // Data byte 4, etc...
+     400:	01000e84 	movi	r4,58
+     404:	01400144 	movi	r5,5
+     408:	00007040 	call	704 <MCP2515_Write_Register>
+
+
+
+}
+     40c:	e037883a 	mov	sp,fp
+     410:	dfc00117 	ldw	ra,4(sp)
+     414:	df000017 	ldw	fp,0(sp)
+     418:	dec00204 	addi	sp,sp,8
+     41c:	f800283a 	ret
+
+00000420 <MCP2515_SetBitTiming>:
+ * Input = rCNF1, mask for configuration register 1
+ * Input = rCNF2, mask for configuration register 2
+ * Inout = rCNF3, mask for configuration register 3
+ * --------------------------------------------------------*/
+unsigned char MCP2515_SetBitTiming(unsigned char rCNF1, unsigned char rCNF2, unsigned char rCNF3)
+{
+     420:	defffb04 	addi	sp,sp,-20
+     424:	dfc00415 	stw	ra,16(sp)
+     428:	df000315 	stw	fp,12(sp)
+     42c:	df000304 	addi	fp,sp,12
+     430:	2807883a 	mov	r3,r5
+     434:	3005883a 	mov	r2,r6
+     438:	e13ffd05 	stb	r4,-12(fp)
+     43c:	e0fffe05 	stb	r3,-8(fp)
+     440:	e0bfff05 	stb	r2,-4(fp)
+	//https://www.kvaser.com/support/calculators/bit-timing-calculator/
+	// Configure to 250kbps (in case of 16 MHz CAN controller clock).
+	MCP2515_Write_Register(CNF1, rCNF1);
+     444:	e0bffd03 	ldbu	r2,-12(fp)
+     448:	01000a84 	movi	r4,42
+     44c:	100b883a 	mov	r5,r2
+     450:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(CNF2, rCNF2);
+     454:	e0bffe03 	ldbu	r2,-8(fp)
+     458:	01000a44 	movi	r4,41
+     45c:	100b883a 	mov	r5,r2
+     460:	00007040 	call	704 <MCP2515_Write_Register>
+	MCP2515_Write_Register(CNF3, rCNF3);
+     464:	e0bfff03 	ldbu	r2,-4(fp)
+     468:	01000a04 	movi	r4,40
+     46c:	100b883a 	mov	r5,r2
+     470:	00007040 	call	704 <MCP2515_Write_Register>
+	return 0;
+     474:	0005883a 	mov	r2,zero
+}
+     478:	e037883a 	mov	sp,fp
+     47c:	dfc00117 	ldw	ra,4(sp)
+     480:	df000017 	ldw	fp,0(sp)
+     484:	dec00204 	addi	sp,sp,8
+     488:	f800283a 	ret
+
+0000048c <MCP2515_changeBits>:
+ * Input = reg_address
+ * Input = mask
+ * Inout = specify value
+ * --------------------------------------------------------*/
+void MCP2515_changeBits(unsigned char reg_address,unsigned char change_bits, unsigned char change_val)
+{
+     48c:	defffa04 	addi	sp,sp,-24
+     490:	dfc00515 	stw	ra,20(sp)
+     494:	df000415 	stw	fp,16(sp)
+     498:	df000404 	addi	fp,sp,16
+     49c:	2807883a 	mov	r3,r5
+     4a0:	3005883a 	mov	r2,r6
+     4a4:	e13ffd05 	stb	r4,-12(fp)
+     4a8:	e0fffe05 	stb	r3,-8(fp)
+     4ac:	e0bfff05 	stb	r2,-4(fp)
+
+	unsigned char reg_val, temp;
+	temp=change_bits & change_val;
+     4b0:	e0fffe03 	ldbu	r3,-8(fp)
+     4b4:	e0bfff03 	ldbu	r2,-4(fp)
+     4b8:	1884703a 	and	r2,r3,r2
+     4bc:	e0bffc05 	stb	r2,-16(fp)
+	reg_val=MCP2515_Read_Register(reg_address);
+     4c0:	e0bffd03 	ldbu	r2,-12(fp)
+     4c4:	1009883a 	mov	r4,r2
+     4c8:	00005f40 	call	5f4 <MCP2515_Read_Register>
+     4cc:	e0bffc45 	stb	r2,-15(fp)
+	reg_val=reg_val & 0x1F;
+     4d0:	e0bffc43 	ldbu	r2,-15(fp)
+     4d4:	108007cc 	andi	r2,r2,31
+     4d8:	e0bffc45 	stb	r2,-15(fp)
+	temp=temp|reg_val;
+     4dc:	e0fffc03 	ldbu	r3,-16(fp)
+     4e0:	e0bffc43 	ldbu	r2,-15(fp)
+     4e4:	1884b03a 	or	r2,r3,r2
+     4e8:	e0bffc05 	stb	r2,-16(fp)
+	MCP2515_Write_Register(reg_address,temp);
+     4ec:	e0fffd03 	ldbu	r3,-12(fp)
+     4f0:	e0bffc03 	ldbu	r2,-16(fp)
+     4f4:	1809883a 	mov	r4,r3
+     4f8:	100b883a 	mov	r5,r2
+     4fc:	00007040 	call	704 <MCP2515_Write_Register>
+
+}
+     500:	e037883a 	mov	sp,fp
+     504:	dfc00117 	ldw	ra,4(sp)
+     508:	df000017 	ldw	fp,0(sp)
+     50c:	dec00204 	addi	sp,sp,8
+     510:	f800283a 	ret
+
+00000514 <MCP2515_SetMode>:
+	_CANSPI_MODE_CONFIG  			 0x80
+ * Input = mode
+ * Output =void
+ * --------------------------------------------------------*/
+void MCP2515_SetMode(unsigned char mode)
+{
+     514:	defffd04 	addi	sp,sp,-12
+     518:	dfc00215 	stw	ra,8(sp)
+     51c:	df000115 	stw	fp,4(sp)
+     520:	df000104 	addi	fp,sp,4
+     524:	2005883a 	mov	r2,r4
+     528:	e0bfff05 	stb	r2,-4(fp)
+
+	MCP2515_changeBits(CANCTRL, (7 << REQOP0),(mode));
+     52c:	e0bfff03 	ldbu	r2,-4(fp)
+     530:	010003c4 	movi	r4,15
+     534:	01403804 	movi	r5,224
+     538:	100d883a 	mov	r6,r2
+     53c:	000048c0 	call	48c <MCP2515_changeBits>
+	while(getMode != (mode>>REQOP0)){
+     540:	00000506 	br	558 <MCP2515_SetMode+0x44>
+		MCP2515_changeBits(CANCTRL, (7 << REQOP0),(mode));
+     544:	e0bfff03 	ldbu	r2,-4(fp)
+     548:	010003c4 	movi	r4,15
+     54c:	01403804 	movi	r5,224
+     550:	100d883a 	mov	r6,r2
+     554:	000048c0 	call	48c <MCP2515_changeBits>
+ * --------------------------------------------------------*/
+void MCP2515_SetMode(unsigned char mode)
+{
+
+	MCP2515_changeBits(CANCTRL, (7 << REQOP0),(mode));
+	while(getMode != (mode>>REQOP0)){
+     558:	01000384 	movi	r4,14
+     55c:	00005f40 	call	5f4 <MCP2515_Read_Register>
+     560:	10803fcc 	andi	r2,r2,255
+     564:	1004d17a 	srli	r2,r2,5
+     568:	1007883a 	mov	r3,r2
+     56c:	e0bfff03 	ldbu	r2,-4(fp)
+     570:	1004d17a 	srli	r2,r2,5
+     574:	18c03fcc 	andi	r3,r3,255
+     578:	10803fcc 	andi	r2,r2,255
+     57c:	18bff11e 	bne	r3,r2,544 <MCP2515_SetMode+0x30>
+		MCP2515_changeBits(CANCTRL, (7 << REQOP0),(mode));
+	}
+
+}
+     580:	e037883a 	mov	sp,fp
+     584:	dfc00117 	ldw	ra,4(sp)
+     588:	df000017 	ldw	fp,0(sp)
+     58c:	dec00204 	addi	sp,sp,8
+     590:	f800283a 	ret
+
+00000594 <MCP2515_Reset>:
+ * This function reset SPI-CAN module.
+ * Input = void
+ * output = void
+ * --------------------------------------------------------*/
+void MCP2515_Reset()
+{
+     594:	defffb04 	addi	sp,sp,-20
+     598:	dfc00415 	stw	ra,16(sp)
+     59c:	df000315 	stw	fp,12(sp)
+     5a0:	df000304 	addi	fp,sp,12
+
+	write_data[0]= RESET_INSTRUCTION;
+     5a4:	00800034 	movhi	r2,0
+     5a8:	10871004 	addi	r2,r2,7232
+     5ac:	00fff004 	movi	r3,-64
+     5b0:	10c00005 	stb	r3,0(r2)
+	/* Send Reset Instruction */
+	alt_avalon_spi_command((alt_u32)ALT_SPI_MASTER,
+     5b4:	d8000015 	stw	zero,0(sp)
+     5b8:	00800034 	movhi	r2,0
+     5bc:	10871c84 	addi	r2,r2,7282
+     5c0:	d8800115 	stw	r2,4(sp)
+     5c4:	d8000215 	stw	zero,8(sp)
+     5c8:	01250814 	movui	r4,37920
+     5cc:	000b883a 	mov	r5,zero
+     5d0:	01800044 	movi	r6,1
+     5d4:	01c00034 	movhi	r7,0
+     5d8:	39c71004 	addi	r7,r7,7232
+     5dc:	00017fc0 	call	17fc <alt_avalon_spi_command>
+			0,1, write_data,0,
+			read_data,0);
+
+}
+     5e0:	e037883a 	mov	sp,fp
+     5e4:	dfc00117 	ldw	ra,4(sp)
+     5e8:	df000017 	ldw	fp,0(sp)
+     5ec:	dec00204 	addi	sp,sp,8
+     5f0:	f800283a 	ret
+
+000005f4 <MCP2515_Read_Register>:
+ * reinitialize yourself and go to the configuration mode
+ * Input = Read Register address
+ * Output = content of the register
+ * --------------------------------------------------------*/
+tByte MCP2515_Read_Register(const tByte Register_address)
+{
+     5f4:	defff904 	addi	sp,sp,-28
+     5f8:	dfc00615 	stw	ra,24(sp)
+     5fc:	df000515 	stw	fp,20(sp)
+     600:	df000504 	addi	fp,sp,20
+     604:	2005883a 	mov	r2,r4
+     608:	e0bfff05 	stb	r2,-4(fp)
+
+	tByte Register_contents;
+	/* Read Instruction */
+	write_data[0]=READ_INSTRUCTION;
+     60c:	00800034 	movhi	r2,0
+     610:	10871004 	addi	r2,r2,7232
+     614:	00c000c4 	movi	r3,3
+     618:	10c00005 	stb	r3,0(r2)
+	write_data[1]=Register_address;
+     61c:	00800034 	movhi	r2,0
+     620:	10871004 	addi	r2,r2,7232
+     624:	e0ffff03 	ldbu	r3,-4(fp)
+     628:	10c00045 	stb	r3,1(r2)
+
+	alt_avalon_spi_command((alt_u32)ALT_SPI_MASTER,
+     62c:	00800044 	movi	r2,1
+     630:	d8800015 	stw	r2,0(sp)
+     634:	00800034 	movhi	r2,0
+     638:	10871c84 	addi	r2,r2,7282
+     63c:	d8800115 	stw	r2,4(sp)
+     640:	d8000215 	stw	zero,8(sp)
+     644:	01250814 	movui	r4,37920
+     648:	000b883a 	mov	r5,zero
+     64c:	01800084 	movi	r6,2
+     650:	01c00034 	movhi	r7,0
+     654:	39c71004 	addi	r7,r7,7232
+     658:	00017fc0 	call	17fc <alt_avalon_spi_command>
+			0,2, write_data,1,
+			read_data,0);
+	Register_contents=read_data[0];
+     65c:	00800034 	movhi	r2,0
+     660:	10871c84 	addi	r2,r2,7282
+     664:	10800003 	ldbu	r2,0(r2)
+     668:	e0bffe05 	stb	r2,-8(fp)
+
+	return Register_contents;
+     66c:	e0bffe03 	ldbu	r2,-8(fp)
+}
+     670:	e037883a 	mov	sp,fp
+     674:	dfc00117 	ldw	ra,4(sp)
+     678:	df000017 	ldw	fp,0(sp)
+     67c:	dec00204 	addi	sp,sp,8
+     680:	f800283a 	ret
+
+00000684 <MCP2515_Read_Rx_Buffer_Register>:
+/*-------------MCP2515_Read_Rx_Buffer_Register-------------
+ * Input = instruction
+ * Output = content of the receive buffer register
+ * --------------------------------------------------------*/
+tByte MCP2515_Read_Rx_Buffer_Register(const tByte instruction)
+{
+     684:	defff904 	addi	sp,sp,-28
+     688:	dfc00615 	stw	ra,24(sp)
+     68c:	df000515 	stw	fp,20(sp)
+     690:	df000504 	addi	fp,sp,20
+     694:	2005883a 	mov	r2,r4
+     698:	e0bfff05 	stb	r2,-4(fp)
+	tByte Register_contents;
+	/* Read Receive Buffer Instruction */
+	write_data[0]=instruction;
+     69c:	00800034 	movhi	r2,0
+     6a0:	10871004 	addi	r2,r2,7232
+     6a4:	e0ffff03 	ldbu	r3,-4(fp)
+     6a8:	10c00005 	stb	r3,0(r2)
+
+	alt_avalon_spi_command((alt_u32)ALT_SPI_MASTER,
+     6ac:	00800044 	movi	r2,1
+     6b0:	d8800015 	stw	r2,0(sp)
+     6b4:	00800034 	movhi	r2,0
+     6b8:	10871c84 	addi	r2,r2,7282
+     6bc:	d8800115 	stw	r2,4(sp)
+     6c0:	d8000215 	stw	zero,8(sp)
+     6c4:	01250814 	movui	r4,37920
+     6c8:	000b883a 	mov	r5,zero
+     6cc:	01800044 	movi	r6,1
+     6d0:	01c00034 	movhi	r7,0
+     6d4:	39c71004 	addi	r7,r7,7232
+     6d8:	00017fc0 	call	17fc <alt_avalon_spi_command>
+			0,1, write_data,1,
+			read_data,0);
+	Register_contents=read_data[0];
+     6dc:	00800034 	movhi	r2,0
+     6e0:	10871c84 	addi	r2,r2,7282
+     6e4:	10800003 	ldbu	r2,0(r2)
+     6e8:	e0bffe05 	stb	r2,-8(fp)
+
+	return Register_contents;
+     6ec:	e0bffe03 	ldbu	r2,-8(fp)
+}
+     6f0:	e037883a 	mov	sp,fp
+     6f4:	dfc00117 	ldw	ra,4(sp)
+     6f8:	df000017 	ldw	fp,0(sp)
+     6fc:	dec00204 	addi	sp,sp,8
+     700:	f800283a 	ret
+
+00000704 <MCP2515_Write_Register>:
+ * Input = Write Register contents
+ * Output= void-------------------------------------------*/
+
+void MCP2515_Write_Register(const tByte Register_address,
+		const tByte Register_contents)
+{
+     704:	defff904 	addi	sp,sp,-28
+     708:	dfc00615 	stw	ra,24(sp)
+     70c:	df000515 	stw	fp,20(sp)
+     710:	df000504 	addi	fp,sp,20
+     714:	2007883a 	mov	r3,r4
+     718:	2805883a 	mov	r2,r5
+     71c:	e0fffe05 	stb	r3,-8(fp)
+     720:	e0bfff05 	stb	r2,-4(fp)
+
+	/* Read Receive Buffer Instruction */
+	write_data[0]=WRITE_BYTE_INSTRUCTION;
+     724:	00800034 	movhi	r2,0
+     728:	10871004 	addi	r2,r2,7232
+     72c:	00c00084 	movi	r3,2
+     730:	10c00005 	stb	r3,0(r2)
+	write_data[1]=Register_address;
+     734:	00800034 	movhi	r2,0
+     738:	10871004 	addi	r2,r2,7232
+     73c:	e0fffe03 	ldbu	r3,-8(fp)
+     740:	10c00045 	stb	r3,1(r2)
+	write_data[2]=Register_contents;
+     744:	00800034 	movhi	r2,0
+     748:	10871004 	addi	r2,r2,7232
+     74c:	e0ffff03 	ldbu	r3,-4(fp)
+     750:	10c00085 	stb	r3,2(r2)
+
+	alt_avalon_spi_command((alt_u32)ALT_SPI_MASTER,
+     754:	d8000015 	stw	zero,0(sp)
+     758:	00800034 	movhi	r2,0
+     75c:	10871c84 	addi	r2,r2,7282
+     760:	d8800115 	stw	r2,4(sp)
+     764:	d8000215 	stw	zero,8(sp)
+     768:	01250814 	movui	r4,37920
+     76c:	000b883a 	mov	r5,zero
+     770:	018000c4 	movi	r6,3
+     774:	01c00034 	movhi	r7,0
+     778:	39c71004 	addi	r7,r7,7232
+     77c:	00017fc0 	call	17fc <alt_avalon_spi_command>
+			0,3, write_data,0,
+			read_data,0);
+
+
+}
+     780:	e037883a 	mov	sp,fp
+     784:	dfc00117 	ldw	ra,4(sp)
+     788:	df000017 	ldw	fp,0(sp)
+     78c:	dec00204 	addi	sp,sp,8
+     790:	f800283a 	ret
+
+00000794 <MCP2515_RTS_TXB_Instruction_CMD>:
+ * This function sends request for the transmission of data through
+ * SPI-CAN module.
+ * Input = tx_buffer_to_send, Transmit Buffer to send
+ * Output= void-------------------------------------------*/
+void MCP2515_RTS_TXB_Instruction_CMD(const tByte tx_buffer_to_send)
+{
+     794:	defffa04 	addi	sp,sp,-24
+     798:	dfc00515 	stw	ra,20(sp)
+     79c:	df000415 	stw	fp,16(sp)
+     7a0:	df000404 	addi	fp,sp,16
+     7a4:	2005883a 	mov	r2,r4
+     7a8:	e0bfff05 	stb	r2,-4(fp)
+	/* RTS Transmit Buffer Instruction */
+	write_data[0]=tx_buffer_to_send;
+     7ac:	00800034 	movhi	r2,0
+     7b0:	10871004 	addi	r2,r2,7232
+     7b4:	e0ffff03 	ldbu	r3,-4(fp)
+     7b8:	10c00005 	stb	r3,0(r2)
+	alt_avalon_spi_command((alt_u32)ALT_SPI_MASTER,
+     7bc:	d8000015 	stw	zero,0(sp)
+     7c0:	00800034 	movhi	r2,0
+     7c4:	10871c84 	addi	r2,r2,7282
+     7c8:	d8800115 	stw	r2,4(sp)
+     7cc:	d8000215 	stw	zero,8(sp)
+     7d0:	01250814 	movui	r4,37920
+     7d4:	000b883a 	mov	r5,zero
+     7d8:	01800044 	movi	r6,1
+     7dc:	01c00034 	movhi	r7,0
+     7e0:	39c71004 	addi	r7,r7,7232
+     7e4:	00017fc0 	call	17fc <alt_avalon_spi_command>
+			0,1, write_data,0,
+			read_data,0);
+}
+     7e8:	e037883a 	mov	sp,fp
+     7ec:	dfc00117 	ldw	ra,4(sp)
+     7f0:	df000017 	ldw	fp,0(sp)
+     7f4:	dec00204 	addi	sp,sp,8
+     7f8:	f800283a 	ret
+
+000007fc <SCH_Init_T0>:
+
+  You must call this function before using the scheduler.  
+
+-*------------------------------------------------------------------*/
+void SCH_Init_T0(void)
+{
+     7fc:	defffc04 	addi	sp,sp,-16
+     800:	dfc00315 	stw	ra,12(sp)
+     804:	df000215 	stw	fp,8(sp)
+     808:	df000204 	addi	fp,sp,8
+	tByte i;
+
+	//--- CAN initialisation ---//
+	MCP2515_Init();
+     80c:	00001f40 	call	1f4 <MCP2515_Init>
+
+	for (i = 0; i < SCH_MAX_TASKS; i++)
+     810:	e03fff05 	stb	zero,-4(fp)
+     814:	00000606 	br	830 <SCH_Init_T0+0x34>
+	{
+		SCH_Delete_Task(i);
+     818:	e0bfff03 	ldbu	r2,-4(fp)
+     81c:	1009883a 	mov	r4,r2
+     820:	0000e200 	call	e20 <SCH_Delete_Task>
+	tByte i;
+
+	//--- CAN initialisation ---//
+	MCP2515_Init();
+
+	for (i = 0; i < SCH_MAX_TASKS; i++)
+     824:	e0bfff03 	ldbu	r2,-4(fp)
+     828:	10800044 	addi	r2,r2,1
+     82c:	e0bfff05 	stb	r2,-4(fp)
+     830:	e0bfff03 	ldbu	r2,-4(fp)
+     834:	10800130 	cmpltui	r2,r2,4
+     838:	103ff71e 	bne	r2,zero,818 <SCH_Init_T0+0x1c>
+	}
+
+	// Reset the global error variable
+	// - SCH_Delete_Task() will generate an error code,
+	//   (because the task array is empty)
+	Error_code_G = 0;
+     83c:	00800034 	movhi	r2,0
+     840:	10870504 	addi	r2,r2,7188
+     844:	10000005 	stb	zero,0(r2)
+
+	IOWR_ALTERA_AVALON_PIO_IRQ_MASK(MCP2551_int_n, 1);  //PIO_2_BASE for CAN Slave Interrupt
+     848:	00c00044 	movi	r3,1
+     84c:	00a51a14 	movui	r2,37992
+     850:	10c00035 	stwio	r3,0(r2)
+	alt_ic_isr_register(0, ET_SPICAN_INT_IRQ, SCH_Update, (void*)&edge_capture, 0);
+     854:	d8000015 	stw	zero,0(sp)
+     858:	0009883a 	mov	r4,zero
+     85c:	000b883a 	mov	r5,zero
+     860:	01800034 	movhi	r6,0
+     864:	31825004 	addi	r6,r6,2368
+     868:	d1e00a04 	addi	r7,gp,-32728
+     86c:	00011740 	call	1174 <alt_ic_isr_register>
+}
+     870:	e037883a 	mov	sp,fp
+     874:	dfc00117 	ldw	ra,4(sp)
+     878:	df000017 	ldw	fp,0(sp)
+     87c:	dec00204 	addi	sp,sp,8
+     880:	f800283a 	ret
+
+00000884 <SCH_Start>:
+
+  NOTE: ONLY THE SCHEDULER INTERRUPT SHOULD BE ENABLED!!! 
+
+-*------------------------------------------------------------------*/
+void SCH_Start(void) 
+{
+     884:	defffd04 	addi	sp,sp,-12
+     888:	dfc00215 	stw	ra,8(sp)
+     88c:	df000115 	stw	fp,4(sp)
+     890:	df000104 	addi	fp,sp,4
+	// We can be at this point because:
+	// 1. The network has just been powered up
+	// 2. An error has occurred in the Master, and it is not generating ticks
+	// 3. The network has been damaged and no ticks are being received by this slave
+	//
+	Start_slave = 0;
+     894:	e03fff05 	stb	zero,-4(fp)
+	SCH_Report_Status(); // Sch not yet running - do this manually
+     898:	0000ee80 	call	ee8 <SCH_Report_Status>
+
+	// Now wait (indefinitely) for appropriate signal from the master
+	do {
+		// Wait for CAN message to be received
+		do {
+			CAN_interrupt_flag = MCP2515_Read_Register(CANINTF);
+     89c:	01000b04 	movi	r4,44
+     8a0:	00005f40 	call	5f4 <MCP2515_Read_Register>
+     8a4:	e0bfff45 	stb	r2,-3(fp)
+		} while ((CAN_interrupt_flag & 0x02) == 0);
+     8a8:	e0bfff43 	ldbu	r2,-3(fp)
+     8ac:	1080008c 	andi	r2,r2,2
+     8b0:	103ffa26 	beq	r2,zero,89c <SCH_Start+0x18>
+
+		// Get the first two data bytes
+		Tick_00 = MCP2515_Read_Register(RXBnDm(1,0)); // Get data byte 0, Buffer 1
+     8b4:	01001d84 	movi	r4,118
+     8b8:	00005f40 	call	5f4 <MCP2515_Read_Register>
+     8bc:	e0bfff85 	stb	r2,-2(fp)
+		Tick_ID = MCP2515_Read_Register(RXBnDm(1,1)); // Get data byte 1, Buffer 1
+     8c0:	01001dc4 	movi	r4,119
+     8c4:	00005f40 	call	5f4 <MCP2515_Read_Register>
+     8c8:	e0bfffc5 	stb	r2,-1(fp)
+
+		// We simply clear *ALL* flags here...
+		MCP2515_Write_Register(CANINTF, 0x00);
+     8cc:	01000b04 	movi	r4,44
+     8d0:	000b883a 	mov	r5,zero
+     8d4:	00007040 	call	704 <MCP2515_Write_Register>
+
+		if ((Tick_00 == 0x00) && (Tick_ID == SLAVE_ID))
+     8d8:	e0bfff83 	ldbu	r2,-2(fp)
+     8dc:	10000e1e 	bne	r2,zero,918 <SCH_Start+0x94>
+     8e0:	e0bfffc3 	ldbu	r2,-1(fp)
+     8e4:	10800098 	cmpnei	r2,r2,2
+     8e8:	10000b1e 	bne	r2,zero,918 <SCH_Start+0x94>
+		{
+			// Message is correct
+			Start_slave = 1;
+     8ec:	00800044 	movi	r2,1
+     8f0:	e0bfff05 	stb	r2,-4(fp)
+
+			// Prepare Ack message for transmission to Master
+			MCP2515_Write_Register(TXBnDm(0,0) , 0x00);      // Set data byte 0 (always 0x00)
+     8f4:	01000d84 	movi	r4,54
+     8f8:	000b883a 	mov	r5,zero
+     8fc:	00007040 	call	704 <MCP2515_Write_Register>
+			MCP2515_Write_Register(TXBnDm(0,1) , SLAVE_ID);  // Slave ID
+     900:	01000dc4 	movi	r4,55
+     904:	01400084 	movi	r5,2
+     908:	00007040 	call	704 <MCP2515_Write_Register>
+
+			/* Send RTS_TXB0_INSTRUCTION Instruction */
+			MCP2515_RTS_TXB_Instruction_CMD(RTS_INSTRUCTION_TXB0 );
+     90c:	01002044 	movi	r4,129
+     910:	00007940 	call	794 <MCP2515_RTS_TXB_Instruction_CMD>
+     914:	00000106 	br	91c <SCH_Start+0x98>
+
+		}
+		else
+		{
+			// Not yet received correct message - wait
+			Start_slave = 0;
+     918:	e03fff05 	stb	zero,-4(fp)
+		}
+	} while (!Start_slave);
+     91c:	e0bfff03 	ldbu	r2,-4(fp)
+     920:	103fde26 	beq	r2,zero,89c <SCH_Start+0x18>
+ * alt_irq_cpu_enable_interrupts() enables the CPU to start taking interrupts.
+ */
+static ALT_INLINE void ALT_ALWAYS_INLINE 
+       alt_irq_cpu_enable_interrupts ()
+{
+    NIOS2_WRITE_STATUS(NIOS2_STATUS_PIE_MSK
+     924:	00800044 	movi	r2,1
+     928:	1001703a 	wrctl	status,r2
+
+	alt_irq_cpu_enable_interrupts();
+}
+     92c:	e037883a 	mov	sp,fp
+     930:	dfc00117 	ldw	ra,4(sp)
+     934:	df000017 	ldw	fp,0(sp)
+     938:	dec00204 	addi	sp,sp,8
+     93c:	f800283a 	ret
+
+00000940 <SCH_Update>:
+  This version is triggered by the interval timer interrupts:
+  the timer is automatically reloaded.
+
+-*------------------------------------------------------------------*/
+void SCH_Update(void * context)
+{
+     940:	defffb04 	addi	sp,sp,-20
+     944:	dfc00415 	stw	ra,16(sp)
+     948:	df000315 	stw	fp,12(sp)
+     94c:	df000304 	addi	fp,sp,12
+     950:	e13fff15 	stw	r4,-4(fp)
+	tByte Index;
+
+
+
+	IOWR_ALTERA_AVALON_PIO_IRQ_MASK(MCP2551_int_n, 0);
+     954:	0007883a 	mov	r3,zero
+     958:	00a51a14 	movui	r2,37992
+     95c:	10c00035 	stwio	r3,0(r2)
+	/* Cast context to edge_capture's type. It is important that this be
+	 * declared volatile to avoid unwanted compiler optimization.
+	 */
+	volatile int* edge_capture_ptr = (volatile int*) context;
+     960:	e0bfff17 	ldw	r2,-4(fp)
+     964:	e0bffe15 	stw	r2,-8(fp)
+	/* Store the value in the Button's edge capture register in *context. */
+	*edge_capture_ptr = IORD_ALTERA_AVALON_PIO_EDGE_CAP(MCP2551_int_n);
+     968:	00a51b14 	movui	r2,37996
+     96c:	10c00037 	ldwio	r3,0(r2)
+     970:	e0bffe17 	ldw	r2,-8(fp)
+     974:	10c00015 	stw	r3,0(r2)
+	IOWR_ALTERA_AVALON_PIO_EDGE_CAP(MCP2551_int_n,0);
+     978:	0007883a 	mov	r3,zero
+     97c:	00a51b14 	movui	r2,37996
+     980:	10c00035 	stwio	r3,0(r2)
+	IOWR_ALTERA_AVALON_PIO_IRQ_MASK(MCP2551_int_n,1);
+     984:	00c00044 	movi	r3,1
+     988:	00a51a14 	movui	r2,37992
+     98c:	10c00035 	stwio	r3,0(r2)
+
+
+	// Check tick data - send ack if necessary
+	// NOTE: 'START' message will only be sent after a 'time out'
+	if (SCC_A_SLAVE_Process_Tick_Message() == SLAVE_ID)
+     990:	0000acc0 	call	acc <SCC_A_SLAVE_Process_Tick_Message>
+     994:	10803fcc 	andi	r2,r2,255
+     998:	10800098 	cmpnei	r2,r2,2
+     99c:	1000011e 	bne	r2,zero,9a4 <SCH_Update+0x64>
+	{
+		SCC_A_SLAVE_Send_Ack_Message_To_Master();
+     9a0:	0000b4c0 	call	b4c <SCC_A_SLAVE_Send_Ack_Message_To_Master>
+	}
+
+	// NOTE: calculations are in *TICKS* (not milliseconds)
+	for (Index = 0; Index < SCH_MAX_TASKS; Index++)
+     9a4:	e03ffd05 	stb	zero,-12(fp)
+     9a8:	00004006 	br	aac <SCH_Update+0x16c>
+	{
+		// Check if there is a task at this location
+		if (SCH_tasks_G[Index].pTask)
+     9ac:	e0bffd03 	ldbu	r2,-12(fp)
+     9b0:	00c00034 	movhi	r3,0
+     9b4:	18c72904 	addi	r3,r3,7332
+     9b8:	1004913a 	slli	r2,r2,4
+     9bc:	1885883a 	add	r2,r3,r2
+     9c0:	10800017 	ldw	r2,0(r2)
+     9c4:	10003626 	beq	r2,zero,aa0 <SCH_Update+0x160>
+		{
+
+			if (SCH_tasks_G[Index].Delay == 0)
+     9c8:	e0bffd03 	ldbu	r2,-12(fp)
+     9cc:	00c00034 	movhi	r3,0
+     9d0:	18c72904 	addi	r3,r3,7332
+     9d4:	1004913a 	slli	r2,r2,4
+     9d8:	1885883a 	add	r2,r3,r2
+     9dc:	10800104 	addi	r2,r2,4
+     9e0:	10800017 	ldw	r2,0(r2)
+     9e4:	10001f1e 	bne	r2,zero,a64 <SCH_Update+0x124>
+			{
+				// The task is due to run
+				SCH_tasks_G[Index].RunMe = 1;  // Set the run flag
+     9e8:	e0bffd03 	ldbu	r2,-12(fp)
+     9ec:	00c00034 	movhi	r3,0
+     9f0:	18c72904 	addi	r3,r3,7332
+     9f4:	1004913a 	slli	r2,r2,4
+     9f8:	1885883a 	add	r2,r3,r2
+     9fc:	10800304 	addi	r2,r2,12
+     a00:	00c00044 	movi	r3,1
+     a04:	10c00005 	stb	r3,0(r2)
+
+				if (SCH_tasks_G[Index].Period)
+     a08:	e0bffd03 	ldbu	r2,-12(fp)
+     a0c:	00c00034 	movhi	r3,0
+     a10:	18c72904 	addi	r3,r3,7332
+     a14:	1004913a 	slli	r2,r2,4
+     a18:	1885883a 	add	r2,r3,r2
+     a1c:	10800204 	addi	r2,r2,8
+     a20:	10800017 	ldw	r2,0(r2)
+     a24:	10001e26 	beq	r2,zero,aa0 <SCH_Update+0x160>
+				{
+					// Schedule periodic tasks to run again
+					SCH_tasks_G[Index].Delay = SCH_tasks_G[Index].Period;
+     a28:	e0bffd03 	ldbu	r2,-12(fp)
+     a2c:	e0fffd03 	ldbu	r3,-12(fp)
+     a30:	01000034 	movhi	r4,0
+     a34:	21072904 	addi	r4,r4,7332
+     a38:	1806913a 	slli	r3,r3,4
+     a3c:	20c7883a 	add	r3,r4,r3
+     a40:	18c00204 	addi	r3,r3,8
+     a44:	18c00017 	ldw	r3,0(r3)
+     a48:	01000034 	movhi	r4,0
+     a4c:	21072904 	addi	r4,r4,7332
+     a50:	1004913a 	slli	r2,r2,4
+     a54:	2085883a 	add	r2,r4,r2
+     a58:	10800104 	addi	r2,r2,4
+     a5c:	10c00015 	stw	r3,0(r2)
+     a60:	00000f06 	br	aa0 <SCH_Update+0x160>
+				}
+			}
+			else
+			{
+				// Not yet ready to run: just decrement the delay
+				SCH_tasks_G[Index].Delay -= 1;
+     a64:	e0bffd03 	ldbu	r2,-12(fp)
+     a68:	e0fffd03 	ldbu	r3,-12(fp)
+     a6c:	01000034 	movhi	r4,0
+     a70:	21072904 	addi	r4,r4,7332
+     a74:	1806913a 	slli	r3,r3,4
+     a78:	20c7883a 	add	r3,r4,r3
+     a7c:	18c00104 	addi	r3,r3,4
+     a80:	18c00017 	ldw	r3,0(r3)
+     a84:	18ffffc4 	addi	r3,r3,-1
+     a88:	01000034 	movhi	r4,0
+     a8c:	21072904 	addi	r4,r4,7332
+     a90:	1004913a 	slli	r2,r2,4
+     a94:	2085883a 	add	r2,r4,r2
+     a98:	10800104 	addi	r2,r2,4
+     a9c:	10c00015 	stw	r3,0(r2)
+	{
+		SCC_A_SLAVE_Send_Ack_Message_To_Master();
+	}
+
+	// NOTE: calculations are in *TICKS* (not milliseconds)
+	for (Index = 0; Index < SCH_MAX_TASKS; Index++)
+     aa0:	e0bffd03 	ldbu	r2,-12(fp)
+     aa4:	10800044 	addi	r2,r2,1
+     aa8:	e0bffd05 	stb	r2,-12(fp)
+     aac:	e0bffd03 	ldbu	r2,-12(fp)
+     ab0:	10800130 	cmpltui	r2,r2,4
+     ab4:	103fbd1e 	bne	r2,zero,9ac <SCH_Update+0x6c>
+				SCH_tasks_G[Index].Delay -= 1;
+			}
+		}
+	}
+
+}
+     ab8:	e037883a 	mov	sp,fp
+     abc:	dfc00117 	ldw	ra,4(sp)
+     ac0:	df000017 	ldw	fp,0(sp)
+     ac4:	dec00204 	addi	sp,sp,8
+     ac8:	f800283a 	ret
+
+00000acc <SCC_A_SLAVE_Process_Tick_Message>:
+  The tick messages themselves may contain data.  These data are
+  extracted in this function.
+
+-*------------------------------------------------------------------*/
+tByte SCC_A_SLAVE_Process_Tick_Message(void)
+{
+     acc:	defffd04 	addi	sp,sp,-12
+     ad0:	dfc00215 	stw	ra,8(sp)
+     ad4:	df000115 	stw	fp,4(sp)
+     ad8:	df000104 	addi	fp,sp,4
+	tByte Tick_ID;
+
+	// Must have received a message (to generate the 'Tick')
+	// The first byte is the ID of the slave for which the data are
+	// intended
+	Tick_ID = MCP2515_Read_Register(RXBnDm(1,0));   // Get data byte 0 (Slave ID)
+     adc:	01001d84 	movi	r4,118
+     ae0:	00005f40 	call	5f4 <MCP2515_Read_Register>
+     ae4:	e0bfff05 	stb	r2,-4(fp)
+
+	if (Tick_ID == SLAVE_ID)
+     ae8:	e0bfff03 	ldbu	r2,-4(fp)
+     aec:	10800098 	cmpnei	r2,r2,2
+     af0:	10000d1e 	bne	r2,zero,b28 <SCC_A_SLAVE_Process_Tick_Message+0x5c>
+	{
+		// Only if there is a match do we need to copy these fields
+		Tick_message_data_G[0] = MCP2515_Read_Register(RXBnDm(1,1));
+     af4:	01001dc4 	movi	r4,119
+     af8:	00005f40 	call	5f4 <MCP2515_Read_Register>
+     afc:	d0a00905 	stb	r2,-32732(gp)
+		Tick_message_data_G[1] = MCP2515_Read_Register(RXBnDm(1,2));
+     b00:	01001e04 	movi	r4,120
+     b04:	00005f40 	call	5f4 <MCP2515_Read_Register>
+     b08:	00c00034 	movhi	r3,0
+     b0c:	18c70344 	addi	r3,r3,7181
+     b10:	18800005 	stb	r2,0(r3)
+		Tick_message_data_G[2] = MCP2515_Read_Register(RXBnDm(1,3));
+     b14:	01001e44 	movi	r4,121
+     b18:	00005f40 	call	5f4 <MCP2515_Read_Register>
+     b1c:	00c00034 	movhi	r3,0
+     b20:	18c70384 	addi	r3,r3,7182
+     b24:	18800005 	stb	r2,0(r3)
+		//Tick_message_data_G[3] = MCP2515_Read_Register(RXBnDm(1,4)); // this line of code causes the master to break
+
+	}
+
+	// Clear *ALL* flags ...
+	MCP2515_Write_Register(CANINTF, 0x00);
+     b28:	01000b04 	movi	r4,44
+     b2c:	000b883a 	mov	r5,zero
+     b30:	00007040 	call	704 <MCP2515_Write_Register>
+
+	return Tick_ID;
+     b34:	e0bfff03 	ldbu	r2,-4(fp)
+}
+     b38:	e037883a 	mov	sp,fp
+     b3c:	dfc00117 	ldw	ra,4(sp)
+     b40:	df000017 	ldw	fp,0(sp)
+     b44:	dec00204 	addi	sp,sp,8
+     b48:	f800283a 	ret
+
+00000b4c <SCC_A_SLAVE_Send_Ack_Message_To_Master>:
+
+  NOTE: Data transfer between slaves is NOT permitted!
+
+-*------------------------------------------------------------------*/
+void SCC_A_SLAVE_Send_Ack_Message_To_Master(void)
+{
+     b4c:	defffe04 	addi	sp,sp,-8
+     b50:	dfc00115 	stw	ra,4(sp)
+     b54:	df000015 	stw	fp,0(sp)
+     b58:	d839883a 	mov	fp,sp
+
+
+	// Prepare Ack message for transmission to Master
+
+	// First byte of message must be slave ID
+	MCP2515_Write_Register(TXBnDm(0,0), SLAVE_ID);
+     b5c:	01000d84 	movi	r4,54
+     b60:	01400084 	movi	r5,2
+     b64:	00007040 	call	704 <MCP2515_Write_Register>
+
+	// Now the data
+	MCP2515_Write_Register(TXBnDm(0,1) , Ack_message_data_G);
+     b68:	00800034 	movhi	r2,0
+     b6c:	10870904 	addi	r2,r2,7204
+     b70:	10800003 	ldbu	r2,0(r2)
+     b74:	10803fcc 	andi	r2,r2,255
+     b78:	01000dc4 	movi	r4,55
+     b7c:	100b883a 	mov	r5,r2
+     b80:	00007040 	call	704 <MCP2515_Write_Register>
+
+	/* Send RTS_TXB0_INSTRUCTION Instruction */
+	MCP2515_RTS_TXB_Instruction_CMD(RTS_INSTRUCTION_TXB0);
+     b84:	01002044 	movi	r4,129
+     b88:	00007940 	call	794 <MCP2515_RTS_TXB_Instruction_CMD>
+
+}
+     b8c:	e037883a 	mov	sp,fp
+     b90:	dfc00117 	ldw	ra,4(sp)
+     b94:	df000017 	ldw	fp,0(sp)
+     b98:	dec00204 	addi	sp,sp,8
+     b9c:	f800283a 	ret
+
+00000ba0 <alt_main>:
+
+/* ............................................................... */
+/* ............................................................... */
+
+void alt_main(void)
+   {
+     ba0:	defffe04 	addi	sp,sp,-8
+     ba4:	dfc00115 	stw	ra,4(sp)
+     ba8:	df000015 	stw	fp,0(sp)
+     bac:	d839883a 	mov	fp,sp
+
+   // Set up the scheduler
+   SCH_Init_T0();
+     bb0:	00007fc0 	call	7fc <SCH_Init_T0>
+
+   // Prepare for the 'Flash_LED' task
+   PushButton_Init();
+     bb4:	0000fe00 	call	fe0 <PushButton_Init>
+   LED_ONOFF_Init();
+     bb8:	0000f6c0 	call	f6c <LED_ONOFF_Init>
+   HEARTBEAT_Init();
+     bbc:	0000f200 	call	f20 <HEARTBEAT_Init>
+
+   // Set up for Shared Memory in dual processors
+   SharedMem_Init();
+     bc0:	00010840 	call	1084 <SharedMem_Init>
+
+   // Add the 'Flash LED' task (on for ~1000 ms, off for ~1000 ms)
+   // - timings are in ticks (50 ms tick interval)
+   // (Max interval / delay is 65535 ticks)
+   SCH_Add_Task(SharedMem_Update, 1, 100);
+     bc4:	01000034 	movhi	r4,0
+     bc8:	21043104 	addi	r4,r4,4292
+     bcc:	01400044 	movi	r5,1
+     bd0:	01801904 	movi	r6,100
+     bd4:	0000d100 	call	d10 <SCH_Add_Task>
+   SCH_Add_Task(PushButton_Update, 2, 10);
+     bd8:	01000034 	movhi	r4,0
+     bdc:	2103ff04 	addi	r4,r4,4092
+     be0:	01400084 	movi	r5,2
+     be4:	01800284 	movi	r6,10
+     be8:	0000d100 	call	d10 <SCH_Add_Task>
+   SCH_Add_Task(LED_ONOFF_Update, 5, 100);
+     bec:	01000034 	movhi	r4,0
+     bf0:	2103e204 	addi	r4,r4,3976
+     bf4:	01400144 	movi	r5,5
+     bf8:	01801904 	movi	r6,100
+     bfc:	0000d100 	call	d10 <SCH_Add_Task>
+   SCH_Add_Task(HEARTBEAT_Update, 0, 100);
+     c00:	01000034 	movhi	r4,0
+     c04:	2103cf04 	addi	r4,r4,3900
+     c08:	000b883a 	mov	r5,zero
+     c0c:	01801904 	movi	r6,100
+     c10:	0000d100 	call	d10 <SCH_Add_Task>
+
+   // Start the scheduler
+   SCH_Start();
+     c14:	00008840 	call	884 <SCH_Start>
+
+   while(1)
+      {
+
+      SCH_Dispatch_Tasks();
+     c18:	0000c200 	call	c20 <SCH_Dispatch_Tasks>
+      }
+     c1c:	003ffe06 	br	c18 <alt_main+0x78>
+
+00000c20 <SCH_Dispatch_Tasks>:
+  is due to run, SCH_Dispatch_Tasks() will run it.
+  This function must be called (repeatedly) from the main loop.
+
+-*------------------------------------------------------------------*/
+void SCH_Dispatch_Tasks(void) 
+   {
+     c20:	defffd04 	addi	sp,sp,-12
+     c24:	dfc00215 	stw	ra,8(sp)
+     c28:	df000115 	stw	fp,4(sp)
+     c2c:	df000104 	addi	fp,sp,4
+   tByte Index;
+
+   // Dispatches (runs) the next task (if one is ready)
+   for (Index = 0; Index < SCH_MAX_TASKS; Index++)
+     c30:	e03fff05 	stb	zero,-4(fp)
+     c34:	00002d06 	br	cec <SCH_Dispatch_Tasks+0xcc>
+      {
+      if (SCH_tasks_G[Index].RunMe > 0) 
+     c38:	e0bfff03 	ldbu	r2,-4(fp)
+     c3c:	00c00034 	movhi	r3,0
+     c40:	18c72904 	addi	r3,r3,7332
+     c44:	1004913a 	slli	r2,r2,4
+     c48:	1885883a 	add	r2,r3,r2
+     c4c:	10800304 	addi	r2,r2,12
+     c50:	10800003 	ldbu	r2,0(r2)
+     c54:	10803fcc 	andi	r2,r2,255
+     c58:	10002126 	beq	r2,zero,ce0 <SCH_Dispatch_Tasks+0xc0>
+         {
+         (*SCH_tasks_G[Index].pTask)();  // Run the task
+     c5c:	e0bfff03 	ldbu	r2,-4(fp)
+     c60:	00c00034 	movhi	r3,0
+     c64:	18c72904 	addi	r3,r3,7332
+     c68:	1004913a 	slli	r2,r2,4
+     c6c:	1885883a 	add	r2,r3,r2
+     c70:	10800017 	ldw	r2,0(r2)
+     c74:	103ee83a 	callr	r2
+
+         SCH_tasks_G[Index].RunMe -= 1;   // Reset / reduce RunMe flag
+     c78:	e0bfff03 	ldbu	r2,-4(fp)
+     c7c:	e0ffff03 	ldbu	r3,-4(fp)
+     c80:	01000034 	movhi	r4,0
+     c84:	21072904 	addi	r4,r4,7332
+     c88:	1806913a 	slli	r3,r3,4
+     c8c:	20c7883a 	add	r3,r4,r3
+     c90:	18c00304 	addi	r3,r3,12
+     c94:	18c00003 	ldbu	r3,0(r3)
+     c98:	18ffffc4 	addi	r3,r3,-1
+     c9c:	01000034 	movhi	r4,0
+     ca0:	21072904 	addi	r4,r4,7332
+     ca4:	1004913a 	slli	r2,r2,4
+     ca8:	2085883a 	add	r2,r4,r2
+     cac:	10800304 	addi	r2,r2,12
+     cb0:	10c00005 	stb	r3,0(r2)
+
+         // Periodic tasks will automatically run again
+         // - if this is a 'one shot' task, remove it from the array
+         if (SCH_tasks_G[Index].Period == 0)
+     cb4:	e0bfff03 	ldbu	r2,-4(fp)
+     cb8:	00c00034 	movhi	r3,0
+     cbc:	18c72904 	addi	r3,r3,7332
+     cc0:	1004913a 	slli	r2,r2,4
+     cc4:	1885883a 	add	r2,r3,r2
+     cc8:	10800204 	addi	r2,r2,8
+     ccc:	10800017 	ldw	r2,0(r2)
+     cd0:	1000031e 	bne	r2,zero,ce0 <SCH_Dispatch_Tasks+0xc0>
+            {
+            SCH_Delete_Task(Index);
+     cd4:	e0bfff03 	ldbu	r2,-4(fp)
+     cd8:	1009883a 	mov	r4,r2
+     cdc:	0000e200 	call	e20 <SCH_Delete_Task>
+void SCH_Dispatch_Tasks(void) 
+   {
+   tByte Index;
+
+   // Dispatches (runs) the next task (if one is ready)
+   for (Index = 0; Index < SCH_MAX_TASKS; Index++)
+     ce0:	e0bfff03 	ldbu	r2,-4(fp)
+     ce4:	10800044 	addi	r2,r2,1
+     ce8:	e0bfff05 	stb	r2,-4(fp)
+     cec:	e0bfff03 	ldbu	r2,-4(fp)
+     cf0:	10800130 	cmpltui	r2,r2,4
+     cf4:	103fd01e 	bne	r2,zero,c38 <SCH_Dispatch_Tasks+0x18>
+
+   // Report system status
+  // SCH_Report_Status();
+
+   // The scheduler enters idle mode at this point 
+   SCH_Go_To_Sleep();          
+     cf8:	0000f040 	call	f04 <SCH_Go_To_Sleep>
+   }
+     cfc:	e037883a 	mov	sp,fp
+     d00:	dfc00117 	ldw	ra,4(sp)
+     d04:	df000017 	ldw	fp,0(sp)
+     d08:	dec00204 	addi	sp,sp,8
+     d0c:	f800283a 	ret
+
+00000d10 <SCH_Add_Task>:
+ 
+-*------------------------------------------------------------------*/
+tByte SCH_Add_Task(void (* pFunction)(),
+                   const tWord DELAY, 
+                   const tWord PERIOD)    
+   {
+     d10:	defffb04 	addi	sp,sp,-20
+     d14:	df000415 	stw	fp,16(sp)
+     d18:	df000404 	addi	fp,sp,16
+     d1c:	e13ffd15 	stw	r4,-12(fp)
+     d20:	e17ffe15 	stw	r5,-8(fp)
+     d24:	e1bfff15 	stw	r6,-4(fp)
+   tByte Index = 0;
+     d28:	e03ffc05 	stb	zero,-16(fp)
+
+   // First find a gap in the array (if there is one)
+   while ((SCH_tasks_G[Index].pTask != 0) && (Index < SCH_MAX_TASKS))
+     d2c:	00000306 	br	d3c <SCH_Add_Task+0x2c>
+      {
+      Index++;
+     d30:	e0bffc03 	ldbu	r2,-16(fp)
+     d34:	10800044 	addi	r2,r2,1
+     d38:	e0bffc05 	stb	r2,-16(fp)
+                   const tWord PERIOD)    
+   {
+   tByte Index = 0;
+
+   // First find a gap in the array (if there is one)
+   while ((SCH_tasks_G[Index].pTask != 0) && (Index < SCH_MAX_TASKS))
+     d3c:	e0bffc03 	ldbu	r2,-16(fp)
+     d40:	00c00034 	movhi	r3,0
+     d44:	18c72904 	addi	r3,r3,7332
+     d48:	1004913a 	slli	r2,r2,4
+     d4c:	1885883a 	add	r2,r3,r2
+     d50:	10800017 	ldw	r2,0(r2)
+     d54:	10000326 	beq	r2,zero,d64 <SCH_Add_Task+0x54>
+     d58:	e0bffc03 	ldbu	r2,-16(fp)
+     d5c:	10800130 	cmpltui	r2,r2,4
+     d60:	103ff31e 	bne	r2,zero,d30 <SCH_Add_Task+0x20>
+      {
+      Index++;
+      } 
+   
+   // Have we reached the end of the list?   
+   if (Index == SCH_MAX_TASKS)
+     d64:	e0bffc03 	ldbu	r2,-16(fp)
+     d68:	10800118 	cmpnei	r2,r2,4
+     d6c:	1000091e 	bne	r2,zero,d94 <SCH_Add_Task+0x84>
+      {
+	   IOWR_ALTERA_AVALON_PIO_DATA(TEST0_PORT,IORD_ALTERA_AVALON_PIO_DATA(TEST0_PORT)^ TEST0_pin);
+     d70:	00a52814 	movui	r2,38048
+     d74:	10800037 	ldwio	r2,0(r2)
+     d78:	10c0005c 	xori	r3,r2,1
+     d7c:	00a52814 	movui	r2,38048
+     d80:	10c00035 	stwio	r3,0(r2)
+      // Task list is full
+      //
+      // Set the global error variable
+      Error_code_G = ERROR_SCH_TOO_MANY_TASKS;
+     d84:	00800044 	movi	r2,1
+     d88:	d0a00b05 	stb	r2,-32724(gp)
+
+      // Also return an error code
+      return SCH_MAX_TASKS;  
+     d8c:	00800104 	movi	r2,4
+     d90:	00001f06 	br	e10 <SCH_Add_Task+0x100>
+      }
+      
+   // If we're here, there is a space in the task array
+   SCH_tasks_G[Index].pTask  = pFunction;
+     d94:	e0bffc03 	ldbu	r2,-16(fp)
+     d98:	00c00034 	movhi	r3,0
+     d9c:	18c72904 	addi	r3,r3,7332
+     da0:	1004913a 	slli	r2,r2,4
+     da4:	1885883a 	add	r2,r3,r2
+     da8:	e0fffd17 	ldw	r3,-12(fp)
+     dac:	10c00015 	stw	r3,0(r2)
+     
+   SCH_tasks_G[Index].Delay  = DELAY;
+     db0:	e0bffc03 	ldbu	r2,-16(fp)
+     db4:	00c00034 	movhi	r3,0
+     db8:	18c72904 	addi	r3,r3,7332
+     dbc:	1004913a 	slli	r2,r2,4
+     dc0:	1885883a 	add	r2,r3,r2
+     dc4:	10800104 	addi	r2,r2,4
+     dc8:	e0fffe17 	ldw	r3,-8(fp)
+     dcc:	10c00015 	stw	r3,0(r2)
+   SCH_tasks_G[Index].Period = PERIOD;
+     dd0:	e0bffc03 	ldbu	r2,-16(fp)
+     dd4:	00c00034 	movhi	r3,0
+     dd8:	18c72904 	addi	r3,r3,7332
+     ddc:	1004913a 	slli	r2,r2,4
+     de0:	1885883a 	add	r2,r3,r2
+     de4:	10800204 	addi	r2,r2,8
+     de8:	e0ffff17 	ldw	r3,-4(fp)
+     dec:	10c00015 	stw	r3,0(r2)
+
+   SCH_tasks_G[Index].RunMe  = 0;
+     df0:	e0bffc03 	ldbu	r2,-16(fp)
+     df4:	00c00034 	movhi	r3,0
+     df8:	18c72904 	addi	r3,r3,7332
+     dfc:	1004913a 	slli	r2,r2,4
+     e00:	1885883a 	add	r2,r3,r2
+     e04:	10800304 	addi	r2,r2,12
+     e08:	10000005 	stb	zero,0(r2)
+
+   return Index; // return position of task (to allow later deletion)
+     e0c:	e0bffc03 	ldbu	r2,-16(fp)
+   }
+     e10:	e037883a 	mov	sp,fp
+     e14:	df000017 	ldw	fp,0(sp)
+     e18:	dec00104 	addi	sp,sp,4
+     e1c:	f800283a 	ret
+
+00000e20 <SCH_Delete_Task>:
+
+  RETURN VALUE:  RETURN_ERROR or RETURN_NORMAL
+
+-*------------------------------------------------------------------*/
+tByte SCH_Delete_Task(const tByte TASK_INDEX)
+   {
+     e20:	defffd04 	addi	sp,sp,-12
+     e24:	df000215 	stw	fp,8(sp)
+     e28:	df000204 	addi	fp,sp,8
+     e2c:	2005883a 	mov	r2,r4
+     e30:	e0bfff05 	stb	r2,-4(fp)
+	tByte Return_code;
+
+   if (SCH_tasks_G[TASK_INDEX].pTask == 0)
+     e34:	e0bfff03 	ldbu	r2,-4(fp)
+     e38:	00c00034 	movhi	r3,0
+     e3c:	18c72904 	addi	r3,r3,7332
+     e40:	1004913a 	slli	r2,r2,4
+     e44:	1885883a 	add	r2,r3,r2
+     e48:	10800017 	ldw	r2,0(r2)
+     e4c:	1000051e 	bne	r2,zero,e64 <SCH_Delete_Task+0x44>
+      {
+      // No task at this location...
+      //
+      // Set the global error variable
+      Error_code_G = ERROR_SCH_CANNOT_DELETE_TASK;
+     e50:	00800084 	movi	r2,2
+     e54:	d0a00b05 	stb	r2,-32724(gp)
+
+      // ...also return an error code
+      Return_code = RETURN_ERROR;
+     e58:	00800044 	movi	r2,1
+     e5c:	e0bffe05 	stb	r2,-8(fp)
+     e60:	00000106 	br	e68 <SCH_Delete_Task+0x48>
+      }
+   else
+      {
+      Return_code = RETURN_NORMAL;
+     e64:	e03ffe05 	stb	zero,-8(fp)
+      }      
+   
+   SCH_tasks_G[TASK_INDEX].pTask   = 0x0000;
+     e68:	e0bfff03 	ldbu	r2,-4(fp)
+     e6c:	00c00034 	movhi	r3,0
+     e70:	18c72904 	addi	r3,r3,7332
+     e74:	1004913a 	slli	r2,r2,4
+     e78:	1885883a 	add	r2,r3,r2
+     e7c:	10000015 	stw	zero,0(r2)
+   SCH_tasks_G[TASK_INDEX].Delay   = 0;
+     e80:	e0bfff03 	ldbu	r2,-4(fp)
+     e84:	00c00034 	movhi	r3,0
+     e88:	18c72904 	addi	r3,r3,7332
+     e8c:	1004913a 	slli	r2,r2,4
+     e90:	1885883a 	add	r2,r3,r2
+     e94:	10800104 	addi	r2,r2,4
+     e98:	10000015 	stw	zero,0(r2)
+   SCH_tasks_G[TASK_INDEX].Period  = 0;
+     e9c:	e0bfff03 	ldbu	r2,-4(fp)
+     ea0:	00c00034 	movhi	r3,0
+     ea4:	18c72904 	addi	r3,r3,7332
+     ea8:	1004913a 	slli	r2,r2,4
+     eac:	1885883a 	add	r2,r3,r2
+     eb0:	10800204 	addi	r2,r2,8
+     eb4:	10000015 	stw	zero,0(r2)
+
+   SCH_tasks_G[TASK_INDEX].RunMe   = 0;
+     eb8:	e0bfff03 	ldbu	r2,-4(fp)
+     ebc:	00c00034 	movhi	r3,0
+     ec0:	18c72904 	addi	r3,r3,7332
+     ec4:	1004913a 	slli	r2,r2,4
+     ec8:	1885883a 	add	r2,r3,r2
+     ecc:	10800304 	addi	r2,r2,12
+     ed0:	10000005 	stb	zero,0(r2)
+
+   return Return_code;       // return status
+     ed4:	e0bffe03 	ldbu	r2,-8(fp)
+   }
+     ed8:	e037883a 	mov	sp,fp
+     edc:	df000017 	ldw	fp,0(sp)
+     ee0:	dec00104 	addi	sp,sp,4
+     ee4:	f800283a 	ret
+
+00000ee8 <SCH_Report_Status>:
+
+  See Chapter 10 for further information.
+
+-*------------------------------------------------------------------*/
+void SCH_Report_Status(void)
+   {
+     ee8:	deffff04 	addi	sp,sp,-4
+     eec:	df000015 	stw	fp,0(sp)
+     ef0:	d839883a 	mov	fp,sp
+            Error_code_G = 0; // Reset error code
+            }
+         }
+      }
+#endif
+   }
+     ef4:	e037883a 	mov	sp,fp
+     ef8:	df000017 	ldw	fp,0(sp)
+     efc:	dec00104 	addi	sp,sp,4
+     f00:	f800283a 	ret
+
+00000f04 <SCH_Go_To_Sleep>:
+
+  *** ADAPT AS REQUIRED FOR YOUR HARDWARE ***
+
+-*------------------------------------------------------------------*/
+void SCH_Go_To_Sleep()
+   {
+     f04:	deffff04 	addi	sp,sp,-4
+     f08:	df000015 	stw	fp,0(sp)
+     f0c:	d839883a 	mov	fp,sp
+   // Do nothing
+   }
+     f10:	e037883a 	mov	sp,fp
+     f14:	df000017 	ldw	fp,0(sp)
+     f18:	dec00104 	addi	sp,sp,4
+     f1c:	f800283a 	ret
+
+00000f20 <HEARTBEAT_Init>:
+
+  - See below.
+
+-*------------------------------------------------------------------*/
+void HEARTBEAT_Init(void)
+   {
+     f20:	deffff04 	addi	sp,sp,-4
+     f24:	df000015 	stw	fp,0(sp)
+     f28:	d839883a 	mov	fp,sp
+//	Tick_message_data_G = 1;
+   // Do nothing
+   }
+     f2c:	e037883a 	mov	sp,fp
+     f30:	df000017 	ldw	fp,0(sp)
+     f34:	dec00104 	addi	sp,sp,4
+     f38:	f800283a 	ret
+
+00000f3c <HEARTBEAT_Update>:
+  flash (on for 0.5 seconds, off for 0.5 seconds) must schedule
+  at 2 Hz.
+
+-*------------------------------------------------------------------*/
+void HEARTBEAT_Update(void)
+   {
+     f3c:	deffff04 	addi	sp,sp,-4
+     f40:	df000015 	stw	fp,0(sp)
+     f44:	d839883a 	mov	fp,sp
+   // Change the LED from OFF to ON (or vice versa)
+   IOWR_ALTERA_AVALON_PIO_DATA(LED_BASE2,
+     f48:	00a80014 	movui	r2,40960
+     f4c:	10800037 	ldwio	r2,0(r2)
+     f50:	10c0005c 	xori	r3,r2,1
+     f54:	00a80014 	movui	r2,40960
+     f58:	10c00035 	stwio	r3,0(r2)
+         IORD_ALTERA_AVALON_PIO_DATA(LED_BASE2) ^ LED0_pin);
+
+   }
+     f5c:	e037883a 	mov	sp,fp
+     f60:	df000017 	ldw	fp,0(sp)
+     f64:	dec00104 	addi	sp,sp,4
+     f68:	f800283a 	ret
+
+00000f6c <LED_ONOFF_Init>:
+
+  - See below.
+
+-*------------------------------------------------------------------*/
+void LED_ONOFF_Init(void)
+   {
+     f6c:	deffff04 	addi	sp,sp,-4
+     f70:	df000015 	stw	fp,0(sp)
+     f74:	d839883a 	mov	fp,sp
+   // Do nothing
+   }
+     f78:	e037883a 	mov	sp,fp
+     f7c:	df000017 	ldw	fp,0(sp)
+     f80:	dec00104 	addi	sp,sp,4
+     f84:	f800283a 	ret
+
+00000f88 <LED_ONOFF_Update>:
+  flash (on for 0.5 seconds, off for 0.5 seconds) must schedule
+  at 2 Hz.
+
+-*------------------------------------------------------------------*/
+void LED_ONOFF_Update(void)
+   {
+     f88:	deffff04 	addi	sp,sp,-4
+     f8c:	df000015 	stw	fp,0(sp)
+     f90:	d839883a 	mov	fp,sp
+
+	if (Tick_message_data_G[0] == 0x03)
+     f94:	00800034 	movhi	r2,0
+     f98:	10870304 	addi	r2,r2,7180
+     f9c:	10800003 	ldbu	r2,0(r2)
+     fa0:	10803fcc 	andi	r2,r2,255
+     fa4:	108000d8 	cmpnei	r2,r2,3
+     fa8:	1000061e 	bne	r2,zero,fc4 <LED_ONOFF_Update+0x3c>
+		{
+		// Change the LED from OFF to ON (or vice versa)
+		IOWR_ALTERA_AVALON_PIO_DATA(LED_BASE1,
+     fac:	00a51c14 	movui	r2,38000
+     fb0:	10800037 	ldwio	r2,0(r2)
+     fb4:	10c0005c 	xori	r3,r2,1
+     fb8:	00a51c14 	movui	r2,38000
+     fbc:	10c00035 	stwio	r3,0(r2)
+     fc0:	00000306 	br	fd0 <LED_ONOFF_Update+0x48>
+									IORD_ALTERA_AVALON_PIO_DATA(LED_BASE1) ^ LED0_pin);
+		}
+	else
+	{
+		// Change the LED from OFF to ON (or vice versa)
+		IOWR_ALTERA_AVALON_PIO_DATA(LED_BASE1, 0);
+     fc4:	0007883a 	mov	r3,zero
+     fc8:	00a51c14 	movui	r2,38000
+     fcc:	10c00035 	stwio	r3,0(r2)
+	}
+
+   }
+     fd0:	e037883a 	mov	sp,fp
+     fd4:	df000017 	ldw	fp,0(sp)
+     fd8:	dec00104 	addi	sp,sp,4
+     fdc:	f800283a 	ret
+
+00000fe0 <PushButton_Init>:
+
+  - See below.
+
+-*------------------------------------------------------------------*/
+void PushButton_Init(void)
+   {
+     fe0:	deffff04 	addi	sp,sp,-4
+     fe4:	df000015 	stw	fp,0(sp)
+     fe8:	d839883a 	mov	fp,sp
+   // Do nothing
+   }
+     fec:	e037883a 	mov	sp,fp
+     ff0:	df000017 	ldw	fp,0(sp)
+     ff4:	dec00104 	addi	sp,sp,4
+     ff8:	f800283a 	ret
+
+00000ffc <PushButton_Update>:
+
+  LED_Flash_Update()
+
+-*------------------------------------------------------------------*/
+void PushButton_Update(void)
+   {
+     ffc:	deffff04 	addi	sp,sp,-4
+    1000:	df000015 	stw	fp,0(sp)
+    1004:	d839883a 	mov	fp,sp
+//         IORD_ALTERA_AVALON_PIO_DATA(LED_BASE) ^ LED_pin);
+		 
+   static unsigned int Duration;
+
+   // Read "reset count" switch input (pb0)
+   pb0_input = IORD_ALTERA_AVALON_PIO_DATA(KEY0_BASE);
+    1008:	00a51414 	movui	r2,37968
+    100c:	10800037 	ldwio	r2,0(r2)
+    1010:	d0a00d05 	stb	r2,-32716(gp)
+   
+   if (pb0_input == SW_PRESSED)
+    1014:	d0a00d03 	ldbu	r2,-32716(gp)
+    1018:	10803fcc 	andi	r2,r2,255
+    101c:	1000111e 	bne	r2,zero,1064 <PushButton_Update+0x68>
+      {
+      Duration += 1;
+    1020:	d0a00e17 	ldw	r2,-32712(gp)
+    1024:	10800044 	addi	r2,r2,1
+    1028:	d0a00e15 	stw	r2,-32712(gp)
+
+      if (Duration > SW_THRES)
+    102c:	d0a00e17 	ldw	r2,-32712(gp)
+    1030:	10800130 	cmpltui	r2,r2,4
+    1034:	1000071e 	bne	r2,zero,1054 <PushButton_Update+0x58>
+         {
+         Duration = SW_THRES;
+    1038:	008000c4 	movi	r2,3
+    103c:	d0a00e15 	stw	r2,-32712(gp)
+
+         Sw_pressed_G = 1;  // Switch is pressed...
+    1040:	00800044 	movi	r2,1
+    1044:	d0a00c15 	stw	r2,-32720(gp)
+         Ack_message_data_G = 0xAA;
+    1048:	00bfea84 	movi	r2,-86
+    104c:	d0a00f05 	stb	r2,-32708(gp)
+         return;
+    1050:	00000806 	br	1074 <PushButton_Update+0x78>
+         }
+
+      // Switch pressed, but not yet for long enough
+      Sw_pressed_G = 0;
+    1054:	d0200c15 	stw	zero,-32720(gp)
+      Ack_message_data_G = 'C';
+    1058:	008010c4 	movi	r2,67
+    105c:	d0a00f05 	stb	r2,-32708(gp)
+      return; 
+    1060:	00000406 	br	1074 <PushButton_Update+0x78>
+      }
+    
+   // Switch not pressed - reset the count
+   Duration = 0;
+    1064:	d0200e15 	stw	zero,-32712(gp)
+   Sw_pressed_G = 0;  // Switch not pressed...
+    1068:	d0200c15 	stw	zero,-32720(gp)
+   Ack_message_data_G = 'C';
+    106c:	008010c4 	movi	r2,67
+    1070:	d0a00f05 	stb	r2,-32708(gp)
+		 
+   }
+    1074:	e037883a 	mov	sp,fp
+    1078:	df000017 	ldw	fp,0(sp)
+    107c:	dec00104 	addi	sp,sp,4
+    1080:	f800283a 	ret
+
+00001084 <SharedMem_Init>:
+
+  - See below.
+
+-*------------------------------------------------------------------*/
+void SharedMem_Init(void)
+   {
+    1084:	defffe04 	addi	sp,sp,-8
+    1088:	dfc00115 	stw	ra,4(sp)
+    108c:	df000015 	stw	fp,0(sp)
+    1090:	d839883a 	mov	fp,sp
+
+	// Get the CPU ID
+	cpu_id = ALT_CPU_CPU_ID_VALUE;
+    1094:	d0201015 	stw	zero,-32704(gp)
+
+	// Initialise the message buffer location
+	message = (message_buffer_struct*)MESSAGE_BUFFER_BASE;
+    1098:	00a40014 	movui	r2,36864
+    109c:	d0a01115 	stw	r2,-32700(gp)
+
+	// Open the real mutex to share a message buffer which is shared by TT_Core and ET_Core.
+	mutex = altera_avalon_mutex_open(MSG_BUF_MUTEX_NAME);
+    10a0:	01000034 	movhi	r4,0
+    10a4:	2106f504 	addi	r4,r4,7124
+    10a8:	00015f40 	call	15f4 <altera_avalon_mutex_open>
+    10ac:	d0a01315 	stw	r2,-32692(gp)
+
+   }
+    10b0:	e037883a 	mov	sp,fp
+    10b4:	dfc00117 	ldw	ra,4(sp)
+    10b8:	df000017 	ldw	fp,0(sp)
+    10bc:	dec00204 	addi	sp,sp,8
+    10c0:	f800283a 	ret
+
+000010c4 <SharedMem_Update>:
+  flash (on for 0.5 seconds, off for 0.5 seconds) must schedule
+  at 2 Hz.
+
+-*------------------------------------------------------------------*/
+void SharedMem_Update(void)
+   {
+    10c4:	defffe04 	addi	sp,sp,-8
+    10c8:	dfc00115 	stw	ra,4(sp)
+    10cc:	df000015 	stw	fp,0(sp)
+    10d0:	d839883a 	mov	fp,sp
+
+		// Try and acquire the mutex (non-blocking).
+		if(altera_avalon_mutex_trylock(mutex, cpu_id) == LOCK_SUCCESS)
+    10d4:	d0e01317 	ldw	r3,-32692(gp)
+    10d8:	d0a01017 	ldw	r2,-32704(gp)
+    10dc:	1809883a 	mov	r4,r3
+    10e0:	100b883a 	mov	r5,r2
+    10e4:	00016a80 	call	16a8 <altera_avalon_mutex_trylock>
+    10e8:	1000181e 	bne	r2,zero,114c <SharedMem_Update+0x88>
+		{
+			// Check if the message buffer is empty
+			if(message->flag == NO_MESSAGE)
+    10ec:	d0a01117 	ldw	r2,-32700(gp)
+    10f0:	10800003 	ldbu	r2,0(r2)
+    10f4:	10803fcc 	andi	r2,r2,255
+    10f8:	1000101e 	bne	r2,zero,113c <SharedMem_Update+0x78>
+			{
+				message->buf[0] = cpu_id;
+    10fc:	d0a01117 	ldw	r2,-32700(gp)
+    1100:	d0e01017 	ldw	r3,-32704(gp)
+    1104:	10c00045 	stb	r3,1(r2)
+				message->buf[1] = Tick_message_data_G[0];
+    1108:	d0a01117 	ldw	r2,-32700(gp)
+    110c:	00c00034 	movhi	r3,0
+    1110:	18c70304 	addi	r3,r3,7180
+    1114:	18c00003 	ldbu	r3,0(r3)
+    1118:	10c00085 	stb	r3,2(r2)
+				message->buf[2] = Tick_message_data_G[1];
+    111c:	d0a01117 	ldw	r2,-32700(gp)
+    1120:	00c00034 	movhi	r3,0
+    1124:	18c70304 	addi	r3,r3,7180
+    1128:	18c00043 	ldbu	r3,1(r3)
+    112c:	10c000c5 	stb	r3,3(r2)
+				// Set the flag that a message has been put in the buffer.
+				message->flag = MESSAGE_WAITING;
+    1130:	d0a01117 	ldw	r2,-32700(gp)
+    1134:	00c00044 	movi	r3,1
+    1138:	10c00005 	stb	r3,0(r2)
+			}
+			// Release the mutex
+			altera_avalon_mutex_unlock(mutex);
+    113c:	d0a01317 	ldw	r2,-32692(gp)
+    1140:	1009883a 	mov	r4,r2
+    1144:	00016e80 	call	16e8 <altera_avalon_mutex_unlock>
+    1148:	00000506 	br	1160 <SharedMem_Update+0x9c>
+		}
+		else
+		{
+			// Change the LED from OFF to ON (or vice versa)
+			IOWR_ALTERA_AVALON_PIO_DATA(LED_BASE1,
+    114c:	00a51c14 	movui	r2,38000
+    1150:	10800037 	ldwio	r2,0(r2)
+    1154:	10c0009c 	xori	r3,r2,2
+    1158:	00a51c14 	movui	r2,38000
+    115c:	10c00035 	stwio	r3,0(r2)
+										IORD_ALTERA_AVALON_PIO_DATA(LED_BASE1) ^ LED1_pin);
+		}
+
+   }
+    1160:	e037883a 	mov	sp,fp
+    1164:	dfc00117 	ldw	ra,4(sp)
+    1168:	df000017 	ldw	fp,0(sp)
+    116c:	dec00204 	addi	sp,sp,8
+    1170:	f800283a 	ret
+
+00001174 <alt_ic_isr_register>:
+  * @param irq              IRQ number
+  * @return                 0 if successful, else error (-1)
+  */
+int alt_ic_isr_register(alt_u32 ic_id, alt_u32 irq, alt_isr_func isr, 
+  void *isr_context, void *flags)
+{
+    1174:	defff904 	addi	sp,sp,-28
+    1178:	dfc00615 	stw	ra,24(sp)
+    117c:	df000515 	stw	fp,20(sp)
+    1180:	df000504 	addi	fp,sp,20
+    1184:	e13ffc15 	stw	r4,-16(fp)
+    1188:	e17ffd15 	stw	r5,-12(fp)
+    118c:	e1bffe15 	stw	r6,-8(fp)
+    1190:	e1ffff15 	stw	r7,-4(fp)
+    return alt_iic_isr_register(ic_id, irq, isr, isr_context, flags);
+    1194:	e0800217 	ldw	r2,8(fp)
+    1198:	d8800015 	stw	r2,0(sp)
+    119c:	e13ffc17 	ldw	r4,-16(fp)
+    11a0:	e17ffd17 	ldw	r5,-12(fp)
+    11a4:	e1bffe17 	ldw	r6,-8(fp)
+    11a8:	e1ffff17 	ldw	r7,-4(fp)
+    11ac:	000134c0 	call	134c <alt_iic_isr_register>
+}  
+    11b0:	e037883a 	mov	sp,fp
+    11b4:	dfc00117 	ldw	ra,4(sp)
+    11b8:	df000017 	ldw	fp,0(sp)
+    11bc:	dec00204 	addi	sp,sp,8
+    11c0:	f800283a 	ret
+
+000011c4 <alt_ic_irq_enable>:
+  * @param ic_id            Ignored.
+  * @param irq              IRQ number
+  * @return                 0 if successful, else error (-1)
+  */
+int alt_ic_irq_enable (alt_u32 ic_id, alt_u32 irq)
+{
+    11c4:	defff904 	addi	sp,sp,-28
+    11c8:	df000615 	stw	fp,24(sp)
+    11cc:	df000604 	addi	fp,sp,24
+    11d0:	e13ffe15 	stw	r4,-8(fp)
+    11d4:	e17fff15 	stw	r5,-4(fp)
+    11d8:	e0bfff17 	ldw	r2,-4(fp)
+    11dc:	e0bffa15 	stw	r2,-24(fp)
+static ALT_INLINE alt_irq_context ALT_ALWAYS_INLINE 
+       alt_irq_disable_all (void)
+{
+  alt_irq_context context;
+
+  NIOS2_READ_STATUS (context);
+    11e0:	0005303a 	rdctl	r2,status
+    11e4:	e0bffb15 	stw	r2,-20(fp)
+
+  NIOS2_WRITE_STATUS (context & ~NIOS2_STATUS_PIE_MSK);
+    11e8:	e0fffb17 	ldw	r3,-20(fp)
+    11ec:	00bfff84 	movi	r2,-2
+    11f0:	1884703a 	and	r2,r3,r2
+    11f4:	1001703a 	wrctl	status,r2
+  
+  return context;
+    11f8:	e0bffb17 	ldw	r2,-20(fp)
+static ALT_INLINE int ALT_ALWAYS_INLINE alt_irq_enable (alt_u32 id)
+{
+  alt_irq_context  status;
+  extern volatile alt_u32 alt_irq_active;
+
+  status = alt_irq_disable_all ();
+    11fc:	e0bffc15 	stw	r2,-16(fp)
+
+  alt_irq_active |= (1 << id);
+    1200:	e0bffa17 	ldw	r2,-24(fp)
+    1204:	00c00044 	movi	r3,1
+    1208:	1884983a 	sll	r2,r3,r2
+    120c:	1007883a 	mov	r3,r2
+    1210:	00800034 	movhi	r2,0
+    1214:	10870e04 	addi	r2,r2,7224
+    1218:	10800017 	ldw	r2,0(r2)
+    121c:	1886b03a 	or	r3,r3,r2
+    1220:	00800034 	movhi	r2,0
+    1224:	10870e04 	addi	r2,r2,7224
+    1228:	10c00015 	stw	r3,0(r2)
+  NIOS2_WRITE_IENABLE (alt_irq_active);
+    122c:	00800034 	movhi	r2,0
+    1230:	10870e04 	addi	r2,r2,7224
+    1234:	10800017 	ldw	r2,0(r2)
+    1238:	100170fa 	wrctl	ienable,r2
+    123c:	e0bffc17 	ldw	r2,-16(fp)
+    1240:	e0bffd15 	stw	r2,-12(fp)
+  status &= ~NIOS2_STATUS_PIE_MSK;
+  status |= (context & NIOS2_STATUS_PIE_MSK);
+  
+  NIOS2_WRITE_STATUS (status);
+#else
+  NIOS2_WRITE_STATUS (context);
+    1244:	e0bffd17 	ldw	r2,-12(fp)
+    1248:	1001703a 	wrctl	status,r2
+
+  alt_irq_enable_all(status);
+
+  return 0;
+    124c:	0005883a 	mov	r2,zero
+    return alt_irq_enable(irq);
+}
+    1250:	e037883a 	mov	sp,fp
+    1254:	df000017 	ldw	fp,0(sp)
+    1258:	dec00104 	addi	sp,sp,4
+    125c:	f800283a 	ret
+
+00001260 <alt_ic_irq_disable>:
+  * @param ic_id            Ignored.
+  * @param irq              IRQ number
+  * @return                 0 if successful, else error (-1)
+  */
+int alt_ic_irq_disable(alt_u32 ic_id, alt_u32 irq)
+{
+    1260:	defff904 	addi	sp,sp,-28
+    1264:	df000615 	stw	fp,24(sp)
+    1268:	df000604 	addi	fp,sp,24
+    126c:	e13ffe15 	stw	r4,-8(fp)
+    1270:	e17fff15 	stw	r5,-4(fp)
+    1274:	e0bfff17 	ldw	r2,-4(fp)
+    1278:	e0bffa15 	stw	r2,-24(fp)
+static ALT_INLINE alt_irq_context ALT_ALWAYS_INLINE 
+       alt_irq_disable_all (void)
+{
+  alt_irq_context context;
+
+  NIOS2_READ_STATUS (context);
+    127c:	0005303a 	rdctl	r2,status
+    1280:	e0bffb15 	stw	r2,-20(fp)
+
+  NIOS2_WRITE_STATUS (context & ~NIOS2_STATUS_PIE_MSK);
+    1284:	e0fffb17 	ldw	r3,-20(fp)
+    1288:	00bfff84 	movi	r2,-2
+    128c:	1884703a 	and	r2,r3,r2
+    1290:	1001703a 	wrctl	status,r2
+  
+  return context;
+    1294:	e0bffb17 	ldw	r2,-20(fp)
+static ALT_INLINE int ALT_ALWAYS_INLINE alt_irq_disable (alt_u32 id)
+{
+  alt_irq_context  status;
+  extern volatile alt_u32 alt_irq_active;
+
+  status = alt_irq_disable_all ();
+    1298:	e0bffc15 	stw	r2,-16(fp)
+
+  alt_irq_active &= ~(1 << id);
+    129c:	e0bffa17 	ldw	r2,-24(fp)
+    12a0:	00c00044 	movi	r3,1
+    12a4:	1884983a 	sll	r2,r3,r2
+    12a8:	0084303a 	nor	r2,zero,r2
+    12ac:	1007883a 	mov	r3,r2
+    12b0:	00800034 	movhi	r2,0
+    12b4:	10870e04 	addi	r2,r2,7224
+    12b8:	10800017 	ldw	r2,0(r2)
+    12bc:	1886703a 	and	r3,r3,r2
+    12c0:	00800034 	movhi	r2,0
+    12c4:	10870e04 	addi	r2,r2,7224
+    12c8:	10c00015 	stw	r3,0(r2)
+  NIOS2_WRITE_IENABLE (alt_irq_active);
+    12cc:	00800034 	movhi	r2,0
+    12d0:	10870e04 	addi	r2,r2,7224
+    12d4:	10800017 	ldw	r2,0(r2)
+    12d8:	100170fa 	wrctl	ienable,r2
+    12dc:	e0bffc17 	ldw	r2,-16(fp)
+    12e0:	e0bffd15 	stw	r2,-12(fp)
+  status &= ~NIOS2_STATUS_PIE_MSK;
+  status |= (context & NIOS2_STATUS_PIE_MSK);
+  
+  NIOS2_WRITE_STATUS (status);
+#else
+  NIOS2_WRITE_STATUS (context);
+    12e4:	e0bffd17 	ldw	r2,-12(fp)
+    12e8:	1001703a 	wrctl	status,r2
+
+  alt_irq_enable_all(status);
+
+  return 0;
+    12ec:	0005883a 	mov	r2,zero
+    return alt_irq_disable(irq);
+}
+    12f0:	e037883a 	mov	sp,fp
+    12f4:	df000017 	ldw	fp,0(sp)
+    12f8:	dec00104 	addi	sp,sp,4
+    12fc:	f800283a 	ret
+
+00001300 <alt_ic_irq_enabled>:
+  * @param irq              IRQ number
+  * @return                 Zero if corresponding interrupt is disabled and
+  *                         non-zero otherwise.
+  */
+alt_u32 alt_ic_irq_enabled(alt_u32 ic_id, alt_u32 irq)
+{
+    1300:	defffc04 	addi	sp,sp,-16
+    1304:	df000315 	stw	fp,12(sp)
+    1308:	df000304 	addi	fp,sp,12
+    130c:	e13ffe15 	stw	r4,-8(fp)
+    1310:	e17fff15 	stw	r5,-4(fp)
+    alt_u32 irq_enabled;
+
+    NIOS2_READ_IENABLE(irq_enabled);
+    1314:	000530fa 	rdctl	r2,ienable
+    1318:	e0bffd15 	stw	r2,-12(fp)
+
+    return (irq_enabled & (1 << irq)) ? 1: 0;
+    131c:	e0bfff17 	ldw	r2,-4(fp)
+    1320:	00c00044 	movi	r3,1
+    1324:	1884983a 	sll	r2,r3,r2
+    1328:	1007883a 	mov	r3,r2
+    132c:	e0bffd17 	ldw	r2,-12(fp)
+    1330:	1884703a 	and	r2,r3,r2
+    1334:	1004c03a 	cmpne	r2,r2,zero
+    1338:	10803fcc 	andi	r2,r2,255
+}
+    133c:	e037883a 	mov	sp,fp
+    1340:	df000017 	ldw	fp,0(sp)
+    1344:	dec00104 	addi	sp,sp,4
+    1348:	f800283a 	ret
+
+0000134c <alt_iic_isr_register>:
+  * @param flags            
+  * @return                 0 if successful, else error (-1)
+  */
+int alt_iic_isr_register(alt_u32 ic_id, alt_u32 irq, alt_isr_func isr, 
+  void *isr_context, void *flags)
+{
+    134c:	defff504 	addi	sp,sp,-44
+    1350:	dfc00a15 	stw	ra,40(sp)
+    1354:	df000915 	stw	fp,36(sp)
+    1358:	df000904 	addi	fp,sp,36
+    135c:	e13ffc15 	stw	r4,-16(fp)
+    1360:	e17ffd15 	stw	r5,-12(fp)
+    1364:	e1bffe15 	stw	r6,-8(fp)
+    1368:	e1ffff15 	stw	r7,-4(fp)
+  int rc = -EINVAL;  
+    136c:	00bffa84 	movi	r2,-22
+    1370:	e0bff715 	stw	r2,-36(fp)
+  int id = irq;             /* IRQ interpreted as the interrupt ID. */
+    1374:	e0bffd17 	ldw	r2,-12(fp)
+    1378:	e0bff815 	stw	r2,-32(fp)
+  alt_irq_context status;
+
+  if (id < ALT_NIRQ)
+    137c:	e0bff817 	ldw	r2,-32(fp)
+    1380:	10800808 	cmpgei	r2,r2,32
+    1384:	1000271e 	bne	r2,zero,1424 <alt_iic_isr_register+0xd8>
+static ALT_INLINE alt_irq_context ALT_ALWAYS_INLINE 
+       alt_irq_disable_all (void)
+{
+  alt_irq_context context;
+
+  NIOS2_READ_STATUS (context);
+    1388:	0005303a 	rdctl	r2,status
+    138c:	e0bffa15 	stw	r2,-24(fp)
+
+  NIOS2_WRITE_STATUS (context & ~NIOS2_STATUS_PIE_MSK);
+    1390:	e0fffa17 	ldw	r3,-24(fp)
+    1394:	00bfff84 	movi	r2,-2
+    1398:	1884703a 	and	r2,r3,r2
+    139c:	1001703a 	wrctl	status,r2
+  
+  return context;
+    13a0:	e0bffa17 	ldw	r2,-24(fp)
+     * interrupts are disabled while the handler tables are updated to ensure
+     * that an interrupt doesn't occur while the tables are in an inconsistant
+     * state.
+     */
+
+    status = alt_irq_disable_all();
+    13a4:	e0bff915 	stw	r2,-28(fp)
+
+    alt_irq[id].handler = isr;
+    13a8:	00c00034 	movhi	r3,0
+    13ac:	18c73904 	addi	r3,r3,7396
+    13b0:	e0bff817 	ldw	r2,-32(fp)
+    13b4:	100490fa 	slli	r2,r2,3
+    13b8:	1885883a 	add	r2,r3,r2
+    13bc:	e0fffe17 	ldw	r3,-8(fp)
+    13c0:	10c00015 	stw	r3,0(r2)
+    alt_irq[id].context = isr_context;
+    13c4:	00c00034 	movhi	r3,0
+    13c8:	18c73904 	addi	r3,r3,7396
+    13cc:	e0bff817 	ldw	r2,-32(fp)
+    13d0:	100490fa 	slli	r2,r2,3
+    13d4:	1885883a 	add	r2,r3,r2
+    13d8:	10800104 	addi	r2,r2,4
+    13dc:	e0ffff17 	ldw	r3,-4(fp)
+    13e0:	10c00015 	stw	r3,0(r2)
+
+    rc = (isr) ? alt_ic_irq_enable(ic_id, id) : alt_ic_irq_disable(ic_id, id);
+    13e4:	e0bffe17 	ldw	r2,-8(fp)
+    13e8:	10000526 	beq	r2,zero,1400 <alt_iic_isr_register+0xb4>
+    13ec:	e0bff817 	ldw	r2,-32(fp)
+    13f0:	e13ffc17 	ldw	r4,-16(fp)
+    13f4:	100b883a 	mov	r5,r2
+    13f8:	00011c40 	call	11c4 <alt_ic_irq_enable>
+    13fc:	00000406 	br	1410 <alt_iic_isr_register+0xc4>
+    1400:	e0bff817 	ldw	r2,-32(fp)
+    1404:	e13ffc17 	ldw	r4,-16(fp)
+    1408:	100b883a 	mov	r5,r2
+    140c:	00012600 	call	1260 <alt_ic_irq_disable>
+    1410:	e0bff715 	stw	r2,-36(fp)
+    1414:	e0bff917 	ldw	r2,-28(fp)
+    1418:	e0bffb15 	stw	r2,-20(fp)
+  status &= ~NIOS2_STATUS_PIE_MSK;
+  status |= (context & NIOS2_STATUS_PIE_MSK);
+  
+  NIOS2_WRITE_STATUS (status);
+#else
+  NIOS2_WRITE_STATUS (context);
+    141c:	e0bffb17 	ldw	r2,-20(fp)
+    1420:	1001703a 	wrctl	status,r2
+
+    alt_irq_enable_all(status);
+  }
+
+  return rc; 
+    1424:	e0bff717 	ldw	r2,-36(fp)
+}
+    1428:	e037883a 	mov	sp,fp
+    142c:	dfc00117 	ldw	ra,4(sp)
+    1430:	df000017 	ldw	fp,0(sp)
+    1434:	dec00204 	addi	sp,sp,8
+    1438:	f800283a 	ret
+
+0000143c <alt_load_section>:
+ */
+
+static void ALT_INLINE alt_load_section (alt_u32* from, 
+                                         alt_u32* to, 
+                                         alt_u32* end)
+{
+    143c:	defffc04 	addi	sp,sp,-16
+    1440:	df000315 	stw	fp,12(sp)
+    1444:	df000304 	addi	fp,sp,12
+    1448:	e13ffd15 	stw	r4,-12(fp)
+    144c:	e17ffe15 	stw	r5,-8(fp)
+    1450:	e1bfff15 	stw	r6,-4(fp)
+  if (to != from)
+    1454:	e0fffe17 	ldw	r3,-8(fp)
+    1458:	e0bffd17 	ldw	r2,-12(fp)
+    145c:	18800e26 	beq	r3,r2,1498 <alt_load_section+0x5c>
+  {
+    while( to != end )
+    1460:	00000a06 	br	148c <alt_load_section+0x50>
+    {
+      *to++ = *from++;
+    1464:	e0bffd17 	ldw	r2,-12(fp)
+    1468:	10c00017 	ldw	r3,0(r2)
+    146c:	e0bffe17 	ldw	r2,-8(fp)
+    1470:	10c00015 	stw	r3,0(r2)
+    1474:	e0bffe17 	ldw	r2,-8(fp)
+    1478:	10800104 	addi	r2,r2,4
+    147c:	e0bffe15 	stw	r2,-8(fp)
+    1480:	e0bffd17 	ldw	r2,-12(fp)
+    1484:	10800104 	addi	r2,r2,4
+    1488:	e0bffd15 	stw	r2,-12(fp)
+                                         alt_u32* to, 
+                                         alt_u32* end)
+{
+  if (to != from)
+  {
+    while( to != end )
+    148c:	e0fffe17 	ldw	r3,-8(fp)
+    1490:	e0bfff17 	ldw	r2,-4(fp)
+    1494:	18bff31e 	bne	r3,r2,1464 <alt_load_section+0x28>
+    {
+      *to++ = *from++;
+    }
+  }
+}
+    1498:	e037883a 	mov	sp,fp
+    149c:	df000017 	ldw	fp,0(sp)
+    14a0:	dec00104 	addi	sp,sp,4
+    14a4:	f800283a 	ret
+
+000014a8 <alt_load>:
+ * there is no bootloader, so this application is responsible for loading to
+ * RAM any sections that are required.
+ */  
+
+void alt_load (void)
+{
+    14a8:	defffe04 	addi	sp,sp,-8
+    14ac:	dfc00115 	stw	ra,4(sp)
+    14b0:	df000015 	stw	fp,0(sp)
+    14b4:	d839883a 	mov	fp,sp
+  /* 
+   * Copy the .rwdata section. 
+   */
+
+  alt_load_section (&__flash_rwdata_start, 
+    14b8:	01000034 	movhi	r4,0
+    14bc:	2106fe04 	addi	r4,r4,7160
+    14c0:	01400034 	movhi	r5,0
+    14c4:	2946fa04 	addi	r5,r5,7144
+    14c8:	01800034 	movhi	r6,0
+    14cc:	3186fe04 	addi	r6,r6,7160
+    14d0:	000143c0 	call	143c <alt_load_section>
+
+  /*
+   * Copy the exception handler.
+   */
+
+  alt_load_section (&__flash_exceptions_start, 
+    14d4:	01000034 	movhi	r4,0
+    14d8:	21000804 	addi	r4,r4,32
+    14dc:	01400034 	movhi	r5,0
+    14e0:	29400804 	addi	r5,r5,32
+    14e4:	01800034 	movhi	r6,0
+    14e8:	31806e04 	addi	r6,r6,440
+    14ec:	000143c0 	call	143c <alt_load_section>
+
+  /*
+   * Copy the .rodata section.
+   */
+
+  alt_load_section (&__flash_rodata_start, 
+    14f0:	01000034 	movhi	r4,0
+    14f4:	2106f504 	addi	r4,r4,7124
+    14f8:	01400034 	movhi	r5,0
+    14fc:	2946f504 	addi	r5,r5,7124
+    1500:	01800034 	movhi	r6,0
+    1504:	3186fa04 	addi	r6,r6,7144
+    1508:	000143c0 	call	143c <alt_load_section>
+  
+  /*
+   * Now ensure that the caches are in synch.
+   */
+  
+  alt_dcache_flush_all();
+    150c:	0001a040 	call	1a04 <alt_dcache_flush_all>
+  alt_icache_flush_all();
+    1510:	0001ab00 	call	1ab0 <alt_icache_flush_all>
+}
+    1514:	e037883a 	mov	sp,fp
+    1518:	dfc00117 	ldw	ra,4(sp)
+    151c:	df000017 	ldw	fp,0(sp)
+    1520:	dec00204 	addi	sp,sp,8
+    1524:	f800283a 	ret
+
+00001528 <alt_get_errno>:
+#undef errno
+
+extern int errno;
+
+static ALT_INLINE int* alt_get_errno(void)
+{
+    1528:	defffe04 	addi	sp,sp,-8
+    152c:	dfc00115 	stw	ra,4(sp)
+    1530:	df000015 	stw	fp,0(sp)
+    1534:	d839883a 	mov	fp,sp
+  return ((alt_errno) ? alt_errno() : &errno);
+    1538:	00800034 	movhi	r2,0
+    153c:	1086fd04 	addi	r2,r2,7156
+    1540:	10800017 	ldw	r2,0(r2)
+    1544:	10000526 	beq	r2,zero,155c <alt_get_errno+0x34>
+    1548:	00800034 	movhi	r2,0
+    154c:	1086fd04 	addi	r2,r2,7156
+    1550:	10800017 	ldw	r2,0(r2)
+    1554:	103ee83a 	callr	r2
+    1558:	00000206 	br	1564 <alt_get_errno+0x3c>
+    155c:	00800034 	movhi	r2,0
+    1560:	10870f04 	addi	r2,r2,7228
+}
+    1564:	e037883a 	mov	sp,fp
+    1568:	dfc00117 	ldw	ra,4(sp)
+    156c:	df000017 	ldw	fp,0(sp)
+    1570:	dec00204 	addi	sp,sp,8
+    1574:	f800283a 	ret
+
+00001578 <alt_mutex_trylock>:
+ *
+ * returns 0 on success -1 otherwise
+ *
+ */
+static int alt_mutex_trylock( alt_mutex_dev* dev, alt_u32 value )
+{
+    1578:	defff904 	addi	sp,sp,-28
+    157c:	df000615 	stw	fp,24(sp)
+    1580:	df000604 	addi	fp,sp,24
+    1584:	e13ffe15 	stw	r4,-8(fp)
+    1588:	e17fff15 	stw	r5,-4(fp)
+  alt_u32 id, data, check;
+  int ret_code = -1;
+    158c:	00bfffc4 	movi	r2,-1
+    1590:	e0bffa15 	stw	r2,-24(fp)
+
+  NIOS2_READ_CPUID(id);
+    1594:	0005317a 	rdctl	r2,cpuid
+    1598:	e0bffb15 	stw	r2,-20(fp)
+
+  /* the data we want the mutex to hold */
+  data = (id << ALTERA_AVALON_MUTEX_MUTEX_OWNER_OFST) | value;
+    159c:	e0bffb17 	ldw	r2,-20(fp)
+    15a0:	1006943a 	slli	r3,r2,16
+    15a4:	e0bfff17 	ldw	r2,-4(fp)
+    15a8:	1884b03a 	or	r2,r3,r2
+    15ac:	e0bffc15 	stw	r2,-16(fp)
+
+  /* attempt to write to the mutex */
+  IOWR_ALTERA_AVALON_MUTEX_MUTEX(dev->mutex_base, data);
+    15b0:	e0bffe17 	ldw	r2,-8(fp)
+    15b4:	10800317 	ldw	r2,12(r2)
+    15b8:	e0fffc17 	ldw	r3,-16(fp)
+    15bc:	10c00035 	stwio	r3,0(r2)
+  
+  check = IORD_ALTERA_AVALON_MUTEX_MUTEX(dev->mutex_base);
+    15c0:	e0bffe17 	ldw	r2,-8(fp)
+    15c4:	10800317 	ldw	r2,12(r2)
+    15c8:	10800037 	ldwio	r2,0(r2)
+    15cc:	e0bffd15 	stw	r2,-12(fp)
+
+  if ( check == data)
+    15d0:	e0fffd17 	ldw	r3,-12(fp)
+    15d4:	e0bffc17 	ldw	r2,-16(fp)
+    15d8:	1880011e 	bne	r3,r2,15e0 <alt_mutex_trylock+0x68>
+  {
+    ret_code = 0;
+    15dc:	e03ffa15 	stw	zero,-24(fp)
+  }
+
+  return ret_code;
+    15e0:	e0bffa17 	ldw	r2,-24(fp)
+}
+    15e4:	e037883a 	mov	sp,fp
+    15e8:	df000017 	ldw	fp,0(sp)
+    15ec:	dec00104 	addi	sp,sp,4
+    15f0:	f800283a 	ret
+
+000015f4 <altera_avalon_mutex_open>:
+ * Search the list of registered mutexes for one with the supplied name.
+ *
+ * The return value will be NULL on failure, and non-NULL otherwise.
+ */
+alt_mutex_dev* altera_avalon_mutex_open (const char* name)
+{
+    15f4:	defffc04 	addi	sp,sp,-16
+    15f8:	dfc00315 	stw	ra,12(sp)
+    15fc:	df000215 	stw	fp,8(sp)
+    1600:	df000204 	addi	fp,sp,8
+    1604:	e13fff15 	stw	r4,-4(fp)
+  alt_mutex_dev* dev;
+
+  dev = (alt_mutex_dev*) alt_find_dev (name, &alt_mutex_list);
+    1608:	e13fff17 	ldw	r4,-4(fp)
+    160c:	d1600104 	addi	r5,gp,-32764
+    1610:	0001a200 	call	1a20 <alt_find_dev>
+    1614:	e0bffe15 	stw	r2,-8(fp)
+
+  if (NULL == dev)
+    1618:	e0bffe17 	ldw	r2,-8(fp)
+    161c:	1000031e 	bne	r2,zero,162c <altera_avalon_mutex_open+0x38>
+  {
+    ALT_ERRNO = ENODEV;
+    1620:	00015280 	call	1528 <alt_get_errno>
+    1624:	00c004c4 	movi	r3,19
+    1628:	10c00015 	stw	r3,0(r2)
+  }
+
+  return dev;
+    162c:	e0bffe17 	ldw	r2,-8(fp)
+}
+    1630:	e037883a 	mov	sp,fp
+    1634:	dfc00117 	ldw	ra,4(sp)
+    1638:	df000017 	ldw	fp,0(sp)
+    163c:	dec00204 	addi	sp,sp,8
+    1640:	f800283a 	ret
+
+00001644 <altera_avalon_mutex_close>:
+ * altera_avalon_mutex_close - Does nothing at the moment, but included for 
+ * completeness
+ *
+ */
+void altera_avalon_mutex_close (alt_mutex_dev* dev)
+{
+    1644:	defffe04 	addi	sp,sp,-8
+    1648:	df000115 	stw	fp,4(sp)
+    164c:	df000104 	addi	fp,sp,4
+    1650:	e13fff15 	stw	r4,-4(fp)
+  return;
+    1654:	0001883a 	nop
+}
+    1658:	e037883a 	mov	sp,fp
+    165c:	df000017 	ldw	fp,0(sp)
+    1660:	dec00104 	addi	sp,sp,4
+    1664:	f800283a 	ret
+
+00001668 <altera_avalon_mutex_lock>:
+/*
+ * altera_avalon_mutex_lock - Lock the hardware mutex
+ *
+ */
+void altera_avalon_mutex_lock( alt_mutex_dev* dev, alt_u32 value )
+{
+    1668:	defffc04 	addi	sp,sp,-16
+    166c:	dfc00315 	stw	ra,12(sp)
+    1670:	df000215 	stw	fp,8(sp)
+    1674:	df000204 	addi	fp,sp,8
+    1678:	e13ffe15 	stw	r4,-8(fp)
+    167c:	e17fff15 	stw	r5,-4(fp)
+   * semaphore. This ensures that reading from the device is thread-safe.
+   */
+
+  ALT_SEM_PEND (dev->lock, 0);
+
+  while ( alt_mutex_trylock( dev, value ) != 0);
+    1680:	0001883a 	nop
+    1684:	e13ffe17 	ldw	r4,-8(fp)
+    1688:	e17fff17 	ldw	r5,-4(fp)
+    168c:	00015780 	call	1578 <alt_mutex_trylock>
+    1690:	103ffc1e 	bne	r2,zero,1684 <altera_avalon_mutex_lock+0x1c>
+}
+    1694:	e037883a 	mov	sp,fp
+    1698:	dfc00117 	ldw	ra,4(sp)
+    169c:	df000017 	ldw	fp,0(sp)
+    16a0:	dec00204 	addi	sp,sp,8
+    16a4:	f800283a 	ret
+
+000016a8 <altera_avalon_mutex_trylock>:
+ *
+ * returns 0 on success -1 otherwise
+ *
+ */
+int altera_avalon_mutex_trylock( alt_mutex_dev* dev, alt_u32 value )
+{
+    16a8:	defffb04 	addi	sp,sp,-20
+    16ac:	dfc00415 	stw	ra,16(sp)
+    16b0:	df000315 	stw	fp,12(sp)
+    16b4:	df000304 	addi	fp,sp,12
+    16b8:	e13ffe15 	stw	r4,-8(fp)
+    16bc:	e17fff15 	stw	r5,-4(fp)
+  int ret_code;
+
+  ALT_SEM_PEND (dev->lock, 0);
+
+  ret_code = alt_mutex_trylock( dev, value);
+    16c0:	e13ffe17 	ldw	r4,-8(fp)
+    16c4:	e17fff17 	ldw	r5,-4(fp)
+    16c8:	00015780 	call	1578 <alt_mutex_trylock>
+    16cc:	e0bffd15 	stw	r2,-12(fp)
+  if (ret_code)
+  {
+    ALT_SEM_POST (dev->lock);
+  }
+
+  return ret_code;
+    16d0:	e0bffd17 	ldw	r2,-12(fp)
+}
+    16d4:	e037883a 	mov	sp,fp
+    16d8:	dfc00117 	ldw	ra,4(sp)
+    16dc:	df000017 	ldw	fp,0(sp)
+    16e0:	dec00204 	addi	sp,sp,8
+    16e4:	f800283a 	ret
+
+000016e8 <altera_avalon_mutex_unlock>:
+ * This function does not check that you own the Mutex if you try to release
+ * a Mutex you do not own the behaviour is undefined
+ *
+ */
+void altera_avalon_mutex_unlock( alt_mutex_dev* dev )
+{
+    16e8:	defffd04 	addi	sp,sp,-12
+    16ec:	df000215 	stw	fp,8(sp)
+    16f0:	df000204 	addi	fp,sp,8
+    16f4:	e13fff15 	stw	r4,-4(fp)
+  alt_u32 id;
+  NIOS2_READ_CPUID(id);
+    16f8:	0005317a 	rdctl	r2,cpuid
+    16fc:	e0bffe15 	stw	r2,-8(fp)
+
+  /*
+  * This Mutex has been claimed and released since Reset so clear the Reset bit
+  * This MUST happen before we release the MUTEX
+  */
+  IOWR_ALTERA_AVALON_MUTEX_RESET(dev->mutex_base, 
+    1700:	e0bfff17 	ldw	r2,-4(fp)
+    1704:	10800317 	ldw	r2,12(r2)
+    1708:	10800104 	addi	r2,r2,4
+    170c:	00c00044 	movi	r3,1
+    1710:	10c00035 	stwio	r3,0(r2)
+                                  ALTERA_AVALON_MUTEX_RESET_RESET_MSK);
+  IOWR_ALTERA_AVALON_MUTEX_MUTEX(dev->mutex_base, 
+    1714:	e0bfff17 	ldw	r2,-4(fp)
+    1718:	10800317 	ldw	r2,12(r2)
+    171c:	e0fffe17 	ldw	r3,-8(fp)
+    1720:	1806943a 	slli	r3,r3,16
+    1724:	10c00035 	stwio	r3,0(r2)
+
+  /*
+  * Now that access to the hardware Mutex is complete, release the thread lock
+  */
+  ALT_SEM_POST (dev->lock);
+}
+    1728:	e037883a 	mov	sp,fp
+    172c:	df000017 	ldw	fp,0(sp)
+    1730:	dec00104 	addi	sp,sp,4
+    1734:	f800283a 	ret
+
+00001738 <altera_avalon_mutex_is_mine>:
+ * altera_avalon_mutex_is_mine - Do I own the Mutex?
+ *
+ *  returns non zero if the mutex is owned by this CPU
+ */
+int altera_avalon_mutex_is_mine( alt_mutex_dev* dev )
+{
+    1738:	defff904 	addi	sp,sp,-28
+    173c:	df000615 	stw	fp,24(sp)
+    1740:	df000604 	addi	fp,sp,24
+    1744:	e13fff15 	stw	r4,-4(fp)
+  alt_u32 id, data, owner, value;
+  int ret_code = 0;
+    1748:	e03ffa15 	stw	zero,-24(fp)
+
+  NIOS2_READ_CPUID(id);
+    174c:	0005317a 	rdctl	r2,cpuid
+    1750:	e0bffb15 	stw	r2,-20(fp)
+
+  /* retrieve the contents of the mutex */
+  data = IORD_ALTERA_AVALON_MUTEX_MUTEX(dev->mutex_base);
+    1754:	e0bfff17 	ldw	r2,-4(fp)
+    1758:	10800317 	ldw	r2,12(r2)
+    175c:	10800037 	ldwio	r2,0(r2)
+    1760:	e0bffc15 	stw	r2,-16(fp)
+  owner = (data & ALTERA_AVALON_MUTEX_MUTEX_OWNER_MSK) >> 
+    1764:	e0bffc17 	ldw	r2,-16(fp)
+    1768:	1004d43a 	srli	r2,r2,16
+    176c:	e0bffd15 	stw	r2,-12(fp)
+              ALTERA_AVALON_MUTEX_MUTEX_OWNER_OFST;
+
+  if (owner == id) 
+    1770:	e0fffd17 	ldw	r3,-12(fp)
+    1774:	e0bffb17 	ldw	r2,-20(fp)
+    1778:	1880071e 	bne	r3,r2,1798 <altera_avalon_mutex_is_mine+0x60>
+  {
+    value = (data & ALTERA_AVALON_MUTEX_MUTEX_VALUE_MSK) >> 
+    177c:	e0bffc17 	ldw	r2,-16(fp)
+    1780:	10bfffcc 	andi	r2,r2,65535
+    1784:	e0bffe15 	stw	r2,-8(fp)
+                  ALTERA_AVALON_MUTEX_MUTEX_VALUE_OFST;
+    if (value != 0)
+    1788:	e0bffe17 	ldw	r2,-8(fp)
+    178c:	10000226 	beq	r2,zero,1798 <altera_avalon_mutex_is_mine+0x60>
+    {
+      ret_code = 1;
+    1790:	00800044 	movi	r2,1
+    1794:	e0bffa15 	stw	r2,-24(fp)
+    }
+  }
+
+  return ret_code;
+    1798:	e0bffa17 	ldw	r2,-24(fp)
+}
+    179c:	e037883a 	mov	sp,fp
+    17a0:	df000017 	ldw	fp,0(sp)
+    17a4:	dec00104 	addi	sp,sp,4
+    17a8:	f800283a 	ret
+
+000017ac <altera_avalon_mutex_first_lock>:
+ *
+ * Has this Mutex been released since reset if not return 1
+ * otherwise return 0
+ */
+int altera_avalon_mutex_first_lock( alt_mutex_dev* dev )
+{
+    17ac:	defffc04 	addi	sp,sp,-16
+    17b0:	df000315 	stw	fp,12(sp)
+    17b4:	df000304 	addi	fp,sp,12
+    17b8:	e13fff15 	stw	r4,-4(fp)
+  alt_u32 data;
+  int ret_code = 0;
+    17bc:	e03ffd15 	stw	zero,-12(fp)
+
+  data = IORD_ALTERA_AVALON_MUTEX_RESET(dev->mutex_base);
+    17c0:	e0bfff17 	ldw	r2,-4(fp)
+    17c4:	10800317 	ldw	r2,12(r2)
+    17c8:	10800104 	addi	r2,r2,4
+    17cc:	10800037 	ldwio	r2,0(r2)
+    17d0:	e0bffe15 	stw	r2,-8(fp)
+
+  if (data & ALTERA_AVALON_MUTEX_RESET_RESET_MSK) 
+    17d4:	e0bffe17 	ldw	r2,-8(fp)
+    17d8:	1080004c 	andi	r2,r2,1
+    17dc:	10000226 	beq	r2,zero,17e8 <altera_avalon_mutex_first_lock+0x3c>
+  {
+    ret_code = 1;
+    17e0:	00800044 	movi	r2,1
+    17e4:	e0bffd15 	stw	r2,-12(fp)
+  }
+
+  return ret_code;
+    17e8:	e0bffd17 	ldw	r2,-12(fp)
+}
+    17ec:	e037883a 	mov	sp,fp
+    17f0:	df000017 	ldw	fp,0(sp)
+    17f4:	dec00104 	addi	sp,sp,4
+    17f8:	f800283a 	ret
+
+000017fc <alt_avalon_spi_command>:
+
+int alt_avalon_spi_command(alt_u32 base, alt_u32 slave,
+                           alt_u32 write_length, const alt_u8 * write_data,
+                           alt_u32 read_length, alt_u8 * read_data,
+                           alt_u32 flags)
+{
+    17fc:	defff404 	addi	sp,sp,-48
+    1800:	df000b15 	stw	fp,44(sp)
+    1804:	df000b04 	addi	fp,sp,44
+    1808:	e13ffc15 	stw	r4,-16(fp)
+    180c:	e17ffd15 	stw	r5,-12(fp)
+    1810:	e1bffe15 	stw	r6,-8(fp)
+    1814:	e1ffff15 	stw	r7,-4(fp)
+  const alt_u8 * write_end = write_data + write_length;
+    1818:	e0ffff17 	ldw	r3,-4(fp)
+    181c:	e0bffe17 	ldw	r2,-8(fp)
+    1820:	1885883a 	add	r2,r3,r2
+    1824:	e0bff815 	stw	r2,-32(fp)
+  alt_u8 * read_end = read_data + read_length;
+    1828:	e0c00217 	ldw	r3,8(fp)
+    182c:	e0800117 	ldw	r2,4(fp)
+    1830:	1885883a 	add	r2,r3,r2
+    1834:	e0bff915 	stw	r2,-28(fp)
+
+  alt_u32 write_zeros = read_length;
+    1838:	e0800117 	ldw	r2,4(fp)
+    183c:	e0bff515 	stw	r2,-44(fp)
+  alt_u32 read_ignore = write_length;
+    1840:	e0bffe17 	ldw	r2,-8(fp)
+    1844:	e0bff615 	stw	r2,-40(fp)
+
+  /* We must not send more than two bytes to the target before it has
+   * returned any as otherwise it will overflow. */
+  /* Unfortunately the hardware does not seem to work with credits > 1,
+   * leave it at 1 for now. */
+  alt_32 credits = 1;
+    1848:	00800044 	movi	r2,1
+    184c:	e0bff715 	stw	r2,-36(fp)
+  /* Warning: this function is not currently safe if called in a multi-threaded
+   * environment, something above must perform locking to make it safe if more
+   * than one thread intends to use it.
+   */
+
+  IOWR_ALTERA_AVALON_SPI_SLAVE_SEL(base, 1 << slave);
+    1850:	e0bffc17 	ldw	r2,-16(fp)
+    1854:	10800504 	addi	r2,r2,20
+    1858:	e0fffd17 	ldw	r3,-12(fp)
+    185c:	01000044 	movi	r4,1
+    1860:	20c6983a 	sll	r3,r4,r3
+    1864:	10c00035 	stwio	r3,0(r2)
+  
+  /* Set the SSO bit (force chipselect) only if the toggle flag is not set */
+  if ((flags & ALT_AVALON_SPI_COMMAND_TOGGLE_SS_N) == 0) {
+    1868:	e0800317 	ldw	r2,12(fp)
+    186c:	1080008c 	andi	r2,r2,2
+    1870:	1000041e 	bne	r2,zero,1884 <alt_avalon_spi_command+0x88>
+    IOWR_ALTERA_AVALON_SPI_CONTROL(base, ALTERA_AVALON_SPI_CONTROL_SSO_MSK);
+    1874:	e0bffc17 	ldw	r2,-16(fp)
+    1878:	10800304 	addi	r2,r2,12
+    187c:	00c10004 	movi	r3,1024
+    1880:	10c00035 	stwio	r3,0(r2)
+  /*
+   * Discard any stale data present in the RXDATA register, in case
+   * previous communication was interrupted and stale data was left
+   * behind.
+   */
+  IORD_ALTERA_AVALON_SPI_RXDATA(base);
+    1884:	e0bffc17 	ldw	r2,-16(fp)
+    1888:	10800037 	ldwio	r2,0(r2)
+    188c:	00000106 	br	1894 <alt_avalon_spi_command+0x98>
+
+      if (read_ignore == 0 && read_data == read_end)
+        break;
+    }
+    
+  }
+    1890:	0001883a 	nop
+  for ( ; ; )
+  {
+    
+    do
+    {
+      status = IORD_ALTERA_AVALON_SPI_STATUS(base);
+    1894:	e0bffc17 	ldw	r2,-16(fp)
+    1898:	10800204 	addi	r2,r2,8
+    189c:	10800037 	ldwio	r2,0(r2)
+    18a0:	e0bffa15 	stw	r2,-24(fp)
+    }
+    while (((status & ALTERA_AVALON_SPI_STATUS_TRDY_MSK) == 0 || credits == 0) &&
+    18a4:	e0bffa17 	ldw	r2,-24(fp)
+    18a8:	1080100c 	andi	r2,r2,64
+            (status & ALTERA_AVALON_SPI_STATUS_RRDY_MSK) == 0);
+    18ac:	10000226 	beq	r2,zero,18b8 <alt_avalon_spi_command+0xbc>
+    
+    do
+    {
+      status = IORD_ALTERA_AVALON_SPI_STATUS(base);
+    }
+    while (((status & ALTERA_AVALON_SPI_STATUS_TRDY_MSK) == 0 || credits == 0) &&
+    18b0:	e0bff717 	ldw	r2,-36(fp)
+    18b4:	1000031e 	bne	r2,zero,18c4 <alt_avalon_spi_command+0xc8>
+            (status & ALTERA_AVALON_SPI_STATUS_RRDY_MSK) == 0);
+    18b8:	e0bffa17 	ldw	r2,-24(fp)
+    18bc:	1080200c 	andi	r2,r2,128
+    
+    do
+    {
+      status = IORD_ALTERA_AVALON_SPI_STATUS(base);
+    }
+    while (((status & ALTERA_AVALON_SPI_STATUS_TRDY_MSK) == 0 || credits == 0) &&
+    18c0:	103ff426 	beq	r2,zero,1894 <alt_avalon_spi_command+0x98>
+            (status & ALTERA_AVALON_SPI_STATUS_RRDY_MSK) == 0);
+
+    if ((status & ALTERA_AVALON_SPI_STATUS_TRDY_MSK) != 0 && credits > 0)
+    18c4:	e0bffa17 	ldw	r2,-24(fp)
+    18c8:	1080100c 	andi	r2,r2,64
+    18cc:	10001e26 	beq	r2,zero,1948 <alt_avalon_spi_command+0x14c>
+    18d0:	e0bff717 	ldw	r2,-36(fp)
+    18d4:	00801c0e 	bge	zero,r2,1948 <alt_avalon_spi_command+0x14c>
+    {
+      credits--;
+    18d8:	e0bff717 	ldw	r2,-36(fp)
+    18dc:	10bfffc4 	addi	r2,r2,-1
+    18e0:	e0bff715 	stw	r2,-36(fp)
+
+      if (write_data < write_end)
+    18e4:	e0ffff17 	ldw	r3,-4(fp)
+    18e8:	e0bff817 	ldw	r2,-32(fp)
+    18ec:	18800a2e 	bgeu	r3,r2,1918 <alt_avalon_spi_command+0x11c>
+        IOWR_ALTERA_AVALON_SPI_TXDATA(base, *write_data++);
+    18f0:	e0bffc17 	ldw	r2,-16(fp)
+    18f4:	10800104 	addi	r2,r2,4
+    18f8:	e0ffff17 	ldw	r3,-4(fp)
+    18fc:	18c00003 	ldbu	r3,0(r3)
+    1900:	18c03fcc 	andi	r3,r3,255
+    1904:	e13fff17 	ldw	r4,-4(fp)
+    1908:	21000044 	addi	r4,r4,1
+    190c:	e13fff15 	stw	r4,-4(fp)
+    1910:	10c00035 	stwio	r3,0(r2)
+    1914:	00000c06 	br	1948 <alt_avalon_spi_command+0x14c>
+      else if (write_zeros > 0)
+    1918:	e0bff517 	ldw	r2,-44(fp)
+    191c:	10000826 	beq	r2,zero,1940 <alt_avalon_spi_command+0x144>
+      {
+        write_zeros--;
+    1920:	e0bff517 	ldw	r2,-44(fp)
+    1924:	10bfffc4 	addi	r2,r2,-1
+    1928:	e0bff515 	stw	r2,-44(fp)
+        IOWR_ALTERA_AVALON_SPI_TXDATA(base, 0);
+    192c:	e0bffc17 	ldw	r2,-16(fp)
+    1930:	10800104 	addi	r2,r2,4
+    1934:	0007883a 	mov	r3,zero
+    1938:	10c00035 	stwio	r3,0(r2)
+    193c:	00000206 	br	1948 <alt_avalon_spi_command+0x14c>
+      }
+      else
+        credits = -1024;
+    1940:	00bf0004 	movi	r2,-1024
+    1944:	e0bff715 	stw	r2,-36(fp)
+    };
+
+    if ((status & ALTERA_AVALON_SPI_STATUS_RRDY_MSK) != 0)
+    1948:	e0bffa17 	ldw	r2,-24(fp)
+    194c:	1080200c 	andi	r2,r2,128
+    1950:	103fcf26 	beq	r2,zero,1890 <alt_avalon_spi_command+0x94>
+    {
+      alt_u32 rxdata = IORD_ALTERA_AVALON_SPI_RXDATA(base);
+    1954:	e0bffc17 	ldw	r2,-16(fp)
+    1958:	10800037 	ldwio	r2,0(r2)
+    195c:	e0bffb15 	stw	r2,-20(fp)
+
+      if (read_ignore > 0)
+    1960:	e0bff617 	ldw	r2,-40(fp)
+    1964:	10000426 	beq	r2,zero,1978 <alt_avalon_spi_command+0x17c>
+        read_ignore--;
+    1968:	e0bff617 	ldw	r2,-40(fp)
+    196c:	10bfffc4 	addi	r2,r2,-1
+    1970:	e0bff615 	stw	r2,-40(fp)
+    1974:	00000706 	br	1994 <alt_avalon_spi_command+0x198>
+      else
+        *read_data++ = (alt_u8)rxdata;
+    1978:	e0bffb17 	ldw	r2,-20(fp)
+    197c:	1007883a 	mov	r3,r2
+    1980:	e0800217 	ldw	r2,8(fp)
+    1984:	10c00005 	stb	r3,0(r2)
+    1988:	e0800217 	ldw	r2,8(fp)
+    198c:	10800044 	addi	r2,r2,1
+    1990:	e0800215 	stw	r2,8(fp)
+      credits++;
+    1994:	e0bff717 	ldw	r2,-36(fp)
+    1998:	10800044 	addi	r2,r2,1
+    199c:	e0bff715 	stw	r2,-36(fp)
+
+      if (read_ignore == 0 && read_data == read_end)
+    19a0:	e0bff617 	ldw	r2,-40(fp)
+    19a4:	103fba1e 	bne	r2,zero,1890 <alt_avalon_spi_command+0x94>
+    19a8:	e0c00217 	ldw	r3,8(fp)
+    19ac:	e0bff917 	ldw	r2,-28(fp)
+    19b0:	18bfb71e 	bne	r3,r2,1890 <alt_avalon_spi_command+0x94>
+        break;
+    19b4:	0001883a 	nop
+  }
+
+  /* Wait until the interface has finished transmitting */
+  do
+  {
+    status = IORD_ALTERA_AVALON_SPI_STATUS(base);
+    19b8:	e0bffc17 	ldw	r2,-16(fp)
+    19bc:	10800204 	addi	r2,r2,8
+    19c0:	10800037 	ldwio	r2,0(r2)
+    19c4:	e0bffa15 	stw	r2,-24(fp)
+  }
+  while ((status & ALTERA_AVALON_SPI_STATUS_TMT_MSK) == 0);
+    19c8:	e0bffa17 	ldw	r2,-24(fp)
+    19cc:	1080080c 	andi	r2,r2,32
+    19d0:	103ff926 	beq	r2,zero,19b8 <alt_avalon_spi_command+0x1bc>
+
+  /* Clear SSO (release chipselect) unless the caller is going to
+   * keep using this chip
+   */
+  if ((flags & ALT_AVALON_SPI_COMMAND_MERGE) == 0)
+    19d4:	e0800317 	ldw	r2,12(fp)
+    19d8:	1080004c 	andi	r2,r2,1
+    19dc:	1000041e 	bne	r2,zero,19f0 <alt_avalon_spi_command+0x1f4>
+    IOWR_ALTERA_AVALON_SPI_CONTROL(base, 0);
+    19e0:	e0bffc17 	ldw	r2,-16(fp)
+    19e4:	10800304 	addi	r2,r2,12
+    19e8:	0007883a 	mov	r3,zero
+    19ec:	10c00035 	stwio	r3,0(r2)
+
+  return read_length;
+    19f0:	e0800117 	ldw	r2,4(fp)
+}
+    19f4:	e037883a 	mov	sp,fp
+    19f8:	df000017 	ldw	fp,0(sp)
+    19fc:	dec00104 	addi	sp,sp,4
+    1a00:	f800283a 	ret
+
+00001a04 <alt_dcache_flush_all>:
+/*
+ * alt_dcache_flush_all() is called to flush the entire data cache.
+ */
+
+void alt_dcache_flush_all (void)
+{
+    1a04:	deffff04 	addi	sp,sp,-4
+    1a08:	df000015 	stw	fp,0(sp)
+    1a0c:	d839883a 	mov	fp,sp
+  for (i = (char*) 0; i < (char*) NIOS2_DCACHE_SIZE; i+= NIOS2_DCACHE_LINE_SIZE)
+  { 
+    __asm__ volatile ("flushd (%0)" :: "r" (i));
+  }
+#endif /* NIOS2_DCACHE_SIZE > 0 */
+}
+    1a10:	e037883a 	mov	sp,fp
+    1a14:	df000017 	ldw	fp,0(sp)
+    1a18:	dec00104 	addi	sp,sp,4
+    1a1c:	f800283a 	ret
+
+00001a20 <alt_find_dev>:
+ * "name" must be an exact match for the devices registered name for a match to
+ * be found.
+ */
+ 
+alt_dev* alt_find_dev(const char* name, alt_llist* llist)
+{
+    1a20:	defffa04 	addi	sp,sp,-24
+    1a24:	dfc00515 	stw	ra,20(sp)
+    1a28:	df000415 	stw	fp,16(sp)
+    1a2c:	df000404 	addi	fp,sp,16
+    1a30:	e13ffe15 	stw	r4,-8(fp)
+    1a34:	e17fff15 	stw	r5,-4(fp)
+  alt_dev* next = (alt_dev*) llist->next;
+    1a38:	e0bfff17 	ldw	r2,-4(fp)
+    1a3c:	10800017 	ldw	r2,0(r2)
+    1a40:	e0bffc15 	stw	r2,-16(fp)
+  alt_32 len;
+
+  len  = strlen(name) + 1;
+    1a44:	e13ffe17 	ldw	r4,-8(fp)
+    1a48:	0001b480 	call	1b48 <strlen>
+    1a4c:	10800044 	addi	r2,r2,1
+    1a50:	e0bffd15 	stw	r2,-12(fp)
+  /*
+   * Check each list entry in turn, until a match is found, or we reach the
+   * end of the list (i.e. next winds up pointing back to the list head).
+   */ 
+
+  while (next != (alt_dev*) llist)
+    1a54:	00000d06 	br	1a8c <alt_find_dev+0x6c>
+    /* 
+     * memcmp() is used here rather than strcmp() in order to reduce the size
+     * of the executable.
+     */
+
+    if (!memcmp (next->name, name, len))
+    1a58:	e0bffc17 	ldw	r2,-16(fp)
+    1a5c:	10c00217 	ldw	r3,8(r2)
+    1a60:	e0bffd17 	ldw	r2,-12(fp)
+    1a64:	1809883a 	mov	r4,r3
+    1a68:	e17ffe17 	ldw	r5,-8(fp)
+    1a6c:	100d883a 	mov	r6,r2
+    1a70:	0001acc0 	call	1acc <memcmp>
+    1a74:	1000021e 	bne	r2,zero,1a80 <alt_find_dev+0x60>
+    {
+      /* match found */
+
+      return next;
+    1a78:	e0bffc17 	ldw	r2,-16(fp)
+    1a7c:	00000706 	br	1a9c <alt_find_dev+0x7c>
+    }
+    next = (alt_dev*) next->llist.next;
+    1a80:	e0bffc17 	ldw	r2,-16(fp)
+    1a84:	10800017 	ldw	r2,0(r2)
+    1a88:	e0bffc15 	stw	r2,-16(fp)
+  /*
+   * Check each list entry in turn, until a match is found, or we reach the
+   * end of the list (i.e. next winds up pointing back to the list head).
+   */ 
+
+  while (next != (alt_dev*) llist)
+    1a8c:	e0fffc17 	ldw	r3,-16(fp)
+    1a90:	e0bfff17 	ldw	r2,-4(fp)
+    1a94:	18bff01e 	bne	r3,r2,1a58 <alt_find_dev+0x38>
+    next = (alt_dev*) next->llist.next;
+  }
+  
+  /* No match found */
+  
+  return NULL;
+    1a98:	0005883a 	mov	r2,zero
+}
+    1a9c:	e037883a 	mov	sp,fp
+    1aa0:	dfc00117 	ldw	ra,4(sp)
+    1aa4:	df000017 	ldw	fp,0(sp)
+    1aa8:	dec00204 	addi	sp,sp,8
+    1aac:	f800283a 	ret
+
+00001ab0 <alt_icache_flush_all>:
+/*
+ * alt_icache_flush_all() is called to flush the entire instruction cache.
+ */
+
+void alt_icache_flush_all (void)
+{
+    1ab0:	deffff04 	addi	sp,sp,-4
+    1ab4:	df000015 	stw	fp,0(sp)
+    1ab8:	d839883a 	mov	fp,sp
+#if NIOS2_ICACHE_SIZE > 0
+  alt_icache_flush (0, NIOS2_ICACHE_SIZE);
+#endif
+}
+    1abc:	e037883a 	mov	sp,fp
+    1ac0:	df000017 	ldw	fp,0(sp)
+    1ac4:	dec00104 	addi	sp,sp,4
+    1ac8:	f800283a 	ret
+
+00001acc <memcmp>:
+    1acc:	01c000c4 	movi	r7,3
+    1ad0:	3980192e 	bgeu	r7,r6,1b38 <memcmp+0x6c>
+    1ad4:	2904b03a 	or	r2,r5,r4
+    1ad8:	11c4703a 	and	r2,r2,r7
+    1adc:	10000f26 	beq	r2,zero,1b1c <memcmp+0x50>
+    1ae0:	20c00003 	ldbu	r3,0(r4)
+    1ae4:	28800003 	ldbu	r2,0(r5)
+    1ae8:	1880151e 	bne	r3,r2,1b40 <memcmp+0x74>
+    1aec:	31bfff84 	addi	r6,r6,-2
+    1af0:	01ffffc4 	movi	r7,-1
+    1af4:	00000406 	br	1b08 <memcmp+0x3c>
+    1af8:	20c00003 	ldbu	r3,0(r4)
+    1afc:	28800003 	ldbu	r2,0(r5)
+    1b00:	31bfffc4 	addi	r6,r6,-1
+    1b04:	18800e1e 	bne	r3,r2,1b40 <memcmp+0x74>
+    1b08:	21000044 	addi	r4,r4,1
+    1b0c:	29400044 	addi	r5,r5,1
+    1b10:	31fff91e 	bne	r6,r7,1af8 <memcmp+0x2c>
+    1b14:	0005883a 	mov	r2,zero
+    1b18:	f800283a 	ret
+    1b1c:	20c00017 	ldw	r3,0(r4)
+    1b20:	28800017 	ldw	r2,0(r5)
+    1b24:	1880041e 	bne	r3,r2,1b38 <memcmp+0x6c>
+    1b28:	31bfff04 	addi	r6,r6,-4
+    1b2c:	21000104 	addi	r4,r4,4
+    1b30:	29400104 	addi	r5,r5,4
+    1b34:	39bff936 	bltu	r7,r6,1b1c <memcmp+0x50>
+    1b38:	303fe91e 	bne	r6,zero,1ae0 <memcmp+0x14>
+    1b3c:	003ff506 	br	1b14 <memcmp+0x48>
+    1b40:	1885c83a 	sub	r2,r3,r2
+    1b44:	f800283a 	ret
+
+00001b48 <strlen>:
+    1b48:	208000cc 	andi	r2,r4,3
+    1b4c:	10001f1e 	bne	r2,zero,1bcc <strlen+0x84>
+    1b50:	20800017 	ldw	r2,0(r4)
+    1b54:	01ffbff4 	movhi	r7,65279
+    1b58:	39ffbfc4 	addi	r7,r7,-257
+    1b5c:	01a02074 	movhi	r6,32897
+    1b60:	31a02004 	addi	r6,r6,-32640
+    1b64:	11c7883a 	add	r3,r2,r7
+    1b68:	0084303a 	nor	r2,zero,r2
+    1b6c:	1886703a 	and	r3,r3,r2
+    1b70:	1986703a 	and	r3,r3,r6
+    1b74:	2005883a 	mov	r2,r4
+    1b78:	1800101e 	bne	r3,zero,1bbc <strlen+0x74>
+    1b7c:	10800104 	addi	r2,r2,4
+    1b80:	10c00017 	ldw	r3,0(r2)
+    1b84:	19cb883a 	add	r5,r3,r7
+    1b88:	00c6303a 	nor	r3,zero,r3
+    1b8c:	28c6703a 	and	r3,r5,r3
+    1b90:	1986703a 	and	r3,r3,r6
+    1b94:	1800091e 	bne	r3,zero,1bbc <strlen+0x74>
+    1b98:	10800104 	addi	r2,r2,4
+    1b9c:	10c00017 	ldw	r3,0(r2)
+    1ba0:	19cb883a 	add	r5,r3,r7
+    1ba4:	00c6303a 	nor	r3,zero,r3
+    1ba8:	28c6703a 	and	r3,r5,r3
+    1bac:	1986703a 	and	r3,r3,r6
+    1bb0:	183ff226 	beq	r3,zero,1b7c <strlen+0x34>
+    1bb4:	00000106 	br	1bbc <strlen+0x74>
+    1bb8:	10800044 	addi	r2,r2,1
+    1bbc:	10c00007 	ldb	r3,0(r2)
+    1bc0:	183ffd1e 	bne	r3,zero,1bb8 <strlen+0x70>
+    1bc4:	1105c83a 	sub	r2,r2,r4
+    1bc8:	f800283a 	ret
+    1bcc:	2005883a 	mov	r2,r4
+    1bd0:	003ffa06 	br	1bbc <strlen+0x74>

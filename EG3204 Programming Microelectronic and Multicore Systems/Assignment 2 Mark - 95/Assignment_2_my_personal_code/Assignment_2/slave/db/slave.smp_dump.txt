@@ -1,0 +1,18 @@
+
+State Machine - |slave|slave_TT_Core:tt_core|slave_TT_Core_nios2_oci:the_slave_TT_Core_nios2_oci|slave_TT_Core_jtag_debug_module_wrapper:the_slave_TT_Core_jtag_debug_module_wrapper|slave_TT_Core_jtag_debug_module_tck:the_slave_TT_Core_jtag_debug_module_tck|DRsize
+Name DRsize.101 DRsize.100 DRsize.011 DRsize.010 DRsize.001 DRsize.000 
+DRsize.000 0 0 0 0 0 0 
+DRsize.001 0 0 0 0 1 1 
+DRsize.010 0 0 0 1 0 1 
+DRsize.011 0 0 1 0 0 1 
+DRsize.100 0 1 0 0 0 1 
+DRsize.101 1 0 0 0 0 1 
+
+State Machine - |slave|slave_ET_Core:et_core|slave_ET_Core_nios2_oci:the_slave_ET_Core_nios2_oci|slave_ET_Core_jtag_debug_module_wrapper:the_slave_ET_Core_jtag_debug_module_wrapper|slave_ET_Core_jtag_debug_module_tck:the_slave_ET_Core_jtag_debug_module_tck|DRsize
+Name DRsize.101 DRsize.100 DRsize.011 DRsize.010 DRsize.001 DRsize.000 
+DRsize.000 0 0 0 0 0 0 
+DRsize.001 0 0 0 0 1 1 
+DRsize.010 0 0 0 1 0 1 
+DRsize.011 0 0 1 0 0 1 
+DRsize.100 0 1 0 0 0 1 
+DRsize.101 1 0 0 0 0 1 

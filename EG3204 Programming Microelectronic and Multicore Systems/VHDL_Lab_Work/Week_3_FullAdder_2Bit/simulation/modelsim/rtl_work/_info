@@ -1,0 +1,145 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\a\Documents\EG3205_Work\VHDL\Week_3_FullAdder_2Bit\simulation\modelsim
+Efulladder_1bit
+Z1 w1548941805
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\a\Documents\EG3205_Work\VHDL\Week_3_FullAdder_2Bit\simulation\modelsim
+Z5 8C:/Users/a/Documents/EG3205_Work/VHDL/Week_3_FullAdder_1Bit/FullAdder_1Bit.vhd
+Z6 FC:/Users/a/Documents/EG3205_Work/VHDL/Week_3_FullAdder_1Bit/FullAdder_1Bit.vhd
+l0
+L4
+VmNCl^5jLnT?S7:kSzSW:c1
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1548944268.753000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/a/Documents/EG3205_Work/VHDL/Week_3_FullAdder_1Bit/FullAdder_1Bit.vhd|
+Z10 !s107 C:/Users/a/Documents/EG3205_Work/VHDL/Week_3_FullAdder_1Bit/FullAdder_1Bit.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 RYojB1]NJ7^iMUdkVm<ih1
+!i10b 1
+Astructural
+R2
+R3
+DEx4 work 14 fulladder_1bit 0 22 mNCl^5jLnT?S7:kSzSW:c1
+l18
+L10
+VQ;OK0j0nff[a3aSG0:TjH3
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 LZQ:g_ff4?6:z;=k_i4oO3
+!i10b 1
+Efulladder_2bit
+Z13 w1548943897
+R2
+R3
+R4
+Z14 8C:/Users/a/Documents/EG3205_Work/VHDL/Week_3_FullAdder_2Bit/FullAdder_2Bit.vhd
+Z15 FC:/Users/a/Documents/EG3205_Work/VHDL/Week_3_FullAdder_2Bit/FullAdder_2Bit.vhd
+l0
+L4
+VAl0>?di@eThooV8km[QX[3
+R7
+31
+Z16 !s108 1548944269.206000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/a/Documents/EG3205_Work/VHDL/Week_3_FullAdder_2Bit/FullAdder_2Bit.vhd|
+Z18 !s107 C:/Users/a/Documents/EG3205_Work/VHDL/Week_3_FullAdder_2Bit/FullAdder_2Bit.vhd|
+R11
+R12
+!s100 X3Gj07EFEPc=DWE>88nml1
+!i10b 1
+Astructural
+R2
+R3
+DEx4 work 14 fulladder_2bit 0 22 Al0>?di@eThooV8km[QX[3
+l20
+L12
+V5]XERd:T?_Xk:PHHndPfU1
+R7
+31
+R16
+R17
+R18
+R11
+R12
+!s100 FaWH0MY6fk7gaE<W4a_gj2
+!i10b 1
+Efulladder_2bit_tb
+Z19 w1548896374
+R2
+R3
+R4
+Z20 8C:/Users/a/Documents/EG3205_Work/VHDL/Week_3_FullAdder_2Bit/../FullAdder_2bit_TB.vhd
+Z21 FC:/Users/a/Documents/EG3205_Work/VHDL/Week_3_FullAdder_2Bit/../FullAdder_2bit_TB.vhd
+l0
+L13
+VgNJ]cL4IGNWU<8Z@laL_;2
+!s100 Tn`JQO^UC@gTBRYXFQ1Z<1
+R7
+31
+!i10b 1
+Z22 !s108 1548944269.581000
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/a/Documents/EG3205_Work/VHDL/Week_3_FullAdder_2Bit/../FullAdder_2bit_TB.vhd|
+Z24 !s107 C:/Users/a/Documents/EG3205_Work/VHDL/Week_3_FullAdder_2Bit/../FullAdder_2bit_TB.vhd|
+R11
+R12
+Atb
+R2
+R3
+DEx4 work 17 fulladder_2bit_tb 0 22 gNJ]cL4IGNWU<8Z@laL_;2
+l38
+L17
+VnHC1]Pl>f3IKG;@NLaQn<3
+!s100 3QGWMDL`2n?:ShzkC>bFk1
+R7
+31
+!i10b 1
+R22
+R23
+R24
+R11
+R12
+Ehalfadder
+Z25 w1548941848
+R2
+R3
+R4
+Z26 8C:/Users/a/Documents/EG3205_Work/VHDL/Week_2/halfadder.vhd
+Z27 FC:/Users/a/Documents/EG3205_Work/VHDL/Week_2/halfadder.vhd
+l0
+L4
+VT6VE6]]^J]6Wgo_`FD1m52
+R7
+31
+Z28 !s108 1548944268.440000
+Z29 !s90 -reportprogress|300|-93|-work|work|C:/Users/a/Documents/EG3205_Work/VHDL/Week_2/halfadder.vhd|
+Z30 !s107 C:/Users/a/Documents/EG3205_Work/VHDL/Week_2/halfadder.vhd|
+R11
+R12
+!s100 IB2<O[^XDk>5BQJgoBgnQ2
+!i10b 1
+Adataflow
+R2
+R3
+DEx4 work 9 halfadder 0 22 T6VE6]]^J]6Wgo_`FD1m52
+l14
+L13
+VTK^]6ARYN[^PJoA<k3XNT0
+R7
+31
+R28
+R29
+R30
+R11
+R12
+!s100 ]0zTlSESUjN[nH7dAcP3z2
+!i10b 1

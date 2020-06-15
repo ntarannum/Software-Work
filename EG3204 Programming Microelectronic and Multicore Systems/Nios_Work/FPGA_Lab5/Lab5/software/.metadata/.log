@@ -1,0 +1,31 @@
+!SESSION 2018-11-22 18:30:33.272 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-11-22 18:36:11.185
+!MESSAGE Indexed 'ET_slave_app_bsp' (80 sources, 59 headers) in 1.49 sec: 1,016 declarations; 2,497 references; 116 unresolved inclusions; 5 syntax errors; 213 unresolved names (5.72%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-11-22 18:36:19.554
+!MESSAGE Indexed 'ET_slave_app' (0 sources, 13 headers) in 0.03 sec: 0 declarations; 0 references; 13 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-11-22 18:37:30.662
+!MESSAGE Indexed 'TT_slave_app_bsp' (77 sources, 56 headers) in 1.26 sec: 896 declarations; 1,963 references; 98 unresolved inclusions; 5 syntax errors; 175 unresolved names (5.77%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-11-22 18:37:34.857
+!MESSAGE Indexed 'TT_slave_app' (0 sources, 13 headers) in 0.03 sec: 0 declarations; 0 references; 13 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-11-22 18:42:25.201
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-11-22 18:42:28.679
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go /cygdrive/c/Users/a/Documents/EG3205_Work/Nios_Work/FPGA_Lab5/Lab5/software/TT_slave_app/TT_slave_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-11-22 18:42:55.394
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-11-22 18:42:58.904
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/c/Users/a/Documents/EG3205_Work/Nios_Work/FPGA_Lab5/Lab5/software/TT_slave_app/TT_slave_app.elf]

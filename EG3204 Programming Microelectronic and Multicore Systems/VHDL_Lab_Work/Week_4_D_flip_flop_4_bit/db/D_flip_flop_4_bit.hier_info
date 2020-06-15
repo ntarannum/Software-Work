@@ -1,0 +1,55 @@
+|D_flip_flop_4_bit
+Clock => D_flip_flop:U1.Clock
+Clock => D_flip_flop:U2.Clock
+Clock => D_flip_flop:U3.Clock
+Clock => D_flip_flop:U4.Clock
+Reset => D_flip_flop:U1.Reset
+Reset => D_flip_flop:U2.Reset
+Reset => D_flip_flop:U3.Reset
+Reset => D_flip_flop:U4.Reset
+EN => D_flip_flop:U1.EN
+EN => D_flip_flop:U2.EN
+EN => D_flip_flop:U3.EN
+EN => D_flip_flop:U4.EN
+Din[0] => D_flip_flop:U1.D
+Din[1] => D_flip_flop:U2.D
+Din[2] => D_flip_flop:U3.D
+Din[3] => D_flip_flop:U4.D
+Dout[0] <= D_flip_flop:U1.Q
+Dout[1] <= D_flip_flop:U2.Q
+Dout[2] <= D_flip_flop:U3.Q
+Dout[3] <= D_flip_flop:U4.Q
+
+
+|D_flip_flop_4_bit|D_flip_flop:U1
+Clock => Q~reg0.CLK
+Reset => Q~reg0.ACLR
+EN => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|D_flip_flop_4_bit|D_flip_flop:U2
+Clock => Q~reg0.CLK
+Reset => Q~reg0.ACLR
+EN => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|D_flip_flop_4_bit|D_flip_flop:U3
+Clock => Q~reg0.CLK
+Reset => Q~reg0.ACLR
+EN => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|D_flip_flop_4_bit|D_flip_flop:U4
+Clock => Q~reg0.CLK
+Reset => Q~reg0.ACLR
+EN => Q~reg0.ENA
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

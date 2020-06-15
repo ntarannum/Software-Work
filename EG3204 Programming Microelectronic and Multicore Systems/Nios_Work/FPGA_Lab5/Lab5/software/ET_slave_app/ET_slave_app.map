@@ -1,0 +1,756 @@
+Archive member included because of file (symbol)
+
+../ET_slave_app_bsp/\libhal_bsp.a(alt_iic.o)
+                              obj/default/ET_TTC_Scheduler/2_50_XXg.o (alt_ic_isr_register)
+../ET_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                              ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic.o) (alt_iic_isr_register)
+../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                              ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_entry)
+../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                              ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq)
+../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                              ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic.o) (alt_irq_active)
+../ET_slave_app_bsp/\libhal_bsp.a(alt_load.o)
+                              ../ET_slave_app_bsp//obj/HAL/src/crt0.o (alt_load)
+../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o)
+                              obj/default/ET_Tasks/SharedMem_Mutex.o (altera_avalon_mutex_open)
+../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+                              obj/default/ET_SPImcp2515/spi_mcp2515.o (alt_avalon_spi_command)
+../ET_slave_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              ../ET_slave_app_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+../ET_slave_app_bsp/\libhal_bsp.a(alt_errno.o)
+                              ../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o) (alt_errno)
+../ET_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                              ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o) (alt_exception)
+../ET_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o)
+                              ../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o) (alt_find_dev)
+../ET_slave_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              ../ET_slave_app_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+                              ../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o) (errno)
+c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+                              ../ET_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o) (memcmp)
+c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+                              ../ET_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o) (strlen)
+
+Allocating common symbols
+Common symbol       size              file
+
+alt_irq             0x100             ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+Tick_message_data_G
+                    0x4               obj/default/ET_TTC_Scheduler/2_50_XXg.o
+edge_capture        0x4               obj/default/ET_TTC_Scheduler/2_50_XXg.o
+errno               0x4               c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+SCH_tasks_G         0x40              obj/default/ET_TTC_Scheduler/Sch51.o
+cpu_id              0x4               obj/default/ET_Tasks/SharedMem_Mutex.o
+message             0x4               obj/default/ET_Tasks/SharedMem_Mutex.o
+id                  0x4               obj/default/ET_Tasks/SharedMem_Mutex.o
+mutex               0x4               obj/default/ET_Tasks/SharedMem_Mutex.o
+write_data          0x32              obj/default/ET_SPImcp2515/spi_mcp2515.o
+read_data           0x32              obj/default/ET_SPImcp2515/spi_mcp2515.o
+Ack_message_data_G  0x1               obj/default/ET_Tasks/PushButton.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x00000000         0x00000020
+ET_Core_Memory   0x00000020         0x00003fbc
+msg_buf_ram      0x00009000         0x00000400
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ../ET_slave_app_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/ET_SPImcp2515/spi_mcp2515.o
+LOAD obj/default/ET_TTC_Scheduler/2_50_XXg.o
+LOAD obj/default/ET_TTC_Scheduler/Main.o
+LOAD obj/default/ET_TTC_Scheduler/Sch51.o
+LOAD obj/default/ET_Tasks/HEARTBEAT.o
+LOAD obj/default/ET_Tasks/LED_ONOFF.o
+LOAD obj/default/ET_Tasks/PushButton.o
+LOAD obj/default/ET_Tasks/SharedMem_Mutex.o
+LOAD c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libstdc++.a
+LOAD c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+LOAD c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/mno-hw-mul\libgcc.a
+START GROUP
+LOAD c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a
+LOAD c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/mno-hw-mul\libgcc.a
+LOAD ../ET_slave_app_bsp/\libhal_bsp.a
+END GROUP
+LOAD c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/mno-hw-mul\libgcc.a
+                0x00000000                __alt_mem_ET_Core_Memory = 0x0
+                0x00009000                __alt_mem_msg_buf_ram = 0x9000
+
+.entry          0x00000000       0x20
+ *(.entry)
+ .entry         0x00000000       0x20 ../ET_slave_app_bsp//obj/HAL/src/crt0.o
+                0x00000000                __reset
+
+.exceptions     0x00000020      0x198
+                0x00000020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x00000020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x00000020        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                0x00000020                alt_irq_entry
+ .exceptions.entry.label
+                0x00000020        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                0x00000020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x00000020       0x54 ../ET_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x00000074       0x10 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x00000084        0x4 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x00000088        0x4 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x0000008c        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x0000008c        0x8 ../ET_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x00000094        0x4 ../ET_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x00000098        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x00000098        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x00000098       0x54 ../ET_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x000000ec       0xcc ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x000000ec                alt_irq_handler
+                0x000001b8                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x00000020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x000001b8     0x1a58
+                0x000001b8                PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x000001b8       0x3c ../ET_slave_app_bsp//obj/HAL/src/crt0.o
+                0x000001b8                _start
+ .text          0x000001f4      0x608 obj/default/ET_SPImcp2515/spi_mcp2515.o
+                0x000001f4                MCP2515_Init
+                0x00000420                MCP2515_SetBitTiming
+                0x0000048c                MCP2515_changeBits
+                0x00000514                MCP2515_SetMode
+                0x00000594                MCP2515_Reset
+                0x000005f4                MCP2515_Read_Register
+                0x00000684                MCP2515_Read_Rx_Buffer_Register
+                0x00000704                MCP2515_Write_Register
+                0x00000794                MCP2515_RTS_TXB_Instruction_CMD
+ .text          0x000007fc      0x3b8 obj/default/ET_TTC_Scheduler/2_50_XXg.o
+                0x000007fc                SCH_Init_T0
+                0x00000884                SCH_Start
+                0x00000acc                SCC_A_SLAVE_Process_Tick_Message
+                0x00000b60                SCC_A_SLAVE_Send_Ack_Message_To_Master
+ .text          0x00000bb4       0x80 obj/default/ET_TTC_Scheduler/Main.o
+                0x00000bb4                alt_main
+ .text          0x00000c34      0x300 obj/default/ET_TTC_Scheduler/Sch51.o
+                0x00000c34                SCH_Dispatch_Tasks
+                0x00000d24                SCH_Add_Task
+                0x00000e34                SCH_Delete_Task
+                0x00000efc                SCH_Report_Status
+ .text          0x00000f34       0x4c obj/default/ET_Tasks/HEARTBEAT.o
+                0x00000f34                HEARTBEAT_Init
+                0x00000f50                HEARTBEAT_Update
+ .text          0x00000f80       0x74 obj/default/ET_Tasks/LED_ONOFF.o
+                0x00000f80                LED_ONOFF_Init
+                0x00000f9c                LED_ONOFF_Update
+ .text          0x00000ff4       0xa4 obj/default/ET_Tasks/PushButton.o
+                0x00000ff4                PushButton_Init
+                0x00001010                PushButton_Update
+ .text          0x00001098      0x118 obj/default/ET_Tasks/SharedMem_Mutex.o
+                0x00001098                SharedMem_Init
+                0x000010d8                SharedMem_Update
+ .text          0x000011b0      0x1d8 ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic.o)
+                0x000011b0                alt_ic_isr_register
+                0x00001200                alt_ic_irq_enable
+                0x0000129c                alt_ic_irq_disable
+                0x0000133c                alt_ic_irq_enabled
+ .text          0x00001388       0xf0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                0x00001388                alt_iic_isr_register
+ .text          0x00001478        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .text          0x00001478        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .text          0x00001478        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .text          0x00001478       0xec ../ET_slave_app_bsp/\libhal_bsp.a(alt_load.o)
+                0x000014e4                alt_load
+ .text          0x00001564      0x2d4 ../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o)
+                0x00001630                altera_avalon_mutex_open
+                0x00001680                altera_avalon_mutex_close
+                0x000016a4                altera_avalon_mutex_lock
+                0x000016e4                altera_avalon_mutex_trylock
+                0x00001724                altera_avalon_mutex_unlock
+                0x00001774                altera_avalon_mutex_is_mine
+                0x000017e8                altera_avalon_mutex_first_lock
+ .text          0x00001838      0x208 ../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+                0x00001838                alt_avalon_spi_command
+ .text          0x00001a40       0x1c ../ET_slave_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x00001a40                alt_dcache_flush_all
+ .text          0x00001a5c        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x00001a5c        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .text          0x00001a5c       0x90 ../ET_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o)
+                0x00001a5c                alt_find_dev
+ .text          0x00001aec       0x1c ../ET_slave_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x00001aec                alt_icache_flush_all
+ .text          0x00001b08        0x0 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .text          0x00001b08       0x7c c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+                0x00001b08                memcmp
+ .text          0x00001b84       0x8c c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+                0x00001b84                strlen
+ *(.gnu.warning.*)
+ *(.fini)
+                0x00001c10                PROVIDE (__etext, ABSOLUTE (.))
+                0x00001c10                PROVIDE (_etext, ABSOLUTE (.))
+                0x00001c10                PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x00001c10                . = ALIGN (0x4)
+                0x00001c10                PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                0x00001c10                PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                0x00001c10                PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                0x00001c10                PROVIDE (__init_array_end, ABSOLUTE (.))
+                0x00001c10                PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                0x00001c10                PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                0x00001c10                PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                0x00001c10                PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                0x00001c10                PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                0x00001c10                PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x00001c10                . = ALIGN (0x4)
+
+.rodata         0x00001c10       0x14
+                0x00001c10                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x00001c10                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x00001c10       0x14 obj/default/ET_Tasks/SharedMem_Mutex.o
+ *(.rodata1)
+                0x00001c24                . = ALIGN (0x4)
+                0x00001c24                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x00001c10                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x00001c24       0x10 load address 0x00001c34
+                0x00001c24                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x00001c24                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00001c24        0x0 ../ET_slave_app_bsp//obj/HAL/src/crt0.o
+ .data          0x00001c24        0x0 obj/default/ET_SPImcp2515/spi_mcp2515.o
+ .data          0x00001c24        0x0 obj/default/ET_TTC_Scheduler/2_50_XXg.o
+ .data          0x00001c24        0x0 obj/default/ET_TTC_Scheduler/Main.o
+ .data          0x00001c24        0x0 obj/default/ET_TTC_Scheduler/Sch51.o
+ .data          0x00001c24        0x0 obj/default/ET_Tasks/HEARTBEAT.o
+ .data          0x00001c24        0x0 obj/default/ET_Tasks/LED_ONOFF.o
+ .data          0x00001c24        0x0 obj/default/ET_Tasks/PushButton.o
+ .data          0x00001c24        0x0 obj/default/ET_Tasks/SharedMem_Mutex.o
+ .data          0x00001c24        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic.o)
+ .data          0x00001c24        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .data          0x00001c24        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .data          0x00001c24        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .data          0x00001c24        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .data          0x00001c24        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x00001c24        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o)
+ .data          0x00001c24        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .data          0x00001c24        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x00001c24        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x00001c24        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .data          0x00001c24        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .data          0x00001c24        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x00001c24        0x0 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .data          0x00001c24        0x0 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .data          0x00001c24        0x0 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+                0x00009c24                _gp = ABSOLUTE ((. + 0x8000))
+                0x00009c24                PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x00001c24        0x4 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x00001c24                alt_priority_mask
+ .sdata         0x00001c28        0x8 ../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o)
+                0x00001c28                alt_mutex_list
+ .sdata         0x00001c30        0x4 ../ET_slave_app_bsp/\libhal_bsp.a(alt_errno.o)
+                0x00001c30                alt_errno
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x00001c34                . = ALIGN (0x4)
+                0x00001c34                _edata = ABSOLUTE (.)
+                0x00001c34                PROVIDE (edata, ABSOLUTE (.))
+                0x00001c34                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x00001c34                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x00001c44      0x1dc
+                0x00001c44                __bss_start = ABSOLUTE (.)
+                0x00001c44                PROVIDE (__sbss_start, ABSOLUTE (.))
+                0x00001c44                PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x00001c44        0x4 obj/default/ET_TTC_Scheduler/2_50_XXg.o
+                0x00001c44                context
+ .sbss          0x00001c48        0x8 obj/default/ET_TTC_Scheduler/2_50_XXg.o
+                0x00001c48                Tick_message_data_G
+                0x00001c4c                edge_capture
+ .sbss          0x00001c50        0x1 obj/default/ET_TTC_Scheduler/Sch51.o
+                0x00001c50                Error_code_G
+ *fill*         0x00001c51        0x3 
+ .sbss          0x00001c54        0xd obj/default/ET_Tasks/PushButton.o
+                0x00001c54                Sw_pressed_G
+                0x00001c60                Ack_message_data_G
+ *fill*         0x00001c61        0x3 
+ .sbss          0x00001c64       0x10 obj/default/ET_Tasks/SharedMem_Mutex.o
+                0x00001c64                cpu_id
+                0x00001c68                message
+                0x00001c6c                id
+                0x00001c70                mutex
+ .sbss          0x00001c74        0x4 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x00001c74                alt_irq_active
+ .sbss          0x00001c78        0x4 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+                0x00001c78                errno
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                0x00001c7c                PROVIDE (__sbss_end, ABSOLUTE (.))
+                0x00001c7c                PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00001c7c        0x0 ../ET_slave_app_bsp//obj/HAL/src/crt0.o
+ .bss           0x00001c7c        0x0 obj/default/ET_SPImcp2515/spi_mcp2515.o
+ .bss           0x00001c7c        0x0 obj/default/ET_TTC_Scheduler/2_50_XXg.o
+ .bss           0x00001c7c        0x0 obj/default/ET_TTC_Scheduler/Main.o
+ .bss           0x00001c7c        0x0 obj/default/ET_TTC_Scheduler/Sch51.o
+ .bss           0x00001c7c        0x0 obj/default/ET_Tasks/HEARTBEAT.o
+ .bss           0x00001c7c        0x0 obj/default/ET_Tasks/LED_ONOFF.o
+ .bss           0x00001c7c        0x0 obj/default/ET_Tasks/PushButton.o
+ .bss           0x00001c7c        0x0 obj/default/ET_Tasks/SharedMem_Mutex.o
+ .bss           0x00001c7c        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic.o)
+ .bss           0x00001c7c        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .bss           0x00001c7c        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x00001c7c        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .bss           0x00001c7c        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x00001c7c        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x00001c7c        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o)
+ .bss           0x00001c7c        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .bss           0x00001c7c        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x00001c7c        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x00001c7c        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x00001c7c        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .bss           0x00001c7c        0x0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x00001c7c        0x0 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .bss           0x00001c7c        0x0 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .bss           0x00001c7c        0x0 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ *(COMMON)
+ COMMON         0x00001c7c       0x64 obj/default/ET_SPImcp2515/spi_mcp2515.o
+                0x00001c7c                write_data
+                0x00001cae                read_data
+ COMMON         0x00001ce0       0x40 obj/default/ET_TTC_Scheduler/Sch51.o
+                0x00001ce0                SCH_tasks_G
+ COMMON         0x00001d20      0x100 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x00001d20                alt_irq
+                0x00001e20                . = ALIGN (0x4)
+                0x00001e20                __bss_end = ABSOLUTE (.)
+
+.ET_Core_Memory
+                0x00001e20        0x0
+                0x00001e20                PROVIDE (_alt_partition_ET_Core_Memory_start, ABSOLUTE (.))
+ *(.ET_Core_Memory .ET_Core_Memory. ET_Core_Memory.*)
+                0x00001e20                . = ALIGN (0x4)
+                0x00001e20                PROVIDE (_alt_partition_ET_Core_Memory_end, ABSOLUTE (.))
+                0x00001e20                _end = ABSOLUTE (.)
+                0x00001e20                end = ABSOLUTE (.)
+                0x00001e20                __alt_stack_base = ABSOLUTE (.)
+                0x00001e20                PROVIDE (_alt_partition_ET_Core_Memory_load_addr, LOADADDR (.ET_Core_Memory))
+
+.msg_buf_ram    0x00009000        0x0 load address 0x00001e20
+                0x00009000                PROVIDE (_alt_partition_msg_buf_ram_start, ABSOLUTE (.))
+ *(.msg_buf_ram .msg_buf_ram. msg_buf_ram.*)
+                0x00009000                . = ALIGN (0x4)
+                0x00009000                PROVIDE (_alt_partition_msg_buf_ram_end, ABSOLUTE (.))
+                0x00001e20                PROVIDE (_alt_partition_msg_buf_ram_load_addr, LOADADDR (.msg_buf_ram))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x23
+ *(.comment)
+ .comment       0x00000000       0x23 obj/default/ET_SPImcp2515/spi_mcp2515.o
+                                 0x24 (size before relaxing)
+ .comment       0x00000000       0x24 obj/default/ET_TTC_Scheduler/2_50_XXg.o
+ .comment       0x00000000       0x24 obj/default/ET_TTC_Scheduler/Main.o
+ .comment       0x00000000       0x24 obj/default/ET_TTC_Scheduler/Sch51.o
+ .comment       0x00000000       0x24 obj/default/ET_Tasks/HEARTBEAT.o
+ .comment       0x00000000       0x24 obj/default/ET_Tasks/LED_ONOFF.o
+ .comment       0x00000000       0x24 obj/default/ET_Tasks/PushButton.o
+ .comment       0x00000000       0x24 obj/default/ET_Tasks/SharedMem_Mutex.o
+ .comment       0x00000000       0x24 ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic.o)
+ .comment       0x00000000       0x24 ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .comment       0x00000000       0x24 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .comment       0x00000000       0x24 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .comment       0x00000000       0x24 ../ET_slave_app_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x00000000       0x24 ../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o)
+ .comment       0x00000000       0x24 ../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .comment       0x00000000       0x24 ../ET_slave_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x00000000       0x24 ../ET_slave_app_bsp/\libhal_bsp.a(alt_errno.o)
+ .comment       0x00000000       0x24 ../ET_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .comment       0x00000000       0x24 ../ET_slave_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x00000000       0x24 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .comment       0x00000000       0x24 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .comment       0x00000000       0x24 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x338
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 ../ET_slave_app_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x00000028       0x20 obj/default/ET_SPImcp2515/spi_mcp2515.o
+ .debug_aranges
+                0x00000048       0x20 obj/default/ET_TTC_Scheduler/2_50_XXg.o
+ .debug_aranges
+                0x00000068       0x20 obj/default/ET_TTC_Scheduler/Main.o
+ .debug_aranges
+                0x00000088       0x20 obj/default/ET_TTC_Scheduler/Sch51.o
+ .debug_aranges
+                0x000000a8       0x20 obj/default/ET_Tasks/HEARTBEAT.o
+ .debug_aranges
+                0x000000c8       0x20 obj/default/ET_Tasks/LED_ONOFF.o
+ .debug_aranges
+                0x000000e8       0x20 obj/default/ET_Tasks/PushButton.o
+ .debug_aranges
+                0x00000108       0x20 obj/default/ET_Tasks/SharedMem_Mutex.o
+ .debug_aranges
+                0x00000128       0x20 ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_aranges
+                0x00000148       0x20 ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_aranges
+                0x00000168       0x30 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x00000198       0x20 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x000001b8       0x18 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_aranges
+                0x000001d0       0x20 ../ET_slave_app_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x000001f0       0x20 ../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o)
+ .debug_aranges
+                0x00000210       0x20 ../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .debug_aranges
+                0x00000230       0x20 ../ET_slave_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x00000250       0x18 ../ET_slave_app_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x00000268       0x38 ../ET_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x000002a0       0x20 ../ET_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x000002c0       0x20 ../ET_slave_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x000002e0       0x18 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x000002f8       0x20 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_aranges
+                0x00000318       0x20 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x2450
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0x88 ../ET_slave_app_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x00000088      0x2a4 obj/default/ET_SPImcp2515/spi_mcp2515.o
+ .debug_info    0x0000032c      0x292 obj/default/ET_TTC_Scheduler/2_50_XXg.o
+ .debug_info    0x000005be      0x13a obj/default/ET_TTC_Scheduler/Main.o
+ .debug_info    0x000006f8      0x213 obj/default/ET_TTC_Scheduler/Sch51.o
+ .debug_info    0x0000090b       0x9c obj/default/ET_Tasks/HEARTBEAT.o
+ .debug_info    0x000009a7       0xcb obj/default/ET_Tasks/LED_ONOFF.o
+ .debug_info    0x00000a72       0xf2 obj/default/ET_Tasks/PushButton.o
+ .debug_info    0x00000b64      0x270 obj/default/ET_Tasks/SharedMem_Mutex.o
+ .debug_info    0x00000dd4      0x364 ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_info    0x00001138      0x1f6 ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_info    0x0000132e       0x91 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x000013bf      0x190 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x0000154f       0x8a ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x000015d9      0x135 ../ET_slave_app_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x0000170e      0x3d6 ../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o)
+ .debug_info    0x00001ae4      0x18b ../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .debug_info    0x00001c6f       0x90 ../ET_slave_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x00001cff       0xa3 ../ET_slave_app_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x00001da2       0x97 ../ET_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x00001e39      0x30d ../ET_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x00002146       0x90 ../ET_slave_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x000021d6       0x84 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_info    0x0000225a      0x117 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_info    0x00002371       0xdf c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+
+.debug_abbrev   0x00000000     0x1039
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x12 ../ET_slave_app_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x00000012       0xf6 obj/default/ET_SPImcp2515/spi_mcp2515.o
+ .debug_abbrev  0x00000108      0x154 obj/default/ET_TTC_Scheduler/2_50_XXg.o
+ .debug_abbrev  0x0000025c       0x97 obj/default/ET_TTC_Scheduler/Main.o
+ .debug_abbrev  0x000002f3      0x110 obj/default/ET_TTC_Scheduler/Sch51.o
+ .debug_abbrev  0x00000403       0x44 obj/default/ET_Tasks/HEARTBEAT.o
+ .debug_abbrev  0x00000447       0x67 obj/default/ET_Tasks/LED_ONOFF.o
+ .debug_abbrev  0x000004ae       0x7e obj/default/ET_Tasks/PushButton.o
+ .debug_abbrev  0x0000052c       0xf5 obj/default/ET_Tasks/SharedMem_Mutex.o
+ .debug_abbrev  0x00000621      0x16a ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_abbrev  0x0000078b      0x169 ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_abbrev  0x000008f4       0x12 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x00000906      0x124 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x00000a2a       0x40 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x00000a6a       0x9d ../ET_slave_app_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x00000b07      0x182 ../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o)
+ .debug_abbrev  0x00000c89       0x8a ../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .debug_abbrev  0x00000d13       0x42 ../ET_slave_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x00000d55       0x5a ../ET_slave_app_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x00000daf       0x12 ../ET_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x00000dc1       0xf0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x00000eb1       0x42 ../ET_slave_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x00000ef3       0x37 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x00000f2a       0x7f c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_abbrev  0x00000fa9       0x90 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+
+.debug_line     0x00000000     0x13ba
+ *(.debug_line)
+ .debug_line    0x00000000       0x66 ../ET_slave_app_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x00000066      0x126 obj/default/ET_SPImcp2515/spi_mcp2515.o
+ .debug_line    0x0000018c      0x141 obj/default/ET_TTC_Scheduler/2_50_XXg.o
+ .debug_line    0x000002cd      0x142 obj/default/ET_TTC_Scheduler/Main.o
+ .debug_line    0x0000040f       0xe5 obj/default/ET_TTC_Scheduler/Sch51.o
+ .debug_line    0x000004f4       0x77 obj/default/ET_Tasks/HEARTBEAT.o
+ .debug_line    0x0000056b       0xa1 obj/default/ET_Tasks/LED_ONOFF.o
+ .debug_line    0x0000060c       0xab obj/default/ET_Tasks/PushButton.o
+ .debug_line    0x000006b7      0x16e obj/default/ET_Tasks/SharedMem_Mutex.o
+ .debug_line    0x00000825       0xed ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_line    0x00000912       0xdb ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_line    0x000009ed       0x6b ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x00000a58       0xae ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x00000b06       0x50 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x00000b56       0x92 ../ET_slave_app_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x00000be8      0x152 ../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o)
+ .debug_line    0x00000d3a       0xb6 ../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .debug_line    0x00000df0       0x51 ../ET_slave_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x00000e41       0x51 ../ET_slave_app_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x00000e92       0xab ../ET_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x00000f3d       0xb9 ../ET_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x00000ff6       0x4f ../ET_slave_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x00001045       0x60 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_line    0x000010a5      0x190 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_line    0x00001235      0x185 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+
+.debug_frame    0x00000000      0x6ac
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x10c obj/default/ET_SPImcp2515/spi_mcp2515.o
+ .debug_frame   0x0000010c       0x9c obj/default/ET_TTC_Scheduler/2_50_XXg.o
+ .debug_frame   0x000001a8       0x2c obj/default/ET_TTC_Scheduler/Main.o
+ .debug_frame   0x000001d4       0x9c obj/default/ET_TTC_Scheduler/Sch51.o
+ .debug_frame   0x00000270       0x48 obj/default/ET_Tasks/HEARTBEAT.o
+ .debug_frame   0x000002b8       0x48 obj/default/ET_Tasks/LED_ONOFF.o
+ .debug_frame   0x00000300       0x48 obj/default/ET_Tasks/PushButton.o
+ .debug_frame   0x00000348       0x48 obj/default/ET_Tasks/SharedMem_Mutex.o
+ .debug_frame   0x00000390       0x80 ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_frame   0x00000410       0x2c ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_frame   0x0000043c       0x2c ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x00000468       0x48 ../ET_slave_app_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x000004b0      0x10c ../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o)
+ .debug_frame   0x000005bc       0x2c ../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .debug_frame   0x000005e8       0x2c ../ET_slave_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x00000614       0x2c ../ET_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_frame   0x00000640       0x2c ../ET_slave_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x0000066c       0x20 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_frame   0x0000068c       0x20 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+
+.debug_str      0x00000000      0xd8f
+ *(.debug_str)
+ .debug_str     0x00000000      0x243 obj/default/ET_SPImcp2515/spi_mcp2515.o
+                                0x277 (size before relaxing)
+ .debug_str     0x00000243      0x15b obj/default/ET_TTC_Scheduler/2_50_XXg.o
+                                0x25e (size before relaxing)
+ .debug_str     0x0000039e       0x86 obj/default/ET_TTC_Scheduler/Main.o
+                                0x182 (size before relaxing)
+ .debug_str     0x00000424       0x99 obj/default/ET_TTC_Scheduler/Sch51.o
+                                0x1d3 (size before relaxing)
+ .debug_str     0x000004bd       0x35 obj/default/ET_Tasks/HEARTBEAT.o
+                                0x11c (size before relaxing)
+ .debug_str     0x000004f2       0x35 obj/default/ET_Tasks/LED_ONOFF.o
+                                0x13f (size before relaxing)
+ .debug_str     0x00000527       0x58 obj/default/ET_Tasks/PushButton.o
+                                0x158 (size before relaxing)
+ .debug_str     0x0000057f       0x84 obj/default/ET_Tasks/SharedMem_Mutex.o
+                                0x217 (size before relaxing)
+ .debug_str     0x00000603      0x14f ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic.o)
+                                0x20f (size before relaxing)
+ .debug_str     0x00000752       0x4c ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                                0x1b9 (size before relaxing)
+ .debug_str     0x0000079e       0x3a ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                                0x168 (size before relaxing)
+ .debug_str     0x000007d8       0x17 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                                0x117 (size before relaxing)
+ .debug_str     0x000007ef       0xe9 ../ET_slave_app_bsp/\libhal_bsp.a(alt_load.o)
+                                0x1e3 (size before relaxing)
+ .debug_str     0x000008d8      0x128 ../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o)
+                                0x2a2 (size before relaxing)
+ .debug_str     0x00000a00       0x91 ../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+                                0x1b1 (size before relaxing)
+ .debug_str     0x00000a91       0x34 ../ET_slave_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                                0x126 (size before relaxing)
+ .debug_str     0x00000ac5       0x14 ../ET_slave_app_bsp/\libhal_bsp.a(alt_errno.o)
+                                0x116 (size before relaxing)
+ .debug_str     0x00000ad9       0x71 ../ET_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o)
+                                0x1bd (size before relaxing)
+ .debug_str     0x00000b4a       0x34 ../ET_slave_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                                0x126 (size before relaxing)
+ .debug_str     0x00000b7e       0xd9 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+                                0x17d (size before relaxing)
+ .debug_str     0x00000c57       0xe6 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+                                0x184 (size before relaxing)
+ .debug_str     0x00000d3d       0x52 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+                                0x197 (size before relaxing)
+
+.debug_loc      0x00000000      0x9c1
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x18c obj/default/ET_SPImcp2515/spi_mcp2515.o
+ .debug_loc     0x0000018c       0xdc obj/default/ET_TTC_Scheduler/2_50_XXg.o
+ .debug_loc     0x00000268       0x2c obj/default/ET_TTC_Scheduler/Main.o
+ .debug_loc     0x00000294       0xdc obj/default/ET_TTC_Scheduler/Sch51.o
+ .debug_loc     0x00000370       0x58 obj/default/ET_Tasks/HEARTBEAT.o
+ .debug_loc     0x000003c8       0x58 obj/default/ET_Tasks/LED_ONOFF.o
+ .debug_loc     0x00000420       0x58 obj/default/ET_Tasks/PushButton.o
+ .debug_loc     0x00000478       0x58 obj/default/ET_Tasks/SharedMem_Mutex.o
+ .debug_loc     0x000004d0       0xb0 ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_loc     0x00000580       0x2c ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_loc     0x000005ac       0x2c ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_loc     0x000005d8       0x58 ../ET_slave_app_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_loc     0x00000630      0x18c ../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o)
+ .debug_loc     0x000007bc       0x2c ../ET_slave_app_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .debug_loc     0x000007e8       0x2c ../ET_slave_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_loc     0x00000814       0x2c ../ET_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_loc     0x00000840       0x2c ../ET_slave_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_loc     0x0000086c      0x103 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_loc     0x0000096f       0x52 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x00000000       0x10
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x00000000       0x10 ../ET_slave_app_bsp//obj/HAL/src/crt0.o
+                0x00003fdc                __alt_data_end = 0x3fdc
+                0x00003fdc                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                0x00001e20                PROVIDE (__alt_stack_limit, __alt_stack_base)
+                0x00001e20                PROVIDE (__alt_heap_start, end)
+                0x00003fdc                PROVIDE (__alt_heap_limit, 0x3fdc)
+OUTPUT(ET_slave_app.elf elf32-littlenios2)
+
+.debug_ranges   0x00000000       0xb8
+ .debug_ranges  0x00000000       0x20 ../ET_slave_app_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x00000020       0x30 ../ET_slave_app_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_ranges  0x00000050       0x28 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x00000078       0x10 ../ET_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_ranges  0x00000088       0x30 ../ET_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)

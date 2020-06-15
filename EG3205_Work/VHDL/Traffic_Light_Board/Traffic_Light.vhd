@@ -1,0 +1,140 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity Traffic_Light is
+  port (
+  clock, reset, enable, road_1_sensor, road_2_sensor: in std_logic;
+  clk_div_sig: out std_logic;
+  out_count : out std_logic_vector (4 downto 0);
+  r1_RAG : out  std_logic_vector (2 downto 0);
+  r2_RAG : out  std_logic_vector (2 downto 0));
+end Traffic_Light;
+
+architecture behavioural of Traffic_Light is
+type state_type is (s0, s1, s2, s3, s4, s5);
+signal current_state, next_state : state_type;
+
+component clock_divider is
+	port(
+	clock : in std_logic;
+	reset : in std_logic;
+	clk_div : out std_logic);
+end component;
+
+signal slow_clk: std_logic;
+signal en : std_logic := '0';
+signal count : std_logic_vector (4 downto 0);
+signal mod_value : std_logic_vector (4 downto 0);
+
+begin
+cd: clock_divider port map (
+	clock => clock,
+	reset => reset,
+	clk_div => slow_clk);
+	
+process (reset, mod_value)
+begin
+	if(reset = '0') then
+		mod_value <= "11011";
+	end if;
+end process;
+
+process (slow_clk, reset, en, mod_value)						
+begin
+	if(reset = '0') then
+		count <= "00000";
+	elsif(rising_edge(slow_clk)) then
+		if(en = '0') then
+			if (count >= mod_value) then
+				count <= "00000";
+			else
+				count <= count + 1;
+			end if;
+		elsif (en = '1') then
+			count <= count;
+		end if;
+	end if;
+end process;
+
+out_count <= count;
+clk_div_sig <= slow_clk;
+
+--process (count, en, road_1_sensor, road_2_sensor)
+--begin
+	--if (count >= "00001") then
+		--if(road_1_sensor = '0') then 
+			--en <= '1'; 
+		--end if;
+	--end if;
+	--if (count >= "01111") then
+		--if(road_2_sensor = '0') then 
+			--en <= '1'; 
+		--end if;
+	--end if;
+--end process;
+
+
+process (slow_clk, reset, enable, count, current_state)						
+begin
+	if(reset = '0') then
+		current_state <= s0;
+	elsif(rising_edge(slow_clk)) then
+		if (enable = '0') then
+			case current_state is
+				when s0 => 
+					if (count >= "00001") then 
+						current_state <= s1; 
+					end if;
+				when s1 => 
+					if(road_1_sensor = '1') then 
+						en <= '0'; 
+						if (count >= "01011") then 
+							current_state <= s2; 
+						end if;
+					else
+						en <= '1';
+					end if;
+				when s2 => 
+					if (count >= "01101") then 
+						current_state <= s3; 
+					end if;
+				when s3 => 
+					if (count >= "01111") then 
+						current_state <= s4; 
+					end if;
+				when s4 => 
+					if(road_1_sensor = '1') then 
+						en <= '0'; 
+						if (count >= "11001") then 
+							current_state <= s5; 
+						end if;
+					else
+						en <= '1';
+					end if;
+				when s5 => 
+					if (count >= "11011") then 
+						current_state <= s0; 
+					end if;
+				when others => 
+					current_state <= s0;
+			end case;
+		elsif (enable = '1') then
+			current_state <= current_state;
+		end if;
+	end if;
+end process;
+
+process(current_state)
+begin
+	case current_state is
+		when s0 => r1_RAG <= "110"; r2_RAG <= "100";
+		when s1 => r1_RAG <= "001"; r2_RAG <= "100";
+		when s2 => r1_RAG <= "010"; r2_RAG <= "100";
+		when s3 => r1_RAG <= "100"; r2_RAG <= "110";
+		when s4 => r1_RAG <= "100"; r2_RAG <= "001";
+		when s5 => r1_RAG <= "100"; r2_RAG <= "010";
+		when others => r1_RAG <= "110"; r2_RAG <= "100"; 
+	end case;
+end process;
+end behavioural;

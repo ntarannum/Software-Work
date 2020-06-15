@@ -1,0 +1,72 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do Counter_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/a/Documents/EG3205_Work/VHDL/Assignment 3 Files/Assignment_3_Board/Counter.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity counter
+# -- Compiling architecture behavioural of counter
+# vcom -93 -work work {C:/Users/a/Documents/EG3205_Work/VHDL/Assignment 3 Files/Assignment_3_Board/Clock_Divider.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Clock_Divider
+# -- Compiling architecture Behavioral of Clock_Divider
+# 
+# vcom -93 -work work {C:/Users/a/Documents/EG3205_Work/VHDL/Assignment 3 Files/Assignment_3_Board/Counter_TB.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity counter_TB
+# -- Compiling architecture TB of counter_TB
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs="+acc"  Counter_TB
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps Counter_TB 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_tb(tb)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.counter(behavioural)
+# ** Failure: (vsim-3817) Port "BUTTON" of entity "counter" is not in the component being instantiated.
+#    Time: 0 ps  Iteration: 0  Instance: /counter_tb/uut File: C:/Users/a/Documents/EG3205_Work/VHDL/Assignment 3 Files/Assignment_3_Board/Counter.vhd Line: 8
+# ** Failure: (vsim-3817) Port "SW" of entity "counter" is not in the component being instantiated.
+#    Time: 0 ps  Iteration: 0  Instance: /counter_tb/uut File: C:/Users/a/Documents/EG3205_Work/VHDL/Assignment 3 Files/Assignment_3_Board/Counter.vhd Line: 9
+# ** Error: (vsim-3732) C:/Users/a/Documents/EG3205_Work/VHDL/Assignment 3 Files/Assignment_3_Board/Counter_TB.vhd(49): No default binding for component instance 'uut'.
+# 
+#    The following component ports are not on the entity:
+#           out_count
+#           clk_div_sig
+#           mod_value
+#           direction
+#           enable
+#           reset
+# 
+#         Region: /counter_tb/uut
+# Loading work.clock_divider(behavioral)
+# ** Fatal: Bad library format, library not compiled with ALTERA compiler.
+#    Time: 0 ps  Iteration: 0  Instance: /counter_tb/uut/cd File: C:/Users/a/Documents/EG3205_Work/VHDL/Assignment 3 Files/Assignment_3_Board/Counter.vhd Line: 44
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./Counter_run_msim_rtl_vhdl.do PAUSED at line 13

@@ -1,0 +1,469 @@
+!SESSION 2018-12-11 17:14:03.544 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-11 17:15:34.463
+!MESSAGE Indexed 'ET_slave_app_bsp' (80 sources, 59 headers) in 2.56 sec: 1,016 declarations; 2,497 references; 116 unresolved inclusions; 5 syntax errors; 213 unresolved names (5.72%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-11 17:15:40.097
+!MESSAGE Indexed 'ET_slave_app' (0 sources, 13 headers) in 0.05 sec: 0 declarations; 0 references; 13 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-11 17:16:40.994
+!MESSAGE Indexed 'TT_slave_app_bsp' (77 sources, 56 headers) in 2.09 sec: 896 declarations; 1,963 references; 98 unresolved inclusions; 5 syntax errors; 175 unresolved names (5.77%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-11 17:16:47.054
+!MESSAGE Indexed 'TT_slave_app' (0 sources, 13 headers) in 0.05 sec: 0 declarations; 0 references; 13 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2018-12-12 12:14:40.585 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.ui 4 4 2018-12-12 12:14:51.857
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2018-12-12 12:14:55.294
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2018-12-12 12:14:55.294
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2018-12-12 12:14:55.294
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2018-12-12 12:14:55.294
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2018-12-12 12:14:55.294
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2018-12-12 12:14:55.294
+!MESSAGE Unable to restore perspective: Workspace - Nios II.
+!SUBENTRY 2 org.eclipse.ui 0 0 2018-12-12 12:14:55.294
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2018-12-12 12:14:55.294
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2018-12-12 12:14:55.294
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2018-12-12 12:14:55.294
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2018-12-12 12:14:55.294
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2018-12-12 12:14:55.294
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2018-12-12 12:14:55.294
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2018-12-12 12:14:55.294
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2018-12-12 12:14:55.294
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2018-12-12 12:14:55.294
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 0 2018-12-12 12:14:55.294
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 unknown 0 0 2018-12-12 12:14:55.294
+!MESSAGE OK
+
+!ENTRY org.eclipse.search 4 0 2018-12-12 12:19:26.992
+!MESSAGE Problems encountered during text search.
+!SUBENTRY 1 org.eclipse.search 4 4 2018-12-12 12:19:26.992
+!MESSAGE File 'TT_slave_app/Makefile' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/TT_slave_app/Makefile'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/TT_slave_app/Makefile'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:793)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:40)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:260)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFiles(TextSearchVisitor.java:196)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.search(TextSearchVisitor.java:172)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.search(TextSearchVisitor.java:184)
+	at org.eclipse.search.core.text.TextSearchEngine$1.search(TextSearchEngine.java:54)
+	at org.eclipse.search.internal.ui.text.FileSearchQuery.run(FileSearchQuery.java:182)
+	at org.eclipse.search2.internal.ui.InternalSearchUI$InternalSearchJob.run(InternalSearchUI.java:91)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 2 org.eclipse.core.resources 4 274 2018-12-12 12:19:26.992
+!MESSAGE Resource is out of sync with the file system: '/TT_slave_app/Makefile'.
+!SUBENTRY 1 org.eclipse.search 4 4 2018-12-12 12:19:26.992
+!MESSAGE File 'ET_slave_app/Makefile' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/ET_slave_app/Makefile'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/ET_slave_app/Makefile'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:793)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:40)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:260)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFiles(TextSearchVisitor.java:196)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.search(TextSearchVisitor.java:172)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.search(TextSearchVisitor.java:184)
+	at org.eclipse.search.core.text.TextSearchEngine$1.search(TextSearchEngine.java:54)
+	at org.eclipse.search.internal.ui.text.FileSearchQuery.run(FileSearchQuery.java:182)
+	at org.eclipse.search2.internal.ui.InternalSearchUI$InternalSearchJob.run(InternalSearchUI.java:91)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 2 org.eclipse.core.resources 4 274 2018-12-12 12:19:26.992
+!MESSAGE Resource is out of sync with the file system: '/ET_slave_app/Makefile'.
+
+!ENTRY org.eclipse.search 4 0 2018-12-12 12:19:45.540
+!MESSAGE Problems encountered during text search.
+!SUBENTRY 1 org.eclipse.search 4 4 2018-12-12 12:19:45.556
+!MESSAGE File 'ET_slave_app/Makefile' has been skipped, problem while reading: ('Resource is out of sync with the file system: '/ET_slave_app/Makefile'.').
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/ET_slave_app/Makefile'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:793)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream(FileCharSequenceProvider.java:283)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.initializeReader(FileCharSequenceProvider.java:277)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset(FileCharSequenceProvider.java:269)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:40)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFile(TextSearchVisitor.java:260)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.processFiles(TextSearchVisitor.java:196)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.search(TextSearchVisitor.java:172)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor.search(TextSearchVisitor.java:184)
+	at org.eclipse.search.core.text.TextSearchEngine$1.search(TextSearchEngine.java:54)
+	at org.eclipse.search.internal.ui.text.FileSearchQuery.run(FileSearchQuery.java:182)
+	at org.eclipse.search2.internal.ui.InternalSearchUI$InternalSearchJob.run(InternalSearchUI.java:91)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 2 org.eclipse.core.resources 4 274 2018-12-12 12:19:45.556
+!MESSAGE Resource is out of sync with the file system: '/ET_slave_app/Makefile'.
+!SESSION 2018-12-12 12:33:10.639 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.core.jobs 4 2 2018-12-12 12:36:47.781
+!MESSAGE An internal error occurred during: "Cleaning files".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.runtime.Path.append(Path.java:261)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.BuildDescription.addOutputs(BuildDescription.java:1024)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.BuildDescription.calculateOutputs(BuildDescription.java:1135)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.BuildDescription.handleMultiSteps(BuildDescription.java:833)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.BuildDescription.initDescription(BuildDescription.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.BuildDescription.init(BuildDescription.java:810)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.DefaultBuildDescriptionFactory.createBuildDescription(DefaultBuildDescriptionFactory.java:44)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.DefaultBuildDescriptionFactory.createBuildDescription(DefaultBuildDescriptionFactory.java:36)
+	at org.eclipse.cdt.managedbuilder.buildmodel.BuildDescriptionManager.createBuildDescription(BuildDescriptionManager.java:97)
+	at org.eclipse.cdt.managedbuilder.internal.core.GeneratedMakefileBuilder.cleanFile(GeneratedMakefileBuilder.java:1638)
+	at org.eclipse.cdt.managedbuilder.internal.ui.actions.CleanFilesAction$CleanFilesJob.run(CleanFilesAction.java:229)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 4 2 2018-12-12 12:36:57.687
+!MESSAGE An internal error occurred during: "Cleaning files".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.runtime.Path.append(Path.java:261)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.BuildDescription.addOutputs(BuildDescription.java:1024)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.BuildDescription.calculateOutputs(BuildDescription.java:1135)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.BuildDescription.handleMultiSteps(BuildDescription.java:833)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.BuildDescription.initDescription(BuildDescription.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.BuildDescription.init(BuildDescription.java:810)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.DefaultBuildDescriptionFactory.createBuildDescription(DefaultBuildDescriptionFactory.java:44)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.DefaultBuildDescriptionFactory.createBuildDescription(DefaultBuildDescriptionFactory.java:36)
+	at org.eclipse.cdt.managedbuilder.buildmodel.BuildDescriptionManager.createBuildDescription(BuildDescriptionManager.java:97)
+	at org.eclipse.cdt.managedbuilder.internal.core.GeneratedMakefileBuilder.cleanFile(GeneratedMakefileBuilder.java:1638)
+	at org.eclipse.cdt.managedbuilder.internal.ui.actions.CleanFilesAction$CleanFilesJob.run(CleanFilesAction.java:229)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-12 12:40:49.203
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-12 12:40:52.711
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go /cygdrive/c/Users/a/Documents/EG3205_Work/Assignment_2/slave/software/TT_slave_app/TT_slave_app.elf]
+
+!ENTRY org.eclipse.core.jobs 4 2 2018-12-12 12:42:27.020
+!MESSAGE An internal error occurred during: "Cleaning files".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.runtime.Path.append(Path.java:261)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.BuildDescription.addOutputs(BuildDescription.java:1024)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.BuildDescription.calculateOutputs(BuildDescription.java:1135)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.BuildDescription.handleMultiSteps(BuildDescription.java:833)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.BuildDescription.initDescription(BuildDescription.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.BuildDescription.init(BuildDescription.java:810)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.DefaultBuildDescriptionFactory.createBuildDescription(DefaultBuildDescriptionFactory.java:44)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.DefaultBuildDescriptionFactory.createBuildDescription(DefaultBuildDescriptionFactory.java:36)
+	at org.eclipse.cdt.managedbuilder.buildmodel.BuildDescriptionManager.createBuildDescription(BuildDescriptionManager.java:97)
+	at org.eclipse.cdt.managedbuilder.internal.core.GeneratedMakefileBuilder.cleanFile(GeneratedMakefileBuilder.java:1638)
+	at org.eclipse.cdt.managedbuilder.internal.ui.actions.CleanFilesAction$CleanFilesJob.run(CleanFilesAction.java:229)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 4 2 2018-12-12 12:44:58.580
+!MESSAGE An internal error occurred during: "Cleaning files".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.runtime.Path.append(Path.java:261)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.BuildDescription.addOutputs(BuildDescription.java:1024)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.BuildDescription.calculateOutputs(BuildDescription.java:1135)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.BuildDescription.handleMultiSteps(BuildDescription.java:833)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.BuildDescription.initDescription(BuildDescription.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.BuildDescription.init(BuildDescription.java:810)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.DefaultBuildDescriptionFactory.createBuildDescription(DefaultBuildDescriptionFactory.java:44)
+	at org.eclipse.cdt.managedbuilder.internal.buildmodel.DefaultBuildDescriptionFactory.createBuildDescription(DefaultBuildDescriptionFactory.java:36)
+	at org.eclipse.cdt.managedbuilder.buildmodel.BuildDescriptionManager.createBuildDescription(BuildDescriptionManager.java:97)
+	at org.eclipse.cdt.managedbuilder.internal.core.GeneratedMakefileBuilder.cleanFile(GeneratedMakefileBuilder.java:1638)
+	at org.eclipse.cdt.managedbuilder.internal.ui.actions.CleanFilesAction$CleanFilesJob.run(CleanFilesAction.java:229)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-12 12:52:31.463
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-12 12:52:34.992
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/a/Documents/EG3205_Work/Assignment_2/slave/software/TT_slave_app/TT_slave_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-12 12:53:59.185
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-12 12:54:02.750
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/a/Documents/EG3205_Work/Assignment_2/slave/software/ET_slave_app/ET_slave_app.elf]
+!SESSION 2018-12-12 20:31:44.115 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-12 20:32:31.142
+!MESSAGE Indexed 'ET_slave_app_bsp' (80 sources, 127 headers) in 2.66 sec: 4,479 declarations; 5,722 references; 0 unresolved inclusions; 3 syntax errors; 18 unresolved names (0.18%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-12 20:32:32.985
+!MESSAGE Indexed 'TT_slave_app_bsp' (77 sources, 124 headers) in 1.83 sec: 4,359 declarations; 5,210 references; 0 unresolved inclusions; 3 syntax errors; 16 unresolved names (0.17%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-12 20:32:33.157
+!MESSAGE Indexed 'TT_slave_app' (5 sources, 20 headers) in 0.17 sec: 81 declarations; 233 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-12 20:32:33.329
+!MESSAGE Indexed 'ET_slave_app' (8 sources, 24 headers) in 0.17 sec: 185 declarations; 567 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-12 20:40:59.251
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-12 20:41:02.692
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go /cygdrive/c/Users/a/Documents/EG3205_Work/Assignment_2_master_led_not_flashing/Assignment_2/slave/software/TT_slave_app/TT_slave_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-12 20:41:31.835
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-12 20:41:35.144
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/c/Users/a/Documents/EG3205_Work/Assignment_2_master_led_not_flashing/Assignment_2/slave/software/ET_slave_app/ET_slave_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-12 20:56:46.593
+!MESSAGE Terminated Launch with connection: 11USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-12 20:56:47.656
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-12 20:56:51.047
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go /cygdrive/c/Users/a/Documents/EG3205_Work/Assignment_2_master_led_not_flashing/Assignment_2/slave/software/TT_slave_app/TT_slave_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-12 20:59:41.381
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-12 20:59:42.537
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-12 20:59:45.975
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/c/Users/a/Documents/EG3205_Work/Assignment_2_master_led_not_flashing/Assignment_2/slave/software/ET_slave_app/ET_slave_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-12 21:14:46.327
+!MESSAGE Terminated Launch with connection: 11USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-12 21:14:47.436
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-12 21:14:51.013
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go /cygdrive/c/Users/a/Documents/EG3205_Work/Assignment_2_master_led_not_flashing/Assignment_2/slave/software/TT_slave_app/TT_slave_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-12 21:15:16.890
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-12 21:15:18.030
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-12 21:15:21.355
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/c/Users/a/Documents/EG3205_Work/Assignment_2_master_led_not_flashing/Assignment_2/slave/software/ET_slave_app/ET_slave_app.elf]
+!SESSION 2018-12-13 00:04:56.540 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-13 00:06:28.810
+!MESSAGE Indexed 'ET_slave_app_bsp' (80 sources, 127 headers) in 3.07 sec: 4,479 declarations; 5,722 references; 0 unresolved inclusions; 3 syntax errors; 18 unresolved names (0.18%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-13 00:06:30.684
+!MESSAGE Indexed 'TT_slave_app_bsp' (77 sources, 124 headers) in 1.85 sec: 4,359 declarations; 5,210 references; 0 unresolved inclusions; 3 syntax errors; 16 unresolved names (0.17%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-13 00:06:30.854
+!MESSAGE Indexed 'TT_slave_app' (5 sources, 20 headers) in 0.17 sec: 81 declarations; 233 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-13 00:06:31.138
+!MESSAGE Indexed 'ET_slave_app' (8 sources, 24 headers) in 0.28 sec: 185 declarations; 567 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-13 00:09:33.018
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-13 00:09:36.448
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/a/Documents/EG3205_Work/Assignment_2_led_5_not_turning_on/Assignment_2/slave/software/TT_slave_app/TT_slave_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-13 00:10:00.148
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-13 00:10:03.837
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/a/Documents/EG3205_Work/Assignment_2_led_5_not_turning_on/Assignment_2/slave/software/ET_slave_app/ET_slave_app.elf]
+!SESSION 2018-12-13 08:55:36.745 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-13 09:01:48.236
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-12-13 09:01:53.199
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=1, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-13 09:01:53.258
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/a/Documents/EG3205_Work/Assignment_2_led_5_not_turning_on/Assignment_2/slave/software/TT_slave_app/TT_slave_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-13 09:03:01.892
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-12-13 09:03:06.909
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-13 09:03:06.980
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/a/Documents/EG3205_Work/Assignment_2_led_5_not_turning_on/Assignment_2/slave/software/ET_slave_app/ET_slave_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-13 09:23:45.869
+!MESSAGE Terminated Launch with connection: 11USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-13 09:23:46.920
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-12-13 09:23:51.795
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=1, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-13 09:23:51.867
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/a/Documents/EG3205_Work/Assignment_2_led_5_not_turning_on/Assignment_2/slave/software/TT_slave_app/TT_slave_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-12-13 09:23:56.284
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=1, --go, --accept-bad-sysid, /cygdrive/c/Users/a/Documents/EG3205_Work/Assignment_2_led_5_not_turning_on/Assignment_2/slave/software/TT_slave_app/TT_slave_app.elf] return code: 2, no processors found
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-12-13 09:23:56.289
+!MESSAGE Downloading ELF Process failed
+!SESSION 2018-12-13 09:26:17.424 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-13 09:27:30.747
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-12-13 09:27:35.470
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=1, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-13 09:27:35.541
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/a/Documents/EG3205_Work/Assignment_2_led_5_not_turning_on/Assignment_2/slave/software/TT_slave_app/TT_slave_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-13 09:28:28.248
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-12-13 09:28:32.997
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-13 09:28:33.066
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/a/Documents/EG3205_Work/Assignment_2_led_5_not_turning_on/Assignment_2/slave/software/ET_slave_app/ET_slave_app.elf]
+!SESSION 2018-12-13 10:03:20.981 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-13 10:05:15.329
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-12-13 10:05:20.106
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=1, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-13 10:05:20.178
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/a/Documents/EG3205_Work/Assignment_2_working/Assignment_2/slave/software/TT_slave_app/TT_slave_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-13 10:06:28.793
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-12-13 10:06:33.561
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-13 10:06:33.635
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/a/Documents/EG3205_Work/Assignment_2_working/Assignment_2/slave/software/ET_slave_app/ET_slave_app.elf]
+!SESSION 2018-12-14 11:48:56.487 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-14 12:26:14.731
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-12-14 12:26:19.520
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=1, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-14 12:26:19.591
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/a/Documents/EG3205_Work/Assignment_2_working/Assignment_2/slave/software/TT_slave_app/TT_slave_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-14 12:26:48.270
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-12-14 12:26:52.988
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-14 12:26:53.052
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/a/Documents/EG3205_Work/Assignment_2_working/Assignment_2/slave/software/ET_slave_app/ET_slave_app.elf]
+!SESSION 2018-12-17 20:48:26.901 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-17 20:50:24.627
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-12-17 20:50:29.818
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=1, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-17 20:50:29.891
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/a/Documents/EG3205_Work/Assignment_2_working/Assignment_2/slave/software/TT_slave_app/TT_slave_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-17 20:51:03.268
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-12-17 20:51:08.156
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-12-17 20:51:08.223
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/a/Documents/EG3205_Work/Assignment_2_working/Assignment_2/slave/software/ET_slave_app/ET_slave_app.elf]

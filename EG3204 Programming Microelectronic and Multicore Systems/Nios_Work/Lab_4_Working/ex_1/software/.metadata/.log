@@ -1,0 +1,43 @@
+!SESSION 2018-11-15 13:07:06.437 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-11-15 13:08:13.254
+!MESSAGE Indexed 'app_master_bsp' (82 sources, 60 headers) in 0.72 sec: 977 declarations; 2,438 references; 118 unresolved inclusions; 5 syntax errors; 207 unresolved names (5.72%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-11-15 13:08:43.943
+!MESSAGE Indexed 'app_master' (0 sources, 13 headers) in 0.01 sec: 0 declarations; 0 references; 13 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-11-15 13:10:10.745
+!MESSAGE Indexed 'app_slave_bsp' (82 sources, 60 headers) in 0.46 sec: 977 declarations; 2,438 references; 118 unresolved inclusions; 5 syntax errors; 207 unresolved names (5.72%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-11-15 13:10:39.184
+!MESSAGE Indexed 'app_slave' (0 sources, 13 headers) in 0.01 sec: 0 declarations; 0 references; 13 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-11-15 13:21:40.773
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-1]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-11-15 13:21:43.960
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-1]' --device=1 --instance=0 --go /cygdrive/c/samtest/ex_1/software/app_slave/app_slave.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-11-15 13:23:16.035
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-11-15 13:23:19.102
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/c/samtest/ex_1/software/app_master/app_master.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-11-15 13:23:23.919
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, /cygdrive/c/samtest/ex_1/software/app_master/app_master.elf] return code: 254
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-11-15 13:23:23.919
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-11-15 13:30:37.666
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-11-15 13:30:40.865
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/c/samtest/ex_1/software/app_master/app_master.elf]

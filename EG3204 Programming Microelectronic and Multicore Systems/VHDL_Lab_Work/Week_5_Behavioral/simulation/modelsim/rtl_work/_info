@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\a\Documents\EG3205_Work\VHDL\Week_5_Behavioral\simulation\modelsim
+Edemux_b
+Z1 w1550158465
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\a\Documents\EG3205_Work\VHDL\Week_5_Behavioral\simulation\modelsim
+Z5 8C:/Users/a/Documents/EG3205_Work/VHDL/Week_5_Behavioral/Demux_B.vhd
+Z6 FC:/Users/a/Documents/EG3205_Work/VHDL/Week_5_Behavioral/Demux_B.vhd
+l0
+L4
+VTjDJA4Phg[SnWXjL3ALAd1
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1550158490.273000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/a/Documents/EG3205_Work/VHDL/Week_5_Behavioral/Demux_B.vhd|
+Z10 !s107 C:/Users/a/Documents/EG3205_Work/VHDL/Week_5_Behavioral/Demux_B.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 GONmQ[l]SC:o5NefM5;Mn1
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 7 demux_b 0 22 TjDJA4Phg[SnWXjL3ALAd1
+l12
+L11
+VfdSJ4;1RWNQ2mZHTo[;hO0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 zf?1BiXNCzR[aILcKC<2o0
+!i10b 1
+Edemux_b_tb
+Z13 w1550104103
+R2
+R3
+R4
+Z14 8C:/Users/a/Documents/EG3205_Work/VHDL/Week_5_Behavioral/../Demux_B_TB.vhd
+Z15 FC:/Users/a/Documents/EG3205_Work/VHDL/Week_5_Behavioral/../Demux_B_TB.vhd
+l0
+L5
+VS1e2QTH<zQG`G[dR2GY2h0
+!s100 mKU;8ZPb4iRQm<AMb@PdW0
+R7
+31
+!i10b 1
+Z16 !s108 1550158490.696000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/a/Documents/EG3205_Work/VHDL/Week_5_Behavioral/../Demux_B_TB.vhd|
+Z18 !s107 C:/Users/a/Documents/EG3205_Work/VHDL/Week_5_Behavioral/../Demux_B_TB.vhd|
+R11
+R12
+Atb
+R2
+R3
+DEx4 work 10 demux_b_tb 0 22 S1e2QTH<zQG`G[dR2GY2h0
+l30
+L9
+V83R2MzfWE`9T]8OjG?b[K2
+!s100 BNT:i3E[>ia6doRZ=;m9;1
+R7
+31
+!i10b 1
+R16
+R17
+R18
+R11
+R12

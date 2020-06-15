@@ -1,0 +1,527 @@
+Archive member included because of file (symbol)
+
+../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic.o)
+                              obj/default/basic_nios_II_flash_led_ttc/2_50_XXg.o (alt_ic_isr_register)
+../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                              ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic.o) (alt_iic_isr_register)
+../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                              ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_entry)
+../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                              ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq)
+../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                              ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic.o) (alt_irq_active)
+../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_load.o)
+                              ../Flashing_LED_Superloop_bsp//obj/HAL/src/crt0.o (alt_load)
+../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                              ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_entry.o) (alt_exception)
+../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+
+Allocating common symbols
+Common symbol       size              file
+
+alt_irq             0x100             ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_handler.o)
+SCH_tasks_G         0x10              obj/default/basic_nios_II_flash_led_ttc/Sch51.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x00000000         0x00000020
+onchip_memory2_0 0x00000020         0x00001fe0
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ../Flashing_LED_Superloop_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/basic_nios_II_flash_led_ttc/2_50_XXg.o
+LOAD obj/default/basic_nios_II_flash_led_ttc/LED_flas.o
+LOAD obj/default/basic_nios_II_flash_led_ttc/Main.o
+LOAD obj/default/basic_nios_II_flash_led_ttc/Sch51.o
+LOAD c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libstdc++.a
+LOAD c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+LOAD c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/mno-hw-mul\libgcc.a
+START GROUP
+LOAD c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a
+LOAD c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/mno-hw-mul\libgcc.a
+LOAD ../Flashing_LED_Superloop_bsp/\libhal_bsp.a
+END GROUP
+LOAD c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/mno-hw-mul\libgcc.a
+                0x00000000                __alt_mem_onchip_memory2_0 = 0x0
+
+.entry          0x00000000       0x20
+ *(.entry)
+ .entry         0x00000000       0x20 ../Flashing_LED_Superloop_bsp//obj/HAL/src/crt0.o
+                0x00000000                __reset
+
+.exceptions     0x00000020      0x198
+                0x00000020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x00000020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x00000020        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                0x00000020                alt_irq_entry
+ .exceptions.entry.label
+                0x00000020        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                0x00000020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x00000020       0x54 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x00000074       0x10 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x00000084        0x4 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x00000088        0x4 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x0000008c        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x0000008c        0x8 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x00000094        0x4 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x00000098        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x00000098        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x00000098       0x54 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x000000ec       0xcc ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x000000ec                alt_irq_handler
+                0x000001b8                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x00000020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x000001b8      0x998
+                0x000001b8                PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x000001b8       0x3c ../Flashing_LED_Superloop_bsp//obj/HAL/src/crt0.o
+                0x000001b8                _start
+ .text          0x000001f4      0x204 obj/default/basic_nios_II_flash_led_ttc/2_50_XXg.o
+                0x000001f4                SCH_Init_T0
+                0x0000028c                SCH_Start
+ .text          0x000003f8       0x4c obj/default/basic_nios_II_flash_led_ttc/LED_flas.o
+                0x000003f8                LED_Flash_Init
+                0x00000414                LED_Flash_Update
+ .text          0x00000444       0x38 obj/default/basic_nios_II_flash_led_ttc/Main.o
+                0x00000444                alt_main
+ .text          0x0000047c      0x2e8 obj/default/basic_nios_II_flash_led_ttc/Sch51.o
+                0x0000047c                SCH_Dispatch_Tasks
+                0x0000056c                SCH_Add_Task
+                0x00000664                SCH_Delete_Task
+                0x0000072c                SCH_Report_Status
+ .text          0x00000764      0x1d8 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic.o)
+                0x00000764                alt_ic_isr_register
+                0x000007b4                alt_ic_irq_enable
+                0x00000850                alt_ic_irq_disable
+                0x000008f0                alt_ic_irq_enabled
+ .text          0x0000093c       0xf0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                0x0000093c                alt_iic_isr_register
+ .text          0x00000a2c        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .text          0x00000a2c        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .text          0x00000a2c        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .text          0x00000a2c       0xec ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_load.o)
+                0x00000a98                alt_load
+ .text          0x00000b18       0x1c ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x00000b18                alt_dcache_flush_all
+ .text          0x00000b34        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .text          0x00000b34       0x1c ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x00000b34                alt_icache_flush_all
+ *(.gnu.warning.*)
+ *(.fini)
+                0x00000b50                PROVIDE (__etext, ABSOLUTE (.))
+                0x00000b50                PROVIDE (_etext, ABSOLUTE (.))
+                0x00000b50                PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x00000b50                . = ALIGN (0x4)
+                0x00000b50                PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                0x00000b50                PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                0x00000b50                PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                0x00000b50                PROVIDE (__init_array_end, ABSOLUTE (.))
+                0x00000b50                PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                0x00000b50                PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                0x00000b50                PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                0x00000b50                PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                0x00000b50                PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                0x00000b50                PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x00000b50                . = ALIGN (0x4)
+
+.rodata         0x00000b50        0x0
+                0x00000b50                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x00000b50                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ *(.rodata1)
+                0x00000b50                . = ALIGN (0x4)
+                0x00000b50                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x00000b50                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x00000b50        0x4 load address 0x00000b54
+                0x00000b50                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x00000b50                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00000b50        0x0 ../Flashing_LED_Superloop_bsp//obj/HAL/src/crt0.o
+ .data          0x00000b50        0x0 obj/default/basic_nios_II_flash_led_ttc/2_50_XXg.o
+ .data          0x00000b50        0x0 obj/default/basic_nios_II_flash_led_ttc/LED_flas.o
+ .data          0x00000b50        0x0 obj/default/basic_nios_II_flash_led_ttc/Main.o
+ .data          0x00000b50        0x0 obj/default/basic_nios_II_flash_led_ttc/Sch51.o
+ .data          0x00000b50        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic.o)
+ .data          0x00000b50        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .data          0x00000b50        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .data          0x00000b50        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .data          0x00000b50        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .data          0x00000b50        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x00000b50        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x00000b50        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .data          0x00000b50        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x00008b50                _gp = ABSOLUTE ((. + 0x8000))
+                0x00008b50                PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x00000b50        0x4 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x00000b50                alt_priority_mask
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x00000b54                . = ALIGN (0x4)
+                0x00000b54                _edata = ABSOLUTE (.)
+                0x00000b54                PROVIDE (edata, ABSOLUTE (.))
+                0x00000b54                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x00000b54                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x00000b58      0x118
+                0x00000b58                __bss_start = ABSOLUTE (.)
+                0x00000b58                PROVIDE (__sbss_start, ABSOLUTE (.))
+                0x00000b58                PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x00000b58        0x1 obj/default/basic_nios_II_flash_led_ttc/Sch51.o
+                0x00000b58                Error_code_G
+ *fill*         0x00000b59        0x3 
+ .sbss          0x00000b5c        0x4 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x00000b5c                alt_irq_active
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                0x00000b60                PROVIDE (__sbss_end, ABSOLUTE (.))
+                0x00000b60                PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00000b60        0x0 ../Flashing_LED_Superloop_bsp//obj/HAL/src/crt0.o
+ .bss           0x00000b60        0x0 obj/default/basic_nios_II_flash_led_ttc/2_50_XXg.o
+ .bss           0x00000b60        0x0 obj/default/basic_nios_II_flash_led_ttc/LED_flas.o
+ .bss           0x00000b60        0x0 obj/default/basic_nios_II_flash_led_ttc/Main.o
+ .bss           0x00000b60        0x0 obj/default/basic_nios_II_flash_led_ttc/Sch51.o
+ .bss           0x00000b60        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic.o)
+ .bss           0x00000b60        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .bss           0x00000b60        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x00000b60        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .bss           0x00000b60        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x00000b60        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x00000b60        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x00000b60        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x00000b60        0x0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ *(COMMON)
+ COMMON         0x00000b60       0x10 obj/default/basic_nios_II_flash_led_ttc/Sch51.o
+                0x00000b60                SCH_tasks_G
+ COMMON         0x00000b70      0x100 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x00000b70                alt_irq
+                0x00000c70                . = ALIGN (0x4)
+                0x00000c70                __bss_end = ABSOLUTE (.)
+
+.onchip_memory2_0
+                0x00000c70        0x0
+                0x00000c70                PROVIDE (_alt_partition_onchip_memory2_0_start, ABSOLUTE (.))
+ *(.onchip_memory2_0 .onchip_memory2_0. onchip_memory2_0.*)
+                0x00000c70                . = ALIGN (0x4)
+                0x00000c70                PROVIDE (_alt_partition_onchip_memory2_0_end, ABSOLUTE (.))
+                0x00000c70                _end = ABSOLUTE (.)
+                0x00000c70                end = ABSOLUTE (.)
+                0x00000c70                __alt_stack_base = ABSOLUTE (.)
+                0x00000c70                PROVIDE (_alt_partition_onchip_memory2_0_load_addr, LOADADDR (.onchip_memory2_0))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x23
+ *(.comment)
+ .comment       0x00000000       0x23 obj/default/basic_nios_II_flash_led_ttc/2_50_XXg.o
+                                 0x24 (size before relaxing)
+ .comment       0x00000000       0x24 obj/default/basic_nios_II_flash_led_ttc/LED_flas.o
+ .comment       0x00000000       0x24 obj/default/basic_nios_II_flash_led_ttc/Main.o
+ .comment       0x00000000       0x24 obj/default/basic_nios_II_flash_led_ttc/Sch51.o
+ .comment       0x00000000       0x24 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic.o)
+ .comment       0x00000000       0x24 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .comment       0x00000000       0x24 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .comment       0x00000000       0x24 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .comment       0x00000000       0x24 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x00000000       0x24 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x00000000       0x24 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x1e8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 ../Flashing_LED_Superloop_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x00000028       0x20 obj/default/basic_nios_II_flash_led_ttc/2_50_XXg.o
+ .debug_aranges
+                0x00000048       0x20 obj/default/basic_nios_II_flash_led_ttc/LED_flas.o
+ .debug_aranges
+                0x00000068       0x20 obj/default/basic_nios_II_flash_led_ttc/Main.o
+ .debug_aranges
+                0x00000088       0x20 obj/default/basic_nios_II_flash_led_ttc/Sch51.o
+ .debug_aranges
+                0x000000a8       0x20 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_aranges
+                0x000000c8       0x20 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_aranges
+                0x000000e8       0x30 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x00000118       0x20 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x00000138       0x18 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_aranges
+                0x00000150       0x20 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x00000170       0x20 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x00000190       0x38 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x000001c8       0x20 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0xfee
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0x88 ../Flashing_LED_Superloop_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x00000088      0x1aa obj/default/basic_nios_II_flash_led_ttc/2_50_XXg.o
+ .debug_info    0x00000232       0x9c obj/default/basic_nios_II_flash_led_ttc/LED_flas.o
+ .debug_info    0x000002ce       0x51 obj/default/basic_nios_II_flash_led_ttc/Main.o
+ .debug_info    0x0000031f      0x1de obj/default/basic_nios_II_flash_led_ttc/Sch51.o
+ .debug_info    0x000004fd      0x364 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_info    0x00000861      0x1f6 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_info    0x00000a57       0x91 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x00000ae8      0x190 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x00000c78       0x8a ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x00000d02      0x135 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x00000e37       0x90 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x00000ec7       0x97 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x00000f5e       0x90 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+
+.debug_abbrev   0x00000000      0x83b
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x12 ../Flashing_LED_Superloop_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x00000012      0x122 obj/default/basic_nios_II_flash_led_ttc/2_50_XXg.o
+ .debug_abbrev  0x00000134       0x44 obj/default/basic_nios_II_flash_led_ttc/LED_flas.o
+ .debug_abbrev  0x00000178       0x37 obj/default/basic_nios_II_flash_led_ttc/Main.o
+ .debug_abbrev  0x000001af      0x110 obj/default/basic_nios_II_flash_led_ttc/Sch51.o
+ .debug_abbrev  0x000002bf      0x16a ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_abbrev  0x00000429      0x169 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_abbrev  0x00000592       0x12 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x000005a4      0x124 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x000006c8       0x40 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x00000708       0x9d ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x000007a5       0x42 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x000007e7       0x12 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x000007f9       0x42 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+
+.debug_line     0x00000000      0x84d
+ *(.debug_line)
+ .debug_line    0x00000000       0x66 ../Flashing_LED_Superloop_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x00000066      0x123 obj/default/basic_nios_II_flash_led_ttc/2_50_XXg.o
+ .debug_line    0x00000189       0x93 obj/default/basic_nios_II_flash_led_ttc/LED_flas.o
+ .debug_line    0x0000021c       0x61 obj/default/basic_nios_II_flash_led_ttc/Main.o
+ .debug_line    0x0000027d       0xc2 obj/default/basic_nios_II_flash_led_ttc/Sch51.o
+ .debug_line    0x0000033f       0xed ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_line    0x0000042c       0xdb ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_line    0x00000507       0x6b ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x00000572       0xae ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x00000620       0x50 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x00000670       0x92 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x00000702       0x51 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x00000753       0xab ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x000007fe       0x4f ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+
+.debug_frame    0x00000000      0x2ec
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x64 obj/default/basic_nios_II_flash_led_ttc/2_50_XXg.o
+ .debug_frame   0x00000064       0x48 obj/default/basic_nios_II_flash_led_ttc/LED_flas.o
+ .debug_frame   0x000000ac       0x2c obj/default/basic_nios_II_flash_led_ttc/Main.o
+ .debug_frame   0x000000d8       0x9c obj/default/basic_nios_II_flash_led_ttc/Sch51.o
+ .debug_frame   0x00000174       0x80 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_frame   0x000001f4       0x2c ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_frame   0x00000220       0x2c ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x0000024c       0x48 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x00000294       0x2c ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x000002c0       0x2c ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+
+.debug_str      0x00000000      0x5c8
+ *(.debug_str)
+ .debug_str     0x00000000      0x166 obj/default/basic_nios_II_flash_led_ttc/2_50_XXg.o
+                                0x1a7 (size before relaxing)
+ .debug_str     0x00000166       0x47 obj/default/basic_nios_II_flash_led_ttc/LED_flas.o
+                                0x128 (size before relaxing)
+ .debug_str     0x000001ad       0x2c obj/default/basic_nios_II_flash_led_ttc/Main.o
+                                 0xaf (size before relaxing)
+ .debug_str     0x000001d9       0xa4 obj/default/basic_nios_II_flash_led_ttc/Sch51.o
+                                0x17a (size before relaxing)
+ .debug_str     0x0000027d      0x15d ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic.o)
+                                0x20f (size before relaxing)
+ .debug_str     0x000003da       0x4c ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                                0x1b9 (size before relaxing)
+ .debug_str     0x00000426       0x3a ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                                0x168 (size before relaxing)
+ .debug_str     0x00000460       0x17 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                                0x117 (size before relaxing)
+ .debug_str     0x00000477       0xe9 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_load.o)
+                                0x1e3 (size before relaxing)
+ .debug_str     0x00000560       0x34 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                                0x126 (size before relaxing)
+ .debug_str     0x00000594       0x34 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                                0x126 (size before relaxing)
+
+.debug_loc      0x00000000      0x39c
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x84 obj/default/basic_nios_II_flash_led_ttc/2_50_XXg.o
+ .debug_loc     0x00000084       0x58 obj/default/basic_nios_II_flash_led_ttc/LED_flas.o
+ .debug_loc     0x000000dc       0x2c obj/default/basic_nios_II_flash_led_ttc/Main.o
+ .debug_loc     0x00000108       0xdc obj/default/basic_nios_II_flash_led_ttc/Sch51.o
+ .debug_loc     0x000001e4       0xb0 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_loc     0x00000294       0x2c ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_loc     0x000002c0       0x2c ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_loc     0x000002ec       0x58 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_loc     0x00000344       0x2c ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_loc     0x00000370       0x2c ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x00000000       0x10
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x00000000       0x10 ../Flashing_LED_Superloop_bsp//obj/HAL/src/crt0.o
+                0x00002000                __alt_data_end = 0x2000
+                0x00002000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                0x00000c70                PROVIDE (__alt_stack_limit, __alt_stack_base)
+                0x00000c70                PROVIDE (__alt_heap_start, end)
+                0x00002000                PROVIDE (__alt_heap_limit, 0x2000)
+OUTPUT(flashing_led_ttc.elf elf32-littlenios2)
+
+.debug_ranges   0x00000000       0xb8
+ .debug_ranges  0x00000000       0x20 ../Flashing_LED_Superloop_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x00000020       0x30 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_ranges  0x00000050       0x28 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x00000078       0x10 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_ranges  0x00000088       0x30 ../Flashing_LED_Superloop_bsp/\libhal_bsp.a(alt_exception_entry.o)

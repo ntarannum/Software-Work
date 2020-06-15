@@ -1,0 +1,110 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\a\Documents\EG3205_Work\VHDL\Week_4_D_flip_flop_4_bit\simulation\modelsim
+Ed_flip_flop
+Z1 w1549535597
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\a\Documents\EG3205_Work\VHDL\Week_4_D_flip_flop_4_bit\simulation\modelsim
+Z5 8C:/Users/a/Documents/EG3205_Work/VHDL/Week_4_D_flip_flop/D_flip_flop.vhd
+Z6 FC:/Users/a/Documents/EG3205_Work/VHDL/Week_4_D_flip_flop/D_flip_flop.vhd
+l0
+L4
+VI3EC3B0kbJ6B[IGDd39J42
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1549543076.831000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/a/Documents/EG3205_Work/VHDL/Week_4_D_flip_flop/D_flip_flop.vhd|
+Z10 !s107 C:/Users/a/Documents/EG3205_Work/VHDL/Week_4_D_flip_flop/D_flip_flop.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 @JCO[`i=T:K]P88QO=0BF0
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 11 d_flip_flop 0 22 I3EC3B0kbJ6B[IGDd39J42
+l14
+L13
+VS@nmen;:[9HHbfXiMUAR^0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 jG5;G0F8L@Rgzmc;INMNm0
+!i10b 1
+Ed_flip_flop_4_bit
+Z13 w1549543043
+R2
+R3
+R4
+Z14 8C:/Users/a/Documents/EG3205_Work/VHDL/Week_4_D_flip_flop_4_bit/D_flip_flop_4_bit.vhd
+Z15 FC:/Users/a/Documents/EG3205_Work/VHDL/Week_4_D_flip_flop_4_bit/D_flip_flop_4_bit.vhd
+l0
+L5
+V?37Y^DCEcJ[5gH8<DESkn1
+R7
+31
+Z16 !s108 1549543077.289000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/a/Documents/EG3205_Work/VHDL/Week_4_D_flip_flop_4_bit/D_flip_flop_4_bit.vhd|
+Z18 !s107 C:/Users/a/Documents/EG3205_Work/VHDL/Week_4_D_flip_flop_4_bit/D_flip_flop_4_bit.vhd|
+R11
+R12
+!s100 0??<XMd<TZzHfeITSPSb81
+!i10b 1
+Abehavioural
+R2
+R3
+DEx4 work 17 d_flip_flop_4_bit 0 22 ?37Y^DCEcJ[5gH8<DESkn1
+l22
+L12
+VH][aWdK>6DMoknflClUHN2
+R7
+31
+R16
+R17
+R18
+R11
+R12
+!s100 =l^R1]aDS0HiRXB]Pnic92
+!i10b 1
+Ed_flip_flop_tb
+Z19 w1549497729
+R2
+R3
+R4
+Z20 8C:/Users/a/Documents/EG3205_Work/VHDL/Week_4_D_flip_flop_4_bit/../D_flip_flop_tb.vhd
+Z21 FC:/Users/a/Documents/EG3205_Work/VHDL/Week_4_D_flip_flop_4_bit/../D_flip_flop_tb.vhd
+l0
+L12
+VD<?0g3?S31XPoYX;ZY8C30
+!s100 Ro=P598GI4?Sh0_<H2h961
+R7
+31
+!i10b 1
+Z22 !s108 1549543077.791000
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/a/Documents/EG3205_Work/VHDL/Week_4_D_flip_flop_4_bit/../D_flip_flop_tb.vhd|
+Z24 !s107 C:/Users/a/Documents/EG3205_Work/VHDL/Week_4_D_flip_flop_4_bit/../D_flip_flop_tb.vhd|
+R11
+R12
+Abehavior
+R2
+R3
+DEx4 work 14 d_flip_flop_tb 0 22 D<?0g3?S31XPoYX;ZY8C30
+l42
+L15
+Vloz8LX3MiC?IC6gE=kmn<1
+!s100 7KN^HYJFRb7Z8FPSFQznG1
+R7
+31
+!i10b 1
+R22
+R23
+R24
+R11
+R12

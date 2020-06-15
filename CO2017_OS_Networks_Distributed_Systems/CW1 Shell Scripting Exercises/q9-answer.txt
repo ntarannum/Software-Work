@@ -1,0 +1,35 @@
+1) Run 2N copies of the process strictly sequentially
+the command that was run is given below:
+/usr/bin/time -o ~/CO2017/Exercise1/output1.txt -v parallel -j1 ssh-keygen -G /tmp/mods-{}.candidate -b 768 ::: {1..8}
+When this command is run, 1 core is being used for 8 instances of the ssh-keygen sequentially
+The overall turnaround time is 8 minutes 52.43 seconds.
+The overall CPU usage is 99%.
+The time taken per process: 66.50 seconds (taking into account of the user time only)
+
+2) Run N copies of the process concurrently, and then run another N copies of the process concurrently (this is the default behaviour of parallel).
+the command that was run is given below:
+/usr/bin/time -o ~/CO2017/Exercise1/output2.txt -v parallel ssh-keygen -G /tmp/mods-{}.candidate -b 768 ::: {1..8}
+4 cores are being used for 4 instances of the ssh-keygen in parallel
+The overall turnaround time is 2 minutes 22.49 seconds.
+The overall CPU usage is 394%.
+The time taken per process: 70.33 seconds (taking into account the user time only)
+
+3) Run all 2N copies of the process concurrently.
+the command that was run is given below:
+/usr/bin/time -o ~/CO2017/Exercise1/output3.txt -v parallel -j8 ssh-keygen -G /tmp/mods-{}.candidate -b 768 ::: {1..8}
+8 cores are being used for 8 instances of the ssh-keygen in parallel however, as there are only 4 cores the maximum CPU usage is restricted to 396% (nearly 400%).
+4 cores being used with 50% of the cpu being used.
+The overall turnaround time is 2 minutes and 21.87 seconds.
+The overall CPU usage is 396%.
+The time taken per process: 70.37 seconds (taking into account the user time only)
+
+a) The overall turn around time was the least for 3 (2 minutes and 21.87 seconds) because it had the highest CPU utilisation although for 2 the turnaround was only about 1 second longer (2 minutes 22.49 seconds).
+This is because for 2 and 3 because for both all four cores are being used to execute the command.
+
+b) The overall CPU utilisation is the most for 3 () and 2% less for 2 this is because they are doing exactly the same thing. I.e. all 4 cores will be used in both.
+In number 3, although the jobs option is set to 8 (which means 8 cores are to be used to run 8 instances of the ssh-keygen) the number of cores used will only be 4 as that is the maximum. 
+50% of a core is used for each instance of the ssh-keygen command as there are 4 cores but 8 jobs have been assigned i.e. 8 cores. 
+However, for number 2, 100% of a core is used. So each core runs a copy and then runs another copy.
+
+c) Impact on other processes is the least for 1 because this is using only one core (99% CPU utilisation), thus the three other cores are free to be used for other processes.
+More context switching is going on in 3 compared to 2, but it is a very small thing to be detected.

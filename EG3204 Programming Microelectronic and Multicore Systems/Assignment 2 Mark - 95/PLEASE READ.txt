@@ -1,0 +1,7 @@
+The code that was provided to us is in Assignment_2_solution folder
+
+The code I wrote prior to us being given the solution is in Assignment_2_my_personal_code folder
+In the main.c file of each core I have written some comments regarding my code.
+
+I hope this helps.
+Thank you.

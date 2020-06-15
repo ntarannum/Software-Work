@@ -1,0 +1,15 @@
+	component nios_system is
+		port (
+			clk_clk              : in  std_logic                    := 'X'; -- clk
+			spi_0_MISO           : in  std_logic                    := 'X'; -- MISO
+			spi_0_MOSI           : out std_logic;                           -- MOSI
+			spi_0_SCLK           : out std_logic;                           -- SCLK
+			spi_0_SS_n           : out std_logic;                           -- SS_n
+			led_export           : out std_logic_vector(7 downto 0);        -- export
+			spi_can_int_n_export : in  std_logic                    := 'X'; -- export
+			pb_1_export          : in  std_logic                    := 'X'; -- export
+			pb_2_export          : in  std_logic                    := 'X'; -- export
+			test_export          : out std_logic_vector(2 downto 0)         -- export
+		);
+	end component nios_system;
+

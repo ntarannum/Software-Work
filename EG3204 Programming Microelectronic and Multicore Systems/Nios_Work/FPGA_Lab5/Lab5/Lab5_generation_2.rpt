@@ -1,0 +1,285 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=C:/EG3205_nt161/FPGA_Lab5/Lab5/ --output-directory=C:/EG3205_nt161/FPGA_Lab5/Lab5/Lab5/ --report-file=bsf:C:/EG3205_nt161/FPGA_Lab5/Lab5/Lab5.bsf --system-info=DEVICE_FAMILY="Cyclone III" --system-info=DEVICE=EP3C16F484C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=C:/EG3205_nt161/FPGA_Lab5/Lab5/Lab5.qsys
+Progress: Loading Lab5/Lab5.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 13.1]
+Progress: Parameterizing module clk_0
+Progress: Adding ET_Core [altera_nios2_qsys 13.1]
+Progress: Parameterizing module ET_Core
+Progress: Adding ET_Core_Memory [altera_avalon_onchip_memory2 13.1]
+Progress: Parameterizing module ET_Core_Memory
+Progress: Adding et_leds1 [altera_avalon_pio 13.1]
+Progress: Parameterizing module et_leds1
+Progress: Adding et_leds2 [altera_avalon_pio 13.1]
+Progress: Parameterizing module et_leds2
+Progress: Adding et_spi_0 [altera_avalon_spi 13.1]
+Progress: Parameterizing module et_spi_0
+Progress: Adding et_spican_int [altera_avalon_pio 13.1]
+Progress: Parameterizing module et_spican_int
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 13.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding et_pb_1 [altera_avalon_pio 13.1]
+Progress: Parameterizing module et_pb_1
+Progress: Adding et_pb_2 [altera_avalon_pio 13.1]
+Progress: Parameterizing module et_pb_2
+Progress: Adding TT_Core [altera_nios2_qsys 13.1]
+Progress: Parameterizing module TT_Core
+Progress: Adding TT_core_memory [altera_avalon_onchip_memory2 13.1]
+Progress: Parameterizing module TT_core_memory
+Progress: Adding tt_leds [altera_avalon_pio 13.1]
+Progress: Parameterizing module tt_leds
+Progress: Adding tt_pb_1 [altera_avalon_pio 13.1]
+Progress: Parameterizing module tt_pb_1
+Progress: Adding msg_buf_mutex [altera_avalon_mutex 13.1]
+Progress: Parameterizing module msg_buf_mutex
+Progress: Adding msg_buf_ram [altera_avalon_onchip_memory2 13.1]
+Progress: Parameterizing module msg_buf_ram
+Progress: Adding pio_0 [altera_avalon_pio 13.1]
+Progress: Parameterizing module pio_0
+Progress: Adding timer_0 [altera_avalon_timer 13.1]
+Progress: Parameterizing module timer_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: Lab5.msg_buf_mutex: The initial owner must release the mutex before it can be acquired by another owner. Nios II processors use their cpuid register value for the owner field. SOPC Builder assigns cpuid values to each Nios II core, starting from 0x0000, and incrementing in the order that the Nios II components appear on the System Contents tab.
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=C:/EG3205_nt161/FPGA_Lab5/Lab5/ --output-directory=C:/EG3205_nt161/FPGA_Lab5/Lab5/Lab5/synthesis/ --file-set=QUARTUS_SYNTH --report-file=html:C:/EG3205_nt161/FPGA_Lab5/Lab5/Lab5.html --report-file=sopcinfo:C:/EG3205_nt161/FPGA_Lab5/Lab5/Lab5.sopcinfo --report-file=cmp:C:/EG3205_nt161/FPGA_Lab5/Lab5/Lab5.cmp --report-file=qip:C:/EG3205_nt161/FPGA_Lab5/Lab5/Lab5/synthesis/Lab5.qip --report-file=svd --report-file=regmap:C:/EG3205_nt161/FPGA_Lab5/Lab5/Lab5/synthesis/Lab5.regmap --report-file=debuginfo:C:/EG3205_nt161/FPGA_Lab5/Lab5/Lab5/synthesis/Lab5.debuginfo --system-info=DEVICE_FAMILY="Cyclone III" --system-info=DEVICE=EP3C16F484C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=C:/EG3205_nt161/FPGA_Lab5/Lab5/Lab5.qsys --language=VERILOG
+Progress: Loading Lab5/Lab5.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 13.1]
+Progress: Parameterizing module clk_0
+Progress: Adding ET_Core [altera_nios2_qsys 13.1]
+Progress: Parameterizing module ET_Core
+Progress: Adding ET_Core_Memory [altera_avalon_onchip_memory2 13.1]
+Progress: Parameterizing module ET_Core_Memory
+Progress: Adding et_leds1 [altera_avalon_pio 13.1]
+Progress: Parameterizing module et_leds1
+Progress: Adding et_leds2 [altera_avalon_pio 13.1]
+Progress: Parameterizing module et_leds2
+Progress: Adding et_spi_0 [altera_avalon_spi 13.1]
+Progress: Parameterizing module et_spi_0
+Progress: Adding et_spican_int [altera_avalon_pio 13.1]
+Progress: Parameterizing module et_spican_int
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 13.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding et_pb_1 [altera_avalon_pio 13.1]
+Progress: Parameterizing module et_pb_1
+Progress: Adding et_pb_2 [altera_avalon_pio 13.1]
+Progress: Parameterizing module et_pb_2
+Progress: Adding TT_Core [altera_nios2_qsys 13.1]
+Progress: Parameterizing module TT_Core
+Progress: Adding TT_core_memory [altera_avalon_onchip_memory2 13.1]
+Progress: Parameterizing module TT_core_memory
+Progress: Adding tt_leds [altera_avalon_pio 13.1]
+Progress: Parameterizing module tt_leds
+Progress: Adding tt_pb_1 [altera_avalon_pio 13.1]
+Progress: Parameterizing module tt_pb_1
+Progress: Adding msg_buf_mutex [altera_avalon_mutex 13.1]
+Progress: Parameterizing module msg_buf_mutex
+Progress: Adding msg_buf_ram [altera_avalon_onchip_memory2 13.1]
+Progress: Parameterizing module msg_buf_ram
+Progress: Adding pio_0 [altera_avalon_pio 13.1]
+Progress: Parameterizing module pio_0
+Progress: Adding timer_0 [altera_avalon_timer 13.1]
+Progress: Parameterizing module timer_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: Lab5.msg_buf_mutex: The initial owner must release the mutex before it can be acquired by another owner. Nios II processors use their cpuid register value for the owner field. SOPC Builder assigns cpuid values to each Nios II core, starting from 0x0000, and incrementing in the order that the Nios II components appear on the System Contents tab.
+Info: Lab5: Generating Lab5 "Lab5" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 18 modules, 97 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_initial_interconnect_transform: After transform: 18 modules, 91 connections
+Info: merlin_translator_transform: After transform: 39 modules, 196 connections
+Info: merlin_domain_transform: After transform: 78 modules, 523 connections
+Info: merlin_router_transform: After transform: 99 modules, 628 connections
+Info: merlin_network_to_switch_transform: After transform: 140 modules, 758 connections
+Info: merlin_clock_and_reset_bridge_transform: After transform: 142 modules, 899 connections
+Info: merlin_hierarchy_transform: After transform: 19 modules, 99 connections
+Info: merlin_mm_transform: After transform: 19 modules, 99 connections
+Info: merlin_interrupt_mapper_transform: After transform: 21 modules, 109 connections
+Info: reset_adaptation_transform: After transform: 24 modules, 90 connections
+Info: ET_Core: Starting RTL generation for module 'Lab5_ET_Core'
+Info: ET_Core:   Generation command is [exec C:/altera/13.1/quartus/bin/eperlcmd.exe -I C:/altera/13.1/quartus/bin/perl/lib -I C:/altera/13.1/quartus/sopc_builder/bin/europa -I C:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.1/quartus/sopc_builder/bin -I C:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=Lab5_ET_Core --dir=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0001_ET_Core_gen/ --quartus_dir=C:/altera/13.1/quartus --verilog --config=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0001_ET_Core_gen//Lab5_ET_Core_processor_configuration.pl  --do_build_sim=0  ]
+Info: ET_Core: # 2018.11.22 09:42:35 (*) Starting Nios II generation
+Info: ET_Core: # 2018.11.22 09:42:35 (*)   Checking for plaintext license.
+Info: ET_Core: # 2018.11.22 09:42:37 (*)   Couldn't query license setup in Quartus directory C:/altera/13.1/quartus
+Info: ET_Core: # 2018.11.22 09:42:37 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: ET_Core: # 2018.11.22 09:42:37 (*)   LM_LICENSE_FILE environment variable is empty
+Info: ET_Core: # 2018.11.22 09:42:37 (*)   Plaintext license not found.
+Info: ET_Core: # 2018.11.22 09:42:37 (*)   No license required to generate encrypted Nios II/e.
+Info: ET_Core: # 2018.11.22 09:42:37 (*)   Elaborating CPU configuration settings
+Info: ET_Core: # 2018.11.22 09:42:37 (*)   Creating all objects for CPU
+Info: ET_Core: # 2018.11.22 09:42:38 (*)   Generating RTL from CPU objects
+Info: ET_Core: # 2018.11.22 09:42:38 (*)   Creating plain-text RTL
+Info: ET_Core: # 2018.11.22 09:42:39 (*) Done Nios II generation
+Info: ET_Core: Done RTL generation for module 'Lab5_ET_Core'
+Info: ET_Core: "Lab5" instantiated altera_nios2_qsys "ET_Core"
+Info: ET_Core_Memory: Starting RTL generation for module 'Lab5_ET_Core_Memory'
+Info: ET_Core_Memory:   Generation command is [exec C:/altera/13.1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.1/quartus/bin/perl/lib -I C:/altera/13.1/quartus/sopc_builder/bin/europa -I C:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.1/quartus/sopc_builder/bin -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=Lab5_ET_Core_Memory --dir=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0002_ET_Core_Memory_gen/ --quartus_dir=C:/altera/13.1/quartus --verilog --config=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0002_ET_Core_Memory_gen//Lab5_ET_Core_Memory_component_configuration.pl  --do_build_sim=0  ]
+Info: ET_Core_Memory: Done RTL generation for module 'Lab5_ET_Core_Memory'
+Info: ET_Core_Memory: "Lab5" instantiated altera_avalon_onchip_memory2 "ET_Core_Memory"
+Info: et_leds1: Starting RTL generation for module 'Lab5_et_leds1'
+Info: et_leds1:   Generation command is [exec C:/altera/13.1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.1/quartus/bin/perl/lib -I C:/altera/13.1/quartus/sopc_builder/bin/europa -I C:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.1/quartus/sopc_builder/bin -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Lab5_et_leds1 --dir=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0003_et_leds1_gen/ --quartus_dir=C:/altera/13.1/quartus --verilog --config=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0003_et_leds1_gen//Lab5_et_leds1_component_configuration.pl  --do_build_sim=0  ]
+Info: et_leds1: Done RTL generation for module 'Lab5_et_leds1'
+Info: et_leds1: "Lab5" instantiated altera_avalon_pio "et_leds1"
+Info: et_spi_0: Starting RTL generation for module 'Lab5_et_spi_0'
+Info: et_spi_0:   Generation command is [exec C:/altera/13.1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.1/quartus/bin/perl/lib -I C:/altera/13.1/quartus/sopc_builder/bin/europa -I C:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.1/quartus/sopc_builder/bin -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_spi -- C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_spi/generate_rtl.pl --name=Lab5_et_spi_0 --dir=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0004_et_spi_0_gen/ --quartus_dir=C:/altera/13.1/quartus --verilog --config=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0004_et_spi_0_gen//Lab5_et_spi_0_component_configuration.pl  --do_build_sim=0  ]
+Info: et_spi_0: Done RTL generation for module 'Lab5_et_spi_0'
+Info: et_spi_0: "Lab5" instantiated altera_avalon_spi "et_spi_0"
+Info: et_spican_int: Starting RTL generation for module 'Lab5_et_spican_int'
+Info: et_spican_int:   Generation command is [exec C:/altera/13.1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.1/quartus/bin/perl/lib -I C:/altera/13.1/quartus/sopc_builder/bin/europa -I C:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.1/quartus/sopc_builder/bin -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Lab5_et_spican_int --dir=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0005_et_spican_int_gen/ --quartus_dir=C:/altera/13.1/quartus --verilog --config=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0005_et_spican_int_gen//Lab5_et_spican_int_component_configuration.pl  --do_build_sim=0  ]
+Info: et_spican_int: Done RTL generation for module 'Lab5_et_spican_int'
+Info: et_spican_int: "Lab5" instantiated altera_avalon_pio "et_spican_int"
+Info: jtag_uart_0: Starting RTL generation for module 'Lab5_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec C:/altera/13.1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.1/quartus/bin/perl/lib -I C:/altera/13.1/quartus/sopc_builder/bin/europa -I C:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.1/quartus/sopc_builder/bin -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=Lab5_jtag_uart_0 --dir=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0006_jtag_uart_0_gen/ --quartus_dir=C:/altera/13.1/quartus --verilog --config=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0006_jtag_uart_0_gen//Lab5_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'Lab5_jtag_uart_0'
+Info: jtag_uart_0: "Lab5" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: et_pb_1: Starting RTL generation for module 'Lab5_et_pb_1'
+Info: et_pb_1:   Generation command is [exec C:/altera/13.1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.1/quartus/bin/perl/lib -I C:/altera/13.1/quartus/sopc_builder/bin/europa -I C:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.1/quartus/sopc_builder/bin -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Lab5_et_pb_1 --dir=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0007_et_pb_1_gen/ --quartus_dir=C:/altera/13.1/quartus --verilog --config=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0007_et_pb_1_gen//Lab5_et_pb_1_component_configuration.pl  --do_build_sim=0  ]
+Info: et_pb_1: Done RTL generation for module 'Lab5_et_pb_1'
+Info: et_pb_1: "Lab5" instantiated altera_avalon_pio "et_pb_1"
+Info: TT_Core: Starting RTL generation for module 'Lab5_TT_Core'
+Info: TT_Core:   Generation command is [exec C:/altera/13.1/quartus/bin/eperlcmd.exe -I C:/altera/13.1/quartus/bin/perl/lib -I C:/altera/13.1/quartus/sopc_builder/bin/europa -I C:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.1/quartus/sopc_builder/bin -I C:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=Lab5_TT_Core --dir=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0008_TT_Core_gen/ --quartus_dir=C:/altera/13.1/quartus --verilog --config=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0008_TT_Core_gen//Lab5_TT_Core_processor_configuration.pl  --do_build_sim=0  ]
+Info: TT_Core: # 2018.11.22 09:42:44 (*) Starting Nios II generation
+Info: TT_Core: # 2018.11.22 09:42:44 (*)   Checking for plaintext license.
+Info: TT_Core: # 2018.11.22 09:42:45 (*)   Couldn't query license setup in Quartus directory C:/altera/13.1/quartus
+Info: TT_Core: # 2018.11.22 09:42:45 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: TT_Core: # 2018.11.22 09:42:45 (*)   LM_LICENSE_FILE environment variable is empty
+Info: TT_Core: # 2018.11.22 09:42:45 (*)   Plaintext license not found.
+Info: TT_Core: # 2018.11.22 09:42:45 (*)   No license required to generate encrypted Nios II/e.
+Info: TT_Core: # 2018.11.22 09:42:45 (*)   Elaborating CPU configuration settings
+Info: TT_Core: # 2018.11.22 09:42:45 (*)   Creating all objects for CPU
+Info: TT_Core: # 2018.11.22 09:42:46 (*)   Generating RTL from CPU objects
+Info: TT_Core: # 2018.11.22 09:42:46 (*)   Creating plain-text RTL
+Info: TT_Core: # 2018.11.22 09:42:48 (*) Done Nios II generation
+Info: TT_Core: Done RTL generation for module 'Lab5_TT_Core'
+Info: TT_Core: "Lab5" instantiated altera_nios2_qsys "TT_Core"
+Info: TT_core_memory: Starting RTL generation for module 'Lab5_TT_core_memory'
+Info: TT_core_memory:   Generation command is [exec C:/altera/13.1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.1/quartus/bin/perl/lib -I C:/altera/13.1/quartus/sopc_builder/bin/europa -I C:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.1/quartus/sopc_builder/bin -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=Lab5_TT_core_memory --dir=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0009_TT_core_memory_gen/ --quartus_dir=C:/altera/13.1/quartus --verilog --config=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0009_TT_core_memory_gen//Lab5_TT_core_memory_component_configuration.pl  --do_build_sim=0  ]
+Info: TT_core_memory: Done RTL generation for module 'Lab5_TT_core_memory'
+Info: TT_core_memory: "Lab5" instantiated altera_avalon_onchip_memory2 "TT_core_memory"
+Info: tt_leds: Starting RTL generation for module 'Lab5_tt_leds'
+Info: tt_leds:   Generation command is [exec C:/altera/13.1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.1/quartus/bin/perl/lib -I C:/altera/13.1/quartus/sopc_builder/bin/europa -I C:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.1/quartus/sopc_builder/bin -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Lab5_tt_leds --dir=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0010_tt_leds_gen/ --quartus_dir=C:/altera/13.1/quartus --verilog --config=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0010_tt_leds_gen//Lab5_tt_leds_component_configuration.pl  --do_build_sim=0  ]
+Info: tt_leds: Done RTL generation for module 'Lab5_tt_leds'
+Info: tt_leds: "Lab5" instantiated altera_avalon_pio "tt_leds"
+Info: msg_buf_mutex: Starting RTL generation for module 'Lab5_msg_buf_mutex'
+Info: msg_buf_mutex:   Generation command is [exec C:/altera/13.1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.1/quartus/bin/perl/lib -I C:/altera/13.1/quartus/sopc_builder/bin/europa -I C:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.1/quartus/sopc_builder/bin -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_mutex -- C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_mutex/generate_rtl.pl --name=Lab5_msg_buf_mutex --dir=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0011_msg_buf_mutex_gen/ --quartus_dir=C:/altera/13.1/quartus --verilog --config=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0011_msg_buf_mutex_gen//Lab5_msg_buf_mutex_component_configuration.pl  --do_build_sim=0  ]
+Info: msg_buf_mutex: Done RTL generation for module 'Lab5_msg_buf_mutex'
+Info: msg_buf_mutex: "Lab5" instantiated altera_avalon_mutex "msg_buf_mutex"
+Info: msg_buf_ram: Starting RTL generation for module 'Lab5_msg_buf_ram'
+Info: msg_buf_ram:   Generation command is [exec C:/altera/13.1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.1/quartus/bin/perl/lib -I C:/altera/13.1/quartus/sopc_builder/bin/europa -I C:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.1/quartus/sopc_builder/bin -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=Lab5_msg_buf_ram --dir=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0012_msg_buf_ram_gen/ --quartus_dir=C:/altera/13.1/quartus --verilog --config=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0012_msg_buf_ram_gen//Lab5_msg_buf_ram_component_configuration.pl  --do_build_sim=0  ]
+Info: msg_buf_ram: Done RTL generation for module 'Lab5_msg_buf_ram'
+Info: msg_buf_ram: "Lab5" instantiated altera_avalon_onchip_memory2 "msg_buf_ram"
+Info: pio_0: Starting RTL generation for module 'Lab5_pio_0'
+Info: pio_0:   Generation command is [exec C:/altera/13.1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.1/quartus/bin/perl/lib -I C:/altera/13.1/quartus/sopc_builder/bin/europa -I C:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.1/quartus/sopc_builder/bin -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Lab5_pio_0 --dir=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0013_pio_0_gen/ --quartus_dir=C:/altera/13.1/quartus --verilog --config=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0013_pio_0_gen//Lab5_pio_0_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_0: Done RTL generation for module 'Lab5_pio_0'
+Info: pio_0: "Lab5" instantiated altera_avalon_pio "pio_0"
+Info: timer_0: Starting RTL generation for module 'Lab5_timer_0'
+Info: timer_0:   Generation command is [exec C:/altera/13.1/quartus/bin//perl/bin/perl.exe -I C:/altera/13.1/quartus/bin//perl/lib -I C:/altera/13.1/quartus/sopc_builder/bin/europa -I C:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.1/quartus/sopc_builder/bin -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=Lab5_timer_0 --dir=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0014_timer_0_gen/ --quartus_dir=C:/altera/13.1/quartus --verilog --config=C:/Users/nt161/AppData/Local/Temp/alt7857_6538594587293330167.dir/0014_timer_0_gen//Lab5_timer_0_component_configuration.pl  --do_build_sim=0  ]
+Info: timer_0: Done RTL generation for module 'Lab5_timer_0'
+Info: timer_0: "Lab5" instantiated altera_avalon_timer "timer_0"
+Info: pipeline_bridge_swap_transform: After transform: 124 modules, 426 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 124 modules, 426 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 124 modules, 426 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 124 modules, 426 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 124 modules, 426 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 124 modules, 426 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 124 modules, 426 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 124 modules, 426 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 124 modules, 426 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 124 modules, 426 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 124 modules, 426 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 124 modules, 426 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 124 modules, 426 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 124 modules, 426 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 124 modules, 426 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 124 modules, 426 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 124 modules, 426 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 124 modules, 426 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 124 modules, 426 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 124 modules, 426 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 124 modules, 426 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 124 modules, 426 connections
+Info: mm_interconnect_0: "Lab5" instantiated altera_merlin_interconnect_wrapper "mm_interconnect_0"
+Info: irq_mapper: "Lab5" instantiated altera_irq_mapper "irq_mapper"
+Info: irq_mapper_001: "Lab5" instantiated altera_irq_mapper "irq_mapper_001"
+Info: rst_controller: "Lab5" instantiated altera_reset_controller "rst_controller"
+Info: ET_Core_instruction_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "ET_Core_instruction_master_translator"
+Info: ET_Core_jtag_debug_module_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "ET_Core_jtag_debug_module_translator"
+Info: ET_Core_instruction_master_translator_avalon_universal_master_0_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "ET_Core_instruction_master_translator_avalon_universal_master_0_agent"
+Info: ET_Core_jtag_debug_module_translator_avalon_universal_slave_0_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "ET_Core_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: ET_Core_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "ET_Core_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: addr_router: "mm_interconnect_0" instantiated altera_merlin_router "addr_router"
+Info: addr_router_001: "mm_interconnect_0" instantiated altera_merlin_router "addr_router_001"
+Info: addr_router_002: "mm_interconnect_0" instantiated altera_merlin_router "addr_router_002"
+Info: addr_router_003: "mm_interconnect_0" instantiated altera_merlin_router "addr_router_003"
+Info: id_router: "mm_interconnect_0" instantiated altera_merlin_router "id_router"
+Info: id_router_002: "mm_interconnect_0" instantiated altera_merlin_router "id_router_002"
+Info: id_router_004: "mm_interconnect_0" instantiated altera_merlin_router "id_router_004"
+Info: id_router_012: "mm_interconnect_0" instantiated altera_merlin_router "id_router_012"
+Info: id_router_013: "mm_interconnect_0" instantiated altera_merlin_router "id_router_013"
+Info: cmd_xbar_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_001"
+Info: cmd_xbar_demux_002: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_002"
+Info: cmd_xbar_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: cmd_xbar_mux_004: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_xbar_mux_004"
+Info: Reusing file C:/EG3205_nt161/FPGA_Lab5/Lab5/Lab5/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_demux_004: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_004"
+Info: rsp_xbar_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: Reusing file C:/EG3205_nt161/FPGA_Lab5/Lab5/Lab5/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_xbar_mux_001"
+Info: Reusing file C:/EG3205_nt161/FPGA_Lab5/Lab5/Lab5/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_xbar_mux_002"
+Info: Reusing file C:/EG3205_nt161/FPGA_Lab5/Lab5/Lab5/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: Lab5: Done "Lab5" with 42 modules, 67 files, 1857752 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

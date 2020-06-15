@@ -1,0 +1,664 @@
+Archive member included because of file (symbol)
+
+Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+                              ./src/system/cr_startup_lpc17.o (SystemInit)
+Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+                              ./src/tasks/rgb_update.o (rgb_init)
+Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+                              Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o) (GPIO_SetDir)
+c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_aeabi_uldivmod.o)
+                              Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o) (__aeabi_uldivmod)
+c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(bpabi.o)
+                              c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
+c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_dvmd_tls.o)
+                              c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_divdi3.o)
+                              c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(bpabi.o) (__divdi3)
+c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_udivdi3.o)
+                              c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(bpabi.o) (__udivdi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+Error_code_G        0x4               ./src/scheduler/ttc_scheduler_o.o
+SCH_tasks_G         0xa0              ./src/scheduler/ttc_scheduler_o.o
+
+Discarded input sections
+
+ .group         0x00000000        0x8 ./src/tasks/rgb_update.o
+ .group         0x00000000        0x8 ./src/tasks/rgb_update.o
+ .group         0x00000000        0x8 ./src/tasks/rgb_update.o
+ .group         0x00000000        0x8 ./src/tasks/rgb_update.o
+ .group         0x00000000        0x8 ./src/tasks/rgb_update.o
+ .group         0x00000000        0x8 ./src/tasks/rgb_update.o
+ .text          0x00000000        0x0 ./src/tasks/rgb_update.o
+ .data          0x00000000        0x0 ./src/tasks/rgb_update.o
+ .rodata        0x00000000        0x3 ./src/tasks/rgb_update.o
+ .text.Flip_Colour
+                0x00000000       0x2c ./src/tasks/rgb_update.o
+ .text.Red_Flip
+                0x00000000       0x10 ./src/tasks/rgb_update.o
+ .text.Green_Flip
+                0x00000000       0x10 ./src/tasks/rgb_update.o
+ .text.Blue_Flip
+                0x00000000       0x10 ./src/tasks/rgb_update.o
+ .group         0x00000000        0x8 ./src/system/cr_startup_lpc17.o
+ .group         0x00000000        0x8 ./src/system/cr_startup_lpc17.o
+ .group         0x00000000        0x8 ./src/system/cr_startup_lpc17.o
+ .group         0x00000000        0x8 ./src/system/cr_startup_lpc17.o
+ .text          0x00000000        0x0 ./src/system/cr_startup_lpc17.o
+ .data          0x00000000        0x0 ./src/system/cr_startup_lpc17.o
+ .bss           0x00000000        0x0 ./src/system/cr_startup_lpc17.o
+ .text.SysTick_Handler
+                0x00000000        0x8 ./src/system/cr_startup_lpc17.o
+ .debug_macro   0x00000000      0x856 ./src/system/cr_startup_lpc17.o
+ .debug_macro   0x00000000       0x16 ./src/system/cr_startup_lpc17.o
+ .debug_macro   0x00000000       0x44 ./src/system/cr_startup_lpc17.o
+ .debug_macro   0x00000000      0x209 ./src/system/cr_startup_lpc17.o
+ .group         0x00000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x00000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x00000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x00000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x00000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x00000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x00000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x00000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x00000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x00000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x00000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x00000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .text          0x00000000        0x0 ./src/scheduler/ttc_scheduler_o.o
+ .data          0x00000000        0x0 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x00000000      0x856 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x00000000       0x16 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x00000000       0x44 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x00000000      0x209 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x00000000        0x8 ./src/main/main.o
+ .group         0x00000000        0x8 ./src/main/main.o
+ .group         0x00000000        0x8 ./src/main/main.o
+ .group         0x00000000        0x8 ./src/main/main.o
+ .group         0x00000000        0x8 ./src/main/main.o
+ .group         0x00000000        0x8 ./src/main/main.o
+ .group         0x00000000        0x8 ./src/main/main.o
+ .group         0x00000000        0x8 ./src/main/main.o
+ .group         0x00000000        0x8 ./src/main/main.o
+ .group         0x00000000        0x8 ./src/main/main.o
+ .group         0x00000000        0x8 ./src/main/main.o
+ .text          0x00000000        0x0 ./src/main/main.o
+ .data          0x00000000        0x0 ./src/main/main.o
+ .bss           0x00000000        0x0 ./src/main/main.o
+ .text.check_failed
+                0x00000000        0xc ./src/main/main.o
+ .debug_macro   0x00000000      0x856 ./src/main/main.o
+ .debug_macro   0x00000000       0x1c ./src/main/main.o
+ .debug_macro   0x00000000       0x22 ./src/main/main.o
+ .debug_macro   0x00000000       0x16 ./src/main/main.o
+ .debug_macro   0x00000000       0x44 ./src/main/main.o
+ .debug_macro   0x00000000      0x209 ./src/main/main.o
+ .debug_macro   0x00000000      0x7b7 ./src/main/main.o
+ .debug_macro   0x00000000      0x2c7 ./src/main/main.o
+ .debug_macro   0x00000000       0x64 ./src/main/main.o
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .text          0x00000000        0x0 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .bss           0x00000000        0x0 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .text.SystemCoreClockUpdate
+                0x00000000      0x184 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000       0x16 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000       0x44 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000      0x209 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000       0x1c Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000      0x2c7 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .text          0x00000000        0x0 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .data          0x00000000        0x0 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .bss           0x00000000        0x0 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_macro   0x00000000      0x850 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_macro   0x00000000       0x1c Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_macro   0x00000000       0x22 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_macro   0x00000000       0x16 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_macro   0x00000000       0x44 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_macro   0x00000000      0x209 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_macro   0x00000000      0x7b7 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_macro   0x00000000      0x2c7 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_macro   0x00000000       0x64 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_macro   0x00000000       0x1c Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .group         0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text          0x00000000        0x0 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .data          0x00000000        0x0 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .bss           0x00000000        0x0 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_HalfWordGetPointer
+                0x00000000       0x3c Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_ByteGetPointer
+                0x00000000       0x3c Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.GPIO_ReadValue
+                0x00000000       0x10 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.GPIO_IntCmd
+                0x00000000       0x38 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.GPIO_GetIntStatus
+                0x00000000       0x58 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.GPIO_ClearInt
+                0x00000000       0x18 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_SetDir
+                0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_SetValue
+                0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_ClearValue
+                0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_ReadValue
+                0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_IntCmd
+                0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_GetIntStatus
+                0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_ClearInt
+                0x00000000        0x8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_SetMask
+                0x00000000       0x20 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_HalfWordSetDir
+                0x00000000       0x40 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_HalfWordSetMask
+                0x00000000       0x40 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_HalfWordSetValue
+                0x00000000       0x18 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_HalfWordClearValue
+                0x00000000       0x18 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_HalfWordReadValue
+                0x00000000       0x1c Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_ByteSetDir
+                0x00000000       0x2c Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_ByteSetMask
+                0x00000000       0x30 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_ByteSetValue
+                0x00000000       0x18 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_ByteClearValue
+                0x00000000       0x18 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_ByteReadValue
+                0x00000000       0x20 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_macro   0x00000000      0x850 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_macro   0x00000000       0x1c Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_macro   0x00000000       0x22 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_macro   0x00000000       0x16 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_macro   0x00000000       0x44 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_macro   0x00000000      0x209 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_macro   0x00000000      0x7b7 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_macro   0x00000000      0x2c7 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_macro   0x00000000       0x64 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_macro   0x00000000       0x40 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text          0x00000000       0x2c c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x00000000       0x1d c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_aeabi_uldivmod.o)
+ .text          0x00000000       0x60 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(bpabi.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(bpabi.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x00000000       0x2d c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(bpabi.o)
+ .debug_frame   0x00000000       0x58 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(bpabi.o)
+ .text          0x00000000        0x4 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000000       0x1d c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000      0x2a0 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_divdi3.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_divdi3.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_divdi3.o)
+ .ARM.extab     0x00000000        0x0 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_divdi3.o)
+ .ARM.exidx     0x00000000        0x8 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x00000000       0x2d c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_divdi3.o)
+ .debug_frame   0x00000000       0x34 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_divdi3.o)
+ .text          0x00000000      0x290 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_udivdi3.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_udivdi3.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_udivdi3.o)
+ .ARM.extab     0x00000000        0x0 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_udivdi3.o)
+ .ARM.exidx     0x00000000        0x8 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_udivdi3.o)
+ .ARM.attributes
+                0x00000000       0x2d c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_udivdi3.o)
+ .debug_frame   0x00000000       0x34 c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a(_udivdi3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash512        0x00000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamAHB32         0x2007c000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/tasks/rgb_update.o
+LOAD ./src/system/cr_startup_lpc17.o
+LOAD ./src/scheduler/ttc_scheduler_o.o
+LOAD ./src/main/main.o
+LOAD Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a
+LOAD Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a
+LOAD Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a
+START GROUP
+LOAD c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a
+LOAD c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc.a
+LOAD c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a
+LOAD c:/nxp/lpcxpresso_7.4.0_229/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libcr_newlib_semihost.a
+END GROUP
+                0x00080000                __top_MFlash512 = 0x80000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x20084000                __top_RamAHB32 = 0x20084000
+
+.text           0x00000000      0x850
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xcc ./src/system/cr_startup_lpc17.o
+                0x00000000                g_pfnVectors
+                0x000000cc                . = ALIGN (0x4)
+                0x000000cc                __section_table_start = .
+                0x000000cc                __data_section_table = .
+                0x000000cc        0x4 LONG 0x850 LOADADDR (.data)
+                0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000d4        0x4 LONG 0x4 SIZEOF (.data)
+                0x000000d8        0x4 LONG 0x850 LOADADDR (.data_RAM2)
+                0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
+                0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x000000e4                __data_section_table_end = .
+                0x000000e4                __bss_section_table = .
+                0x000000e4        0x4 LONG 0x10000004 ADDR (.bss)
+                0x000000e8        0x4 LONG 0xb0 SIZEOF (.bss)
+                0x000000ec        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
+                0x000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x000000f4                __bss_section_table_end = .
+                0x000000f4                __section_table_end = .
+ *(.after_vectors*)
+ *(.text*)
+ .text.RGB_Init
+                0x000000f4       0x18 ./src/tasks/rgb_update.o
+                0x000000f4                RGB_Init
+ .text.On_Colour
+                0x0000010c       0x2c ./src/tasks/rgb_update.o
+                0x0000010c                On_Colour
+ .text.Off_Colour
+                0x00000138       0x34 ./src/tasks/rgb_update.o
+                0x00000138                Off_Colour
+ .text.Red_On   0x0000016c       0x10 ./src/tasks/rgb_update.o
+                0x0000016c                Red_On
+ .text.Red_Off  0x0000017c       0x10 ./src/tasks/rgb_update.o
+                0x0000017c                Red_Off
+ .text.Green_On
+                0x0000018c       0x10 ./src/tasks/rgb_update.o
+                0x0000018c                Green_On
+ .text.Green_Off
+                0x0000019c       0x10 ./src/tasks/rgb_update.o
+                0x0000019c                Green_Off
+ .text.Blue_On  0x000001ac       0x10 ./src/tasks/rgb_update.o
+                0x000001ac                Blue_On
+ .text.Blue_Off
+                0x000001bc       0x10 ./src/tasks/rgb_update.o
+                0x000001bc                Blue_Off
+ .text.ResetISR
+                0x000001cc       0x5c ./src/system/cr_startup_lpc17.o
+                0x000001cc                ResetISR
+ .text.NMI_Handler
+                0x00000228        0x8 ./src/system/cr_startup_lpc17.o
+                0x00000228                NMI_Handler
+ .text.HardFault_Handler
+                0x00000230        0x8 ./src/system/cr_startup_lpc17.o
+                0x00000230                HardFault_Handler
+ .text.MemManage_Handler
+                0x00000238        0x8 ./src/system/cr_startup_lpc17.o
+                0x00000238                MemManage_Handler
+ .text.BusFault_Handler
+                0x00000240        0x8 ./src/system/cr_startup_lpc17.o
+                0x00000240                BusFault_Handler
+ .text.UsageFault_Handler
+                0x00000248        0x8 ./src/system/cr_startup_lpc17.o
+                0x00000248                UsageFault_Handler
+ .text.SVCall_Handler
+                0x00000250        0x8 ./src/system/cr_startup_lpc17.o
+                0x00000250                SVCall_Handler
+ .text.DebugMon_Handler
+                0x00000258        0x8 ./src/system/cr_startup_lpc17.o
+                0x00000258                DebugMon_Handler
+ .text.PendSV_Handler
+                0x00000260        0x8 ./src/system/cr_startup_lpc17.o
+                0x00000260                PendSV_Handler
+ .text.IntDefaultHandler
+                0x00000268        0x8 ./src/system/cr_startup_lpc17.o
+                0x00000268                TIMER2_IRQHandler
+                0x00000268                RIT_IRQHandler
+                0x00000268                I2C0_IRQHandler
+                0x00000268                USBActivity_IRQHandler
+                0x00000268                PWM1_IRQHandler
+                0x00000268                I2C1_IRQHandler
+                0x00000268                EINT2_IRQHandler
+                0x00000268                UART1_IRQHandler
+                0x00000268                EINT3_IRQHandler
+                0x00000268                CANActivity_IRQHandler
+                0x00000268                TIMER3_IRQHandler
+                0x00000268                UART0_IRQHandler
+                0x00000268                IntDefaultHandler
+                0x00000268                PLL0_IRQHandler
+                0x00000268                CAN_IRQHandler
+                0x00000268                PLL1_IRQHandler
+                0x00000268                SSP0_IRQHandler
+                0x00000268                I2S_IRQHandler
+                0x00000268                I2C2_IRQHandler
+                0x00000268                RTC_IRQHandler
+                0x00000268                TIMER0_IRQHandler
+                0x00000268                SPI_IRQHandler
+                0x00000268                EINT1_IRQHandler
+                0x00000268                TIMER1_IRQHandler
+                0x00000268                UART2_IRQHandler
+                0x00000268                ADC_IRQHandler
+                0x00000268                SSP1_IRQHandler
+                0x00000268                USB_IRQHandler
+                0x00000268                BOD_IRQHandler
+                0x00000268                WDT_IRQHandler
+                0x00000268                QEI_IRQHandler
+                0x00000268                EINT0_IRQHandler
+                0x00000268                DMA_IRQHandler
+                0x00000268                UART3_IRQHandler
+                0x00000268                MCPWM_IRQHandler
+                0x00000268                ENET_IRQHandler
+ .text.__enable_irq
+                0x00000270       0x10 ./src/scheduler/ttc_scheduler_o.o
+ .text.__disable_irq
+                0x00000280       0x10 ./src/scheduler/ttc_scheduler_o.o
+ .text.__WFI    0x00000290       0x10 ./src/scheduler/ttc_scheduler_o.o
+ .text.NVIC_SetPriority
+                0x000002a0       0x54 ./src/scheduler/ttc_scheduler_o.o
+ .text.SysTick_Config
+                0x000002f4       0x44 ./src/scheduler/ttc_scheduler_o.o
+ .text.SCH_Init
+                0x00000338       0x64 ./src/scheduler/ttc_scheduler_o.o
+                0x00000338                SCH_Init
+ .text.SCH_Start
+                0x0000039c       0x28 ./src/scheduler/ttc_scheduler_o.o
+                0x0000039c                SCH_Start
+ .text.SysTick_Handler
+                0x000003c4       0x30 ./src/scheduler/ttc_scheduler_o.o
+                0x000003c4                SysTick_Handler
+ .text.SCH_Dispatch_Tasks
+                0x000003f4      0x10c ./src/scheduler/ttc_scheduler_o.o
+                0x000003f4                SCH_Dispatch_Tasks
+ .text.SCH_Add_Task
+                0x00000500       0x7c ./src/scheduler/ttc_scheduler_o.o
+                0x00000500                SCH_Add_Task
+ .text.SCH_Delete_Task
+                0x0000057c       0x70 ./src/scheduler/ttc_scheduler_o.o
+                0x0000057c                SCH_Delete_Task
+ .text.SCH_Go_To_Sleep
+                0x000005ec        0xc ./src/scheduler/ttc_scheduler_o.o
+ .text.main     0x000005f8       0x78 ./src/main/main.o
+                0x000005f8                main
+ .text.SystemInit
+                0x00000670       0xec Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+                0x00000670                SystemInit
+ .text.rgb_init
+                0x0000075c       0x24 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+                0x0000075c                rgb_init
+ .text.rgb_setLeds
+                0x00000780       0x54 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+                0x00000780                rgb_setLeds
+ .text.GPIO_GetPointer
+                0x000007d4       0x3c Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.GPIO_SetDir
+                0x00000810       0x20 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+                0x00000810                GPIO_SetDir
+ .text.GPIO_SetValue
+                0x00000830       0x10 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+                0x00000830                GPIO_SetValue
+ .text.GPIO_ClearValue
+                0x00000840       0x10 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+                0x00000840                GPIO_ClearValue
+ *(.rodata .rodata.* .constdata .constdata.*)
+                0x00000850                . = ALIGN (0x4)
+
+.glue_7         0x00000850        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00000850        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00000850        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00000850        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00000850        0x0
+ .iplt          0x00000000        0x0 ./src/tasks/rgb_update.o
+
+.rel.dyn        0x00000850        0x0
+ .rel.iplt      0x00000000        0x0 ./src/tasks/rgb_update.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000850                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00000850                __exidx_end = .
+                0x00000850                _etext = .
+
+.data_RAM2      0x2007c000        0x0 load address 0x00000850
+ FILL mask 0xff
+ *(.ramfunc.$RAM2)
+ *(.ramfunc.$RamAHB32)
+ *(.data.$RAM2*)
+ *(.data.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000        0x4 load address 0x00000850
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+ .data          0x10000000        0x4 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+                0x10000000                SystemCoreClock
+                0x10000004                . = ALIGN (0x4)
+                0x10000004                _edata = .
+
+.igot.plt       0x10000004        0x0 load address 0x00000854
+ .igot.plt      0x00000000        0x0 ./src/tasks/rgb_update.o
+
+.bss_RAM2       0x2007c000        0x0
+ *(.bss.$RAM2*)
+ *(.bss.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.bss            0x10000004       0xb0
+                0x10000004                _bss = .
+ *(.bss*)
+ .bss           0x10000004        0x1 ./src/tasks/rgb_update.o
+ *fill*         0x10000005        0x3 
+ .bss           0x10000008        0x8 ./src/scheduler/ttc_scheduler_o.o
+ *(COMMON)
+ COMMON         0x10000010       0xa4 ./src/scheduler/ttc_scheduler_o.o
+                0x10000010                Error_code_G
+                0x10000014                SCH_tasks_G
+                0x100000b4                . = ALIGN (0x4)
+                0x100000b4                _ebss = .
+                0x100000b4                PROVIDE (end, .)
+
+.noinit_RAM2    0x2007c000        0x0
+ *(.noinit.$RAM2*)
+ *(.noinit.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.noinit         0x100000b4        0x0
+                0x100000b4                _noinit = .
+ *(.noinit*)
+                0x100000b4                . = ALIGN (0x4)
+                0x100000b4                _end_noinit = .
+                0x100000b4                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10008000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
+OUTPUT(Andrew_Norman_Assignment_One.axf elf32-littlearm)
+
+.debug_info     0x00000000     0x1f23
+ .debug_info    0x00000000      0x1ec ./src/tasks/rgb_update.o
+ .debug_info    0x000001ec      0x1b1 ./src/system/cr_startup_lpc17.o
+ .debug_info    0x0000039d      0x709 ./src/scheduler/ttc_scheduler_o.o
+ .debug_info    0x00000aa6      0x108 ./src/main/main.o
+ .debug_info    0x00000bae      0x2ee Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_info    0x00000e9c      0x21e Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_info    0x000010ba      0xe69 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+
+.debug_abbrev   0x00000000      0x813
+ .debug_abbrev  0x00000000       0xb3 ./src/tasks/rgb_update.o
+ .debug_abbrev  0x000000b3       0xb9 ./src/system/cr_startup_lpc17.o
+ .debug_abbrev  0x0000016c      0x23e ./src/scheduler/ttc_scheduler_o.o
+ .debug_abbrev  0x000003aa       0x9e ./src/main/main.o
+ .debug_abbrev  0x00000448       0xe6 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_abbrev  0x0000052e       0xca Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_abbrev  0x000005f8      0x21b Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+
+.debug_aranges  0x00000000      0x2d8
+ .debug_aranges
+                0x00000000       0x80 ./src/tasks/rgb_update.o
+ .debug_aranges
+                0x00000080       0x70 ./src/system/cr_startup_lpc17.o
+ .debug_aranges
+                0x000000f0       0x78 ./src/scheduler/ttc_scheduler_o.o
+ .debug_aranges
+                0x00000168       0x28 ./src/main/main.o
+ .debug_aranges
+                0x00000190       0x28 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_aranges
+                0x000001b8       0x28 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_aranges
+                0x000001e0       0xf8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+
+.debug_ranges   0x00000000      0x268
+ .debug_ranges  0x00000000       0x70 ./src/tasks/rgb_update.o
+ .debug_ranges  0x00000070       0x60 ./src/system/cr_startup_lpc17.o
+ .debug_ranges  0x000000d0       0x68 ./src/scheduler/ttc_scheduler_o.o
+ .debug_ranges  0x00000138       0x18 ./src/main/main.o
+ .debug_ranges  0x00000150       0x18 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_ranges  0x00000168       0x18 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_ranges  0x00000180       0xe8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+
+.debug_macro    0x00000000     0x2c48
+ .debug_macro   0x00000000       0x5a ./src/tasks/rgb_update.o
+ .debug_macro   0x0000005a      0x856 ./src/tasks/rgb_update.o
+ .debug_macro   0x000008b0       0x16 ./src/tasks/rgb_update.o
+ .debug_macro   0x000008c6       0x44 ./src/tasks/rgb_update.o
+ .debug_macro   0x0000090a      0x209 ./src/tasks/rgb_update.o
+ .debug_macro   0x00000b13       0x5e ./src/tasks/rgb_update.o
+ .debug_macro   0x00000b71       0x1c ./src/tasks/rgb_update.o
+ .debug_macro   0x00000b8d       0x58 ./src/system/cr_startup_lpc17.o
+ .debug_macro   0x00000be5       0x9c ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x00000c81       0x1c ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x00000c9d       0x22 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x00000cbf      0x7b7 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x00001476      0x2c7 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x0000173d       0x64 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x000017a1       0x16 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x000017b7       0x2e ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x000017e5       0x28 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x0000180d       0x93 ./src/main/main.o
+ .debug_macro   0x000018a0       0x1c ./src/main/main.o
+ .debug_macro   0x000018bc       0x22 ./src/main/main.o
+ .debug_macro   0x000018de      0x119 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x000019f7      0x850 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00002247      0x7d5 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00002a1c       0x89 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_macro   0x00002aa5       0x40 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_macro   0x00002ae5       0x89 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_macro   0x00002b6e       0xda Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+
+.debug_line     0x00000000     0x1780
+ .debug_line    0x00000000      0x303 ./src/tasks/rgb_update.o
+ .debug_line    0x00000303      0x2ef ./src/system/cr_startup_lpc17.o
+ .debug_line    0x000005f2      0x43b ./src/scheduler/ttc_scheduler_o.o
+ .debug_line    0x00000a2d      0x2f8 ./src/main/main.o
+ .debug_line    0x00000d25      0x28c Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_line    0x00000fb1      0x2c0 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_line    0x00001271      0x50f Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+
+.debug_str      0x00000000     0x8470
+ .debug_str     0x00000000     0x2fe6 ./src/tasks/rgb_update.o
+                               0x3138 (size before relaxing)
+ .debug_str     0x00002fe6      0x164 ./src/system/cr_startup_lpc17.o
+                               0x3013 (size before relaxing)
+ .debug_str     0x0000314a     0x4594 ./src/scheduler/ttc_scheduler_o.o
+                               0x7627 (size before relaxing)
+ .debug_str     0x000076de       0x3d ./src/main/main.o
+                               0x717b (size before relaxing)
+ .debug_str     0x0000771b      0x4dc Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+                               0x7294 (size before relaxing)
+ .debug_str     0x00007bf7      0x2c8 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+                               0x72d3 (size before relaxing)
+ .debug_str     0x00007ebf      0x5b1 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+                               0x7807 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./src/tasks/rgb_update.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./src/system/cr_startup_lpc17.o
+ .comment       0x00000000       0x71 ./src/scheduler/ttc_scheduler_o.o
+ .comment       0x00000000       0x71 ./src/main/main.o
+ .comment       0x00000000       0x71 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .comment       0x00000000       0x71 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .comment       0x00000000       0x71 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 ./src/tasks/rgb_update.o
+ .ARM.attributes
+                0x00000033       0x33 ./src/system/cr_startup_lpc17.o
+ .ARM.attributes
+                0x00000066       0x33 ./src/scheduler/ttc_scheduler_o.o
+ .ARM.attributes
+                0x00000099       0x33 ./src/main/main.o
+ .ARM.attributes
+                0x000000cc       0x33 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .ARM.attributes
+                0x000000ff       0x33 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .ARM.attributes
+                0x00000132       0x33 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+
+.debug_frame    0x00000000      0x774
+ .debug_frame   0x00000000      0x188 ./src/tasks/rgb_update.o
+ .debug_frame   0x00000188      0x120 ./src/system/cr_startup_lpc17.o
+ .debug_frame   0x000002a8      0x158 ./src/scheduler/ttc_scheduler_o.o
+ .debug_frame   0x00000400       0x48 ./src/main/main.o
+ .debug_frame   0x00000448       0x3c Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_frame   0x00000484       0x40 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_frame   0x000004c4      0x2b0 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+
+.debug_loc      0x00000000      0xc90
+ .debug_loc     0x00000000       0x3a Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(rgb.o)
+ .debug_loc     0x0000003a      0xc56 Z:\LPCXpresso\Workspaces\LPC-Scheduler\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)

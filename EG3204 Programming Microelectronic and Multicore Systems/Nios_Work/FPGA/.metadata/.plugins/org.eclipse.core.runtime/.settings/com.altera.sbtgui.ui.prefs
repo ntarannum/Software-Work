@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+newSoftwareExampleWizardPage.defaultLocation=Z\:\\EG3205\\FPGA\\software\\Flashing_LED_SuperLoop
+newSoftwareExampleWizardPage.sopcinfoFile=Z\:\\EG3205\\FPGA\\nios_system.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=Z\:\\EG3205\\FPGA\\software\\Flashing_LED_SuperLoop_bsp

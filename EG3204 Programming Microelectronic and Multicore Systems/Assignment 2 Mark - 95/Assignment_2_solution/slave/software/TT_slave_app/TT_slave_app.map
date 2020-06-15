@@ -1,0 +1,667 @@
+Archive member included because of file (symbol)
+
+../TT_slave_app_bsp/\libhal_bsp.a(alt_iic.o)
+                              obj/default/2_50_XXg.o (alt_ic_isr_register)
+../TT_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                              ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic.o) (alt_iic_isr_register)
+../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                              ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_entry)
+../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                              ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq)
+../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                              ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic.o) (alt_irq_active)
+../TT_slave_app_bsp/\libhal_bsp.a(alt_load.o)
+                              ../TT_slave_app_bsp//obj/HAL/src/crt0.o (alt_load)
+../TT_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o)
+                              obj/default/Tasks/SharedMem_Mutex.o (altera_avalon_mutex_open)
+../TT_slave_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              ../TT_slave_app_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+../TT_slave_app_bsp/\libhal_bsp.a(alt_errno.o)
+                              ../TT_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o) (alt_errno)
+../TT_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                              ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o) (alt_exception)
+../TT_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o)
+                              ../TT_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o) (alt_find_dev)
+../TT_slave_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              ../TT_slave_app_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+                              ../TT_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o) (errno)
+c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+                              ../TT_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o) (memcmp)
+c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+                              ../TT_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o) (strlen)
+
+Allocating common symbols
+Common symbol       size              file
+
+alt_irq             0x100             ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+errno               0x4               c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+SCH_tasks_G         0x20              obj/default/Sch51.o
+cpu_id              0x4               obj/default/Tasks/SharedMem_Mutex.o
+message             0x4               obj/default/Tasks/SharedMem_Mutex.o
+mutex               0x4               obj/default/Tasks/SharedMem_Mutex.o
+RxBuff              0xa               obj/default/Tasks/SharedMem_Mutex.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x00000000         0x00000020
+TT_core_memory   0x00000020         0x00003fe0
+msg_buf_ram      0x00009000         0x00000400
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ../TT_slave_app_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/2_50_XXg.o
+LOAD obj/default/Main.o
+LOAD obj/default/Sch51.o
+LOAD obj/default/Tasks/LED_flas.o
+LOAD obj/default/Tasks/SharedMem_Mutex.o
+LOAD c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libstdc++.a
+LOAD c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+LOAD c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/mno-hw-mul\libgcc.a
+START GROUP
+LOAD c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a
+LOAD c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/mno-hw-mul\libgcc.a
+LOAD ../TT_slave_app_bsp/\libhal_bsp.a
+END GROUP
+LOAD c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/mno-hw-mul\libgcc.a
+                0x00000000                __alt_mem_TT_core_memory = 0x0
+                0x00009000                __alt_mem_msg_buf_ram = 0x9000
+
+.entry          0x00000000       0x20
+ *(.entry)
+ .entry         0x00000000       0x20 ../TT_slave_app_bsp//obj/HAL/src/crt0.o
+                0x00000000                __reset
+
+.exceptions     0x00000020      0x198
+                0x00000020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x00000020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x00000020        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                0x00000020                alt_irq_entry
+ .exceptions.entry.label
+                0x00000020        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                0x00000020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x00000020       0x54 ../TT_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x00000074       0x10 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x00000084        0x4 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x00000088        0x4 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x0000008c        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x0000008c        0x8 ../TT_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x00000094        0x4 ../TT_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x00000098        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x00000098        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x00000098       0x54 ../TT_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x000000ec       0xcc ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x000000ec                alt_irq_handler
+                0x000001b8                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x00000020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x000001b8      0xf60
+                0x000001b8                PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x000001b8       0x3c ../TT_slave_app_bsp//obj/HAL/src/crt0.o
+                0x000001b8                _start
+ .text          0x000001f4      0x20c obj/default/2_50_XXg.o
+                0x000001f4                SCH_Init_T0
+                0x00000290                SCH_Start
+ .text          0x00000400       0x50 obj/default/Main.o
+                0x00000400                alt_main
+ .text          0x00000450      0x2f0 obj/default/Sch51.o
+                0x00000450                SCH_Dispatch_Tasks
+                0x00000544                SCH_Add_Task
+                0x00000640                SCH_Delete_Task
+                0x00000708                SCH_Report_Status
+ .text          0x00000740       0x4c obj/default/Tasks/LED_flas.o
+                0x00000740                LED_Flash_Init
+                0x0000075c                LED_Flash_Update
+ .text          0x0000078c      0x134 obj/default/Tasks/SharedMem_Mutex.o
+                0x0000078c                SharedMem_Init
+                0x000007d0                SharedMem_Update
+ .text          0x000008c0      0x1d8 ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic.o)
+                0x000008c0                alt_ic_isr_register
+                0x00000910                alt_ic_irq_enable
+                0x000009ac                alt_ic_irq_disable
+                0x00000a4c                alt_ic_irq_enabled
+ .text          0x00000a98       0xf0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                0x00000a98                alt_iic_isr_register
+ .text          0x00000b88        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .text          0x00000b88        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .text          0x00000b88        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .text          0x00000b88       0xec ../TT_slave_app_bsp/\libhal_bsp.a(alt_load.o)
+                0x00000bf4                alt_load
+ .text          0x00000c74      0x2d4 ../TT_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o)
+                0x00000d40                altera_avalon_mutex_open
+                0x00000d90                altera_avalon_mutex_close
+                0x00000db4                altera_avalon_mutex_lock
+                0x00000df4                altera_avalon_mutex_trylock
+                0x00000e34                altera_avalon_mutex_unlock
+                0x00000e84                altera_avalon_mutex_is_mine
+                0x00000ef8                altera_avalon_mutex_first_lock
+ .text          0x00000f48       0x1c ../TT_slave_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x00000f48                alt_dcache_flush_all
+ .text          0x00000f64        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x00000f64        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .text          0x00000f64       0x90 ../TT_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o)
+                0x00000f64                alt_find_dev
+ .text          0x00000ff4       0x1c ../TT_slave_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x00000ff4                alt_icache_flush_all
+ .text          0x00001010        0x0 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .text          0x00001010       0x7c c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+                0x00001010                memcmp
+ .text          0x0000108c       0x8c c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+                0x0000108c                strlen
+ *(.gnu.warning.*)
+ *(.fini)
+                0x00001118                PROVIDE (__etext, ABSOLUTE (.))
+                0x00001118                PROVIDE (_etext, ABSOLUTE (.))
+                0x00001118                PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x00001118                . = ALIGN (0x4)
+                0x00001118                PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                0x00001118                PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                0x00001118                PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                0x00001118                PROVIDE (__init_array_end, ABSOLUTE (.))
+                0x00001118                PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                0x00001118                PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                0x00001118                PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                0x00001118                PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                0x00001118                PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                0x00001118                PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x00001118                . = ALIGN (0x4)
+
+.rodata         0x00001118       0x14
+                0x00001118                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x00001118                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x00001118       0x14 obj/default/Tasks/SharedMem_Mutex.o
+ *(.rodata1)
+                0x0000112c                . = ALIGN (0x4)
+                0x0000112c                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x00001118                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x0000112c       0x10 load address 0x0000113c
+                0x0000112c                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x0000112c                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000112c        0x0 ../TT_slave_app_bsp//obj/HAL/src/crt0.o
+ .data          0x0000112c        0x0 obj/default/2_50_XXg.o
+ .data          0x0000112c        0x0 obj/default/Main.o
+ .data          0x0000112c        0x0 obj/default/Sch51.o
+ .data          0x0000112c        0x0 obj/default/Tasks/LED_flas.o
+ .data          0x0000112c        0x0 obj/default/Tasks/SharedMem_Mutex.o
+ .data          0x0000112c        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic.o)
+ .data          0x0000112c        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .data          0x0000112c        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .data          0x0000112c        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .data          0x0000112c        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .data          0x0000112c        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x0000112c        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o)
+ .data          0x0000112c        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x0000112c        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x0000112c        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .data          0x0000112c        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .data          0x0000112c        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x0000112c        0x0 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .data          0x0000112c        0x0 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .data          0x0000112c        0x0 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+                0x0000912c                _gp = ABSOLUTE ((. + 0x8000))
+                0x0000912c                PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x0000112c        0x4 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x0000112c                alt_priority_mask
+ .sdata         0x00001130        0x8 ../TT_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o)
+                0x00001130                alt_mutex_list
+ .sdata         0x00001138        0x4 ../TT_slave_app_bsp/\libhal_bsp.a(alt_errno.o)
+                0x00001138                alt_errno
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x0000113c                . = ALIGN (0x4)
+                0x0000113c                _edata = ABSOLUTE (.)
+                0x0000113c                PROVIDE (edata, ABSOLUTE (.))
+                0x0000113c                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x0000113c                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x0000114c      0x144
+                0x0000114c                __bss_start = ABSOLUTE (.)
+                0x0000114c                PROVIDE (__sbss_start, ABSOLUTE (.))
+                0x0000114c                PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x0000114c        0x1 obj/default/Sch51.o
+                0x0000114c                Error_code_G
+ *fill*         0x0000114d        0x3 
+ .sbss          0x00001150        0xc obj/default/Tasks/SharedMem_Mutex.o
+                0x00001150                cpu_id
+                0x00001154                message
+                0x00001158                mutex
+ .sbss          0x0000115c        0x4 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x0000115c                alt_irq_active
+ .sbss          0x00001160        0x4 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+                0x00001160                errno
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                0x00001164                PROVIDE (__sbss_end, ABSOLUTE (.))
+                0x00001164                PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00001164        0x0 ../TT_slave_app_bsp//obj/HAL/src/crt0.o
+ .bss           0x00001164        0x0 obj/default/2_50_XXg.o
+ .bss           0x00001164        0x0 obj/default/Main.o
+ .bss           0x00001164        0x0 obj/default/Sch51.o
+ .bss           0x00001164        0x0 obj/default/Tasks/LED_flas.o
+ .bss           0x00001164        0x0 obj/default/Tasks/SharedMem_Mutex.o
+ .bss           0x00001164        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic.o)
+ .bss           0x00001164        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .bss           0x00001164        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x00001164        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .bss           0x00001164        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x00001164        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x00001164        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o)
+ .bss           0x00001164        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x00001164        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x00001164        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x00001164        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .bss           0x00001164        0x0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x00001164        0x0 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .bss           0x00001164        0x0 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .bss           0x00001164        0x0 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ *(COMMON)
+ COMMON         0x00001164       0x20 obj/default/Sch51.o
+                0x00001164                SCH_tasks_G
+ COMMON         0x00001184        0xa obj/default/Tasks/SharedMem_Mutex.o
+                0x00001184                RxBuff
+ *fill*         0x0000118e        0x2 
+ COMMON         0x00001190      0x100 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x00001190                alt_irq
+                0x00001290                . = ALIGN (0x4)
+                0x00001290                __bss_end = ABSOLUTE (.)
+
+.TT_core_memory
+                0x00001290        0x0
+                0x00001290                PROVIDE (_alt_partition_TT_core_memory_start, ABSOLUTE (.))
+ *(.TT_core_memory .TT_core_memory. TT_core_memory.*)
+                0x00001290                . = ALIGN (0x4)
+                0x00001290                PROVIDE (_alt_partition_TT_core_memory_end, ABSOLUTE (.))
+                0x00001290                _end = ABSOLUTE (.)
+                0x00001290                end = ABSOLUTE (.)
+                0x00001290                __alt_stack_base = ABSOLUTE (.)
+                0x00001290                PROVIDE (_alt_partition_TT_core_memory_load_addr, LOADADDR (.TT_core_memory))
+
+.msg_buf_ram    0x00009000        0x0 load address 0x00001290
+                0x00009000                PROVIDE (_alt_partition_msg_buf_ram_start, ABSOLUTE (.))
+ *(.msg_buf_ram .msg_buf_ram. msg_buf_ram.*)
+                0x00009000                . = ALIGN (0x4)
+                0x00009000                PROVIDE (_alt_partition_msg_buf_ram_end, ABSOLUTE (.))
+                0x00001290                PROVIDE (_alt_partition_msg_buf_ram_load_addr, LOADADDR (.msg_buf_ram))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x23
+ *(.comment)
+ .comment       0x00000000       0x23 obj/default/2_50_XXg.o
+                                 0x24 (size before relaxing)
+ .comment       0x00000000       0x24 obj/default/Main.o
+ .comment       0x00000000       0x24 obj/default/Sch51.o
+ .comment       0x00000000       0x24 obj/default/Tasks/LED_flas.o
+ .comment       0x00000000       0x24 obj/default/Tasks/SharedMem_Mutex.o
+ .comment       0x00000000       0x24 ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic.o)
+ .comment       0x00000000       0x24 ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .comment       0x00000000       0x24 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .comment       0x00000000       0x24 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .comment       0x00000000       0x24 ../TT_slave_app_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x00000000       0x24 ../TT_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o)
+ .comment       0x00000000       0x24 ../TT_slave_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x00000000       0x24 ../TT_slave_app_bsp/\libhal_bsp.a(alt_errno.o)
+ .comment       0x00000000       0x24 ../TT_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .comment       0x00000000       0x24 ../TT_slave_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x00000000       0x24 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .comment       0x00000000       0x24 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .comment       0x00000000       0x24 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x2b8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 ../TT_slave_app_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x00000028       0x20 obj/default/2_50_XXg.o
+ .debug_aranges
+                0x00000048       0x20 obj/default/Main.o
+ .debug_aranges
+                0x00000068       0x20 obj/default/Sch51.o
+ .debug_aranges
+                0x00000088       0x20 obj/default/Tasks/LED_flas.o
+ .debug_aranges
+                0x000000a8       0x20 obj/default/Tasks/SharedMem_Mutex.o
+ .debug_aranges
+                0x000000c8       0x20 ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_aranges
+                0x000000e8       0x20 ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_aranges
+                0x00000108       0x30 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x00000138       0x20 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x00000158       0x18 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_aranges
+                0x00000170       0x20 ../TT_slave_app_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x00000190       0x20 ../TT_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o)
+ .debug_aranges
+                0x000001b0       0x20 ../TT_slave_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x000001d0       0x18 ../TT_slave_app_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x000001e8       0x38 ../TT_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x00000220       0x20 ../TT_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x00000240       0x20 ../TT_slave_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x00000260       0x18 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x00000278       0x20 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_aranges
+                0x00000298       0x20 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x1d3f
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0x8b ../TT_slave_app_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x0000008b      0x1b5 obj/default/2_50_XXg.o
+ .debug_info    0x00000240      0x13a obj/default/Main.o
+ .debug_info    0x0000037a      0x1de obj/default/Sch51.o
+ .debug_info    0x00000558       0x9c obj/default/Tasks/LED_flas.o
+ .debug_info    0x000005f4      0x254 obj/default/Tasks/SharedMem_Mutex.o
+ .debug_info    0x00000848      0x364 ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_info    0x00000bac      0x1f6 ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_info    0x00000da2       0x94 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x00000e36      0x190 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x00000fc6       0x8a ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x00001050      0x135 ../TT_slave_app_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x00001185      0x3d6 ../TT_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o)
+ .debug_info    0x0000155b       0x90 ../TT_slave_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x000015eb       0xa3 ../TT_slave_app_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x0000168e       0x9a ../TT_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x00001728      0x30d ../TT_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x00001a35       0x90 ../TT_slave_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x00001ac5       0x84 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_info    0x00001b49      0x117 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_info    0x00001c60       0xdf c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+
+.debug_abbrev   0x00000000      0xd91
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x12 ../TT_slave_app_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x00000012      0x122 obj/default/2_50_XXg.o
+ .debug_abbrev  0x00000134       0x97 obj/default/Main.o
+ .debug_abbrev  0x000001cb      0x110 obj/default/Sch51.o
+ .debug_abbrev  0x000002db       0x44 obj/default/Tasks/LED_flas.o
+ .debug_abbrev  0x0000031f       0xe4 obj/default/Tasks/SharedMem_Mutex.o
+ .debug_abbrev  0x00000403      0x16a ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_abbrev  0x0000056d      0x169 ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_abbrev  0x000006d6       0x12 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x000006e8      0x124 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x0000080c       0x40 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x0000084c       0x9d ../TT_slave_app_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x000008e9      0x182 ../TT_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o)
+ .debug_abbrev  0x00000a6b       0x42 ../TT_slave_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x00000aad       0x5a ../TT_slave_app_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x00000b07       0x12 ../TT_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x00000b19       0xf0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x00000c09       0x42 ../TT_slave_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x00000c4b       0x37 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x00000c82       0x7f c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_abbrev  0x00000d01       0x90 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+
+.debug_line     0x00000000      0xfd7
+ *(.debug_line)
+ .debug_line    0x00000000       0x66 ../TT_slave_app_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x00000066       0xf3 obj/default/2_50_XXg.o
+ .debug_line    0x00000159      0x12b obj/default/Main.o
+ .debug_line    0x00000284       0xa6 obj/default/Sch51.o
+ .debug_line    0x0000032a       0x73 obj/default/Tasks/LED_flas.o
+ .debug_line    0x0000039d      0x15b obj/default/Tasks/SharedMem_Mutex.o
+ .debug_line    0x000004f8       0xed ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_line    0x000005e5       0xdb ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_line    0x000006c0       0x6b ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x0000072b       0xae ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x000007d9       0x50 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x00000829       0x92 ../TT_slave_app_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x000008bb      0x152 ../TT_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o)
+ .debug_line    0x00000a0d       0x51 ../TT_slave_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x00000a5e       0x51 ../TT_slave_app_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x00000aaf       0xab ../TT_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x00000b5a       0xb9 ../TT_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x00000c13       0x4f ../TT_slave_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x00000c62       0x60 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_line    0x00000cc2      0x190 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_line    0x00000e52      0x185 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+
+.debug_frame    0x00000000      0x4ac
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x64 obj/default/2_50_XXg.o
+ .debug_frame   0x00000064       0x2c obj/default/Main.o
+ .debug_frame   0x00000090       0x9c obj/default/Sch51.o
+ .debug_frame   0x0000012c       0x48 obj/default/Tasks/LED_flas.o
+ .debug_frame   0x00000174       0x48 obj/default/Tasks/SharedMem_Mutex.o
+ .debug_frame   0x000001bc       0x80 ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_frame   0x0000023c       0x2c ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_frame   0x00000268       0x2c ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x00000294       0x48 ../TT_slave_app_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x000002dc      0x10c ../TT_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o)
+ .debug_frame   0x000003e8       0x2c ../TT_slave_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x00000414       0x2c ../TT_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_frame   0x00000440       0x2c ../TT_slave_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x0000046c       0x20 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_frame   0x0000048c       0x20 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+
+.debug_str      0x00000000      0xa28
+ *(.debug_str)
+ .debug_str     0x00000000      0x15b obj/default/2_50_XXg.o
+                                0x19c (size before relaxing)
+ .debug_str     0x0000015b       0x7d obj/default/Main.o
+                                0x174 (size before relaxing)
+ .debug_str     0x000001d8       0x88 obj/default/Sch51.o
+                                0x167 (size before relaxing)
+ .debug_str     0x00000260       0x31 obj/default/Tasks/LED_flas.o
+                                0x11b (size before relaxing)
+ .debug_str     0x00000291       0x8d obj/default/Tasks/SharedMem_Mutex.o
+                                0x20a (size before relaxing)
+ .debug_str     0x0000031e      0x152 ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic.o)
+                                0x212 (size before relaxing)
+ .debug_str     0x00000470       0x4c ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                                0x1bc (size before relaxing)
+ .debug_str     0x000004bc       0x3a ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                                0x16b (size before relaxing)
+ .debug_str     0x000004f6       0x17 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                                0x11a (size before relaxing)
+ .debug_str     0x0000050d       0xe9 ../TT_slave_app_bsp/\libhal_bsp.a(alt_load.o)
+                                0x1e6 (size before relaxing)
+ .debug_str     0x000005f6      0x12d ../TT_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o)
+                                0x2a5 (size before relaxing)
+ .debug_str     0x00000723       0x34 ../TT_slave_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                                0x129 (size before relaxing)
+ .debug_str     0x00000757       0x14 ../TT_slave_app_bsp/\libhal_bsp.a(alt_errno.o)
+                                0x119 (size before relaxing)
+ .debug_str     0x0000076b       0x78 ../TT_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o)
+                                0x1c0 (size before relaxing)
+ .debug_str     0x000007e3       0x34 ../TT_slave_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                                0x129 (size before relaxing)
+ .debug_str     0x00000817       0xd9 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+                                0x17d (size before relaxing)
+ .debug_str     0x000008f0       0xe6 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+                                0x184 (size before relaxing)
+ .debug_str     0x000009d6       0x52 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+                                0x197 (size before relaxing)
+
+.debug_loc      0x00000000      0x701
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x84 obj/default/2_50_XXg.o
+ .debug_loc     0x00000084       0x2c obj/default/Main.o
+ .debug_loc     0x000000b0       0xdc obj/default/Sch51.o
+ .debug_loc     0x0000018c       0x58 obj/default/Tasks/LED_flas.o
+ .debug_loc     0x000001e4       0x58 obj/default/Tasks/SharedMem_Mutex.o
+ .debug_loc     0x0000023c       0xb0 ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_loc     0x000002ec       0x2c ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_loc     0x00000318       0x2c ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_loc     0x00000344       0x58 ../TT_slave_app_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_loc     0x0000039c      0x18c ../TT_slave_app_bsp/\libhal_bsp.a(altera_avalon_mutex.o)
+ .debug_loc     0x00000528       0x2c ../TT_slave_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_loc     0x00000554       0x2c ../TT_slave_app_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_loc     0x00000580       0x2c ../TT_slave_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_loc     0x000005ac      0x103 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_loc     0x000006af       0x52 c:/altera/13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x00000000       0x10
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x00000000       0x10 ../TT_slave_app_bsp//obj/HAL/src/crt0.o
+                0x00004000                __alt_data_end = 0x4000
+                0x00004000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                0x00001290                PROVIDE (__alt_stack_limit, __alt_stack_base)
+                0x00001290                PROVIDE (__alt_heap_start, end)
+                0x00004000                PROVIDE (__alt_heap_limit, 0x4000)
+OUTPUT(TT_slave_app.elf elf32-littlenios2)
+
+.debug_ranges   0x00000000       0xb8
+ .debug_ranges  0x00000000       0x20 ../TT_slave_app_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x00000020       0x30 ../TT_slave_app_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_ranges  0x00000050       0x28 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x00000078       0x10 ../TT_slave_app_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_ranges  0x00000088       0x30 ../TT_slave_app_bsp/\libhal_bsp.a(alt_exception_entry.o)

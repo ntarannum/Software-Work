@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\a\Documents\EG3205_Work\VHDL\Week_5_Dataflow\simulation\modelsim
+Edemux
+Z1 w1550101283
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\a\Documents\EG3205_Work\VHDL\Week_5_Dataflow\simulation\modelsim
+Z5 8C:/Users/a/Documents/EG3205_Work/VHDL/Week_5_Dataflow/Demux.vhd
+Z6 FC:/Users/a/Documents/EG3205_Work/VHDL/Week_5_Dataflow/Demux.vhd
+l0
+L4
+V3M^zNZdK2CYhB8>3o;oli2
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1550102433.579000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/a/Documents/EG3205_Work/VHDL/Week_5_Dataflow/Demux.vhd|
+Z10 !s107 C:/Users/a/Documents/EG3205_Work/VHDL/Week_5_Dataflow/Demux.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 EFen31^9D=TDV?JEF8Hb@3
+!i10b 1
+Adataflow
+R2
+R3
+DEx4 work 5 demux 0 22 3M^zNZdK2CYhB8>3o;oli2
+l12
+L11
+V]^S33DmO[Lb:m@L1:jGFY2
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 ejjO@ag=nXOG?k4IbQgCK1
+!i10b 1
+Edemux_tb
+Z13 w1550102097
+R2
+R3
+R4
+Z14 8C:/Users/a/Documents/EG3205_Work/VHDL/Week_5_Dataflow/../Demux_TB.vhd
+Z15 FC:/Users/a/Documents/EG3205_Work/VHDL/Week_5_Dataflow/../Demux_TB.vhd
+l0
+L5
+VGGOQkb;Hci_1>GjbjmeYm2
+!s100 RiVZTZa2A]@?b0Kg5IjZ[1
+R7
+31
+!i10b 1
+Z16 !s108 1550102434.022000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/a/Documents/EG3205_Work/VHDL/Week_5_Dataflow/../Demux_TB.vhd|
+Z18 !s107 C:/Users/a/Documents/EG3205_Work/VHDL/Week_5_Dataflow/../Demux_TB.vhd|
+R11
+R12
+Atb
+R2
+R3
+DEx4 work 8 demux_tb 0 22 GGOQkb;Hci_1>GjbjmeYm2
+l30
+L9
+Vjz^@_mmXbSR<Z]foQ_Qm`1
+!s100 3]F<CV[V;53lW2cMMa>dj0
+R7
+31
+!i10b 1
+R16
+R17
+R18
+R11
+R12

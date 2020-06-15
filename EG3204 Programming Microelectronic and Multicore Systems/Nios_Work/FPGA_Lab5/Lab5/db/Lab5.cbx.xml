@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Lab5">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab5|Lab5_ET_Core:et_core|Lab5_ET_Core_nios2_oci:the_Lab5_ET_Core_nios2_oci|Lab5_ET_Core_nios2_ocimem:the_Lab5_ET_Core_nios2_ocimem|Lab5_ET_Core_ociram_sp_ram_module:Lab5_ET_Core_ociram_sp_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_8b81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab5|Lab5_ET_Core:et_core|Lab5_ET_Core_register_bank_b_module:Lab5_ET_Core_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_m4g1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab5|Lab5_TT_Core:tt_core|Lab5_TT_Core_nios2_oci:the_Lab5_TT_Core_nios2_oci|Lab5_TT_Core_nios2_ocimem:the_Lab5_TT_Core_nios2_ocimem|Lab5_TT_Core_ociram_sp_ram_module:Lab5_TT_Core_ociram_sp_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_nb81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab5|Lab5_TT_Core:tt_core|Lab5_TT_Core_register_bank_b_module:Lab5_TT_Core_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_55g1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab5|Lab5_ET_Core_Memory:et_core_memory|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_kic1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab5|Lab5_TT_core_memory:tt_core_memory|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_3jc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab5|Lab5_jtag_uart_0:jtag_uart_0|Lab5_jtag_uart_0_scfifo_r:the_Lab5_jtag_uart_0_scfifo_r|scfifo:rfifo" CBX_FILE_NAME="scfifo_aq21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab5|Lab5_msg_buf_ram:msg_buf_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_63c1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab5|Lab5_ET_Core:et_core|Lab5_ET_Core_register_bank_a_module:Lab5_ET_Core_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_l4g1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab5|Lab5_TT_Core:tt_core|Lab5_TT_Core_register_bank_a_module:Lab5_TT_Core_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_45g1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab5|Lab5_jtag_uart_0:jtag_uart_0|Lab5_jtag_uart_0_scfifo_w:the_Lab5_jtag_uart_0_scfifo_w|scfifo:wfifo" CBX_FILE_NAME="scfifo_aq21.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

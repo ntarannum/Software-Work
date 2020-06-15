@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+newApplicationWizardPage.defaultLocation=C\:\\Users\\a\\Documents\\EG3205_Work\\Nios_Work\\FPGA\\software\\flashing_led_ttc
+newSoftwareExampleWizardPage.defaultLocation=Z\:\\EG3205\\FPGA\\software\\Flashing_LED
+newSoftwareExampleWizardPage.sopcinfoFile=Z\:\\EG3205\\FPGA\\nios_system.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=Z\:\\EG3205\\FPGA\\software\\Flashing_LED_bsp

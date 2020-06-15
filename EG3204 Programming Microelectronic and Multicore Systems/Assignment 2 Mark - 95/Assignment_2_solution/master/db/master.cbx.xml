@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="master">
+		<CBX_INST_ENTRY INSTANCE_NAME="|master|master_jtag_uart_0:jtag_uart_0|master_jtag_uart_0_scfifo_w:the_master_jtag_uart_0_scfifo_w|scfifo:wfifo" CBX_FILE_NAME="scfifo_aq21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|master|master_nios2_qsys_0:nios2_qsys_0|master_nios2_qsys_0_nios2_oci:the_master_nios2_qsys_0_nios2_oci|master_nios2_qsys_0_nios2_ocimem:the_master_nios2_qsys_0_nios2_ocimem|master_nios2_qsys_0_ociram_sp_ram_module:master_nios2_qsys_0_ociram_sp_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_o291.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|master|master_nios2_qsys_0:nios2_qsys_0|master_nios2_qsys_0_register_bank_a_module:master_nios2_qsys_0_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_5sg1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|master|master_nios2_qsys_0:nios2_qsys_0|master_nios2_qsys_0_register_bank_b_module:master_nios2_qsys_0_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_6sg1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|master|master_jtag_uart_0:jtag_uart_0|master_jtag_uart_0_scfifo_r:the_master_jtag_uart_0_scfifo_r|scfifo:rfifo" CBX_FILE_NAME="scfifo_aq21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|master|master_onchip_memory2_0:onchip_memory2_0|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_tuc1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

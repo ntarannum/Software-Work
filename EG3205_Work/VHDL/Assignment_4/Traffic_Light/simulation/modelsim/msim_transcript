@@ -1,0 +1,90 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do Traffic_Light_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/a/Documents/EG3205_Work/VHDL/Assignment_4/Traffic_Light/Clock_Divider_neg_reset.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Clock_Divider
+# -- Compiling architecture Behavioral of Clock_Divider
+# vcom -93 -work work {C:/Users/a/Documents/EG3205_Work/VHDL/Assignment_4/Traffic_Light/Traffic_Light.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Traffic_Light
+# -- Compiling architecture behavioural of Traffic_Light
+# 
+# vcom -93 -work work {C:/Users/a/Documents/EG3205_Work/VHDL/Assignment_4/Traffic_Light/Traffic_Light_TB.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Traffic_Light_TB
+# -- Compiling architecture TB of Traffic_Light_TB
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs="+acc"  Traffic_Light_TB
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps Traffic_Light_TB 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.traffic_light_tb(tb)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.traffic_light(behavioural)
+# Loading work.clock_divider(behavioral)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: a  Hostname: DESKTOP-BPC981N  ProcessID: 11404
+# 
+#           Attempting to use alternate WLF file "./wlftm7hi25".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftm7hi25
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: state change s0 to s1 successful
+#    Time: 20 ns  Iteration: 0  Instance: /traffic_light_tb
+# ** Note: state change s1 to s2 successful
+#    Time: 90 ns  Iteration: 3  Instance: /traffic_light_tb
+# ** Note: state change s2 to s3 successful
+#    Time: 490 ns  Iteration: 3  Instance: /traffic_light_tb
+# ** Note: count disabled
+#    Time: 570 ns  Iteration: 3  Instance: /traffic_light_tb
+# ** Note: count enabled
+#    Time: 630 ns  Iteration: 0  Instance: /traffic_light_tb
+# ** Note: state change s3 to s4 transition successful
+#    Time: 630 ns  Iteration: 0  Instance: /traffic_light_tb
+# ** Note: state change s4 to s5 successful
+#    Time: 690 ns  Iteration: 3  Instance: /traffic_light_tb
+# ** Note: state change s5 to s0 successful
+#    Time: 1090 ns  Iteration: 3  Instance: /traffic_light_tb
+# ** Note: latch 1 passed de latch test
+#    Time: 1250 ns  Iteration: 3  Instance: /traffic_light_tb
+# ** Note: latch 2 doesn't affect road 1
+#    Time: 1370 ns  Iteration: 3  Instance: /traffic_light_tb
+# ** Note: latch 1 doesn't affect road 2
+#    Time: 2050 ns  Iteration: 3  Instance: /traffic_light_tb
+# Break key hit 
+# Simulation stop requested.

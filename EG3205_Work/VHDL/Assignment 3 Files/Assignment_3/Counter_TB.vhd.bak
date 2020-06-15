@@ -1,0 +1,19 @@
+library ieee;
+USE ieee.std_logic_1164.ALL;
+
+--// This is the TOP VHDL Test Bench file for testing a half adder
+entity counter_TB IS
+end counter_TB;
+
+-- Architecture block of an entity where the main testing part is designed
+architecture TB of Demux_TB is 
+
+	-- Component Declaration of 4-bit Universal Shift Register --
+	Component counter
+		port(
+				clock : in std_logic;
+				reset : in std_logic;
+				enable : out std_logic;
+				out_count : out  std_logic_vector (3 downto 0)
+			  );
+	end Component;

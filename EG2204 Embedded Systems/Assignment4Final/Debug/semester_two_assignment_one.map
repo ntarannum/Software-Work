@@ -1,0 +1,857 @@
+Archive member included because of file (symbol)
+
+/Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+                              ./src/scheduler/ttc_scheduler_o.o (SystemCoreClock)
+/Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+                              ./src/tasks/led_bank.o (pca9532_init)
+/Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+                              ./src/tasks/led_bank.o (I2C_Init)
+/Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+                              ./src/tasks/led_bank.o (PINSEL_ConfigPin)
+/Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+                              /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o) (CLKPWR_SetPCLKDiv)
+/Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_addsubsf3.o)
+                              ./src/tasks/led_bank.o (__aeabi_ui2f)
+/Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_muldivsf3.o)
+                              ./src/tasks/led_bank.o (__aeabi_fmul)
+/Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_fixunssfsi.o)
+                              ./src/tasks/led_bank.o (__aeabi_f2uiz)
+/Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+                              /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o) (__aeabi_uldivmod)
+/Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(bpabi.o)
+                              /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
+/Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_dvmd_tls.o)
+                              /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+/Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_divdi3.o)
+                              /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(bpabi.o) (__divdi3)
+/Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_udivdi3.o)
+                              /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(bpabi.o) (__udivdi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+adc_0_value         0x4               ./src/adc/adc.o
+Error_code_G        0x4               ./src/scheduler/ttc_scheduler_o.o
+SCH_tasks_G         0xa0              ./src/scheduler/ttc_scheduler_o.o
+adc_1_value         0x4               ./src/adc/adc.o
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 ./src/tasks/led_bank.o
+ .group         0x0000000000000000        0x8 ./src/tasks/led_bank.o
+ .group         0x0000000000000000        0x8 ./src/tasks/led_bank.o
+ .group         0x0000000000000000        0x8 ./src/tasks/led_bank.o
+ .group         0x0000000000000000        0x8 ./src/tasks/led_bank.o
+ .group         0x0000000000000000        0x8 ./src/tasks/led_bank.o
+ .group         0x0000000000000000        0x8 ./src/tasks/led_bank.o
+ .group         0x0000000000000000        0x8 ./src/tasks/led_bank.o
+ .group         0x0000000000000000        0x8 ./src/tasks/led_bank.o
+ .group         0x0000000000000000        0x8 ./src/tasks/led_bank.o
+ .group         0x0000000000000000        0x8 ./src/tasks/led_bank.o
+ .group         0x0000000000000000        0x8 ./src/tasks/led_bank.o
+ .group         0x0000000000000000        0x8 ./src/tasks/led_bank.o
+ .text          0x0000000000000000        0x0 ./src/tasks/led_bank.o
+ .data          0x0000000000000000        0x0 ./src/tasks/led_bank.o
+ .bss           0x0000000000000000        0x0 ./src/tasks/led_bank.o
+ .text.LED_All_On
+                0x0000000000000000       0x10 ./src/tasks/led_bank.o
+ .text.LED_All_Off
+                0x0000000000000000       0x10 ./src/tasks/led_bank.o
+ .text.LED_Display_ADC_General
+                0x0000000000000000       0x54 ./src/tasks/led_bank.o
+ .text.LED_Display_ADC_0
+                0x0000000000000000       0x14 ./src/tasks/led_bank.o
+ .text.LED_Display_ADC_1
+                0x0000000000000000       0x14 ./src/tasks/led_bank.o
+ .group         0x0000000000000000        0x8 ./src/system/cr_startup_lpc17.o
+ .group         0x0000000000000000        0x8 ./src/system/cr_startup_lpc17.o
+ .group         0x0000000000000000        0x8 ./src/system/cr_startup_lpc17.o
+ .group         0x0000000000000000        0x8 ./src/system/cr_startup_lpc17.o
+ .text          0x0000000000000000        0x0 ./src/system/cr_startup_lpc17.o
+ .data          0x0000000000000000        0x0 ./src/system/cr_startup_lpc17.o
+ .bss           0x0000000000000000        0x0 ./src/system/cr_startup_lpc17.o
+ .text.SysTick_Handler
+                0x0000000000000000        0x8 ./src/system/cr_startup_lpc17.o
+ .debug_macro   0x0000000000000000      0x856 ./src/system/cr_startup_lpc17.o
+ .debug_macro   0x0000000000000000       0x10 ./src/system/cr_startup_lpc17.o
+ .debug_macro   0x0000000000000000      0x12d ./src/system/cr_startup_lpc17.o
+ .debug_macro   0x0000000000000000      0x5b2 ./src/system/cr_startup_lpc17.o
+ .group         0x0000000000000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x0000000000000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x0000000000000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x0000000000000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x0000000000000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x0000000000000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x0000000000000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x0000000000000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x0000000000000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x0000000000000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x0000000000000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x0000000000000000        0x8 ./src/scheduler/ttc_scheduler_o.o
+ .text          0x0000000000000000        0x0 ./src/scheduler/ttc_scheduler_o.o
+ .data          0x0000000000000000        0x0 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x0000000000000000      0x856 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x0000000000000000       0x1c ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x0000000000000000       0x22 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x0000000000000000       0x10 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x0000000000000000      0x12d ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x0000000000000000      0x5b2 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x0000000000000000      0x7b7 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x0000000000000000      0x2c7 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x0000000000000000       0x64 ./src/scheduler/ttc_scheduler_o.o
+ .group         0x0000000000000000        0x8 ./src/main/main.o
+ .group         0x0000000000000000        0x8 ./src/main/main.o
+ .group         0x0000000000000000        0x8 ./src/main/main.o
+ .group         0x0000000000000000        0x8 ./src/main/main.o
+ .group         0x0000000000000000        0x8 ./src/main/main.o
+ .group         0x0000000000000000        0x8 ./src/main/main.o
+ .group         0x0000000000000000        0x8 ./src/main/main.o
+ .group         0x0000000000000000        0x8 ./src/main/main.o
+ .group         0x0000000000000000        0x8 ./src/main/main.o
+ .group         0x0000000000000000        0x8 ./src/main/main.o
+ .group         0x0000000000000000        0x8 ./src/main/main.o
+ .group         0x0000000000000000        0x8 ./src/main/main.o
+ .group         0x0000000000000000        0x8 ./src/main/main.o
+ .text          0x0000000000000000        0x0 ./src/main/main.o
+ .data          0x0000000000000000        0x0 ./src/main/main.o
+ .bss           0x0000000000000000        0x0 ./src/main/main.o
+ .debug_macro   0x0000000000000000      0x856 ./src/main/main.o
+ .debug_macro   0x0000000000000000       0x1c ./src/main/main.o
+ .debug_macro   0x0000000000000000       0x22 ./src/main/main.o
+ .debug_macro   0x0000000000000000       0x10 ./src/main/main.o
+ .debug_macro   0x0000000000000000      0x12d ./src/main/main.o
+ .debug_macro   0x0000000000000000      0x5b2 ./src/main/main.o
+ .debug_macro   0x0000000000000000      0x7b7 ./src/main/main.o
+ .debug_macro   0x0000000000000000      0x2c7 ./src/main/main.o
+ .debug_macro   0x0000000000000000       0x64 ./src/main/main.o
+ .debug_macro   0x0000000000000000       0x16 ./src/main/main.o
+ .group         0x0000000000000000        0x8 ./src/adc/adc.o
+ .group         0x0000000000000000        0x8 ./src/adc/adc.o
+ .group         0x0000000000000000        0x8 ./src/adc/adc.o
+ .group         0x0000000000000000        0x8 ./src/adc/adc.o
+ .group         0x0000000000000000        0x8 ./src/adc/adc.o
+ .group         0x0000000000000000        0x8 ./src/adc/adc.o
+ .group         0x0000000000000000        0x8 ./src/adc/adc.o
+ .group         0x0000000000000000        0x8 ./src/adc/adc.o
+ .group         0x0000000000000000        0x8 ./src/adc/adc.o
+ .group         0x0000000000000000        0x8 ./src/adc/adc.o
+ .group         0x0000000000000000        0x8 ./src/adc/adc.o
+ .text          0x0000000000000000        0x0 ./src/adc/adc.o
+ .data          0x0000000000000000        0x0 ./src/adc/adc.o
+ .bss           0x0000000000000000        0x0 ./src/adc/adc.o
+ .debug_macro   0x0000000000000000      0x856 ./src/adc/adc.o
+ .debug_macro   0x0000000000000000       0x1c ./src/adc/adc.o
+ .debug_macro   0x0000000000000000       0x22 ./src/adc/adc.o
+ .debug_macro   0x0000000000000000       0x10 ./src/adc/adc.o
+ .debug_macro   0x0000000000000000      0x12d ./src/adc/adc.o
+ .debug_macro   0x0000000000000000      0x5b2 ./src/adc/adc.o
+ .debug_macro   0x0000000000000000      0x7b7 ./src/adc/adc.o
+ .debug_macro   0x0000000000000000      0x2c7 ./src/adc/adc.o
+ .debug_macro   0x0000000000000000       0x64 ./src/adc/adc.o
+ .debug_macro   0x0000000000000000       0xe8 ./src/adc/adc.o
+ .debug_macro   0x0000000000000000      0x146 ./src/adc/adc.o
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .text          0x0000000000000000        0x0 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .bss           0x0000000000000000        0x0 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .text.SystemCoreClockUpdate
+                0x0000000000000000      0x298 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x0000000000000000       0x10 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x0000000000000000      0x12d /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x0000000000000000      0x5b2 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x0000000000000000       0x1c /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x0000000000000000      0x2c7 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .text          0x0000000000000000        0x0 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .data          0x0000000000000000        0x0 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .bss           0x0000000000000000        0x6 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .text.I2CRead  0x0000000000000000       0x50 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .text.I2CWrite
+                0x0000000000000000       0x50 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .text.setLsStates
+                0x0000000000000000       0xc4 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .text.setLeds  0x0000000000000000       0x80 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .text.pca9532_getLedState
+                0x0000000000000000       0x98 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .text.pca9532_setLeds
+                0x0000000000000000       0x74 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .text.pca9532_setBlink0Period
+                0x0000000000000000       0x28 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .text.pca9532_setBlink0Duty
+                0x0000000000000000       0x48 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .text.pca9532_setBlink0Leds
+                0x0000000000000000       0x28 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .text.pca9532_setBlink1Period
+                0x0000000000000000       0x28 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .text.pca9532_setBlink1Duty
+                0x0000000000000000       0x48 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .text.pca9532_setBlink1Leds
+                0x0000000000000000       0x28 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .debug_macro   0x0000000000000000      0x850 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .debug_macro   0x0000000000000000       0x1c /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .debug_macro   0x0000000000000000       0x22 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .debug_macro   0x0000000000000000       0x10 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .debug_macro   0x0000000000000000      0x12d /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .debug_macro   0x0000000000000000      0x5b2 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .debug_macro   0x0000000000000000      0x7b7 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .debug_macro   0x0000000000000000      0x2c7 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .debug_macro   0x0000000000000000       0x64 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .debug_macro   0x0000000000000000       0xb2 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .text          0x0000000000000000        0x0 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .data          0x0000000000000000        0x0 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .bss           0x0000000000000000       0x34 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .text.NVIC_EnableIRQ
+                0x0000000000000000       0x30 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .text.NVIC_DisableIRQ
+                0x0000000000000000       0x34 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_getNum
+                0x0000000000000000       0x48 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_Start
+                0x0000000000000000       0x3c /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_Stop
+                0x0000000000000000       0x30 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_SendByte
+                0x0000000000000000       0x4c /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_GetByte
+                0x0000000000000000       0x54 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_DeInit
+                0x0000000000000000       0x80 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_IntCmd
+                0x0000000000000000       0x84 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_MasterHandler
+                0x0000000000000000      0x384 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_SlaveHandler
+                0x0000000000000000      0x1a8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_MasterTransferData
+                0x0000000000000000      0x2d8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_SlaveTransferData
+                0x0000000000000000      0x1f0 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_SetOwnSlaveAddr
+                0x0000000000000000       0xfc /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_MonitorModeConfig
+                0x0000000000000000       0x84 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_MonitorModeCmd
+                0x0000000000000000       0x98 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_MonitorGetDatabuffer
+                0x0000000000000000       0x48 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_MonitorHandler
+                0x0000000000000000       0x50 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_MasterTransferComplete
+                0x0000000000000000       0x34 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_SlaveTransferComplete
+                0x0000000000000000       0x34 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_macro   0x0000000000000000      0x850 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_macro   0x0000000000000000       0x1c /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_macro   0x0000000000000000       0x22 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_macro   0x0000000000000000       0x10 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_macro   0x0000000000000000      0x12d /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_macro   0x0000000000000000      0x5b2 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_macro   0x0000000000000000      0x7b7 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_macro   0x0000000000000000      0x2c7 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_macro   0x0000000000000000       0x64 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_macro   0x0000000000000000      0x18c /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_macro   0x0000000000000000      0x146 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .text          0x0000000000000000        0x0 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .data          0x0000000000000000        0x0 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .bss           0x0000000000000000        0x0 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .text.PINSEL_ConfigTraceFunc
+                0x0000000000000000       0x40 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .text.PINSEL_SetI2C0Pins
+                0x0000000000000000       0x38 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_macro   0x0000000000000000      0x850 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_macro   0x0000000000000000       0x1c /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_macro   0x0000000000000000       0x22 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_macro   0x0000000000000000       0x10 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_macro   0x0000000000000000      0x12d /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_macro   0x0000000000000000      0x5b2 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_macro   0x0000000000000000      0x7b7 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_macro   0x0000000000000000      0x2c7 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_macro   0x0000000000000000       0x64 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_macro   0x0000000000000000      0x140 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .group         0x0000000000000000        0x8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .text          0x0000000000000000        0x0 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .data          0x0000000000000000        0x0 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .bss           0x0000000000000000        0x0 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .text.__WFI    0x0000000000000000       0x10 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .text.CLKPWR_Sleep
+                0x0000000000000000       0x18 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .text.CLKPWR_DeepSleep
+                0x0000000000000000       0x20 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .text.CLKPWR_PowerDown
+                0x0000000000000000       0x20 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .text.CLKPWR_DeepPowerDown
+                0x0000000000000000       0x20 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x0000000000000000      0x850 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x0000000000000000       0x1c /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x0000000000000000       0x22 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x0000000000000000       0x10 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x0000000000000000      0x12d /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x0000000000000000      0x5b2 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x0000000000000000      0x7b7 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x0000000000000000      0x2c7 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x0000000000000000       0x64 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .text          0x0000000000000000      0x21c /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_addsubsf3.o)
+ .data          0x0000000000000000        0x0 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_addsubsf3.o)
+ .bss           0x0000000000000000        0x0 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x0000000000000000       0x1d /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_addsubsf3.o)
+ .text          0x0000000000000000      0x2a0 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_muldivsf3.o)
+ .data          0x0000000000000000        0x0 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_muldivsf3.o)
+ .bss           0x0000000000000000        0x0 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_muldivsf3.o)
+ .ARM.attributes
+                0x0000000000000000       0x1d /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_muldivsf3.o)
+ .text          0x0000000000000000       0x40 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_fixunssfsi.o)
+ .data          0x0000000000000000        0x0 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_fixunssfsi.o)
+ .bss           0x0000000000000000        0x0 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_fixunssfsi.o)
+ .ARM.attributes
+                0x0000000000000000       0x1d /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_arm_fixunssfsi.o)
+ .text          0x0000000000000000       0x2c /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x0000000000000000        0x0 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x0000000000000000        0x0 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x0000000000000000       0x1d /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+ .text          0x0000000000000000       0x60 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(bpabi.o)
+ .data          0x0000000000000000        0x0 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(bpabi.o)
+ .bss           0x0000000000000000        0x0 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(bpabi.o)
+ .debug_frame   0x0000000000000000       0x58 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(bpabi.o)
+ .text          0x0000000000000000        0x4 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_dvmd_tls.o)
+ .data          0x0000000000000000        0x0 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000000000000        0x0 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000000000000000       0x1d /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_dvmd_tls.o)
+ .text          0x0000000000000000      0x2a0 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_divdi3.o)
+ .data          0x0000000000000000        0x0 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_divdi3.o)
+ .bss           0x0000000000000000        0x0 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_divdi3.o)
+ .ARM.extab     0x0000000000000000        0x0 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_divdi3.o)
+ .ARM.exidx     0x0000000000000000        0x8 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_divdi3.o)
+ .debug_frame   0x0000000000000000       0x34 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_divdi3.o)
+ .text          0x0000000000000000      0x290 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_udivdi3.o)
+ .data          0x0000000000000000        0x0 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_udivdi3.o)
+ .bss           0x0000000000000000        0x0 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_udivdi3.o)
+ .ARM.extab     0x0000000000000000        0x0 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_udivdi3.o)
+ .ARM.exidx     0x0000000000000000        0x8 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_udivdi3.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_udivdi3.o)
+ .debug_frame   0x0000000000000000       0x34 /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a(_udivdi3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash512        0x0000000000000000 0x0000000000080000 xr
+RamLoc32         0x0000000010000000 0x0000000000008000 xrw
+RamAHB32         0x000000002007c000 0x0000000000008000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./src/tasks/led_bank.o
+LOAD ./src/system/cr_startup_lpc17.o
+LOAD ./src/scheduler/ttc_scheduler_o.o
+LOAD ./src/main/main.o
+LOAD ./src/adc/adc.o
+LOAD /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a
+LOAD /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a
+LOAD /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a
+START GROUP
+LOAD /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/libgcc.a
+LOAD /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m/libc.a
+LOAD /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m/libm.a
+LOAD /Applications/lpcxpresso_7.5.0_254/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m/libcr_newlib_semihost.a
+END GROUP
+                0x0000000000080000                __top_MFlash512 = 0x80000
+                0x0000000010008000                __top_RamLoc32 = 0x10008000
+                0x0000000020084000                __top_RamAHB32 = 0x20084000
+
+.text           0x0000000000000000      0xcdc
+ FILL mask 0xff
+                0x0000000000000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x0000000000000000       0xcc ./src/system/cr_startup_lpc17.o
+                0x0000000000000000                g_pfnVectors
+                0x00000000000000cc                . = ALIGN (0x4)
+                0x00000000000000cc                __section_table_start = .
+                0x00000000000000cc                __data_section_table = .
+                0x00000000000000cc        0x4 LONG 0xcdc LOADADDR (.data)
+                0x00000000000000d0        0x4 LONG 0x10000000 ADDR (.data)
+                0x00000000000000d4        0x4 LONG 0x4 SIZEOF (.data)
+                0x00000000000000d8        0x4 LONG 0xcdc LOADADDR (.data_RAM2)
+                0x00000000000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
+                0x00000000000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x00000000000000e4                __data_section_table_end = .
+                0x00000000000000e4                __bss_section_table = .
+                0x00000000000000e4        0x4 LONG 0x10000004 ADDR (.bss)
+                0x00000000000000e8        0x4 LONG 0xb4 SIZEOF (.bss)
+                0x00000000000000ec        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
+                0x00000000000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x00000000000000f4                __bss_section_table_end = .
+                0x00000000000000f4                __section_table_end = .
+ *(.after_vectors*)
+ *(.text*)
+ .text.LED_Bank_Init
+                0x00000000000000f4       0x48 ./src/tasks/led_bank.o
+                0x00000000000000f4                LED_Bank_Init
+ .text.ResetISR
+                0x000000000000013c       0x5c ./src/system/cr_startup_lpc17.o
+                0x000000000000013c                ResetISR
+ .text.NMI_Handler
+                0x0000000000000198        0x8 ./src/system/cr_startup_lpc17.o
+                0x0000000000000198                NMI_Handler
+ .text.HardFault_Handler
+                0x00000000000001a0        0x8 ./src/system/cr_startup_lpc17.o
+                0x00000000000001a0                HardFault_Handler
+ .text.MemManage_Handler
+                0x00000000000001a8        0x8 ./src/system/cr_startup_lpc17.o
+                0x00000000000001a8                MemManage_Handler
+ .text.BusFault_Handler
+                0x00000000000001b0        0x8 ./src/system/cr_startup_lpc17.o
+                0x00000000000001b0                BusFault_Handler
+ .text.UsageFault_Handler
+                0x00000000000001b8        0x8 ./src/system/cr_startup_lpc17.o
+                0x00000000000001b8                UsageFault_Handler
+ .text.SVCall_Handler
+                0x00000000000001c0        0x8 ./src/system/cr_startup_lpc17.o
+                0x00000000000001c0                SVCall_Handler
+ .text.DebugMon_Handler
+                0x00000000000001c8        0x8 ./src/system/cr_startup_lpc17.o
+                0x00000000000001c8                DebugMon_Handler
+ .text.PendSV_Handler
+                0x00000000000001d0        0x8 ./src/system/cr_startup_lpc17.o
+                0x00000000000001d0                PendSV_Handler
+ .text.IntDefaultHandler
+                0x00000000000001d8        0x8 ./src/system/cr_startup_lpc17.o
+                0x00000000000001d8                ENET_IRQHandler
+                0x00000000000001d8                RIT_IRQHandler
+                0x00000000000001d8                I2C0_IRQHandler
+                0x00000000000001d8                USBActivity_IRQHandler
+                0x00000000000001d8                PWM1_IRQHandler
+                0x00000000000001d8                I2C1_IRQHandler
+                0x00000000000001d8                EINT2_IRQHandler
+                0x00000000000001d8                UART1_IRQHandler
+                0x00000000000001d8                EINT3_IRQHandler
+                0x00000000000001d8                CANActivity_IRQHandler
+                0x00000000000001d8                TIMER3_IRQHandler
+                0x00000000000001d8                UART0_IRQHandler
+                0x00000000000001d8                IntDefaultHandler
+                0x00000000000001d8                PLL0_IRQHandler
+                0x00000000000001d8                CAN_IRQHandler
+                0x00000000000001d8                PLL1_IRQHandler
+                0x00000000000001d8                SSP0_IRQHandler
+                0x00000000000001d8                I2S_IRQHandler
+                0x00000000000001d8                I2C2_IRQHandler
+                0x00000000000001d8                RTC_IRQHandler
+                0x00000000000001d8                TIMER0_IRQHandler
+                0x00000000000001d8                SPI_IRQHandler
+                0x00000000000001d8                EINT1_IRQHandler
+                0x00000000000001d8                TIMER1_IRQHandler
+                0x00000000000001d8                UART2_IRQHandler
+                0x00000000000001d8                ADC_IRQHandler
+                0x00000000000001d8                SSP1_IRQHandler
+                0x00000000000001d8                USB_IRQHandler
+                0x00000000000001d8                BOD_IRQHandler
+                0x00000000000001d8                WDT_IRQHandler
+                0x00000000000001d8                QEI_IRQHandler
+                0x00000000000001d8                EINT0_IRQHandler
+                0x00000000000001d8                DMA_IRQHandler
+                0x00000000000001d8                UART3_IRQHandler
+                0x00000000000001d8                MCPWM_IRQHandler
+                0x00000000000001d8                TIMER2_IRQHandler
+ .text.__enable_irq
+                0x00000000000001e0       0x10 ./src/scheduler/ttc_scheduler_o.o
+ .text.__disable_irq
+                0x00000000000001f0       0x10 ./src/scheduler/ttc_scheduler_o.o
+ .text.__WFI    0x0000000000000200       0x10 ./src/scheduler/ttc_scheduler_o.o
+ .text.NVIC_SetPriority
+                0x0000000000000210       0x54 ./src/scheduler/ttc_scheduler_o.o
+ .text.SysTick_Config
+                0x0000000000000264       0x44 ./src/scheduler/ttc_scheduler_o.o
+ .text.SCH_Init
+                0x00000000000002a8       0x64 ./src/scheduler/ttc_scheduler_o.o
+                0x00000000000002a8                SCH_Init
+ .text.SCH_Start
+                0x000000000000030c       0x28 ./src/scheduler/ttc_scheduler_o.o
+                0x000000000000030c                SCH_Start
+ .text.SysTick_Handler
+                0x0000000000000334       0x30 ./src/scheduler/ttc_scheduler_o.o
+                0x0000000000000334                SysTick_Handler
+ .text.SCH_Dispatch_Tasks
+                0x0000000000000364      0x10c ./src/scheduler/ttc_scheduler_o.o
+                0x0000000000000364                SCH_Dispatch_Tasks
+ .text.SCH_Add_Task
+                0x0000000000000470       0x7c ./src/scheduler/ttc_scheduler_o.o
+                0x0000000000000470                SCH_Add_Task
+ .text.SCH_Delete_Task
+                0x00000000000004ec       0x70 ./src/scheduler/ttc_scheduler_o.o
+                0x00000000000004ec                SCH_Delete_Task
+ .text.SCH_Go_To_Sleep
+                0x000000000000055c        0xc ./src/scheduler/ttc_scheduler_o.o
+ .text.main     0x0000000000000568       0x3c ./src/main/main.o
+                0x0000000000000568                main
+ .text.check_failed
+                0x00000000000005a4        0xc ./src/main/main.o
+                0x00000000000005a4                check_failed
+ .text.ADC_Initialise
+                0x00000000000005b0       0x44 ./src/adc/adc.o
+                0x00000000000005b0                ADC_Initialise
+ .text.ADC_Read_General
+                0x00000000000005f4       0x48 ./src/adc/adc.o
+                0x00000000000005f4                ADC_Read_General
+ .text.ADC_0_Read
+                0x000000000000063c       0x18 ./src/adc/adc.o
+                0x000000000000063c                ADC_0_Read
+ .text.ADC_1_Read
+                0x0000000000000654       0x18 ./src/adc/adc.o
+                0x0000000000000654                ADC_1_Read
+ .text.SystemInit
+                0x000000000000066c      0x140 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+                0x000000000000066c                SystemInit
+ .text.pca9532_init
+                0x00000000000007ac        0xc /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+                0x00000000000007ac                pca9532_init
+ .text.I2C_SetClock
+                0x00000000000007b8       0xa0 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_Init
+                0x0000000000000858       0xa4 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+                0x0000000000000858                I2C_Init
+ .text.I2C_Cmd  0x00000000000008fc       0x70 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+                0x00000000000008fc                I2C_Cmd
+ .text.set_PinFunc
+                0x000000000000096c       0x84 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .text.set_ResistorMode
+                0x00000000000009f0       0x84 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .text.set_OpenDrainMode
+                0x0000000000000a74       0x6c /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .text.PINSEL_ConfigPin
+                0x0000000000000ae0       0x50 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+                0x0000000000000ae0                PINSEL_ConfigPin
+ .text.CLKPWR_SetPCLKDiv
+                0x0000000000000b30       0x8c /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+                0x0000000000000b30                CLKPWR_SetPCLKDiv
+ .text.CLKPWR_GetPCLKSEL
+                0x0000000000000bbc       0x4c /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+                0x0000000000000bbc                CLKPWR_GetPCLKSEL
+ .text.CLKPWR_GetPCLK
+                0x0000000000000c08       0x64 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+                0x0000000000000c08                CLKPWR_GetPCLK
+ .text.CLKPWR_ConfigPPWR
+                0x0000000000000c6c       0x58 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+                0x0000000000000c6c                CLKPWR_ConfigPPWR
+ *(.rodata .rodata.* .constdata .constdata.*)
+ .rodata        0x0000000000000cc4       0x18 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+                0x0000000000000cdc                . = ALIGN (0x4)
+
+.glue_7         0x0000000000000cdc        0x0
+ .glue_7        0x0000000000000000        0x0 linker stubs
+
+.glue_7t        0x0000000000000cdc        0x0
+ .glue_7t       0x0000000000000000        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000000cdc        0x0
+ .vfp11_veneer  0x0000000000000000        0x0 linker stubs
+
+.v4_bx          0x0000000000000cdc        0x0
+ .v4_bx         0x0000000000000000        0x0 linker stubs
+
+.iplt           0x0000000000000cdc        0x0
+ .iplt          0x0000000000000000        0x0 ./src/tasks/led_bank.o
+
+.rel.dyn        0x0000000000000cdc        0x0
+ .rel.iplt      0x0000000000000000        0x0 ./src/tasks/led_bank.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000000000000cdc                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x0000000000000cdc                __exidx_end = .
+                0x0000000000000cdc                _etext = .
+
+.data_RAM2      0x000000002007c000        0x0 load address 0x0000000000000cdc
+ FILL mask 0xff
+ *(.ramfunc.$RAM2)
+ *(.ramfunc.$RamAHB32)
+ *(.data.$RAM2*)
+ *(.data.$RamAHB32*)
+                0x000000002007c000                . = ALIGN (0x4)
+
+.uninit_RESERVED
+                0x0000000010000000        0x0
+ *(.bss.$RESERVED*)
+                0x0000000010000000                . = ALIGN (0x4)
+                0x0000000010000000                _end_uninit_RESERVED = .
+
+.data           0x0000000010000000        0x4 load address 0x0000000000000cdc
+ FILL mask 0xff
+                0x0000000010000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+ .data          0x0000000010000000        0x4 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+                0x0000000010000000                SystemCoreClock
+                0x0000000010000004                . = ALIGN (0x4)
+                0x0000000010000004                _edata = .
+
+.igot.plt       0x0000000010000004        0x0 load address 0x0000000000000ce0
+ .igot.plt      0x0000000000000000        0x0 ./src/tasks/led_bank.o
+
+.bss_RAM2       0x000000002007c000        0x0
+ *(.bss.$RAM2*)
+ *(.bss.$RamAHB32*)
+                0x000000002007c000                . = ALIGN (0x4)
+
+.bss            0x0000000010000004       0xb4
+                0x0000000010000004                _bss = .
+ *(.bss*)
+ .bss           0x0000000010000004        0x8 ./src/scheduler/ttc_scheduler_o.o
+ *(COMMON)
+ COMMON         0x000000001000000c       0xa4 ./src/scheduler/ttc_scheduler_o.o
+                0x000000001000000c                Error_code_G
+                0x0000000010000010                SCH_tasks_G
+ COMMON         0x00000000100000b0        0x8 ./src/adc/adc.o
+                0x00000000100000b0                adc_0_value
+                0x00000000100000b4                adc_1_value
+                0x00000000100000b8                . = ALIGN (0x4)
+                0x00000000100000b8                _ebss = .
+                0x00000000100000b8                PROVIDE (end, .)
+
+.noinit_RAM2    0x000000002007c000        0x0
+ *(.noinit.$RAM2*)
+ *(.noinit.$RamAHB32*)
+                0x000000002007c000                . = ALIGN (0x4)
+
+.noinit         0x00000000100000b8        0x0
+                0x00000000100000b8                _noinit = .
+ *(.noinit*)
+                0x00000000100000b8                . = ALIGN (0x4)
+                0x00000000100000b8                _end_noinit = .
+                0x00000000100000b8                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x0000000010008000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
+OUTPUT(semester_two_assignment_one.axf elf32-littlearm)
+
+.debug_info     0x0000000000000000     0x312e
+ .debug_info    0x0000000000000000      0x2b5 ./src/tasks/led_bank.o
+ .debug_info    0x00000000000002b5      0x1b8 ./src/system/cr_startup_lpc17.o
+ .debug_info    0x000000000000046d      0x6f3 ./src/scheduler/ttc_scheduler_o.o
+ .debug_info    0x0000000000000b60       0xf2 ./src/main/main.o
+ .debug_info    0x0000000000000c52      0x57c ./src/adc/adc.o
+ .debug_info    0x00000000000011ce      0x2e3 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_info    0x00000000000014b1      0x5ce /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .debug_info    0x0000000000001a7f      0xcd9 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_info    0x0000000000002758      0x44a /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_info    0x0000000000002ba2      0x58c /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+
+.debug_abbrev   0x0000000000000000      0xe06
+ .debug_abbrev  0x0000000000000000      0x115 ./src/tasks/led_bank.o
+ .debug_abbrev  0x0000000000000115       0xb9 ./src/system/cr_startup_lpc17.o
+ .debug_abbrev  0x00000000000001ce      0x23e ./src/scheduler/ttc_scheduler_o.o
+ .debug_abbrev  0x000000000000040c       0x9e ./src/main/main.o
+ .debug_abbrev  0x00000000000004aa      0x147 ./src/adc/adc.o
+ .debug_abbrev  0x00000000000005f1       0xe6 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_abbrev  0x00000000000006d7      0x1d3 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .debug_abbrev  0x00000000000008aa      0x25f /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_abbrev  0x0000000000000b09      0x141 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_abbrev  0x0000000000000c4a      0x1bc /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+
+.debug_aranges  0x0000000000000000      0x3b0
+ .debug_aranges
+                0x0000000000000000       0x48 ./src/tasks/led_bank.o
+ .debug_aranges
+                0x0000000000000048       0x70 ./src/system/cr_startup_lpc17.o
+ .debug_aranges
+                0x00000000000000b8       0x78 ./src/scheduler/ttc_scheduler_o.o
+ .debug_aranges
+                0x0000000000000130       0x28 ./src/main/main.o
+ .debug_aranges
+                0x0000000000000158       0x38 ./src/adc/adc.o
+ .debug_aranges
+                0x0000000000000190       0x28 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_aranges
+                0x00000000000001b8       0x80 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .debug_aranges
+                0x0000000000000238       0xd0 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_aranges
+                0x0000000000000308       0x48 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_aranges
+                0x0000000000000350       0x60 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+
+.debug_ranges   0x0000000000000000      0x310
+ .debug_ranges  0x0000000000000000       0x38 ./src/tasks/led_bank.o
+ .debug_ranges  0x0000000000000038       0x60 ./src/system/cr_startup_lpc17.o
+ .debug_ranges  0x0000000000000098       0x68 ./src/scheduler/ttc_scheduler_o.o
+ .debug_ranges  0x0000000000000100       0x18 ./src/main/main.o
+ .debug_ranges  0x0000000000000118       0x28 ./src/adc/adc.o
+ .debug_ranges  0x0000000000000140       0x18 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_ranges  0x0000000000000158       0x70 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .debug_ranges  0x00000000000001c8       0xc0 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_ranges  0x0000000000000288       0x38 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_ranges  0x00000000000002c0       0x50 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+
+.debug_macro    0x0000000000000000     0x4016
+ .debug_macro   0x0000000000000000       0x9f ./src/tasks/led_bank.o
+ .debug_macro   0x000000000000009f      0x856 ./src/tasks/led_bank.o
+ .debug_macro   0x00000000000008f5       0x1c ./src/tasks/led_bank.o
+ .debug_macro   0x0000000000000911       0x22 ./src/tasks/led_bank.o
+ .debug_macro   0x0000000000000933       0x10 ./src/tasks/led_bank.o
+ .debug_macro   0x0000000000000943      0x12d ./src/tasks/led_bank.o
+ .debug_macro   0x0000000000000a70      0x5b2 ./src/tasks/led_bank.o
+ .debug_macro   0x0000000000001022      0x7b7 ./src/tasks/led_bank.o
+ .debug_macro   0x00000000000017d9      0x2c7 ./src/tasks/led_bank.o
+ .debug_macro   0x0000000000001aa0       0x64 ./src/tasks/led_bank.o
+ .debug_macro   0x0000000000001b04      0x140 ./src/tasks/led_bank.o
+ .debug_macro   0x0000000000001c44      0x192 ./src/tasks/led_bank.o
+ .debug_macro   0x0000000000001dd6       0xb2 ./src/tasks/led_bank.o
+ .debug_macro   0x0000000000001e88       0xee ./src/tasks/led_bank.o
+ .debug_macro   0x0000000000001f76       0x52 ./src/system/cr_startup_lpc17.o
+ .debug_macro   0x0000000000001fc8       0x96 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x000000000000205e       0x16 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x0000000000002074       0x2e ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x00000000000020a2       0x28 ./src/scheduler/ttc_scheduler_o.o
+ .debug_macro   0x00000000000020ca       0xb9 ./src/main/main.o
+ .debug_macro   0x0000000000002183       0x22 ./src/main/main.o
+ .debug_macro   0x00000000000021a5       0xe8 ./src/main/main.o
+ .debug_macro   0x000000000000228d      0x146 ./src/main/main.o
+ .debug_macro   0x00000000000023d3       0x8d ./src/adc/adc.o
+ .debug_macro   0x0000000000002460      0x113 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x0000000000002573      0x850 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x0000000000002dc3      0x7d5 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x0000000000003598       0xa1 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .debug_macro   0x0000000000003639      0x18c /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .debug_macro   0x00000000000037c5       0x95 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_macro   0x000000000000385a      0x2fa /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_macro   0x0000000000003b54       0xda /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_macro   0x0000000000003c2e       0x7a /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_macro   0x0000000000003ca8       0x7a /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x0000000000003d22      0x2f4 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+
+.debug_line     0x0000000000000000     0x1e18
+ .debug_line    0x0000000000000000      0x2b4 ./src/tasks/led_bank.o
+ .debug_line    0x00000000000002b4      0x257 ./src/system/cr_startup_lpc17.o
+ .debug_line    0x000000000000050b      0x39f ./src/scheduler/ttc_scheduler_o.o
+ .debug_line    0x00000000000008aa      0x298 ./src/main/main.o
+ .debug_line    0x0000000000000b42      0x224 ./src/adc/adc.o
+ .debug_line    0x0000000000000d66      0x1fc /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_line    0x0000000000000f62      0x35d /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .debug_line    0x00000000000012bf      0x664 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_line    0x0000000000001923      0x24b /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_line    0x0000000000001b6e      0x2aa /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+
+.debug_str      0x0000000000000000     0xbc8f
+ .debug_str     0x0000000000000000     0x93df ./src/tasks/led_bank.o
+                                       0x9463 (size before relaxing)
+ .debug_str     0x00000000000093df      0x141 ./src/system/cr_startup_lpc17.o
+                                       0x3ca2 (size before relaxing)
+ .debug_str     0x0000000000009520      0x5be ./src/scheduler/ttc_scheduler_o.o
+                                       0x828f (size before relaxing)
+ .debug_str     0x0000000000009ade       0x3b ./src/main/main.o
+                                       0x89d5 (size before relaxing)
+ .debug_str     0x0000000000009b19      0x2ba ./src/adc/adc.o
+                                       0x8ba2 (size before relaxing)
+ .debug_str     0x0000000000009dd3      0x32d /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+                                       0x7f08 (size before relaxing)
+ .debug_str     0x000000000000a100      0x2d9 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+                                       0x89fd (size before relaxing)
+ .debug_str     0x000000000000a3d9     0x1702 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+                                       0xa434 (size before relaxing)
+ .debug_str     0x000000000000badb       0xf6 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+                                       0x838d (size before relaxing)
+ .debug_str     0x000000000000bbd1       0xbe /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+                                       0x90fc (size before relaxing)
+
+.comment        0x0000000000000000       0x70
+ .comment       0x0000000000000000       0x70 ./src/tasks/led_bank.o
+                                         0x71 (size before relaxing)
+ .comment       0x0000000000000000       0x71 ./src/system/cr_startup_lpc17.o
+ .comment       0x0000000000000000       0x71 ./src/scheduler/ttc_scheduler_o.o
+ .comment       0x0000000000000000       0x71 ./src/main/main.o
+ .comment       0x0000000000000000       0x71 ./src/adc/adc.o
+ .comment       0x0000000000000000       0x71 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .comment       0x0000000000000000       0x71 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .comment       0x0000000000000000       0x71 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .comment       0x0000000000000000       0x71 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .comment       0x0000000000000000       0x71 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+
+.ARM.attributes
+                0x0000000000000000       0x33
+ .ARM.attributes
+                0x0000000000000000       0x33 ./src/tasks/led_bank.o
+ .ARM.attributes
+                0x0000000000000033       0x33 ./src/system/cr_startup_lpc17.o
+ .ARM.attributes
+                0x0000000000000066       0x33 ./src/scheduler/ttc_scheduler_o.o
+ .ARM.attributes
+                0x0000000000000099       0x33 ./src/main/main.o
+ .ARM.attributes
+                0x00000000000000cc       0x33 ./src/adc/adc.o
+ .ARM.attributes
+                0x00000000000000ff       0x33 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .ARM.attributes
+                0x0000000000000132       0x33 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .ARM.attributes
+                0x0000000000000165       0x33 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .ARM.attributes
+                0x0000000000000198       0x33 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .ARM.attributes
+                0x00000000000001cb       0x33 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
+
+.debug_frame    0x0000000000000000      0xa90
+ .debug_frame   0x0000000000000000       0xc0 ./src/tasks/led_bank.o
+ .debug_frame   0x00000000000000c0      0x120 ./src/system/cr_startup_lpc17.o
+ .debug_frame   0x00000000000001e0      0x158 ./src/scheduler/ttc_scheduler_o.o
+ .debug_frame   0x0000000000000338       0x48 ./src/main/main.o
+ .debug_frame   0x0000000000000380       0x7c ./src/adc/adc.o
+ .debug_frame   0x00000000000003fc       0x54 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_frame   0x0000000000000450      0x1a8 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_EaBaseBoard/Debug/libLib_EaBaseBoard.a(pca9532.o)
+ .debug_frame   0x00000000000005f8      0x2d0 /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_frame   0x00000000000008c8       0xbc /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_frame   0x0000000000000984      0x10c /Users/nja/LPCXpresso/2015-S2-Ass1/Lib_MCU/Debug/libLib_MCU.a(lpc17xx_clkpwr.o)
