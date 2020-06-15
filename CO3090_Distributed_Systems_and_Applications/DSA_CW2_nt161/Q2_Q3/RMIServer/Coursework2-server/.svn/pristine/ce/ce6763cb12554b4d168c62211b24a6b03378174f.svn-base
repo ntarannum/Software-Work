@@ -1,0 +1,52 @@
+package CO3090.assignment2;
+
+/**
+ * @author Yi Hong
+ *
+ */
+
+public class Folder {
+
+	
+	/**
+	 * @param name
+	 * @param parent
+	 */
+	public Folder(String name, String parent) {
+		super();
+		this.name = name;
+		this.parent = parent;
+	}
+	
+	
+	/**
+	 * @return
+	 */
+	public String getParent() {
+		return parent;
+	}
+	
+	/**
+	 * @param parent
+	 */
+	public void setParent(String parent) {
+		this.parent = parent;
+	}
+
+	/**
+	 * @return
+	 */
+	public String getName() {
+		return name;
+	}
+	/**
+	 * @param name
+	 */
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	String name;
+	String parent;
+
+}

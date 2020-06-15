@@ -1,0 +1,70 @@
+package CO3090.assignment2.server;
+
+
+import java.io.BufferedReader;
+import java.io.DataInputStream;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+import java.util.Vector;
+
+import CO3090.assignment2.Folder;
+
+public class Utility {
+
+	
+	public static void main(String[] args){
+		
+		for(Folder f: readDirectoryStructure("directory.txt")){
+			System.out.println(f.getName()+"-->"+f.getParent());
+		}
+		
+	}
+	
+
+    /**
+     * @param txt file storing directory information
+     * @return  return all Folder objects from the file provided.
+     */
+    public static Vector<Folder> readDirectoryStructure(String filename){
+    	
+    	
+    	 Vector<Folder> map=new Vector<Folder>();
+    	
+    	 try{ 
+	    	    FileInputStream fstream = new FileInputStream(filename);
+	    	    DataInputStream in = new DataInputStream(fstream);
+	    	    BufferedReader br = new BufferedReader(new InputStreamReader(in));
+	    	    String strLine;
+	    	    
+	    	    while ((strLine = br.readLine()) != null)   {
+	    	    	
+	    	    	if(!strLine.trim().startsWith("#") && !strLine.trim().equals("")){
+		    	    	String[] array=strLine.split(",");
+		    	    	
+		    	    	if(array[0].equals("?")){
+		    	    		array[0]=null;
+		    	    	}
+		    	    	
+		    	    	Folder f=new Folder(array[0],array[1]);
+		    	    		
+		    	    	map.add(f);
+	    	    	}
+	    	    	
+	    	    }
+  	
+	    	    in.close();    	    
+				    	    
+			  }catch(Exception ex){
+			  	ex.printStackTrace();
+			  }
+			  
+	    return map;
+  
+  }
+  
+
+}
+
+
+
+

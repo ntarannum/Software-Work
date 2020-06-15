@@ -1,0 +1,21 @@
+-- background information
+	// ecg and ppg difference, ecg is a nuisance, has to be done in a clinical setting
+	-- heart rate variability
+	-- what do you measure and why do you measure it, width at half height, rmssd etc....
+	// explain the different types of arrhythmia
+	// explain average heart rates - explained that in arrhythmia
+	// filtering etc
+	// motives for this project
+
+-- method
+	-- hardware and why you chose? raspberry pi, arduino - portable and cheap, widely available, 
+	-- would like to make everything smaller if possible if it was a commercial project
+	-- data collection over how long etc
+	-- algorithms for detection	
+
+-- discussion and results
+	-- must mention physionet ecg data
+	-- findings etc
+
+-- conclusions
+	-- should link to the summary

@@ -1,0 +1,22 @@
+# Each line contains two folder names separated by comma:
+#
+# folder name, parent folder
+#     
+#        A-+
+#          +-B
+#          +-C-+
+#              +-D
+#              +-E
+#              +-F-+
+#                  +G 
+#
+# Note: The root folder's parent is labelled as "?"  
+#       Assume all directory has different name
+#
+A,?
+B,A
+C,A
+D,C
+E,C
+F,C
+G,F

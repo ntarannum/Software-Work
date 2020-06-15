@@ -1,0 +1,50 @@
+package CO3090.assignment2.server;
+
+import CO3090.assignment2.*;
+
+import java.io.BufferedReader;
+import java.io.DataInputStream;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+import java.rmi.*;
+import java.rmi.server.*;
+import java.util.Vector;
+
+public class ComputeEngine extends UnicastRemoteObject implements QueryEngineInterface
+{
+	
+    public ComputeEngine() throws RemoteException {
+        super();
+    }
+
+    public Object executeQuery(Query t) throws RemoteException {
+    	
+    	Vector<Folder> folders=Utility.readDirectoryStructure("directory.txt");
+    	 
+        return t.execute(folders);
+    }
+
+    public static void main(String[] args) {
+	if (System.getSecurityManager() == null) {
+	    System.setSecurityManager(new RMISecurityManager());
+	}
+	String name = "rmi://localhost/FolderSearch";
+	try {
+	    QueryEngineInterface engine = new ComputeEngine();
+	    Naming.rebind(name, engine);
+	    System.out.println("FolderSearch Engine bound");  
+	    
+	    
+	} catch (Exception e) {
+	    System.err.println("FolderSearch exception: " + 
+			       e.getMessage());
+	    e.printStackTrace();
+	}
+    }
+    
+    
+
+    
+    
+    
+}

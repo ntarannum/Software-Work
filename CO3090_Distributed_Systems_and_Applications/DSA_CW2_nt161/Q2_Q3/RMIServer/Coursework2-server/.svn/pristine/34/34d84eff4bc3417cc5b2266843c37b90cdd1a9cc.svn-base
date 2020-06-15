@@ -1,0 +1,3 @@
+#/bin/sh
+java -cp ./bin/  -Djava.rmi.server.codebase=file:///home/hongyi/workspaceCO3090SVN/Coursework2-server/bin/ -Djava.rmi.server.useCodebaseOnly=false -Djava.security.policy=file:$HOME/Documents/policy.permission CO3090.assignment2.server.ComputeEngine
+
