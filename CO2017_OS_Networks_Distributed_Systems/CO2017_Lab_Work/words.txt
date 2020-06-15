@@ -1,0 +1,5 @@
+/usr/bin/time -o ~/CO2017/Exercise1/output1.txt -v parallel -j1 ssh-keygen -G /tmp/mods-{}.candidate -b 768 ::: {1..8}
+
+/usr/bin/time -o ~/CO2017/Exercise1/output2.txt -v parallel ssh-keygen -G /tmp/mods-{}.candidate -b 768 ::: {1..8}
+
+/usr/bin/time -o ~/CO2017/Exercise1/output3.txt -v parallel -j8 ssh-keygen -G /tmp/mods-{}.candidate -b 768 ::: {1..8}
