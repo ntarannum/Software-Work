@@ -1,0 +1,805 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>/Users/ab373/Documents/ArturData/git/CO2006-17-18/sprint2/SpringMvc_ex01/.readme.md.html</title>
+
+
+<style type="text/css">
+body {
+	color: #333;
+	font: 13px/1.4 "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	background: transparent;
+	color: #4183c4;
+	text-decoration: none;
+}
+
+a:active,
+a:hover {
+	outline: 0 none;
+	text-decoration: underline;
+}
+
+abbr[title] {
+	border-bottom: 1px dotted;
+}
+
+b,
+strong {
+	font-weight: bold;
+}
+
+dfn {
+	font-style: italic;
+}
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+mark {
+	background: #ff0;
+	color: #000;
+}
+small {
+	font-size: 80%;
+}
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	top: -0.5em;
+}
+sub {
+	bottom: -0.25em;
+}
+img {
+	border: 0 none;
+}
+svg:not(:root) {
+	overflow: hidden;
+}
+figure {
+	margin: 1em 40px;
+}
+hr {
+	box-sizing: content-box;
+	height: 0;
+}
+
+code,
+kbd,
+pre,
+samp {
+	font-family: monospace,monospace;
+	font-size: 1em;
+}
+
+pre {
+	overflow: auto;
+	font: 12px Consolas,"Liberation Mono",Menlo,Courier,monospace;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.markdown-body {
+	padding: 30px;
+	font-size: 16px;
+	line-height: 1.6;
+	word-wrap: break-word;
+}
+
+.markdown-body>*:first-child {
+	margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+	margin-bottom: 0 !important;
+}
+
+.markdown-body .absent {
+	color: #c00;
+}
+
+.markdown-body .anchor {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	display: block;
+	padding-right: 6px;
+	padding-left: 30px;
+	margin-left: -30px;
+}
+
+.markdown-body .anchor:focus {
+	outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+	position: relative;
+	margin-top: 1em;
+	margin-bottom: 16px;
+	font-weight: bold;
+	line-height: 1.4;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+	display: none;
+	color: #000;
+	vertical-align: middle;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+	padding-left: 8px;
+	margin-left: -30px;
+	line-height: 1;
+	text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+	display: inline-block;
+}
+
+.markdown-body h1 tt,
+.markdown-body h1 code,
+.markdown-body h2 tt,
+.markdown-body h2 code,
+.markdown-body h3 tt,
+.markdown-body h3 code,
+.markdown-body h4 tt,
+.markdown-body h4 code,
+.markdown-body h5 tt,
+.markdown-body h5 code,
+.markdown-body h6 tt,
+.markdown-body h6 code {
+	font-size: inherit;
+}
+
+.markdown-body h1 {
+	padding-bottom: 0.3em;
+	font-size: 2.25em;
+	line-height: 1.2;
+	border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 {
+	padding-bottom: 0.3em;
+	font-size: 1.75em;
+	line-height: 1.225;
+	border-bottom: 1px solid #eee;
+}
+
+.markdown-body h3 {
+	font-size: 1.5em;
+	line-height: 1.43;
+}
+
+.markdown-body h4 {
+	font-size: 1.25em;
+}
+
+.markdown-body h5 {
+	font-size: 1em;
+}
+
+.markdown-body h6 {
+	font-size: 1em;
+	color: #777;
+}
+
+.markdown-body p,.markdown-body blockquote,
+.markdown-body ul,.markdown-body ol,
+.markdown-body dl,.markdown-body table,
+.markdown-body pre {
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+
+.markdown-body hr {
+	height: 4px;
+	padding: 0;
+	margin: 16px 0;
+	background-color: #e7e7e7;
+	border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+	padding-left: 2em;
+}
+
+.markdown-body ul.no-list,
+.markdown-body ol.no-list {
+	padding: 0;
+	list-style-type: none;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.markdown-body li>p {
+	margin-top: 16px;
+}
+
+.markdown-body dl {
+	padding: 0;
+}
+
+.markdown-body dl dt {
+	padding: 0;
+	margin-top: 16px;
+	font-size: 1em;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.markdown-body dl dd {
+	padding: 0 16px;
+	margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+	padding: 0 15px;
+	color: #777;
+	border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+	margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+	margin-bottom: 0;
+}
+
+.markdown-body table {
+	display: block;
+	width: 100%;
+	overflow: auto;
+	word-break: normal;
+	word-break: keep-all;
+}
+
+.markdown-body table th {
+	font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+	padding: 6px 13px;
+	border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+	background-color: #fff;
+	border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+	background-color: #f8f8f8;
+}
+
+.markdown-body img {
+	max-width: 100%;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.markdown-body span.frame {
+	display: block;
+	overflow: hidden;
+}
+
+.markdown-body span.frame>span {
+	display: block;
+	float: left;
+	width: auto;
+	padding: 7px;
+	margin: 13px 0 0;
+	overflow: hidden;
+	border: 1px solid #ddd;
+}
+
+.markdown-body span.frame span img {
+	display: block;
+	float: left;
+}
+
+.markdown-body span.frame span span {
+	display: block;
+	padding: 5px 0 0;
+	clear: both;
+	color: #333;
+}
+
+.markdown-body span.align-center {
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+
+.markdown-body span.align-center>span {
+	display: block;
+	margin: 13px auto 0;
+	overflow: hidden;
+	text-align: center;
+}
+
+.markdown-body span.align-center span img {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.markdown-body span.align-right {
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+
+.markdown-body span.align-right>span {
+	display: block;
+	margin: 13px 0 0;
+	overflow: hidden;
+	text-align: right;
+}
+
+.markdown-body span.align-right span img {
+	margin: 0;
+	text-align: right;
+}
+
+.markdown-body span.float-left {
+	display: block;
+	float: left;
+	margin-right: 13px;
+	overflow: hidden;
+}
+
+.markdown-body span.float-left span {
+	margin: 13px 0 0;
+}
+
+.markdown-body span.float-right {
+	display: block;
+	float: right;
+	margin-left: 13px;
+	overflow: hidden;
+}
+
+.markdown-body span.float-right>span {
+	display: block;
+	margin: 13px auto 0;
+	overflow: hidden;
+	text-align: right;
+}
+
+.markdown-body code,.markdown-body tt {
+	padding: 0;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	margin: 0;
+	font-size: 85%;
+	background-color: rgba(0,0,0,0.04);
+	border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after,
+.markdown-body tt:before,
+.markdown-body tt:after {
+	letter-spacing: -0.2em;
+	content: "\00a0";
+}
+
+.markdown-body code br,
+.markdown-body tt br {
+	display: none;
+}
+
+.markdown-body del code {
+	text-decoration: inherit;
+}
+
+.markdown-body pre>code {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	word-break: normal;
+	white-space: pre;
+	background: transparent;
+	border: 0;
+}
+
+.markdown-body .highlight {
+	margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+	padding: 16px;
+	overflow: auto;
+	font-size: 85%;
+	line-height: 1.45;
+	background-color: #f7f7f7;
+	border-radius: 3px;
+}
+
+.markdown-body .highlight pre {
+	margin-bottom: 0;
+	word-break: normal;
+}
+
+.markdown-body pre {
+	word-wrap: normal;
+}
+
+.markdown-body pre code,
+.markdown-body pre tt {
+	display: inline;
+	max-width: initial;
+	padding: 0;
+	margin: 0;
+	overflow: initial;
+	line-height: inherit;
+	word-wrap: normal;
+	background-color: transparent;
+	border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after,
+.markdown-body pre tt:before,
+.markdown-body pre tt:after {
+	content: normal;
+}
+
+.highlight .pl-coc,
+.highlight .pl-entl,
+.highlight .pl-entm,
+.highlight .pl-eoa,
+.highlight .pl-mai .pl-sf,
+.highlight .pl-mm,
+.highlight .pl-pdv,
+.highlight .pl-sc,
+.highlight .pl-som,
+.highlight .pl-sr,
+.highlight .pl-v,
+.highlight .pl-vpf {
+	color: #0086b3;
+}
+.highlight .pl-eoac,
+.highlight .pl-mdht,
+.highlight .pl-mi1,
+.highlight .pl-mri,
+.highlight .pl-va,
+.highlight .pl-vpu {
+	color: #008080;
+}
+.highlight .pl-c,
+.highlight .pl-pdc {
+	color: #b4b7b4;
+	font-style: italic;
+}
+.highlight .pl-k,
+.highlight .pl-ko,
+.highlight .pl-kolp,
+.highlight .pl-mc,
+.highlight .pl-mr,
+.highlight .pl-ms,
+.highlight .pl-s,
+.highlight .pl-sok,
+.highlight .pl-st {
+	color: #6e5494;
+}
+.highlight .pl-ef,
+.highlight .pl-enf,
+.highlight .pl-enm,
+.highlight .pl-entc,
+.highlight .pl-eoi,
+.highlight .pl-sf,
+.highlight .pl-smc {
+	color: #d12089;
+}
+.highlight .pl-ens,
+.highlight .pl-eoai,
+.highlight .pl-kos,
+.highlight .pl-mh .pl-pdh,
+.highlight .pl-mp,
+.highlight .pl-pde,
+.highlight .pl-stp {
+	color: #458;
+}
+.highlight .pl-enti {
+	color: #d12089;
+	font-weight: bold;
+}
+.highlight .pl-cce,
+.highlight .pl-enc,
+.highlight .pl-kou,
+.highlight .pl-mq {
+	color: #f93;
+}
+.highlight .pl-mp1 .pl-sf {
+	color: #458;
+	font-weight: bold;
+}
+.highlight .pl-cos,
+.highlight .pl-ent,
+.highlight .pl-md,
+.highlight .pl-mdhf,
+.highlight .pl-ml,
+.highlight .pl-pdc1,
+.highlight .pl-pds,
+.highlight .pl-s1,
+.highlight .pl-scp,
+.highlight .pl-sol {
+	color: #df5000;
+}
+.highlight .pl-c1,
+.highlight .pl-cn,
+.highlight .pl-pse,
+.highlight .pl-pse .pl-s2,
+.highlight .pl-vi {
+	color: #a31515;
+}
+.highlight .pl-mb,
+.highlight .pl-pdb {
+	color: #df5000;
+	font-weight: bold;
+}
+.highlight .pl-mi,
+.highlight .pl-pdi {
+	color: #6e5494;
+	font-style: italic;
+}
+.highlight .pl-ms1 {
+	background-color: #f5f5f5;
+}
+.highlight .pl-mdh,
+.highlight .pl-mdi {
+	font-weight: bold;
+}
+.highlight .pl-mdr {
+	color: #0086b3;
+	font-weight: bold;
+}
+.highlight .pl-s2 {
+	color: #333;
+}
+.highlight .pl-ii {
+	background-color: #df5000;
+	color: #fff;
+}
+.highlight .pl-ib {
+	background-color: #f93;
+}
+.highlight .pl-id {
+	background-color: #a31515;
+	color: #fff;
+}
+.highlight .pl-iu {
+	background-color: #b4b7b4;
+}
+.highlight .pl-mo {
+	color: #969896;
+}
+
+</style>
+
+
+<script type="text/javascript">
+
+function getDocumentScrollTop() 
+{
+   var res = document.body.scrollTop || document.documentElement.scrollTop || window.pageYOffset || 0;
+   // alert(res);
+   return res;
+}
+
+function setDocumentScrollTop(ypos) 
+{
+	window.scrollTo(0, ypos);
+}
+
+</script>
+
+
+</head>
+<body class="markdown-body">
+<h1> <a id="star-spring-mvc-exercise-01" class="anchor" href="#star-spring-mvc-exercise-01" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>(
+ <g-emoji alias="star" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/2b50.png" ios-version="6.0">
+  ⭐️
+ </g-emoji>) Spring MVC: Exercise 01</h1> 
+<p>Please import the project <code>sprint2/SpringMvc_ex01</code> into your IDE workspace using <code>Import&gt;Existing Gradle Project</code> as explained in sprint 1.</p> 
+<p>In this tutorial, we are going to build a Java web application from scratch using Spring MVC and Spring Boot. The exercise consists in following all the steps required in order to get the web app up and running.</p> 
+<p>In constrast to Pluralsight videos, we are using Gradle and Java configuration for bootstrapping the web application, which reduces the configuration effort.</p> 
+<p>In this exercise, you are offered two paths to solve it:</p> 
+<ul> 
+ <li>the direct way, in which the project is already configured for you on GitHub, you only have to fetch it, explore its structure and complete the code; and</li> 
+ <li>the hard way, in which you can follow all the steps in the tutorial and build your first web application from scratch.</li> 
+</ul> 
+<p>For the hard way, jump to section <a href="https://github.com/uol-inf/CO2006-17-18/tree/master/sprint2/SpringMvc_ex01#setting-the-mvc-infrastructure-the-hard-way">Setting the MVC infrastructure (the hard way)</a>. Otherwise, keep on reading.</p> 
+<h2> <a id="setting-the-mvc-infrastructure-the-direct-way" class="anchor" href="#setting-the-mvc-infrastructure-the-direct-way" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setting the MVC infrastructure (the direct way)</h2> 
+<ul> 
+ <li>Pull the last commit from the main repository on GitHub and import the project <code>sprint2/SpringMvc_ex01</code> as an <strong>Eclipse project</strong> in the STS.</li> 
+ <li>From the terminal console (either in the STS or from a terminal) run the gradle command <code>./gradlew eclipse</code> </li> 
+ <li>In the STS, select the project in the package explorer (Java perspective), right click and refresh.</li> 
+</ul> 
+<p>The application has the following structure:</p> 
+<pre><code>	├── build.gradle
+	├── src
+	 &nbsp;&nbsp; ├── main
+	&nbsp; &nbsp;  &nbsp;&nbsp; ├── java
+	&nbsp;&nbsp;  &nbsp; &nbsp; │&nbsp;&nbsp; └── labMVC
+	&nbsp;&nbsp;  &nbsp;&nbsp;  │&nbsp;&nbsp;     ├── IndexController.java : needs code (exercise)
+	&nbsp;&nbsp; &nbsp; &nbsp;  │&nbsp;&nbsp;     ├── LabMvcApplication.java
+	 &nbsp;&nbsp; &nbsp;&nbsp;  │&nbsp;&nbsp;     └── WebConfig.java
+	&nbsp; &nbsp; &nbsp; &nbsp; ├── resources
+	&nbsp;&nbsp;   &nbsp;&nbsp; │&nbsp;&nbsp; └── application.properties : needs code (exercise)
+	&nbsp;&nbsp;  &nbsp;&nbsp;  └── webapp
+	 &nbsp;&nbsp; &nbsp;&nbsp;      └── WEB-INF
+	&nbsp; &nbsp; &nbsp;&nbsp;          └── views
+	&nbsp;&nbsp;  &nbsp;&nbsp;              └── hello.jsp
+</code></pre> 
+<p>where:</p> 
+<ul> 
+ <li> <code>src/main/java/labMVC/LabMvcApplication.java</code>: main entry point of your Java web application</li> 
+ <li> <code>src/main/java/labMVC/WebConfig.java</code>: substitutes the XML configuration using beans, indicates what view technology to use and where static resources (HTML pages) can be found</li> 
+ <li> <code>src/main/java/labMVC/IndexController.java</code>: the heart and soul of your application, handles requests</li> 
+ <li> <code>src/main/resources/application.properties</code>: configuration parameters (e.g. the server port)</li> 
+ <li> <code>src/main/webapp/WEB-INF/views/</code>: folder where your views are stored (in this case JSP files)</li> 
+</ul> 
+<p>In this exercise, you only need to configure the controller and the port. In order to find out more about specific details of the other files please keep on reading the section on the hard way.</p> 
+<h3> <a id="controller-responding-to-requests" class="anchor" href="#controller-responding-to-requests" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Controller: responding to requests</h3> 
+<p>The controller defines what to do when a request is defined and it does so by using:</p> 
+<ul> 
+ <li> <p>a request mapping, mapping a url to a method. For example, to define that we want to intercept the request <code>http://localhost/hello</code> we could add the following code:</p> <pre><code>  @RequestMapping(&quot;/hello&quot;)
+</code></pre> </li> 
+ <li> <p>a method implementing what to do when the request is received. For example, we could add an attribute <code>name</code> to the model and display it in the view <code>hello.jsp</code> as follows:</p> <pre><code>  public String hello(Model model) {
+      model.addAttribute(&quot;name&quot;, &quot;World&quot;);
+      return &quot;hello&quot;;
+  }   
+</code></pre> </li> 
+</ul> 
+<h3> <a id="setting-up-the-port" class="anchor" href="#setting-up-the-port" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setting up the port</h3> 
+<p>The file <code>src/main/resources/application.properties</code> is used to configure parameters of your Spring Boot application. Let's start by configuring the port at which HTTP requests should be received. Add the following line in this file:</p> 
+<pre><code>	server.port=8090
+</code></pre> 
+<h3> <a id="running-the-web-application" class="anchor" href="#running-the-web-application" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Running the web application</h3> 
+<ul> 
+ <li> <p>Run the application from a terminal console with</p> <pre><code>  ./gradlew bootRun
+</code></pre> </li> 
+ <li> <p>In a browser go to <a href="http://localhost:8090/hello">http://localhost:8090/hello</a></p> </li> 
+ <li> <p>Terminate the web application graciously with <code>CTRL-C</code> in the terminal console</p> </li> 
+</ul> 
+<h2> <a id="setting-the-mvc-infrastructure-the-hard-way" class="anchor" href="#setting-the-mvc-infrastructure-the-hard-way" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setting the MVC infrastructure (the hard way)</h2> 
+<h3> <a id="configuring-your-application" class="anchor" href="#configuring-your-application" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuring your application</h3> 
+<ul> 
+ <li> <p>Create a New Spring Starter Project: give it a name; select the option <code>Gradle</code>; select the dependency <code>Web</code> (from section <code>Web</code>).</p> </li> 
+ <li> <p>Since we are using JSPs to render views we have to use a JSP processor. Add <a href="https://en.wikipedia.org/wiki/Apache_Tomcat#Jasper">Jasper</a> and <a href="https://jstl.java.net">JSP Standard Tag Library (JSTL)</a> dependencies to the gradle build file <code>build.gradle</code>:</p> <pre><code>  compile(&quot;org.apache.tomcat.embed:tomcat-embed-jasper:9.0.0.M26&quot;)
+  compile(&quot;javax.servlet:jstl:1.2&quot;)
+</code></pre> </li> 
+ <li> <p>Create a folder <code>src/main/webapp</code>, which is the root folder for the resources of your web application. Create the following subfolders <code>WEB-INF/views/</code> in it.</p> </li> 
+ <li> <p>In folder <code>src/main/java/yourpackage/</code>, create a class <code>WebConfig.java</code>: define it as a configuration class by tagging it with the annotation <code>@Configuration</code>&nbsp;and define it as a specialized class of the class <code>WebMvcConfigurerAdapter</code> by adding <code>extends WebMvcConfigurerAdapter</code> to the class declaration and add the following code to the application class</p> <pre><code>  package labMVC;
+  
+  import org.springframework.context.annotation.Bean;
+  import org.springframework.context.annotation.Configuration;
+  import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
+  import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+  import org.springframework.web.servlet.view.InternalResourceViewResolver;
+  import org.springframework.web.servlet.view.JstlView;
+  
+  @Configuration
+  public class WebConfig extends WebMvcConfigurerAdapter {
+  	// Handles HTTP GET requests for /resources/** by efficiently serving up static 
+  		// resources in the ${webappRoot}/resources/ directory
+  		@Override
+  		public void addResourceHandlers(ResourceHandlerRegistry registry) {
+  			registry.addResourceHandler(&quot;/resources/**&quot;).addResourceLocations(&quot;/resources/&quot;);
+  		}
+  		  
+  		//Resolves views selected for rendering by @Controllers to .jsp resources in the 
+  		// /WEB-INF/views directory
+  		@Bean
+  		public InternalResourceViewResolver viewResolver() {
+  			InternalResourceViewResolver viewResolver = 
+  	                        new InternalResourceViewResolver();
+  			viewResolver.setViewClass(JstlView.class);
+  			viewResolver.setPrefix(&quot;/WEB-INF/views/&quot;);
+  			viewResolver.setSuffix(&quot;.jsp&quot;);
+  			viewResolver.setOrder(2);
+  			return viewResolver;
+  		}
+  }
+</code></pre> </li> 
+ <li> <p>Configure the port, say 8090 for example, where your application will listen HTTP requests, by adding <code>server.port=8090</code> (by default this is 8080) to file <code>src/main/resources/application.properties</code>.</p> </li> 
+</ul> 
+<h3> <a id="developing-a-web-controller" class="anchor" href="#developing-a-web-controller" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Developing a web controller</h3> 
+<p>In folder <code>src/main/java/yourpackage/</code>, create a Java class for your web controller with the following contents:</p> 
+<pre><code>	@Controller
+	public class IndexController {
+	    @RequestMapping(&quot;/hello&quot;)
+	    public String hello(Model model) {
+	        model.addAttribute(&quot;name&quot;, &quot;World&quot;);
+	        return &quot;hello&quot;;
+	    }
+	}
+</code></pre> 
+<p>Resolve any import clauses with the help of your IDE (with <code>CTRL+SHIFT+O</code>). In the code above:</p> 
+<ul> 
+ <li> <code>@RequestMapping(&quot;/hello&quot;)</code> maps an HTTP request <code>/hello</code> to the method <code>hello()</code>;</li> 
+ <li>The parameter <code>Model model</code> (always to be put at the end of the parameter list in case there are more parameters) allows the controller to send information to the view;</li> 
+ <li> <code>model.addAttribute(&quot;name&quot;, &quot;World&quot;);</code> sets the attribute <code>name</code> in the model;</li> 
+ <li> <code>return &quot;hello&quot;;</code> indicates that the JSP that produces the resulting view is <code>hello</code>.</li> 
+</ul> 
+<h3> <a id="developing-a-simple-view-in-jsp" class="anchor" href="#developing-a-simple-view-in-jsp" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Developing a simple view in JSP</h3> 
+<p>In this step we are going to create a simple view with <a href="https://en.wikipedia.org/wiki/JavaServer_Pages">Java Server Pages (JSP)</a>. Create a file <code>hello.jsp</code> in folder <code>src/main/webapp/WEB-INF/views/</code> with the following contents:</p> 
+<pre><code>	&lt;!DOCTYPE HTML&gt;
+	&lt;%@ taglib prefix=&quot;c&quot; uri=&quot;http://java.sun.com/jsp/jstl/core&quot;%&gt;
+	&lt;html lang=&quot;en&quot;&gt;
+	&lt;head&gt; 
+	    &lt;title&gt;JSP output&lt;/title&gt; 
+	    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;p&gt;Hello, ${name} !&lt;/p&gt;
+	&lt;/body&gt;
+	&lt;/html&gt;
+</code></pre> 
+<p>In the example above, the directive <code>&amp;lt;%@ taglib prefix=&quot;c&quot; uri=&quot;http://java.sun.com/jsp/jstl/core&quot;% &amp;gt;</code> says that this HTML page contains JSP code. The only non-HTML code is the expression <code>${name}</code> that is used to fetch the value of the attribute <code>name</code> in the model as set by our web controller.</p> 
+<p>That's it! Your application is ready!</p> 
+<h3> <a id="running-the-web-application-1" class="anchor" href="#running-the-web-application-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Running the web application</h3> 
+<ul> 
+ <li> <p>Run the application from a terminal console with</p> <pre><code>  ./gradlew bootRun
+</code></pre> </li> 
+ <li> <p>In a browser go to <a href="http://localhost:8090/hello">http://localhost:8090/hello</a></p> </li> 
+ <li> <p>Terminate the web application graciously with <code>CTRL-C</code> in the terminal console</p> </li> 
+</ul> 
+<h3> <a id="deploying-the-web-application" class="anchor" href="#deploying-the-web-application" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Deploying the web application</h3> 
+<p>Build an executable jar with the following command on the terminal console</p> 
+<pre><code>	./gradlew bootRepackage
+</code></pre> 
+<p>The resulting jar file is a fat jar that contains all the libraries that are needed to execute the application. This file is produced in folder <em>/build/libs</em> and can be copied and distributed how you prefer (e.g. by using a cloud platform). To execute the application using the jar file, just use the typical command</p> 
+<pre><code>	java -jar &lt;your project name&gt;.jar 
+</code></pre> 
+<h2> <a id="additional-resources" class="anchor" href="#additional-resources" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Additional Resources</h2> 
+<ul> 
+ <li><a href="http://www.tutorialspoint.com/spring/spring_web_mvc_framework.htm">MVC Framework tutorial</a></li> 
+</ul> 
+<hr /> 
+<p>&copy; Artur Boronat, 2016</p>
+</body>
+</html>
